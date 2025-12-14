@@ -79,7 +79,8 @@ export function About() {
               Quem Somos
             </span>
             
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">ViannaLegal, sua escolha confiável em assessoria<span className="text-primary">ViannaLegal</span>, sua escolha confiável em assessoria
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
+              <span className="text-primary">ViannaLegal</span>, sua escolha confiável em assessoria
             </h2>
             
             <p className="text-muted-foreground text-lg mb-6">

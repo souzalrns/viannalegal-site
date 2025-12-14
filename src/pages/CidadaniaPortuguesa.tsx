@@ -108,10 +108,15 @@ export default function CidadaniaPortuguesa() {
   return (
     <>
       <Helmet>
-        <title>Cidadania Portuguesa | ViannaLegal - Assessoria Especializada</title>
-        <meta name="description" content="Assessoria completa para obtenção da cidadania portuguesa. Filhos, netos, cônjuges e residentes. Processo 100% online com especialistas em Portugal." />
-        <meta name="keywords" content="cidadania portuguesa, nacionalidade portuguesa, passaporte europeu, dupla cidadania, cidadania para netos, cidadania para filhos" />
-        <link rel="canonical" href="https://viannalegal.com/cidadania-portuguesa" />
+        <title>Cidadania Portuguesa para Netos, Filhos e Cônjuges | ViannaLegal</title>
+        <meta name="description" content="Assessoria completa para obtenção da cidadania portuguesa. Netos de portugueses, filhos maiores e menores, cônjuges. Processo 100% online com especialistas em Lisboa, Portugal." />
+        <meta name="keywords" content="cidadania portuguesa para netos, cidadania portuguesa para filhos, cidadania portuguesa por casamento, nacionalidade portuguesa, passaporte português, dupla cidadania brasil portugal, como tirar cidadania portuguesa, cidadania europeia brasileiros" />
+        <link rel="canonical" href="https://viannalegal.com.br/cidadania-portuguesa" />
+        
+        <meta property="og:title" content="Cidadania Portuguesa para Netos, Filhos e Cônjuges | ViannaLegal" />
+        <meta property="og:description" content="Assessoria especializada em cidadania portuguesa. Netos, filhos e cônjuges de portugueses. Processo 100% online!" />
+        <meta property="og:url" content="https://viannalegal.com.br/cidadania-portuguesa" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <Header />

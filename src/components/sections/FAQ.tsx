@@ -9,35 +9,35 @@ import {
 const faqs = [
   {
     question: 'Quem tem direito à cidadania portuguesa?',
-    answer: 'A cidadania portuguesa pode ser obtida por descendência (filhos, netos e bisnetos de portugueses), naturalização (residentes legais em Portugal com mais de 5 anos) ou aquisição (casamento com cidadão português ou união estável). Também podem se qualificar descendentes de judeus sefarditas portugueses.',
+    answer: 'A cidadania portuguesa pode ser obtida por descendência (filhos, netos e bisnetos de portugueses), naturalização (residentes legais em Portugal com mais de 5 anos) ou aquisição (casamento com cidadão português há mais de 3 anos ou união estável reconhecida).',
+  },
+  {
+    question: 'Neto de português tem direito à cidadania portuguesa?',
+    answer: 'Sim! Netos de cidadãos portugueses têm direito à cidadania portuguesa, desde que comprovem vínculo efetivo com a comunidade portuguesa. Isso pode ser demonstrado através do conhecimento do idioma, visitas frequentes a Portugal, participação em comunidades lusas ou outros laços culturais.',
   },
   {
     question: 'Preciso morar em Portugal para obter a cidadania?',
-    answer: 'Não necessariamente. Se você é descendente direto de um cidadão português (filho, neto, bisneto) ou cônjuge/companheiro, pode solicitar a cidadania portuguesa mesmo vivendo fora de Portugal. A naturalização pode exigir residência legal em Portugal.',
+    answer: 'Não necessariamente. Se você é descendente direto de um cidadão português (filho, neto, bisneto) ou cônjuge/companheiro, pode solicitar a cidadania portuguesa mesmo vivendo no Brasil. Apenas a naturalização por residência exige residência legal em Portugal por 5 anos.',
   },
   {
     question: 'Quanto tempo demora o processo de cidadania portuguesa?',
-    answer: 'Os prazos variam: para filhos de portugueses, 6 a 12 meses; para netos, 24 a 36 meses; para cônjuges, 24 a 36 meses. Os prazos dependem da complexidade do caso e da conservatória responsável.',
+    answer: 'Os prazos médios são: filhos menores de portugueses 6-8 meses; filhos maiores 12-14 meses; netos de portugueses 40-48 meses; cônjuges 40-48 meses; transcrição de casamento 1-4 meses. Os prazos dependem da complexidade do caso e da conservatória responsável.',
   },
   {
-    question: 'Quais documentos são necessários?',
-    answer: 'Os documentos básicos incluem: certidões de nascimento, casamento e óbito dos ancestrais portugueses, certidões atualizadas brasileiras, documentos de identidade, comprovante de residência e procuração. A documentação específica varia conforme o tipo de processo.',
+    question: 'Quais documentos são necessários para cidadania portuguesa?',
+    answer: 'Os documentos básicos incluem: certidões de nascimento, casamento e óbito dos ancestrais portugueses em inteiro teor, certidões brasileiras atualizadas com Apostila de Haia, documentos de identificação e procuração. A documentação específica varia conforme o tipo de processo.',
   },
   {
     question: 'O que é pesquisa genealógica e quando é necessária?',
-    answer: 'A pesquisa genealógica é uma investigação para localizar registros de nascimento, casamento e óbito dos seus ancestrais portugueses. É necessária quando não há informações concretas sobre os registros ou quando precisamos confirmar a linha de descendência.',
+    answer: 'A pesquisa genealógica é uma investigação para localizar registros de nascimento, casamento e óbito dos seus ancestrais portugueses. É necessária quando não há informações concretas sobre os registros ou quando precisamos confirmar a linha de descendência até o ancestral português.',
   },
   {
-    question: 'Posso ter dupla cidadania?',
-    answer: 'Sim! O Brasil permite a dupla cidadania, assim como Portugal. Você pode manter sua cidadania brasileira e adquirir a portuguesa, usufruindo dos benefícios de ambas.',
+    question: 'Posso ter dupla cidadania Brasil e Portugal?',
+    answer: 'Sim! O Brasil permite a dupla cidadania, assim como Portugal. Você pode manter sua cidadania brasileira e adquirir a portuguesa, usufruindo dos benefícios de ambas sem perder nenhum direito em seu país de origem.',
   },
   {
     question: 'Quais são as vantagens do passaporte português?',
-    answer: 'O passaporte português oferece acesso sem visto a 185 países, livre circulação na União Europeia, direito de trabalhar e estudar em qualquer país da UE, acesso a sistemas de saúde e educação europeus, e facilidades para investimento.',
-  },
-  {
-    question: 'Quanto custa o processo de cidadania?',
-    answer: 'Os custos variam conforme o tipo de processo e complexidade do caso. Oferecemos proposta de honorários transparente e detalhada após análise inicial. Nossos preços são 100% transparentes e não cobramos valores além do combinado.',
+    answer: 'O passaporte português oferece acesso sem visto a 185 países, livre circulação na União Europeia, direito de trabalhar e estudar em qualquer país da UE, acesso a sistemas de saúde e educação europeus, e facilidades para investimento e financiamento imobiliário.',
   },
 ];
 

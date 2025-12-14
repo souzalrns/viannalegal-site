@@ -1,16 +1,17 @@
-import { MapPin, Phone, Mail, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, Instagram, Facebook } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 
 const footerLinks = {
   services: [
-    { label: 'Cidadania Portuguesa', href: '#servicos' },
-    { label: 'Pesquisa Genealógica', href: '#servicos' },
-    { label: 'Transcrição de Documentos', href: '#servicos' },
-    { label: 'Nacionalidade por Residência', href: '#servicos' },
+    { label: 'Cidadania Portuguesa', href: '/cidadania-portuguesa', isExternal: false },
+    { label: 'Pesquisa Genealógica', href: '/busca-documentos', isExternal: false },
+    { label: 'Busca de Documentos', href: '/busca-documentos', isExternal: false },
+    { label: 'Transcrição de Casamento', href: '/cidadania-portuguesa#transcricao', isExternal: false },
   ],
   company: [
-    { label: 'Quem Somos', href: '#quem-somos' },
-    { label: 'Blog', href: '#blog' },
-    { label: 'Contato', href: '#contato' },
+    { label: 'Quem Somos', href: '/#quem-somos', isAnchor: true },
+    { label: 'Processo', href: '/#processo', isAnchor: true },
+    { label: 'Contato', href: '/#contato', isAnchor: true },
   ],
   legal: [
     { label: 'Política de Privacidade', href: '#privacidade' },
@@ -24,6 +25,19 @@ const socialLinks = [
 ];
 
 export function Footer() {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
+  const handleAnchorClick = (href: string) => {
+    if (isHomePage) {
+      const anchor = href.replace('/', '');
+      const element = document.querySelector(anchor);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container-width">
@@ -31,9 +45,9 @@ export function Footer() {
         <div className="py-16 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <div className="font-display text-2xl font-bold mb-4">
+            <Link to="/" className="font-display text-2xl font-bold mb-4 block">
               Vianna<span className="text-gold">Legal</span>
-            </div>
+            </Link>
             <p className="text-primary-foreground/70 text-sm mb-6">
               Assessoria especializada em cidadania portuguesa. 
               Transformamos o sonho da cidadania europeia em realidade.
@@ -63,12 +77,12 @@ export function Footer() {
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.label}>
-                  <a
-                    href={link.href}
+                  <Link
+                    to={link.href}
                     className="text-primary-foreground/70 hover:text-gold transition-colors text-sm"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -80,12 +94,34 @@ export function Footer() {
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-primary-foreground/70 hover:text-gold transition-colors text-sm"
-                  >
-                    {link.label}
-                  </a>
+                  {link.isAnchor ? (
+                    isHomePage ? (
+                      <a
+                        href={link.href.replace('/', '')}
+                        className="text-primary-foreground/70 hover:text-gold transition-colors text-sm"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          handleAnchorClick(link.href);
+                        }}
+                      >
+                        {link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        to={link.href}
+                        className="text-primary-foreground/70 hover:text-gold transition-colors text-sm"
+                      >
+                        {link.label}
+                      </Link>
+                    )
+                  ) : (
+                    <Link
+                      to={link.href}
+                      className="text-primary-foreground/70 hover:text-gold transition-colors text-sm"
+                    >
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

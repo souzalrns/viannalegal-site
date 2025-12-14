@@ -18,10 +18,15 @@ export default function BuscaDocumentos() {
   return (
     <>
       <Helmet>
-        <title>Busca de Documentos e Pesquisa Genealógica | ViannaLegal</title>
-        <meta name="description" content="Serviço especializado em busca de documentos portugueses e pesquisa genealógica. Paleografia para leitura de registros antigos. Localização de certidões de batismo e nascimento." />
-        <meta name="keywords" content="busca de documentos, pesquisa genealógica, paleografia, certidão de batismo portuguesa, documentos antigos, apostilamento de Haia" />
-        <link rel="canonical" href="https://viannalegal.com/busca-documentos" />
+        <title>Busca de Documentos Portugueses e Pesquisa Genealógica | ViannaLegal</title>
+        <meta name="description" content="Serviço especializado em busca de documentos portugueses para cidadania. Pesquisa genealógica, paleografia para leitura de registros antigos, localização de certidões de batismo e nascimento em Portugal." />
+        <meta name="keywords" content="busca de documentos portugueses, pesquisa genealógica portugal, paleografia documentos antigos, certidão de batismo portuguesa, certidão de nascimento portugal, apostila de haia, documentos cidadania portuguesa" />
+        <link rel="canonical" href="https://viannalegal.com.br/busca-documentos" />
+        
+        <meta property="og:title" content="Busca de Documentos Portugueses e Pesquisa Genealógica | ViannaLegal" />
+        <meta property="og:description" content="Localizamos documentos portugueses para seu processo de cidadania. Especialistas em paleografia." />
+        <meta property="og:url" content="https://viannalegal.com.br/busca-documentos" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <Header />
