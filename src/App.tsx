@@ -8,6 +8,9 @@ import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import Index from "./pages/Index";
 import CidadaniaPortuguesa from "./pages/CidadaniaPortuguesa";
 import BuscaDocumentos from "./pages/BuscaDocumentos";
+import Blog from "./pages/Blog";
+import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
+import TermosUso from "./pages/TermosUso";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +26,9 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/cidadania-portuguesa" element={<CidadaniaPortuguesa />} />
             <Route path="/busca-documentos" element={<BuscaDocumentos />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/politica-privacidade" element={<PoliticaPrivacidade />} />
+            <Route path="/termos-uso" element={<TermosUso />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

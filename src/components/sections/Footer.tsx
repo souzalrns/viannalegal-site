@@ -14,8 +14,9 @@ const footerLinks = {
     { label: 'Contato', href: '/#contato', isAnchor: true },
   ],
   legal: [
-    { label: 'Política de Privacidade', href: '#privacidade' },
-    { label: 'Termos de Uso', href: '#termos' },
+    { label: 'Política de Privacidade', href: '/politica-privacidade' },
+    { label: 'Termos de Uso', href: '/termos-uso' },
+    { label: 'Blog', href: '/blog' },
   ],
 };
 
@@ -159,13 +160,13 @@ export function Footer() {
           </div>
           <div className="flex gap-6">
             {footerLinks.legal.map((link) => (
-              <a
+              <Link
                 key={link.label}
-                href={link.href}
+                to={link.href}
                 className="text-primary-foreground/60 hover:text-gold transition-colors text-sm"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
