@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, CheckCircle, Globe } from 'lucide-react';
+import { ArrowRight, CheckCircle, Globe, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import heroImage from '@/assets/hero-lisbon.jpg';
@@ -7,7 +7,7 @@ import heroImage from '@/assets/hero-lisbon.jpg';
 const benefits = [
   'Processo 100% online',
   'Especialistas em Portugal',
-  'Acompanhamento personalizado',
+  '+2000 processos aprovados',
 ];
 
 export function Hero() {
@@ -17,7 +17,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Lisboa, Portugal ao pôr do sol com a Torre de Belém"
+          alt="Lisboa, Portugal ao pôr do sol com a Torre de Belém - símbolo da cidadania portuguesa para brasileiros"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 hero-overlay" />
@@ -36,27 +36,27 @@ export function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center lg:text-left"
           >
-            {/* Badge */}
+            {/* Badge with Update */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2 }}
               className="inline-flex items-center gap-2 bg-gold/20 backdrop-blur-sm px-4 py-2 rounded-full text-gold mb-6"
             >
-              <Globe className="w-4 h-4" />
-              <span className="text-sm font-medium">Assessoria Especializada</span>
+              <Sparkles className="w-4 h-4" />
+              <span className="text-sm font-medium">Atualizado Lei 2025 + Veto TC</span>
             </motion.div>
 
             {/* Headline */}
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6">
-              Tire sua dupla cidadania{' '}
-              <span className="text-gradient">sem sair do Brasil</span>
+              Cidadania Portuguesa para Brasileiros:{' '}
+              <span className="text-gradient">Processo Seguro e Online</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-xl mx-auto lg:mx-0">
-              Assistência e segurança em todas as etapas para você obter a sua 
-              Cidadania Portuguesa
+              Especialistas com +10 anos de experiência e milhares de aprovações. 
+              Residência mantida em 5 anos após veto do TC (Dez/2025).
             </p>
 
             {/* Benefits */}
@@ -91,15 +91,15 @@ export function Hero() {
               <Button 
                 variant="heroOutline" 
                 size="xl"
-                onClick={() => window.open('https://wa.me/351913134260', '_blank')}
+                onClick={() => window.open('https://wa.me/351913134260?text=Olá! Vim pelo site e gostaria de uma análise gratuita do meu caso para cidadania portuguesa.', '_blank')}
               >
-                Fale com um Especialista
+                Análise Gratuita WhatsApp
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </motion.div>
           </motion.div>
 
-          {/* Right side - Stats or Image */}
+          {/* Right side - Stats */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -111,7 +111,7 @@ export function Hero() {
               <div className="text-primary-foreground/80 text-sm">Processos realizados</div>
             </div>
             <div className="bg-primary-foreground/10 backdrop-blur-md rounded-2xl p-6 text-center mt-8">
-              <div className="font-display text-4xl font-bold text-gold mb-2">185</div>
+              <div className="font-display text-4xl font-bold text-gold mb-2">190+</div>
               <div className="text-primary-foreground/80 text-sm">Países sem visto</div>
             </div>
             <div className="bg-primary-foreground/10 backdrop-blur-md rounded-2xl p-6 text-center">

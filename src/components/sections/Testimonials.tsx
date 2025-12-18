@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Star, Quote } from 'lucide-react';
+import { Star, Quote, Shield, Award, CheckCircle } from 'lucide-react';
 
 const testimonials = [
   {
@@ -12,23 +12,51 @@ const testimonials = [
   {
     name: 'Carlos Eduardo Lima',
     location: 'Rio de Janeiro, RJ',
-    text: 'Meu avô era português e eu achava que seria impossível conseguir a cidadania. A ViannaLegal encontrou todos os documentos necessários e me guiou em cada passo.',
+    text: 'Meu avô era português e eu achava que seria impossível conseguir a cidadania. A ViannaLegal encontrou todos os documentos necessários e me guiou em cada passo. Hoje sou cidadão europeu!',
     rating: 5,
     service: 'Cidadania para Netos',
   },
   {
     name: 'Ana Paula Ferreira',
     location: 'Belo Horizonte, MG',
-    text: 'Atendimento humanizado e profissional. Sempre me mantiveram informada sobre o andamento do processo. Hoje já tenho meu passaporte português!',
+    text: 'Atendimento humanizado e profissional. Sempre me mantiveram informada sobre o andamento do processo. Hoje já tenho meu passaporte português e estou planejando morar em Lisboa!',
     rating: 5,
     service: 'Cidadania por Casamento',
   },
   {
     name: 'Roberto Mendes',
     location: 'Curitiba, PR',
-    text: 'A pesquisa genealógica que fizeram foi impressionante. Descobriram registros do meu bisavô que eu nem sabia que existiam. Muito profissionais!',
+    text: 'A pesquisa genealógica que fizeram foi impressionante. Descobriram registros do meu bisavô que eu nem sabia que existiam. Documentos de 1890 em perfeito estado! Muito profissionais.',
     rating: 5,
     service: 'Pesquisa Genealógica',
+  },
+  {
+    name: 'Fernanda Costa',
+    location: 'Porto Alegre, RS',
+    text: 'Processo 100% online como prometido. Morando no Brasil, consegui toda a documentação sem precisar ir a Portugal. Recomendo fortemente para quem busca praticidade.',
+    rating: 5,
+    service: 'Cidadania para Filhos',
+  },
+  {
+    name: 'Lucas Oliveira',
+    location: 'Brasília, DF',
+    text: 'Excelente custo-benefício. O investimento valeu cada centavo pela tranquilidade de ter especialistas cuidando de tudo. Já estou usando meu passaporte português para viajar pela Europa!',
+    rating: 5,
+    service: 'Cidadania para Netos',
+  },
+  {
+    name: 'Patricia Rodrigues',
+    location: 'Salvador, BA',
+    text: 'Tinha receio de contratar uma assessoria online, mas a ViannaLegal me surpreendeu. Comunicação clara, prazos cumpridos e resultado alcançado. Minha família toda agradece!',
+    rating: 5,
+    service: 'Cidadania por Descendência',
+  },
+  {
+    name: 'Henrique Silva',
+    location: 'Florianópolis, SC',
+    text: 'Processo de transcrição de casamento foi super tranquilo. Em 2 meses já tinha tudo pronto. Agora seguimos com o processo de cidadania para minha esposa.',
+    rating: 5,
+    service: 'Transcrição de Casamento',
   },
 ];
 
@@ -71,6 +99,7 @@ export function Testimonials() {
           </h2>
           <p className="text-muted-foreground text-lg">
             Mais de 2.000 famílias já realizaram o sonho da cidadania europeia com nossa assessoria.
+            Veja o que elas têm a dizer sobre a experiência.
           </p>
         </motion.div>
 
@@ -80,38 +109,40 @@ export function Testimonials() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid md:grid-cols-2 gap-6"
+          className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
         >
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
-              className="bg-card rounded-2xl p-8 shadow-subtle border border-border/50 relative"
+              className={`bg-card rounded-2xl p-6 shadow-subtle border border-border/50 relative ${
+                index < 2 ? 'lg:col-span-2' : ''
+              }`}
             >
               {/* Quote Icon */}
-              <div className="absolute top-6 right-6 text-gold/20">
-                <Quote className="w-10 h-10" />
+              <div className="absolute top-4 right-4 text-gold/20">
+                <Quote className="w-8 h-8" />
               </div>
 
               {/* Rating */}
-              <div className="flex gap-1 mb-4">
+              <div className="flex gap-1 mb-3">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-gold text-gold" />
+                  <Star key={i} className="w-4 h-4 fill-gold text-gold" />
                 ))}
               </div>
 
               {/* Text */}
-              <p className="text-foreground mb-6 leading-relaxed">
+              <p className="text-foreground text-sm mb-4 leading-relaxed">
                 "{testimonial.text}"
               </p>
 
               {/* Author */}
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="font-semibold text-foreground">{testimonial.name}</div>
-                  <div className="text-muted-foreground text-sm">{testimonial.location}</div>
+                  <div className="font-semibold text-foreground text-sm">{testimonial.name}</div>
+                  <div className="text-muted-foreground text-xs">{testimonial.location}</div>
                 </div>
-                <div className="text-xs text-gold bg-gold/10 px-3 py-1 rounded-full">
+                <div className="text-xs text-gold bg-gold/10 px-2 py-1 rounded-full">
                   {testimonial.service}
                 </div>
               </div>
@@ -124,33 +155,42 @@ export function Testimonials() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-16 flex flex-wrap justify-center gap-6 md:gap-12"
+          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4"
         >
-          <div className="flex items-center gap-3 bg-muted/50 px-6 py-4 rounded-xl">
-            <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center">
+          <div className="flex items-center gap-3 bg-muted/50 px-4 py-4 rounded-xl">
+            <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center shrink-0">
               <span className="text-gold font-bold text-lg">98%</span>
             </div>
             <div className="text-sm">
               <div className="font-semibold text-foreground">Taxa de Aprovação</div>
-              <div className="text-muted-foreground">Processos deferidos</div>
+              <div className="text-muted-foreground text-xs">Processos deferidos</div>
             </div>
           </div>
-          <div className="flex items-center gap-3 bg-muted/50 px-6 py-4 rounded-xl">
-            <div className="w-12 h-12 bg-portugal-green/10 rounded-full flex items-center justify-center">
-              <span className="text-portugal-green font-bold text-lg">OA</span>
+          <div className="flex items-center gap-3 bg-muted/50 px-4 py-4 rounded-xl">
+            <div className="w-12 h-12 bg-portugal-green/10 rounded-full flex items-center justify-center shrink-0">
+              <Award className="w-6 h-6 text-portugal-green" />
             </div>
             <div className="text-sm">
-              <div className="font-semibold text-foreground">Advogados Registrados</div>
-              <div className="text-muted-foreground">Ordem dos Advogados</div>
+              <div className="font-semibold text-foreground">Advogados OA</div>
+              <div className="text-muted-foreground text-xs">Ordem dos Advogados</div>
             </div>
           </div>
-          <div className="flex items-center gap-3 bg-muted/50 px-6 py-4 rounded-xl">
-            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-              <span className="text-primary font-bold text-lg">🔒</span>
+          <div className="flex items-center gap-3 bg-muted/50 px-4 py-4 rounded-xl">
+            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+              <Shield className="w-6 h-6 text-primary" />
             </div>
             <div className="text-sm">
               <div className="font-semibold text-foreground">Segurança LGPD</div>
-              <div className="text-muted-foreground">Dados protegidos</div>
+              <div className="text-muted-foreground text-xs">Dados protegidos</div>
+            </div>
+          </div>
+          <div className="flex items-center gap-3 bg-muted/50 px-4 py-4 rounded-xl">
+            <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center shrink-0">
+              <CheckCircle className="w-6 h-6 text-gold" />
+            </div>
+            <div className="text-sm">
+              <div className="font-semibold text-foreground">Atualizado 2025</div>
+              <div className="text-muted-foreground text-xs">Lei da Nacionalidade</div>
             </div>
           </div>
         </motion.div>
