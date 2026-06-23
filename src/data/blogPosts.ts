@@ -19,7 +19,7 @@ export const blogPosts = [
     content: `
 ## Introdução: Uma Decisão Histórica para Brasileiros
 
-Em dezembro de 2025, o Tribunal Constitucional português tomou uma decisão que impacta diretamente milhares de brasileiros que sonham com a cidadania europeia. O veto a quatro normas fundamentais da Lei da Nacionalidade, aprovada em outubro pelo Parlamento, representa uma vitória significativa para a comunidade lusófona.
+Em dezembro de 2025, o Tribunal Constitucional português tomou uma decisão que impacta diretamente milhares de brasileiros que sonham com a cidadania europeia. O veto a quatro normas fundamentais da Lei da Nacionalidade, aprovada em outubro pelo Parlamento, representa uma vitória significativa para a [comunidade lusófona](/blog/dupla-cidadania-brasil-portugal-vantagens).
 
 Esta decisão mantém o prazo de [residência legal em **5 anos**](/blog/cidadania-portuguesa-por-residencia-passo-a-passo) para naturalização, rejeitando o aumento proposto para 7 anos (cidadãos da CPLP) ou 10 anos (demais nacionalidades). Para brasileiros que já residem em Portugal ou planejam se mudar, esta é uma notícia extremamente positiva.
 
@@ -157,7 +157,7 @@ Se você reside em Portugal ou tem ascendência portuguesa, este é o momento id
     content: `
 ## Introdução: O Direito à Cidadania Portuguesa por Descendência
 
-A cidadania portuguesa por descendência representa uma das formas mais tradicionais e seguras de obter a nacionalidade europeia. Portugal reconhece o direito de seus descendentes, mesmo nascidos no exterior, de reivindicar a cidadania de seus antepassados.
+A [cidadania portuguesa por descendência](/blog/cidadania-portuguesa-netos-guia-definitivo-2025) representa uma das formas mais tradicionais e seguras de obter a nacionalidade europeia. Portugal reconhece o direito de seus descendentes, mesmo nascidos no exterior, de reivindicar a cidadania de seus antepassados.
 
 Este guia completo aborda todos os aspectos do processo em 2025, considerando as atualizações legislativas, o [backlog atual do IRN](/blog/backlog-irn-prazos-reais-2025) e as melhores práticas para garantir a aprovação do seu pedido.
 
@@ -441,13 +441,13 @@ A ViannaLegal está pronta para avaliar seu caso gratuitamente e indicar o melho
     content: `
 ## O Que é Vínculo Efetivo com a Comunidade Portuguesa?
 
-O vínculo efetivo é um requisito legal introduzido em 2022 para netos de portugueses que desejam obter a cidadania portuguesa. Trata-se da demonstração de uma **ligação real e contínua** com Portugal, sua cultura, língua e comunidade.
+O vínculo efetivo é um requisito legal introduzido em 2022 para [netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025) que desejam obter a cidadania portuguesa. Trata-se da demonstração de uma **ligação real e contínua** com Portugal, sua cultura, língua e comunidade.
 
-Este requisito foi criado para garantir que os novos cidadãos tenham uma conexão genuína com o país, indo além do mero vínculo sanguíneo. Para brasileiros, que compartilham a língua e muitos aspectos culturais com Portugal, a comprovação tende a ser mais natural, mas ainda assim requer documentação adequada.
+Este requisito foi criado para garantir que os novos cidadãos tenham uma conexão genuína com o país, indo além do mero vínculo sanguíneo. Para brasileiros, que compartilham a língua e muitos aspectos culturais com Portugal, a comprovação tende a ser mais natural, mas ainda assim requer [documentação adequada](/blog/documentos-cidadania-portuguesa-lista-completa).
 
 ## Por Que o Vínculo Efetivo Foi Criado?
 
-A Lei da Nacionalidade portuguesa passou por diversas alterações visando equilibrar:
+A [Lei da Nacionalidade portuguesa](/blog/veto-tribunal-constitucional-dezembro-2025) passou por diversas alterações visando equilibrar:
 
 1. **Abertura aos descendentes da diáspora**
    - Portugal reconhece a importância de manter laços com comunidades lusófonas
@@ -691,7 +691,7 @@ Não espere mais para começar. Se você ainda não tem um dossiê forte, comece
     content: `
 ## O Que é o Backlog do IRN?
 
-O Instituto dos Registos e Notariado (IRN) é o órgão português responsável por analisar e decidir os pedidos de nacionalidade. O "backlog" refere-se ao **acúmulo de processos pendentes** que aguardam análise.
+O Instituto dos Registos e Notariado (IRN) é o órgão português responsável por analisar e decidir os pedidos de nacionalidade. O "backlog" refere-se ao **acúmulo de processos pendentes** que aguardam análise. Saiba como [acompanhar seu processo no portal MJ.pt](/blog/como-acompanhar-processo-cidadania-portuguesa).
 
 Nos últimos anos, o volume de [pedidos de cidadania portuguesa](/blog/guia-completo-cidadania-portuguesa-2025) cresceu exponencialmente, especialmente de brasileiros. Este aumento não foi acompanhado por um crescimento proporcional na capacidade de processamento, gerando atrasos significativos.
 
@@ -939,7 +939,7 @@ A cidadania portuguesa vale a espera. Com planejamento adequado, você pode mini
     content: `
 ## Introdução: Por Que a Dupla Cidadania é Tão Valiosa?
 
-A dupla cidadania Brasil-Portugal representa muito mais que um documento adicional. É uma **porta de entrada para a Europa**, um plano de segurança para você e sua família, e um legado que pode ser transmitido por gerações.
+A dupla cidadania Brasil-Portugal representa muito mais que um documento adicional. É uma **[porta de entrada para a Europa](/blog/cidadania-portuguesa-por-residencia-passo-a-passo)**, um plano de segurança para você e sua família, e um legado que pode ser transmitido por gerações.
 
 Neste artigo, exploramos em detalhes todas as vantagens de possuir o passaporte português, desde benefícios práticos imediatos até oportunidades de longo prazo.
 
@@ -1234,7 +1234,7 @@ Seja para aproveitar a mobilidade global, acessar oportunidades profissionais na
 
 O sucesso do seu processo de cidadania portuguesa depende fundamentalmente da **[qualidade e completude da documentação](/blog/guia-completo-cidadania-portuguesa-2025)** apresentada. Documentos incorretos, vencidos ou faltantes são a principal causa de atrasos e indeferimentos.
 
-Este guia apresenta checklists completos para cada tipo de processo, com orientações sobre obtenção, apostilamento, tradução e validade.
+Este guia apresenta checklists completos para cada tipo de processo — incluindo como [buscar certidões em Portugal](/blog/como-buscar-certidoes-portuguesas-portugal), com orientações sobre obtenção, apostilamento, tradução e validade.
 
 ## Documentos Universais: Base para Qualquer Processo
 
@@ -1648,7 +1648,7 @@ A ViannaLegal oferece serviço completo de obtenção, organização e validaç�
     content: `
 ## Introdução: Cidadania Através do Amor
 
-O casamento com um cidadão português abre uma via legítima e reconhecida para a obtenção da nacionalidade portuguesa. Diferente da cidadania por descendência, esta modalidade é uma **aquisição** de nacionalidade, não um reconhecimento de direito originário.
+O casamento com um cidadão português abre uma via legítima e reconhecida para a obtenção da nacionalidade portuguesa. Diferente da [cidadania por descendência](/blog/guia-completo-cidadania-portuguesa-2025), esta modalidade é uma **aquisição** de nacionalidade, não um reconhecimento de direito originário.
 
 Este guia explica todos os aspectos do processo, desde os requisitos até os documentos necessários, incluindo as diferenças entre casamento civil e união de facto.
 
@@ -1656,7 +1656,7 @@ Este guia explica todos os aspectos do processo, desde os requisitos até os doc
 
 ### 1. Tempo Mínimo de Casamento
 
-O requisito principal é estar casado com cidadão português há pelo menos **3 anos** na data do pedido.
+O requisito principal é estar casado com cidadão português há pelo menos [**3 anos**](/blog/documentos-cidadania-portuguesa-lista-completa) na data do pedido.
 
 **Atenção:**
 - Conta-se a data do casamento, não do namoro
@@ -1943,7 +1943,7 @@ A ViannaLegal tem experiência em processos de cônjuges e pode orientar você d
     content: `
 ## Introdução: O Caminho da Residência Legal
 
-Para brasileiros que vivem em Portugal sem ascendência portuguesa ou casamento com cidadão português, a **naturalização por residência** é o caminho para a cidadania europeia. Este processo reconhece a integração do imigrante na sociedade portuguesa após um período mínimo de residência legal.
+Para brasileiros que vivem em Portugal sem ascendência portuguesa ou casamento com cidadão português, a **[naturalização por residência](/blog/cidadania-portuguesa-por-residencia-passo-a-passo)** é o caminho para a cidadania europeia. Este processo reconhece a integração do imigrante na sociedade portuguesa após um período mínimo de residência legal.
 
 Com o [veto do Tribunal Constitucional](/blog/veto-tribunal-constitucional-dezembro-2025) em dezembro de 2025, o prazo permanece em **5 anos** (não subiu para 7-10 anos como havia sido proposto), tornando este momento favorável para quem já reside ou planeja se mudar para Portugal.
 
@@ -2279,7 +2279,7 @@ Com o prazo de 5 anos mantido após o veto do TC, este é um momento favorável 
     content: `
 ## Introdução: A Busca pelas Raízes
 
-Encontrar certidões de antepassados portugueses é frequentemente o primeiro desafio no [processo de cidadania](/blog/documentos-cidadania-portuguesa-lista-completa). Muitas famílias perderam documentos ao longo das gerações, ou simplesmente não sabem onde o avô ou bisavô nasceu em Portugal.
+Encontrar certidões de antepassados portugueses é frequentemente o primeiro desafio no [processo de cidadania](/blog/documentos-cidadania-portuguesa-lista-completa). Muitas famílias perderam documentos ao longo das gerações — especialmente quem busca a [cidadania para netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025), ou simplesmente não sabem onde o avô ou bisavô nasceu em Portugal.
 
 Este guia oferece um roteiro prático para localizar certidões de nascimento, casamento e óbito, seja em conservatórias modernas, arquivos históricos ou registros paroquiais.
 
@@ -2572,7 +2572,7 @@ Se você está tendo dificuldade, não desista. A ViannaLegal tem experiência e
 
 Desde 2015, netos de cidadãos portugueses têm o direito de requerer a cidadania portuguesa. Esta conquista legislativa abriu as portas da Europa para milhões de brasileiros descendentes de imigrantes portugueses.
 
-No entanto, a partir de 2022, um novo requisito foi adicionado: a **comprovação de [vínculo efetivo](/blog/vinculo-efetivo-como-comprovar)** com a comunidade portuguesa. Este guia definitivo explica absolutamente tudo que você precisa saber para ter sucesso no seu processo.
+No entanto, a partir de 2022, um novo requisito foi adicionado: a **comprovação de [vínculo efetivo](/blog/vinculo-efetivo-como-comprovar)** com a comunidade portuguesa. Este guia definitivo explica absolutamente tudo que você precisa sobre [documentação necessária](/blog/documentos-cidadania-portuguesa-lista-completa) e saber para ter sucesso no seu processo.
 
 ## O Fundamento Legal
 
@@ -2954,7 +2954,7 @@ A ViannaLegal acompanha dezenas de processos de netos anualmente e conhece os ca
 
 > ⚠️ **Aviso jurídico:** Este conteúdo tem caráter meramente informativo. As interfaces do MJ.pt podem ser alteradas. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados.
 
-Depois de dar entrada no processo de nacionalidade portuguesa, acompanhar o status é essencial. O portal **MJ.pt** (Ministério da Justiça de Portugal) oferece a ferramenta **Consulta de Nacionalidade**, que permite ver em qual etapa seu pedido está — desde a entrada na conservatória até a decisão final.
+Depois de dar entrada no [processo de nacionalidade portuguesa](/blog/guia-completo-cidadania-portuguesa-2025), acompanhar o status é essencial. O portal **MJ.pt** (Ministério da Justiça de Portugal) — veja também os [prazos reais do IRN](/blog/backlog-irn-prazos-reais-2025) oferece a ferramenta **Consulta de Nacionalidade**, que permite ver em qual etapa seu pedido está — desde a entrada na conservatória até a decisão final.
 
 Este guia explica passo a passo como usar o portal, interpretar as famosas "bolinhas" de status e resolver problemas comuns de acesso, como a senha de acesso.
 
