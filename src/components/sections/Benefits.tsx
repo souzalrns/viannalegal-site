@@ -123,8 +123,9 @@ export function Benefits() {
             onClick={() =>
               window.open(
                 'https://wa.me/351913134260?text=Olá! Quero entender quais vantagens da cidadania portuguesa se aplicam ao meu caso.',
-                '_blank'
-              )
+                '_blank',
+                'noopener,noreferrer'
+)
             }
           >
             Falar com um especialista

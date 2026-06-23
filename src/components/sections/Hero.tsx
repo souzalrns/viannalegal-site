@@ -113,8 +113,9 @@ export function Hero() {
               onClick={() =>
                 window.open(
                   'https://wa.me/351913134260?text=Olá! Vim pelo site e gostaria de uma análise gratuita sobre cidadania portuguesa.',
-                  '_blank'
-                )
+                  '_blank',
+                  'noopener,noreferrer'
+)
               }
             >
               Análise Gratuita — Falar Agora

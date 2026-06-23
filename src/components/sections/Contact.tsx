@@ -41,7 +41,7 @@ export function Contact() {
 
     const message = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
     const whatsappUrl = `https://wa.me/351913134260?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
 
     toast({
       title: 'Redirecionando para WhatsApp',
@@ -178,7 +178,7 @@ export function Contact() {
                   variant="gold"
                   size="lg"
                   className="w-full"
-                  onClick={() => window.open('https://wa.me/351913134260', '_blank')}
+                  onClick={() => window.open('https://wa.me/351913134260', '_blank', 'noopener,noreferrer')}
                 >
                   <MessageCircle className="w-5 h-5" />
                   Conversar no WhatsApp agora

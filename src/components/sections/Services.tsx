@@ -209,8 +209,9 @@ export function Services() {
             onClick={() =>
               window.open(
                 'https://wa.me/351913134260?text=Olá! Quero saber qual o melhor caminho de cidadania para o meu caso.',
-                '_blank'
-              )
+                '_blank',
+                'noopener,noreferrer'
+)
             }
           >
             Descobrir meu caminho mais rápido

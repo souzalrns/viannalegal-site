@@ -82,14 +82,26 @@ export default function BlogPost() {
     }
   };
 
-  // Convert markdown-like content to HTML
+  // Escapa caracteres HTML perigosos antes de processar markdown
+  const escapeHtml = (str: string): string =>
+    str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#x27;');
+
+  // Convert markdown-like content to HTML (com sanitização XSS)
   const formatContent = (content: string) => {
     if (!content) return '';
     
     return content
       .split('\n')
-      .map(line => {
-        // Headers
+      .map(rawLine => {
+        // Escapar HTML antes de qualquer processamento
+        let line = escapeHtml(rawLine);
+
+        // Headers (após escape, os marcadores ## são texto puro)
         if (line.startsWith('## ')) {
           return `<h2 class="text-2xl font-display font-bold text-foreground mt-10 mb-4">${line.slice(3)}</h2>`;
         }
@@ -100,13 +112,14 @@ export default function BlogPost() {
           return `<h4 class="text-lg font-display font-semibold text-foreground mt-6 mb-2">${line.slice(5)}</h4>`;
         }
         
-        // Markdown links — internos e externos
+        // Markdown links internos — apenas /blog/ paths (whitelist de destino)
         line = line.replace(
-          /\[([^\]]+)\]\((\/blog\/[^)]+)\)/g,
+          /\[([^\]]{1,120})\]\((\/blog\/[a-z0-9\-]{1,100})\)/g,
           '<a href="$2" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
         );
+        // Links externos — apenas https (sem javascript:, data:, etc.)
         line = line.replace(
-          /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
+          /\[([^\]]{1,120})\]\((https:\/\/[^\)]{1,200})\)/g,
           '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
         );
 

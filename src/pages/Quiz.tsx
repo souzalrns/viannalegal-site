@@ -35,13 +35,15 @@ const QUESTIONS: Record<string, Question> = {
     hint: 'Escolha a opção que melhor descreve seu vínculo com cidadãos portugueses.',
     options: [
       { icon: '👶', label: 'Sou filho(a) de cidadão(ã) português(a)',              next: 'q_filho' },
-      { icon: '👴', label: 'Sou neto(a) de avô/avó português(a)',                  next: 'q_neto' },
-      { icon: '👵', label: 'Sou bisneto(a) de bisavô/bisavó português(a)',         next: 'q_bisneto' },
+      { icon: '👴', label: 'Sou neto(a) de avô/avó português(a)',                  next: 'q_neto_vivo' },
+      { icon: '👵', label: 'Sou bisneto(a) de bisavô/bisavó português(a)',         next: 'q_bisneto_avo' },
       { icon: '💍', label: 'Sou casado(a) ou em união de facto com português(a)',  next: 'q_conjuge' },
       { icon: '🏡', label: 'Resido legalmente em Portugal',                        next: 'q_residencia' },
       { icon: '❓', label: 'Nenhuma das anteriores',                               next: 'result_nenhum' },
     ],
   },
+
+  // ── FILHOS ─────────────────────────────────────────────────────
   q_filho: {
     category: 'Filiação',
     text: 'Você é menor ou maior de 18 anos?',
@@ -51,44 +53,118 @@ const QUESTIONS: Record<string, Question> = {
       { icon: '🧑', label: 'Maior de 18 anos', next: 'result_filho_maior' },
     ],
   },
-  q_neto: {
+
+  // ── NETOS ──────────────────────────────────────────────────────
+  q_neto_vivo: {
     category: 'Descendência — Netos',
-    text: 'Seu pai ou mãe (filho(a) do avô/avó português) tem ou teve a nacionalidade portuguesa?',
-    hint: 'Esta informação determina a solidez da cadeia documental.',
+    text: 'O avô ou avó português(a) ainda está vivo(a)?',
+    hint: 'Isso afeta a documentação necessária e a facilidade de comprovar a cadeia de descendência.',
+    options: [
+      { icon: '😊', label: 'Sim, está vivo(a)',           next: 'q_neto_pai_pt' },
+      { icon: '🕊️', label: 'Não, já faleceu',            next: 'q_neto_obito' },
+      { icon: '🤷', label: 'Não tenho certeza',           next: 'q_neto_pai_pt' },
+    ],
+  },
+  q_neto_obito: {
+    category: 'Descendência — Netos',
+    text: 'Você tem acesso à certidão de óbito do avô/avó português(a)?',
+    hint: 'A certidão de óbito é obrigatória quando o avô/avó já faleceu para comprovar a cadeia de descendência.',
+    options: [
+      { icon: '✅', label: 'Sim, tenho ou consigo obter',           next: 'q_neto_pai_pt' },
+      { icon: '⚠️', label: 'Não tenho — não sei onde obter',       next: 'q_neto_origem' },
+    ],
+  },
+  q_neto_origem: {
+    category: 'Descendência — Netos',
+    text: 'Você sabe em qual região ou município de Portugal o avô/avó nasceu?',
+    hint: 'Com a localidade de origem é possível fazer pesquisa nas conservatórias e arquivos paroquiais portugueses.',
+    options: [
+      { icon: '📍', label: 'Sim, sei a cidade ou região de origem',  next: 'q_neto_pai_pt' },
+      { icon: '❌', label: 'Não, não tenho essa informação',         next: 'result_neto_pesquisa' },
+    ],
+  },
+  q_neto_pai_pt: {
+    category: 'Descendência — Netos',
+    text: 'Seu pai ou mãe (filho(a) direto do avô/avó português) tem ou já teve a nacionalidade portuguesa?',
+    hint: 'Se o seu pai/mãe nunca solicitou a nacionalidade, isso pode exigir documentação adicional para fechar a cadeia.',
     options: [
       { icon: '✅', label: 'Sim, tem ou teve nacionalidade portuguesa', next: 'result_neto_forte' },
-      { icon: '❌', label: 'Não, nunca teve nacionalidade portuguesa',  next: 'result_neto_fraco' },
+      { icon: '❌', label: 'Não, nunca solicitou a nacionalidade',      next: 'result_neto_fraco' },
       { icon: '🤷', label: 'Não sei informar',                         next: 'result_neto_verificar' },
     ],
   },
-  q_bisneto: {
+
+  // ── BISNETOS ───────────────────────────────────────────────────
+  q_bisneto_avo: {
     category: 'Descendência — Bisnetos',
-    text: 'Você reside legalmente em Portugal há pelo menos 5 anos?',
-    hint: 'A Lei Orgânica 1/2026 criou esta via, mas exige residência legal mínima de 5 anos em Portugal.',
+    text: 'O avô ou avó (filho(a) do bisavô/bisavó português) ainda está vivo(a)?',
+    hint: 'A situação do avô/avó intermédio afeta quais documentos são exigidos e como se comprova a cadeia de 4 gerações.',
     options: [
-      { icon: '🏠', label: 'Sim, resido em Portugal há 5 anos ou mais', next: 'result_bisneto_ok' },
-      { icon: '📅', label: 'Resido há menos de 5 anos',                 next: 'result_bisneto_aguardar' },
-      { icon: '✈️', label: 'Não, moro no Brasil',                       next: 'result_bisneto_nao' },
+      { icon: '😊', label: 'Sim, está vivo(a)',           next: 'q_bisneto_avo_pt' },
+      { icon: '🕊️', label: 'Não, já faleceu',            next: 'q_bisneto_obito_avo' },
+      { icon: '🤷', label: 'Não tenho certeza',           next: 'q_bisneto_avo_pt' },
     ],
   },
+  q_bisneto_obito_avo: {
+    category: 'Descendência — Bisnetos',
+    text: 'Você tem acesso à certidão de óbito desse avô/avó?',
+    hint: 'Quando o avô/avó (elo intermediário) já faleceu, a certidão de óbito é necessária para fechar a cadeia documental de 4 gerações.',
+    options: [
+      { icon: '✅', label: 'Sim, tenho ou consigo obter',       next: 'q_bisneto_avo_pt' },
+      { icon: '⚠️', label: 'Não tenho — pode ser difícil',     next: 'q_bisneto_avo_pt' },
+    ],
+  },
+  q_bisneto_avo_pt: {
+    category: 'Descendência — Bisnetos',
+    text: 'Esse avô/avó (filho(a) do bisavô/bisavó português) chegou a ter a nacionalidade portuguesa?',
+    hint: 'Se o avô/avó também tem ou teve a nacionalidade portuguesa, a cadeia documental é mais sólida e o processo mais direto.',
+    options: [
+      { icon: '✅', label: 'Sim, tem ou teve nacionalidade portuguesa', next: 'q_bisneto_res' },
+      { icon: '❌', label: 'Não, nunca teve nacionalidade portuguesa',  next: 'q_bisneto_res' },
+      { icon: '🤷', label: 'Não sei informar',                         next: 'q_bisneto_res' },
+    ],
+  },
+  q_bisneto_res: {
+    category: 'Descendência — Bisnetos',
+    text: 'Você reside legalmente em Portugal?',
+    hint: 'A Lei Orgânica 1/2026 criou a via para bisnetos, mas exige residência legal mínima de 5 anos em Portugal — não é possível usar essa via morando no Brasil.',
+    options: [
+      { icon: '🏠', label: 'Sim, resido em Portugal',   next: 'q_bisneto_anos' },
+      { icon: '✈️', label: 'Não, moro no Brasil',       next: 'result_bisneto_nao' },
+    ],
+  },
+  q_bisneto_anos: {
+    category: 'Descendência — Bisnetos',
+    text: 'Há quantos anos você reside legalmente em Portugal?',
+    hint: 'O prazo mínimo exigido pela Lei 1/2026 é de 5 anos de residência legal contínua.',
+    options: [
+      { icon: '✅', label: '5 anos ou mais',        next: 'result_bisneto_ok' },
+      { icon: '⏳', label: 'Entre 2 e 4 anos',     next: 'result_bisneto_aguardar' },
+      { icon: '📅', label: 'Menos de 2 anos',      next: 'result_bisneto_cedo' },
+    ],
+  },
+
+  // ── CÔNJUGE ────────────────────────────────────────────────────
   q_conjuge: {
     category: 'Casamento / União de Facto',
     text: 'Há quanto tempo dura este casamento ou união de facto?',
-    hint: 'A lei exige um período mínimo de relacionamento comprovado.',
+    hint: 'A lei exige um período mínimo de relacionamento comprovado com cidadão(ã) português(a).',
     options: [
       { icon: '📅', label: 'Menos de 3 anos', next: 'result_conjuge_cedo' },
       { icon: '✅', label: '3 anos ou mais',  next: 'result_conjuge_ok' },
     ],
   },
+
+  // ── RESIDÊNCIA ─────────────────────────────────────────────────
   q_residencia: {
     category: 'Naturalização por Residência',
     text: 'Há quantos anos você reside legalmente em Portugal?',
     hint: 'A Lei Orgânica 1/2026 aumentou o prazo para brasileiros e cidadãos CPLP para 7 anos.',
     options: [
-      { icon: '📅', label: 'Menos de 5 anos',               next: 'result_residencia_cedo' },
-      { icon: '⏳', label: 'Entre 5 e 7 anos',              next: 'result_residencia_quase' },
+      { icon: '📅', label: 'Menos de 5 anos',                next: 'result_residencia_cedo' },
+      { icon: '⏳', label: 'Entre 5 e 7 anos',               next: 'result_residencia_quase' },
       { icon: '✅', label: '7 anos ou mais (brasileiro/CPLP)', next: 'result_residencia_ok' },
-      { icon: '✅', label: '5 anos ou mais (outros países)', next: 'result_residencia_ok5' },
+      { icon: '✅', label: '5 anos ou mais (outros países)',  next: 'result_residencia_ok5' },
     ],
   },
 };
@@ -262,7 +338,7 @@ export default function Quiz() {
     const msg = encodeURIComponent(
       `Olá! Fiz o quiz de cidadania portuguesa.\n\nNome: ${leadName}\nE-mail: ${leadEmail}\nWhatsApp: ${leadPhone}\n\nGostaria de uma análise gratuita do meu caso.`
     );
-    window.open(`https://wa.me/351913134260?text=${msg}`, '_blank');
+    window.open(`https://wa.me/351913134260?text=${msg}`, '_blank', 'noopener,noreferrer');
     setSubmitted(true);
   }
 

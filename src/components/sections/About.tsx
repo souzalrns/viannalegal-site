@@ -128,8 +128,9 @@ export function About() {
               onClick={() =>
                 window.open(
                   'https://wa.me/351913134260?text=Olá! Quero entender como vocês podem acelerar meu processo.',
-                  '_blank'
-                )
+                  '_blank',
+                  'noopener,noreferrer'
+)
               }
             >
               Conversar com um especialista

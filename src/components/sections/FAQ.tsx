@@ -194,8 +194,9 @@ export function FAQ() {
                 onClick={() =>
                   window.open(
                     'https://wa.me/351913134260?text=Olá! Tenho uma dúvida sobre cidadania portuguesa que não encontrei no site.',
-                    '_blank'
-                  )
+                    '_blank',
+                    'noopener,noreferrer'
+)
                 }
               >
                 <MessageCircle className="w-4 h-4" />

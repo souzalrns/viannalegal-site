@@ -183,8 +183,9 @@ export function Process() {
             onClick={() =>
               window.open(
                 'https://wa.me/351913134260?text=Olá! Vi o processo completo e quero iniciar minha análise gratuita.',
-                '_blank'
-              )
+                '_blank',
+                'noopener,noreferrer'
+)
             }
           >
             Iniciar minha análise gratuita
