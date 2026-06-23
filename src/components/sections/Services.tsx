@@ -12,6 +12,7 @@ const services = [
     urgent: true,
     color: 'portugal',
     link: '/cidadania-portuguesa/netos',
+    linkLabel: 'Ver como funciona a cidadania para netos',
   },
   {
     title: 'Cidadania Portuguesa — Filhos Menores',
@@ -21,6 +22,7 @@ const services = [
     urgent: false,
     color: 'portugal',
     link: '/cidadania-portuguesa/filhos-menores',
+    linkLabel: 'Ver como funciona a cidadania para filhos menores',
   },
   {
     title: 'Cidadania Portuguesa — Filhos Maiores',
@@ -30,6 +32,7 @@ const services = [
     urgent: false,
     color: 'portugal',
     link: '/cidadania-portuguesa/filhos-maiores',
+    linkLabel: 'Ver como funciona a cidadania para filhos maiores',
   },
   {
     title: 'Cidadania Portuguesa — Cônjuges',
@@ -39,6 +42,7 @@ const services = [
     urgent: true,
     color: 'portugal',
     link: '/cidadania-portuguesa/conjuges',
+    linkLabel: 'Ver como funciona a cidadania para cônjuges',
   },
   {
     title: 'Nacionalidade por Residência',
@@ -48,6 +52,7 @@ const services = [
     urgent: false,
     color: 'portugal',
     link: '/cidadania-portuguesa/residencia',
+    linkLabel: 'Ver como funciona a nacionalidade por residência',
   },
   {
     title: 'Cidadania Portuguesa — Bisnetos',
@@ -57,6 +62,7 @@ const services = [
     urgent: true,
     color: 'gold',
     link: '/cidadania-portuguesa/bisnetos',
+    linkLabel: 'Ver como funciona a cidadania para bisnetos',
   },
   {
     title: 'Transcrição de Casamento',
@@ -66,6 +72,7 @@ const services = [
     urgent: false,
     color: 'gold',
     link: '/cidadania-portuguesa/transcricao-casamento',
+    linkLabel: 'Ver como funciona a transcrição de casamento',
   },
   {
     title: 'Pesquisa Genealógica / Busca de Documentos',
@@ -75,6 +82,7 @@ const services = [
     urgent: false,
     color: 'gold',
     link: '/busca-documentos',
+    linkLabel: 'Ver como funciona a pesquisa genealógica',
   },
 ];
 
@@ -121,7 +129,7 @@ export function Services() {
           </p>
         </motion.div>
 
-        {/* Urgency reframe — turns long timelines into a reason to act now */}
+        {/* Urgency reframe */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -176,10 +184,11 @@ export function Services() {
                   </span>
                   <Link
                     to={service.link}
+                    aria-label={service.linkLabel}
                     className="text-gold hover:text-gold-dark transition-colors flex items-center gap-1 text-sm font-medium"
                   >
-                    Saiba mais
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    <span aria-hidden="true">Ver detalhes</span>
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
                   </Link>
                 </div>
               </motion.div>

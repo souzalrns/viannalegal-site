@@ -75,10 +75,11 @@ export function Contact() {
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
-                  <label className="text-sm font-medium text-foreground mb-2 block">
+                  <label htmlFor="contact-name" className="text-sm font-medium text-foreground mb-2 block">
                     Nome completo
                   </label>
                   <Input
+                    id="contact-name"
                     type="text"
                     placeholder="Seu nome"
                     value={formData.name}
@@ -88,10 +89,11 @@ export function Contact() {
                   />
                 </div>
                 <div>
-                  <label className="text-sm font-medium text-foreground mb-2 block">
+                  <label htmlFor="contact-phone" className="text-sm font-medium text-foreground mb-2 block">
                     Telefone
                   </label>
                   <Input
+                    id="contact-phone"
                     type="tel"
                     placeholder="(11) 99999-9999"
                     value={formData.phone}
@@ -103,8 +105,11 @@ export function Contact() {
               </div>
 
               <div>
-                <label className="text-sm font-medium text-foreground mb-2 block">E-mail</label>
+                <label htmlFor="contact-email" className="text-sm font-medium text-foreground mb-2 block">
+                  E-mail
+                </label>
                 <Input
+                  id="contact-email"
                   type="email"
                   placeholder="seu@email.com"
                   value={formData.email}
@@ -115,8 +120,11 @@ export function Contact() {
               </div>
 
               <div>
-                <label className="text-sm font-medium text-foreground mb-2 block">Mensagem</label>
+                <label htmlFor="contact-message" className="text-sm font-medium text-foreground mb-2 block">
+                  Mensagem
+                </label>
                 <Textarea
+                  id="contact-message"
                   placeholder="Conte-nos sobre sua descendência portuguesa..."
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}

@@ -42,7 +42,7 @@ export function About() {
             <div className="relative rounded-3xl overflow-hidden shadow-elevated">
               <img
                 src={consultantImage}
-                alt="Consultora especializada em cidadania"
+                alt="Consultora especializada em cidadania portuguesa"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent" />
@@ -114,7 +114,7 @@ export function About() {
                       <Icon className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-foreground mb-1">{feature.title}</h4>
+                      <h3 className="font-semibold text-foreground mb-1 text-base">{feature.title}</h3>
                       <p className="text-sm text-muted-foreground">{feature.description}</p>
                     </div>
                   </motion.div>

@@ -19,4 +19,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://viannalegal.com.br/sitemap.xml
+Sitemap: https://knowledge-to-site-craft.lovable.app/sitemap.xml
