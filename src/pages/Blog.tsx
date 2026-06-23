@@ -20,12 +20,13 @@ export const blogPosts = [
     icon: Scale,
     featured: true,
     metaDescription: 'Tribunal Constitucional português veta aumento do prazo de residência para cidadania. Residência continua em 5 anos. Saiba como isso afeta brasileiros.',
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'backlog-irn-prazos-reais-2025'],
     content: `
 ## Introdução: Uma Decisão Histórica para Brasileiros
 
 Em dezembro de 2025, o Tribunal Constitucional português tomou uma decisão que impacta diretamente milhares de brasileiros que sonham com a cidadania europeia. O veto a quatro normas fundamentais da Lei da Nacionalidade, aprovada em outubro pelo Parlamento, representa uma vitória significativa para a comunidade lusófona.
 
-Esta decisão mantém o prazo de residência legal em **5 anos** para naturalização, rejeitando o aumento proposto para 7 anos (cidadãos da CPLP) ou 10 anos (demais nacionalidades). Para brasileiros que já residem em Portugal ou planejam se mudar, esta é uma notícia extremamente positiva.
+Esta decisão mantém o prazo de [residência legal em **5 anos**](/blog/cidadania-portuguesa-por-residencia-passo-a-passo) para naturalização, rejeitando o aumento proposto para 7 anos (cidadãos da CPLP) ou 10 anos (demais nacionalidades). Para brasileiros que já residem em Portugal ou planejam se mudar, esta é uma notícia extremamente positiva.
 
 ## O Que Foi Vetado pelo Tribunal Constitucional?
 
@@ -157,12 +158,13 @@ Se você reside em Portugal ou tem ascendência portuguesa, este é o momento id
     icon: FileText,
     featured: true,
     metaDescription: 'Guia definitivo para cidadania portuguesa por descendência em 2025. Filhos, netos, bisnetos: documentos, prazos, custos e vínculo efetivo explicados.',
+    relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'vinculo-efetivo-como-comprovar', 'cidadania-portuguesa-netos-guia-definitivo-2025'],
     content: `
 ## Introdução: O Direito à Cidadania Portuguesa por Descendência
 
 A cidadania portuguesa por descendência representa uma das formas mais tradicionais e seguras de obter a nacionalidade europeia. Portugal reconhece o direito de seus descendentes, mesmo nascidos no exterior, de reivindicar a cidadania de seus antepassados.
 
-Este guia completo aborda todos os aspectos do processo em 2025, considerando as atualizações legislativas, o backlog atual do IRN e as melhores práticas para garantir a aprovação do seu pedido.
+Este guia completo aborda todos os aspectos do processo em 2025, considerando as atualizações legislativas, o [backlog atual do IRN](/blog/backlog-irn-prazos-reais-2025) e as melhores práticas para garantir a aprovação do seu pedido.
 
 ## Tipos de Cidadania por Descendência
 
@@ -439,7 +441,8 @@ A ViannaLegal está pronta para avaliar seu caso gratuitamente e indicar o melho
     category: 'Dicas',
     icon: TrendingUp,
     featured: false,
-    metaDescription: 'Aprenda a comprovar vínculo efetivo para cidadania portuguesa. 6 formas aceitas, exemplos práticos e dicas para netos de portugueses em 2025.',
+    metaDescription: 'Aprenda a comprovar vínculo efetivo para cidadania portuguesa. 6 formas aceitas, exemplos práticos e dicas para [netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025) em 2025.',
+    relatedSlugs: ['cidadania-portuguesa-netos-guia-definitivo-2025', 'guia-completo-cidadania-portuguesa-2025', 'como-buscar-certidoes-portuguesas-portugal'],
     content: `
 ## O Que é Vínculo Efetivo com a Comunidade Portuguesa?
 
@@ -689,12 +692,13 @@ Não espere mais para começar. Se você ainda não tem um dossiê forte, comece
     icon: Clock,
     featured: false,
     metaDescription: 'Prazos reais de cidadania portuguesa em 2025. Backlog IRN explicado: tempos por tipo de processo, conservatórias mais rápidas e estratégias de otimização.',
+    relatedSlugs: ['como-acompanhar-processo-cidadania-portuguesa', 'documentos-cidadania-portuguesa-lista-completa', 'guia-completo-cidadania-portuguesa-2025'],
     content: `
 ## O Que é o Backlog do IRN?
 
 O Instituto dos Registos e Notariado (IRN) é o órgão português responsável por analisar e decidir os pedidos de nacionalidade. O "backlog" refere-se ao **acúmulo de processos pendentes** que aguardam análise.
 
-Nos últimos anos, o volume de pedidos de cidadania portuguesa cresceu exponencialmente, especialmente de brasileiros. Este aumento não foi acompanhado por um crescimento proporcional na capacidade de processamento, gerando atrasos significativos.
+Nos últimos anos, o volume de [pedidos de cidadania portuguesa](/blog/guia-completo-cidadania-portuguesa-2025) cresceu exponencialmente, especialmente de brasileiros. Este aumento não foi acompanhado por um crescimento proporcional na capacidade de processamento, gerando atrasos significativos.
 
 ## Por Que o Backlog Existe?
 
@@ -936,6 +940,7 @@ A cidadania portuguesa vale a espera. Com planejamento adequado, você pode mini
     icon: TrendingUp,
     featured: false,
     metaDescription: 'Vantagens da dupla cidadania Brasil-Portugal: passaporte para 190+ países, trabalho na UE, saúde, educação e benefícios exclusivos. Guia completo 2025.',
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'cidadania-portuguesa-por-casamento-guia-completo'],
     content: `
 ## Introdução: Por Que a Dupla Cidadania é Tão Valiosa?
 
@@ -1040,7 +1045,7 @@ Cidadãos portugueses pagam **taxas reduzidas** em universidades europeias:
 
 ### Sistema Bancário Europeu
 
-Com cidadania portuguesa, você pode:
+Com [cidadania portuguesa](/blog/guia-completo-cidadania-portuguesa-2025), você pode:
 
 - Abrir contas em qualquer banco da UE
 - Acessar produtos financeiros europeus
@@ -1228,10 +1233,11 @@ Seja para aproveitar a mobilidade global, acessar oportunidades profissionais na
     icon: FileText,
     featured: false,
     metaDescription: 'Lista completa de documentos para cidadania portuguesa 2025. Checklists por tipo: filhos, netos, cônjuges, residência. Apostilamento, tradução e taxas.',
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'como-buscar-certidoes-portuguesas-portugal', 'cidadania-portuguesa-netos-guia-definitivo-2025'],
     content: `
 ## Introdução: A Importância da Documentação Correta
 
-O sucesso do seu processo de cidadania portuguesa depende fundamentalmente da **qualidade e completude da documentação** apresentada. Documentos incorretos, vencidos ou faltantes são a principal causa de atrasos e indeferimentos.
+O sucesso do seu processo de cidadania portuguesa depende fundamentalmente da **[qualidade e completude da documentação](/blog/guia-completo-cidadania-portuguesa-2025)** apresentada. Documentos incorretos, vencidos ou faltantes são a principal causa de atrasos e indeferimentos.
 
 Este guia apresenta checklists completos para cada tipo de processo, com orientações sobre obtenção, apostilamento, tradução e validade.
 
@@ -1642,7 +1648,8 @@ A ViannaLegal oferece serviço completo de obtenção, organização e validaç�
     category: 'Guias',
     icon: Heart,
     featured: false,
-    metaDescription: 'Cidadania portuguesa por casamento 2025. Requisitos, 3 anos mínimos, documentos necessários, união de facto e passo a passo completo.',
+    metaDescription: 'Cidadania portuguesa por casamento 2025. Requisitos, 3 anos mínimos, [documentos necessários](/blog/documentos-cidadania-portuguesa-lista-completa), união de facto e passo a passo completo.',
+    relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'vinculo-efetivo-como-comprovar', 'dupla-cidadania-brasil-portugal-vantagens'],
     content: `
 ## Introdução: Cidadania Através do Amor
 
@@ -1937,12 +1944,13 @@ A ViannaLegal tem experiência em processos de cônjuges e pode orientar você d
     icon: Home,
     featured: false,
     metaDescription: 'Naturalização portuguesa por residência 2025. Requisitos de 5 anos, teste de português A2, documentos e passo a passo completo para brasileiros.',
+    relatedSlugs: ['veto-tribunal-constitucional-dezembro-2025', 'documentos-cidadania-portuguesa-lista-completa', 'como-acompanhar-processo-cidadania-portuguesa'],
     content: `
 ## Introdução: O Caminho da Residência Legal
 
 Para brasileiros que vivem em Portugal sem ascendência portuguesa ou casamento com cidadão português, a **naturalização por residência** é o caminho para a cidadania europeia. Este processo reconhece a integração do imigrante na sociedade portuguesa após um período mínimo de residência legal.
 
-Com o veto do Tribunal Constitucional em dezembro de 2025, o prazo permanece em **5 anos** (não subiu para 7-10 anos como havia sido proposto), tornando este momento favorável para quem já reside ou planeja se mudar para Portugal.
+Com o [veto do Tribunal Constitucional](/blog/veto-tribunal-constitucional-dezembro-2025) em dezembro de 2025, o prazo permanece em **5 anos** (não subiu para 7-10 anos como havia sido proposto), tornando este momento favorável para quem já reside ou planeja se mudar para Portugal.
 
 ## Requisitos Fundamentais
 
@@ -2272,10 +2280,11 @@ Com o prazo de 5 anos mantido após o veto do TC, este é um momento favorável 
     icon: Search,
     featured: false,
     metaDescription: 'Como buscar certidões portuguesas: conservatórias, arquivos distritais, registros paroquiais e genealogia. Guia completo para descendentes.',
+    relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'cidadania-portuguesa-netos-guia-definitivo-2025', 'vinculo-efetivo-como-comprovar'],
     content: `
 ## Introdução: A Busca pelas Raízes
 
-Encontrar certidões de antepassados portugueses é frequentemente o primeiro desafio no processo de cidadania. Muitas famílias perderam documentos ao longo das gerações, ou simplesmente não sabem onde o avô ou bisavô nasceu em Portugal.
+Encontrar certidões de antepassados portugueses é frequentemente o primeiro desafio no [processo de cidadania](/blog/documentos-cidadania-portuguesa-lista-completa). Muitas famílias perderam documentos ao longo das gerações, ou simplesmente não sabem onde o avô ou bisavô nasceu em Portugal.
 
 Este guia oferece um roteiro prático para localizar certidões de nascimento, casamento e óbito, seja em conservatórias modernas, arquivos históricos ou registros paroquiais.
 
@@ -2562,12 +2571,13 @@ Se você está tendo dificuldade, não desista. A ViannaLegal tem experiência e
     icon: Users,
     featured: true,
     metaDescription: 'Cidadania portuguesa para netos 2025: guia definitivo. Vínculo efetivo, documentos, prazos IRN, estratégias de aprovação e passo a passo completo.',
+    relatedSlugs: ['vinculo-efetivo-como-comprovar', 'documentos-cidadania-portuguesa-lista-completa', 'como-buscar-certidoes-portuguesas-portugal'],
     content: `
 ## Introdução: O Direito dos Netos à Cidadania
 
 Desde 2015, netos de cidadãos portugueses têm o direito de requerer a cidadania portuguesa. Esta conquista legislativa abriu as portas da Europa para milhões de brasileiros descendentes de imigrantes portugueses.
 
-No entanto, a partir de 2022, um novo requisito foi adicionado: a **comprovação de vínculo efetivo** com a comunidade portuguesa. Este guia definitivo explica absolutamente tudo que você precisa saber para ter sucesso no seu processo.
+No entanto, a partir de 2022, um novo requisito foi adicionado: a **comprovação de [vínculo efetivo](/blog/vinculo-efetivo-como-comprovar)** com a comunidade portuguesa. Este guia definitivo explica absolutamente tudo que você precisa saber para ter sucesso no seu processo.
 
 ## O Fundamento Legal
 
@@ -2936,7 +2946,7 @@ A ViannaLegal acompanha dezenas de processos de netos anualmente e conhece os ca
     id: 11,
     slug: 'como-acompanhar-processo-cidadania-portuguesa',
     title: 'Como Acompanhar o Processo de Cidadania Portuguesa: Guia do Portal MJ.pt',
-    excerpt: 'Aprenda a consultar seu processo de nacionalidade portuguesa no portal MJ.pt. Entenda as 7 bolinhas de status, a senha de acesso e o que fazer em cada etapa.',
+    excerpt: 'Aprenda a consultar seu [processo de nacionalidade portuguesa](/blog/guia-completo-cidadania-portuguesa-2025) no portal MJ.pt. Entenda as 7 bolinhas de status, a senha de acesso e o que fazer em cada etapa.',
     date: '23 Jun 2026',
     readTime: '10 min',
     author: 'Kathia Vianna',
@@ -2944,6 +2954,7 @@ A ViannaLegal acompanha dezenas de processos de netos anualmente e conhece os ca
     icon: Search,
     featured: false,
     metaDescription: 'Guia completo para acompanhar processo de cidadania portuguesa no MJ.pt. Consulta de Nacionalidade, 7 bolinhas de status, senha de acesso e prazos.',
+    relatedSlugs: ['backlog-irn-prazos-reais-2025', 'documentos-cidadania-portuguesa-lista-completa', 'guia-completo-cidadania-portuguesa-2025'],
     content: `**Atualizado em 23 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este conteúdo tem caráter meramente informativo. As interfaces do MJ.pt podem ser alteradas. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados.

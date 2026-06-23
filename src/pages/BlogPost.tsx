@@ -100,6 +100,16 @@ export default function BlogPost() {
           return `<h4 class="text-lg font-display font-semibold text-foreground mt-6 mb-2">${line.slice(5)}</h4>`;
         }
         
+        // Markdown links — internos e externos
+        line = line.replace(
+          /\[([^\]]+)\]\((\/blog\/[^)]+)\)/g,
+          '<a href="$2" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
+        );
+        line = line.replace(
+          /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
+          '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
+        );
+
         // Bold text
         line = line.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-foreground">$1</strong>');
         
@@ -282,6 +292,48 @@ export default function BlogPost() {
                   </Button>
                 </div>
               </motion.div>
+
+
+              {/* ── Artigos Relacionados ─────────────────────── */}
+              {(() => {
+                const related = blogPosts.filter(p =>
+                  post.relatedSlugs?.includes(p.slug)
+                ).slice(0, 3);
+                if (!related.length) return null;
+                return (
+                  <aside className="mt-12 pt-10 border-t border-border" aria-label="Artigos relacionados">
+                    <h2 className="font-display text-xl font-bold text-foreground mb-6">
+                      Leia também
+                    </h2>
+                    <div className="grid sm:grid-cols-3 gap-4">
+                      {related.map(r => {
+                        const Icon = r.icon;
+                        return (
+                          <Link
+                            key={r.slug}
+                            to={`/blog/${r.slug}`}
+                            className="group block bg-muted/50 hover:bg-card border border-border hover:border-gold/40 rounded-xl p-4 transition-all duration-200"
+                          >
+                            <div className="flex items-center gap-2 mb-2">
+                              <span className="text-xs bg-gold/10 text-gold px-2 py-0.5 rounded-full flex items-center gap-1">
+                                <Icon className="w-3 h-3" aria-hidden="true" />
+                                {r.category}
+                              </span>
+                            </div>
+                            <h3 className="font-semibold text-sm text-foreground leading-snug group-hover:text-primary transition-colors line-clamp-3">
+                              {r.title}
+                            </h3>
+                            <div className="flex items-center gap-1 mt-3 text-xs text-gold font-medium">
+                              <span>Ler artigo</span>
+                              <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+                            </div>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </aside>
+                );
+              })()}
 
               {/* Navigation */}
               <nav className="mt-12 pt-8 border-t border-border">
