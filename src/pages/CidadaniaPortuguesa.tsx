@@ -70,6 +70,39 @@ export default function CidadaniaPortuguesa() {
         <meta property="og:title" content="Cidadania Portuguesa para Netos, Filhos, Bisnetos e Cônjuges | ViannaLegal" />
         <meta property="og:url" content="https://viannalegal.com.br/cidadania-portuguesa" />
         <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Modalidades de Cidadania Portuguesa",
+          "description": "Catálogo de serviços de assessoria para aquisição da nacionalidade portuguesa: netos, bisnetos, filhos, cônjuges, residência e transcrição de casamento.",
+          "url": "https://viannalegal.com.br/cidadania-portuguesa",
+          "provider": {
+            "@type": "Organization",
+            "name": "ViannaLegal",
+            "url": "https://viannalegal.com.br",
+            "telephone": "+351913134260"
+          },
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": services.map((s, i) => ({
+              "@type": "ListItem",
+              "position": i + 1,
+              "item": {
+                "@type": "LegalService",
+                "name": s.title,
+                "description": s.description,
+                "url": `https://viannalegal.com.br/cidadania-portuguesa/${s.pageSlug}`,
+                "serviceType": s.subtitle,
+                "areaServed": ["PT", "BR"],
+                "provider": {
+                  "@type": "Organization",
+                  "name": "ViannaLegal",
+                  "url": "https://viannalegal.com.br"
+                }
+              }
+            }))
+          }
+        })}</script>
       </Helmet>
       <Header />
       <section className="pt-32 pb-16 bg-primary">

@@ -30,6 +30,21 @@ export default function BuscaDocumentos() {
         <meta property="og:description" content="Localizamos documentos portugueses para seu processo de cidadania. Especialistas em paleografia." />
         <meta property="og:url" content="https://viannalegal.com.br/busca-documentos" />
         <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LegalService",
+          "name": "Busca de Documentos Portugueses e Pesquisa Genealógica",
+          "description": "Serviço especializado em busca de documentos portugueses para cidadania: pesquisa genealógica, paleografia para leitura de registros antigos, localização de certidões de batismo e nascimento em Portugal.",
+          "url": "https://viannalegal.com.br/busca-documentos",
+          "areaServed": ["PT", "BR"],
+          "serviceType": "Pesquisa Genealógica e Busca Documental",
+          "provider": {
+            "@type": "Organization",
+            "name": "ViannaLegal",
+            "url": "https://viannalegal.com.br",
+            "telephone": "+351913134260"
+          }
+        })}</script>
       </Helmet>
 
       <Header />
