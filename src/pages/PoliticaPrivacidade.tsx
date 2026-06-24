@@ -3,6 +3,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
 import { motion } from 'framer-motion';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 export default function PoliticaPrivacidade() {
   useScrollToHash();
@@ -113,7 +114,7 @@ export default function PoliticaPrivacidade() {
                   </h2>
                   <p>
                     Para exercer seus direitos ou esclarecer dúvidas sobre esta política, 
-                    entre em contato conosco através do WhatsApp: +55 21 98666-9063.
+                    entre em contato conosco através do WhatsApp: ' + SITE_CONFIG.whatsapp.display + '.
                   </p>
 
                   <h2 className="font-display text-2xl font-semibold text-foreground mt-8 mb-4">
