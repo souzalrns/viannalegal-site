@@ -22,7 +22,7 @@ const navItems: NavItem[] = [
 ];
 
 const WHATSAPP_CTA_URL =
-  'https://wa.me/351913134260?text=Olá! Gostaria de uma análise gratuita sobre cidadania portuguesa.';
+  'https://wa.me/5521986669063?text=Olá! Gostaria de uma análise gratuita sobre cidadania portuguesa.';
 
 export function Header() {
   const [isScrolled, setIsScrolled]       = useState(false);
@@ -79,7 +79,7 @@ export function Header() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-5">
             <a
-              href="https://wa.me/351913134260"
+              href="https://wa.me/5521986669063"
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
@@ -141,7 +141,7 @@ export function Header() {
                   Análise Gratuita
                 </Button>
                 <a
-                  href="https://wa.me/351913134260"
+                  href="https://wa.me/5521986669063"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 text-sm text-muted-foreground hover:text-gold transition-colors py-1"
