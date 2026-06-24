@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import heroImage from '@/assets/hero-lisbon.jpg';
 import heroImageWebp from '@/assets/hero-lisbon.webp';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const trustMarkers = [
   '+2.000 processos aprovados',
@@ -113,7 +114,7 @@ export function Hero() {
               className="shadow-gold text-base font-bold"
               onClick={() =>
                 window.open(
-                  'https://wa.me/5521986669063?text=Olá! Vim pelo site e gostaria de uma análise gratuita sobre cidadania portuguesa.',
+                  '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Vim pelo site e gostaria de uma análise gratuita sobre cidadania portuguesa.")}',
                   '_blank',
                   'noopener,noreferrer'
 )
