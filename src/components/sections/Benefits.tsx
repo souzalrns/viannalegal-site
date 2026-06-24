@@ -11,6 +11,7 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const benefits = [
   {
@@ -122,7 +123,7 @@ export function Benefits() {
             size="lg"
             onClick={() =>
               window.open(
-                'https://wa.me/5521986669063?text=Olá! Quero entender quais vantagens da cidadania portuguesa se aplicam ao meu caso.',
+                '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Quero entender quais vantagens da cidadania portuguesa se aplicam ao meu caso.")}',
                 '_blank',
                 'noopener,noreferrer'
 )
