@@ -163,10 +163,14 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores | 8-14 meses |
-| Filhos maiores | 16-24 meses |
-| Netos | 36-54 meses |
-| Bisnetos (via directa, em PT) | A regulamentar |
+| Filhos menores | **2 a 4 meses** |
+| Filhos maiores (inscrição) | **50 a 56 meses** |
+| Filhos maiores (transcrição) | **21 a 23 meses** |
+| Netos menores | **2 a 4 meses** |
+| Netos maiores | **41 a 46 meses** |
+| Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
+
+> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido. Processos com documentação incompleta ou diligências pendentes podem ultrapassar estes valores.
 
 ## O Que Não Mudou com a Lei 1/2026
 
@@ -482,24 +486,25 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores de portugueses | 8-14 meses |
-| Filhos maiores de portugueses | 16-24 meses |
-| Netos de portugueses | 36-54 meses |
-| Bisnetos (via directa Lei 1/2026) | A regulamentar |
+| Filhos menores | **2 a 4 meses** |
+| Filhos maiores (inscrição) | **50 a 56 meses** |
+| Filhos maiores (transcrição) | **21 a 23 meses** |
+| Netos menores | **2 a 4 meses** |
+| Netos maiores | **41 a 46 meses** |
+| Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
 
 ### Cidadania por Casamento / União de Facto
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Casamento (3+ anos) | 36-60 meses |
-| União de facto (6+ anos) | 48-72 meses |
+| Casamento / União de facto | **50 a 54 meses** |
 
 ### Naturalização por Residência
 
 | Via | Prazo estimado |
 |-----|---------------|
-| CPLP/UE (7 anos residência) | 36-48 meses após protocolo |
-| Outros países (10 anos residência) | 36-48 meses após protocolo |
+| Naturalização CPLP/UE (7 anos) | **27 a 30 meses** |
+| Naturalização outros países (10 anos) | **27 a 30 meses** |
 
 **Nota:** Para quem busca naturalização, o prazo de 7 anos de residência ainda exige o protocolo e a análise. O tempo total desde o início da residência até ao passaporte pode superar 8-9 anos.
 
@@ -1084,8 +1089,9 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (junho 2026) |
 |---|---|
-| Cidadania por casamento (3+ anos) | **36-60 meses** após protocolo |
-| União de facto (6+ anos) | **48-72 meses** após protocolo |
+| Casamento / União de facto | **50 a 54 meses** |
+
+> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido. Processos com documentação incompleta ou diligências pendentes podem ultrapassar estes valores.
 
 ## Cidadania por Casamento vs. por Descendência
 
@@ -1247,7 +1253,9 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (2026) |
 |---|---|
-| Naturalização por residência | **36-48 meses** após protocolo |
+| Naturalização (CPLP — 7 anos) | **27 a 30 meses** |
+
+> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido. Processos com documentação incompleta ou diligências pendentes podem ultrapassar estes valores.
 
 Para quem busca naturalização, o prazo de 7 anos ainda exige, após cumprido, o protocolo e a análise do pedido. O tempo total entre início da residência e obtenção do passaporte pode superar 8 a 9 anos.
 
@@ -1686,7 +1694,10 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (junho 2026) |
 |---|---|
-| Netos | **36-54 meses** após protocolo |
+| Netos menores | **2 a 4 meses** |
+| Netos maiores | **41 a 46 meses** |
+
+> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido. Processos com documentação incompleta ou diligências pendentes podem ultrapassar estes valores.
 
 ## O Que Não Exige a Lei (desmistificando)
 
@@ -2069,13 +2080,18 @@ Não houve anúncio de contratação massiva de técnicos ou de medidas estrutur
 
 Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 
-| Tipo de processo | Prazo médio anterior | Estimativa actual |
-|---|---|---|
-| Filhos menores | 6-8 meses | 8-14 meses |
-| Filhos maiores | 12-14 meses | 16-24 meses |
-| Netos | 24-42 meses | 36-54+ meses |
-| Cônjuges | 24-48 meses | 36-60+ meses |
-| Naturalização | 20-32 meses | 30-48+ meses |
+| Tipo de processo | Prazo actual (dados IRN abr/mai 2026) |
+|---|---|
+| Filhos menores | **2 a 4 meses** |
+| Filhos maiores (inscrição) | **50 a 56 meses** |
+| Filhos maiores (transcrição) | **21 a 23 meses** |
+| Netos menores | **2 a 4 meses** |
+| Netos maiores | **41 a 46 meses** |
+| Casamento / União de facto | **50 a 54 meses** |
+| Naturalização CPLP (7 anos) | **27 a 30 meses** |
+| Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
+
+> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido.
 
 Estes são cenários estimados — cada conservatória tem o seu próprio ritmo, e o volume de processos varia significativamente entre elas.
 
