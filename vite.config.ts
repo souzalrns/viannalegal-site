@@ -50,6 +50,14 @@ export default defineConfig(({ mode }) => ({
           // Supabase
           if (id.includes("@supabase")) return "vendor-supabase";
 
+          // Lucide icons — separar para cache eficiente
+          if (id.includes("lucide-react")) return "vendor-lucide";
+
+          // Dados do blog — chunk separado (379KB, só carrega em /blog/*)
+          if (id.includes("allBlogPosts") ||
+              id.includes("blogPosts") ||
+              id.includes("blogPostsDocx")) return "data-blog";
+
           // Restante node_modules
           if (id.includes("node_modules")) return "vendor-misc";
         },
