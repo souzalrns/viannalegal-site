@@ -6,13 +6,13 @@ import { SITE_CONFIG, waUrl } from '@/config/site';
 const trustMarkers = [
   '+2.000 famílias atendidas',
   'Processo 100% online',
-  'Especialistas em cidadania portuguesa',
+  '10 anos de experiência em Portugal',
 ];
 
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-primary">
-      <div className="relative container-width pt-28 pb-16 max-w-2xl mx-auto px-4">
+      <div className="relative container-width pt-28 pb-16 px-4 mx-auto max-w-3xl">
 
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-gold/20 border border-gold/30 px-4 py-2 rounded-full text-gold mb-6">
@@ -21,16 +21,16 @@ export function Hero() {
         </div>
 
         {/* H1 */}
-        <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-5">
-          A herança que nenhum
-          <br />
+        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-primary-foreground leading-tight mb-5">
+          A herança que nenhum<br />
           <span className="text-gold">inventário divide.</span>
         </h1>
 
         {/* Subheadline */}
-        <p className="text-lg md:text-xl text-primary-foreground/85 mb-4 leading-relaxed">
-          A dupla cidadania é o presente que um pai deixa para os filhos —
-          e que os filhos deixam para os netos.
+        <p className="text-lg md:text-xl text-primary-foreground/85 mb-4 leading-relaxed max-w-xl">
+          A dupla cidadania é o presente que você deixa para os filhos,
+          passando de geração em geração. Abrirá portas para você ou
+          descendentes que nem imagina — e nunca perde o valor.
         </p>
 
         {/* Urgency */}
@@ -50,7 +50,7 @@ export function Hero() {
         </div>
 
         {/* CTAs */}
-        <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
+        <div className="flex flex-col sm:flex-row gap-3">
           <Button
             variant="gold"
             size="xl"
@@ -60,14 +60,11 @@ export function Hero() {
             Quero deixar essa herança
             <ArrowRight className="w-5 h-5" />
           </Button>
-          <Button variant="outline" size="xl" asChild>
+          <Button variant="outline" size="xl" asChild className="border-white/25 text-white hover:bg-white/10">
             <Link to="/quiz">Descobrir se tenho direito</Link>
           </Button>
         </div>
 
-        <p className="mt-4 text-xs text-primary-foreground/50">
-          Análise gratuita, sem compromisso.
-        </p>
       </div>
     </section>
   );
