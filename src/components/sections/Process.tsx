@@ -175,8 +175,7 @@ export function Process() {
           <Button
             variant="gold"
             size="lg"
-            onClick={() =>
-              window.open(
+            onClick={() => window.open(
                 '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Vi o processo completo e quero iniciar minha análise gratuita.")}',
                 '_blank',
                 'noopener,noreferrer'
