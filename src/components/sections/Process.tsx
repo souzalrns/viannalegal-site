@@ -20,32 +20,32 @@ const stepsPartOne = [
   {
     number: 1,
     icon: MessageCircle,
-    title: 'Histórico Familiar',
-    description: 'Escutamos atentamente seu histórico familiar para estabelecer o vínculo da descendência.',
+    title: 'Você conta a história da família',
+    description: 'Uma conversa simples. Onde nasceu o avô ou o pai, o que a família sabe, o que tem guardado. A partir daí identificamos o caminho certo — e o que falta para o processo.',
   },
   {
     number: 2,
     icon: FileSearch,
-    title: 'Verificação de Registros',
-    description: 'Verificamos se você possui ou conhece o local de registro dos nascimentos e casamentos.',
+    title: 'A gente localiza o que falta',
+    description: 'Certidões em Portugal, documentos antigos, registros paroquiais — buscamos nos arquivos portugueses o que a família não tem em mãos.',
   },
   {
     number: 3,
     icon: AlertCircle,
-    title: 'Identificação de Problemas',
-    description: 'Identificamos eventuais problemas de reconhecimento pela legislação portuguesa.',
+    title: 'Antecipamos os problemas antes que apareçam',
+    description: 'A maioria dos processos atrasam por erros evitáveis. Verificamos cada detalhe antes de protocolar — para entrar na fila do IRN sem diligências.',
   },
   {
     number: 4,
     icon: HelpCircle,
-    title: 'Esclarecimento de Dúvidas',
-    description: 'Esclarecemos todas as suas dúvidas sobre o processo de obtenção da cidadania.',
+    title: 'Todas as suas dúvidas respondidas',
+    description: 'Prazos reais, custos totais, o que esperar em cada etapa. Sem surpresas, sem letra pequena.',
   },
   {
     number: 5,
     icon: FileText,
-    title: 'Proposta de Honorários',
-    description: 'Enviamos a proposta de honorários de forma transparente e detalhada.',
+    title: 'Proposta clara, sem surpresas',
+    description: 'Honorários detalhados, escopo definido, sem custos escondidos. Você decide com informação completa na mão.',
   },
 ];
 
@@ -53,38 +53,32 @@ const stepsPartTwo = [
   {
     number: 6,
     icon: Handshake,
-    title: 'Contratação',
-    description: 'Após a contratação, enviamos a procuração e orientações iniciais.',
+    title: 'Começa o trabalho de verdade',
+    description: 'Procuração assinada, especialista dedicado ao seu caso. Do protocolo até o passaporte na mão — sem você precisar correr atrás.',
   },
   {
     number: 7,
     icon: CheckCircle,
-    title: 'Análise de Certidões',
-    description: 'Realizamos análise detalhada das certidões para garantir autenticidade e conformidade.',
+    title: 'Montamos o processo sem deixar brecha',
+    description: 'Cada certidão verificada, cada apostila conferida, cada prazo controlado. O processo chega ao IRN completo e correto na primeira vez.',
   },
   {
     number: 8,
     icon: FolderOpen,
-    title: 'Montagem do Processo',
-    description: 'Montamos o processo com todos os documentos necessários e recolhemos as taxas exigidas.',
+    title: 'Protocolo e entrada na fila do IRN',
+    description: 'A contagem de tempo começa aqui. A posição na fila é conquistada — e acompanhamos cada movimentação até a aprovação.',
   },
   {
     number: 9,
-    icon: Send,
-    title: 'Distribuição do Processo',
-    description: 'Realizamos a distribuição do processo junto aos órgãos competentes.',
+    icon: Eye,
+    title: 'Monitoramento até a aprovação',
+    description: 'Acompanhamos o processo no sistema do IRN. Se aparecer uma diligência, respondemos no prazo — sem você precisar se preocupar.',
   },
   {
     number: 10,
-    icon: Eye,
-    title: 'Acompanhamento',
-    description: 'Acompanhamos de perto todo o processo até a conclusão do registro.',
-  },
-  {
-    number: 11,
     icon: PartyPopper,
-    title: 'Cidadão Europeu!',
-    description: 'Parabéns! Você se torna oficialmente um cidadão europeu e pode requerer seu passaporte.',
+    title: 'Aprovado. Agora é só buscar o passaporte',
+    description: 'Cidadania aprovada. Orientamos o agendamento no consulado para o Cartão de Cidadão e o passaporte português. A herança está nas suas mãos.',
   },
 ];
 
@@ -172,7 +166,7 @@ export function Process() {
           className="my-12 max-w-2xl mx-auto text-center bg-gold/10 rounded-2xl p-8 border border-gold/20"
         >
           <h3 className="font-display text-xl font-semibold text-foreground mb-2">
-            Até aqui, nenhum custo. Pronto para a próxima etapa?
+            Análise gratuita, sem compromisso. A fila do IRN começa quando você protocola.
           </h3>
           <p className="text-muted-foreground text-sm mb-5">
             As 5 primeiras etapas são gratuitas. Fale agora com um especialista e descubra
@@ -189,7 +183,7 @@ export function Process() {
 )
             }
           >
-            Iniciar minha análise gratuita
+            Começar agora — é gratuito
             <ArrowRight className="w-5 h-5" />
           </Button>
         </motion.div>
