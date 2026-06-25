@@ -97,14 +97,14 @@ function QuizBannerHome() {
           </h2>
           <p className="text-white/70 text-sm mb-8 max-w-lg mx-auto">
             Responda algumas perguntas simples e receba um diagnóstico personalizado —
-            gratuito, sem compromisso, actualizado com a Lei 1/2026.
+            actualizado com a Lei 1/2026.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               to="/quiz"
               className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4 rounded-2xl transition-colors text-base"
             >
-              Fazer o quiz gratuito
+              Descobrir o meu caminho
               <ArrowRight className="w-5 h-5" />
             </Link>
             <a
@@ -185,13 +185,13 @@ function ModalidadesSection() {
 
         <div className="mt-10 text-center">
           <p className="text-muted-foreground text-sm mb-4">
-            Não sabe qual se aplica ao seu caso?
+            Qual é o seu caso?
           </p>
           <Link
             to="/quiz"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-bold px-6 py-3 rounded-xl hover:bg-primary/90 transition-colors"
           >
-            Fazer o quiz e descobrir
+            Descobrir o meu caminho
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
