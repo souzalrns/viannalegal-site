@@ -13,6 +13,13 @@ import { SITE_CONFIG, waUrl } from '@/config/site';
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
+  const { trackArticleView, trackWhatsAppClick } = useAnalytics();
+
+  // Rastrear visualização do artigo
+  useEffect(() => {
+    if (post) trackArticleView(post.slug, post.category);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [post?.slug]);
   
   const postMeta = blogPosts.find(p => p.slug === slug);
   const post = postMeta
