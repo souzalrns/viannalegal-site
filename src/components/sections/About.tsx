@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Shield, Clock, Award, Users, ArrowRight, Heart, GraduationCap, Scale } from 'lucide-react';
+import { ArrowRight, Heart, GraduationCap, Scale, MapPin, FileCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import consultantImage from '@/assets/consultant.jpg';
 import consultantImageWebp from '@/assets/consultant.webp';
@@ -8,24 +8,24 @@ import { useAnalytics } from '@/hooks/useAnalytics';
 
 const credentials = [
   {
-    icon: GraduationCap,
-    title: 'Licenciada pela Universidade de Lisboa',
-    description: 'Com formação especializada em Registos e Notariado pela Universidade Portucalense.',
-  },
-  {
     icon: Scale,
     title: 'Ordem dos Advogados de Portugal',
-    description: 'Inscrição ativa na OA. Actuação em Tribunais Judiciais, Conservatórias e função Notarial.',
+    description: 'Inscrição ativa na OA. Representação de estrangeiros em processos de nacionalidade portuguesa em Tribunais e Conservatórias.',
   },
   {
-    icon: Clock,
-    title: '20+ anos de experiência',
-    description: 'Em Departamentos Jurídicos, revisão e negociação de contratos e gestão de documentação complexa.',
+    icon: GraduationCap,
+    title: 'Universidade de Lisboa + Portucalense',
+    description: 'Licenciada pela Universidade de Lisboa. Formação especializada em Registos e Notariado pela Universidade Portucalense.',
   },
   {
-    icon: Users,
-    title: 'Atendimento dedicado, do início ao fim',
-    description: 'A Kathia acompanha pessoalmente cada processo — não um assistente, não um chatbot.',
+    icon: MapPin,
+    title: 'Porto, Portugal — desde 2016',
+    description: 'Actua presencialmente nas Conservatórias e Tribunais portugueses. Conhece o IRN por dentro — não por descrição.',
+  },
+  {
+    icon: FileCheck,
+    title: '20+ anos · 2.000+ processos',
+    description: 'Nacionalidade portuguesa, escrituras, registos, análise de contratos e representação de investidores estrangeiros em Portugal.',
   },
 ];
 
@@ -50,22 +50,23 @@ export function About() {
                 <source srcSet={consultantImageWebp} type="image/webp" />
                 <img
                   src={consultantImage}
-                  alt="Kathia Vianna — Advogada, Ordem dos Advogados de Portugal"
+                  alt="Kathia Vianna — Advogada, Ordem dos Advogados de Portugal, Porto"
                   className="w-full h-[500px] object-cover"
                   loading="lazy"
                   width={800}
                   height={1000}
                 />
               </picture>
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
-              {/* Nome sobre a foto */}
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
+              {/* Nome e título sobre a foto */}
               <div className="absolute bottom-6 left-6 text-white">
                 <p className="font-display text-2xl font-bold">Kathia Vianna</p>
                 <p className="text-sm text-white/80">Advogada · Ordem dos Advogados de Portugal</p>
+                <p className="text-xs text-white/60 mt-1">Porto, Portugal · desde 2016</p>
               </div>
             </div>
 
-            {/* Floating Card — credencial verificável */}
+            {/* Floating Card */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -93,7 +94,7 @@ export function About() {
             transition={{ duration: 0.8 }}
           >
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
-              Quem está por trás do processo
+              Quem trata do seu processo
             </span>
 
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
@@ -104,18 +105,19 @@ export function About() {
             <p className="text-muted-foreground text-lg mb-4 leading-relaxed">
               Quando um pai obtém a cidadania portuguesa, não está apenas a tratar de um
               documento. Está a abrir uma porta para os filhos estudarem na Europa, trabalharem
-              em qualquer país da UE, viverem onde quiserem — e passarem esse direito para os
-              netos, e os netos para os bisnetos.
+              em qualquer país da UE, viverem onde quiserem — e passarem esse direito
+              para os netos, e os netos para os bisnetos.
             </p>
 
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Ninguém sabe que portas vão aparecer no futuro. Mas quem tem o passaporte
-              vai ter a liberdade de escolher. É esse o valor real da dupla cidadania —
-              não o documento, mas as possibilidades que ele representa para a família.
+              A Kathia Vianna actua presencialmente em Porto, Portugal — nas mesmas
+              Conservatórias e Tribunais onde os processos correm. Conhece o IRN por dentro,
+              antecipa os problemas antes que apareçam e acompanha cada família
+              do primeiro contacto até ao passaporte na mão.
             </p>
 
-            {/* Credenciais reais */}
-            <div className="grid sm:grid-cols-2 gap-6 mb-8">
+            {/* Credenciais */}
+            <div className="grid sm:grid-cols-2 gap-5 mb-8">
               {credentials.map((item, index) => {
                 const Icon = item.icon;
                 return (
@@ -125,13 +127,13 @@ export function About() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 + index * 0.1 }}
-                    className="flex gap-4"
+                    className="flex gap-3"
                   >
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
-                      <Icon className="w-5 h-5 text-primary" />
+                    <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
+                      <Icon className="w-4 h-4 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1 text-sm leading-snug">
+                      <h3 className="font-semibold text-foreground mb-0.5 text-sm leading-snug">
                         {item.title}
                       </h3>
                       <p className="text-xs text-muted-foreground leading-relaxed">
