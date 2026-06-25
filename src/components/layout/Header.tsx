@@ -112,7 +112,7 @@ export function Header() {
       </div>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
+      
         {mobileMenuOpen && (
           <div
             className="lg:hidden bg-card border-t border-border"
@@ -150,7 +150,7 @@ export function Header() {
             </div>
           </div>
         )}
-      </AnimatePresence>
+      
     </header>
   );
 }

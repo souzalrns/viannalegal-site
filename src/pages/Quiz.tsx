@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { Helmet } from 'react-helmet-async';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Header } from '@/components/layout/Header';
 import { SchemaQuiz } from '@/components/seo/SchemaMarkup';
 import { Footer } from '@/components/sections/Footer';
@@ -770,16 +769,16 @@ export default function Quiz() {
                 <span>{progress}%</span>
               </div>
               <div className="w-full bg-muted rounded-full h-1.5">
-                <motion.div
+                <div
                   className="bg-primary h-1.5 rounded-full"
-                  animate={{ width: `${progress}%` }}
+                  style={{ width: `${progress}%` }}
                 />
               </div>
             </div>
           )}
 
           
-            <motion.div
+            <div
               key={currentKey}
             >
 
@@ -1033,7 +1032,7 @@ export default function Quiz() {
                 );
               })()}
 
-            </motion.div>
+            </div>
           
 
           {/* Navegação */}
