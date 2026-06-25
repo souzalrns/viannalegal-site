@@ -9,10 +9,7 @@ import { Contact } from '@/components/sections/Contact';
 import { Footer } from '@/components/sections/Footer';
 import { SchemaHomepage } from '@/components/seo/SchemaMarkup';
 import { Link } from 'react-router-dom';
-import {
-  ArrowRight, Users, Heart, Building, FileText,
-  Search, Sparkles, Clock, CheckCircle
-} from 'lucide-react';
+import { ArrowRight, Sparkles, Clock } from 'lucide-react';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 // ── Modalidades integradas ────────────────────────────────────
