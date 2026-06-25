@@ -7,6 +7,7 @@ import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-rea
 import { motion } from 'framer-motion';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
+import { SchemaArticle, SchemaBreadcrumb } from '@/components/seo/SchemaMarkup';
 import { allBlogPostsContent } from '@/data/allBlogPostsContent';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
@@ -206,7 +207,20 @@ export default function BlogPost() {
       </Helmet>
 
       <div className="min-h-screen bg-background">
-        <Header />
+        <SchemaArticle
+        title={post.title}
+        description={post.excerpt}
+        slug={post.slug}
+        date={post.date}
+        author={post.author}
+        content={post.content}
+      />
+      <SchemaBreadcrumb items={[
+        { name: 'Início', url: 'https://viannalegal.com.br' },
+        { name: 'Blog', url: 'https://viannalegal.com.br/blog' },
+        { name: post.title, url: `https://viannalegal.com.br/blog/${post.slug}` },
+      ]} />
+      <Header />
         
         <main className="pt-24">
           {/* Breadcrumb */}
