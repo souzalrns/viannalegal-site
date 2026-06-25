@@ -205,7 +205,7 @@ export function Contact() {
                     </>
                   ) : (
                     <>
-                      Quero minha análise gratuita
+                      Quero minha análise personalizada
                       <Send className="w-5 h-5" />
                     </>
                   )}
