@@ -13,7 +13,10 @@ import { SITE_CONFIG, waUrl } from '@/config/site';
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
   
-  const post = blogPosts.find(p => p.slug === slug);
+  const postMeta = blogPosts.find(p => p.slug === slug);
+  const post = postMeta
+    ? { ...postMeta, content: allBlogPostsContent[slug ?? ''] || '' }
+    : undefined;
   
   if (!post) {
     return <Navigate to="/blog" replace />;
