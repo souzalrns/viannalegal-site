@@ -7,7 +7,7 @@ import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-rea
 import { motion } from 'framer-motion';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
-import { SchemaArticle, SchemaBreadcrumb } from '@/components/seo/SchemaMarkup';
+import { SchemaArticle, SchemaBreadcrumb, SchemaFAQ } from '@/components/seo/SchemaMarkup';
 import { allBlogPostsContent } from '@/data/allBlogPostsContent';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
@@ -215,6 +215,15 @@ export default function BlogPost() {
         author={post.author}
         content={post.content}
       />
+      {/* FAQPage schema — extrai perguntas frequentes do conteúdo do artigo */}
+      {post.content && (() => {
+        const faqSection = post.content.split('Perguntas frequentes')[1] || '';
+        const pairs = [...faqSection.matchAll(/\*\*([^*\n]{10,}\?)\*\*\s+([^\n*>]{30,})/g)]
+          .map(m => ({ question: m[1].trim(), answer: m[2].trim().slice(0, 400) }))
+          .filter(p => p.answer.length > 20)
+          .slice(0, 6);
+        return pairs.length > 0 ? <SchemaFAQ items={pairs} /> : null;
+      })()}
       <SchemaBreadcrumb items={[
         { name: 'Início', url: 'https://viannalegal.com.br' },
         { name: 'Blog', url: 'https://viannalegal.com.br/blog' },
