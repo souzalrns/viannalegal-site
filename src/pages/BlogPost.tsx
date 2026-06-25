@@ -411,7 +411,35 @@ export default function BlogPost() {
         </main>
 
         <div className="container-width pb-8"><QuizBanner /></div>
-        <Footer />
+        {/* Internal links — SEO e conversão */}
+      <section className="bg-muted/30 py-12">
+        <div className="container-width px-4">
+          <h2 className="font-display text-xl font-bold text-foreground mb-6">
+            Saiba mais sobre cidadania portuguesa
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { label: 'Cidadania para Filhos', href: '/cidadania-portuguesa/filhos-maiores' },
+              { label: 'Cidadania para Netos', href: '/cidadania-portuguesa/netos' },
+              { label: 'Cidadania para Bisnetos', href: '/cidadania-portuguesa/bisnetos' },
+              { label: 'Cidadania por Casamento', href: '/cidadania-portuguesa/conjuges' },
+              { label: 'Pesquisa Genealógica', href: '/busca-documentos' },
+              { label: 'Fazer o Quiz', href: '/quiz' },
+            ].map(link => (
+              <Link
+                key={link.href}
+                to={link.href}
+                className="flex items-center gap-2 p-4 bg-card rounded-xl border border-border hover:border-primary/40 hover:bg-primary/5 transition-all text-sm font-medium text-foreground group"
+              >
+                <span className="w-2 h-2 rounded-full bg-gold flex-shrink-0" />
+                {link.label}
+                <span className="ml-auto text-muted-foreground group-hover:text-primary transition-colors">→</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+      <Footer />
       </div>
     </>
   );
