@@ -16,7 +16,7 @@ const services = [
   },
   {
     title: 'Cidadania Portuguesa — Filhos Menores',
-    description: 'Processo simplificado para filhos menores de cidadãos portugueses.',
+    description: 'Processo célere para filhos menores de cidadãos portugueses.',
     icon: Heart,
     duration: '3 a 5 meses',
     urgent: false,
