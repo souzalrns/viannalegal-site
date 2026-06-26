@@ -11,8 +11,8 @@ const trustMarkers = [
 
 export function Hero() {
   return (
-    <section className="relative min-h-[60vh] md:min-h-[70vh] flex items-center overflow-hidden bg-primary">
-      <div className="relative container-width pt-24 pb-12 px-4 mx-auto max-w-3xl">
+    <section className="relative flex items-center overflow-hidden bg-primary">
+      <div className="relative container-width pt-32 pb-20 md:pt-36 md:pb-24 px-4 mx-auto max-w-3xl">
 
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-gold/20 border border-gold/30 px-4 py-2 rounded-full text-gold mb-6">
