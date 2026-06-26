@@ -751,7 +751,7 @@ export default function Quiz() {
           {/* Cabeçalho */}
           <div className="text-center mb-8">
             <span className="inline-block bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3">
-              Quiz gratuito
+              Fazer o quiz
             </span>
             <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
               Você tem direito à cidadania portuguesa?
@@ -953,7 +953,7 @@ export default function Quiz() {
                       {!sent ? (
                         <>
                           <h3 className="text-lg font-bold mb-1">
-                            Quer uma análise gratuita do seu caso?
+                            Quer uma avaliação do seu caso?
                           </h3>
                           <p className="text-primary-foreground/80 text-sm mb-5">
                             A Kathia Vianna analisa pessoalmente o seu perfil e responde em até 24 horas.
@@ -965,7 +965,7 @@ export default function Quiz() {
                               className="w-full bg-white text-primary hover:bg-white/90 font-bold"
                             >
                               <MessageCircle className="w-4 h-4 mr-2" />
-                              Quero análise gratuita por e-mail
+                              Quero avaliação por e-mail
                             </Button>
                             <a
                               href="https://wa.me/351913134260?text=Olá%20Kathia%2C%20fiz%20o%20quiz%20no%20site%20e%20gostaria%20de%20uma%20análise%20do%20meu%20caso."
