@@ -3629,7 +3629,7 @@ A aquisição de cidadania ocorre quando alguém que não é português — e n�
 
 Quem pode adquirir cidadania portuguesa:
 
-- **Cônjuges e unidos de facto de portugueses** — após 3 anos de casamento civil ou união de facto reconhecida judicialmente
+- **Cônjuges e unidos de facto de portugueses** — após 3 anos de casamento civil ou união de facto reconhecida judicialmente (sujeito a verificação de vínculo efetivo, salvo casamento/UF com mais de 6 anos, filhos comuns com nacionalidade portuguesa ou residência legal em Portugal)
 - **Residentes legais em Portugal** — após 7 anos de residência legal para brasileiros e demais cidadãos da CPLP, ou 10 anos para outras nationalidades, conforme a Lei Orgânica n.º 1/2026
 - **Bisnetos de portugueses** — com 5 anos de residência legal em Portugal, nova via criada pelo Art. 6.º n.º 8 da Lei 1/2026
 
@@ -4555,7 +4555,7 @@ O aumento foi menor para CPLP (7 anos) do que para outras nationalidades (10 ano
 
 **Via de descendência (filhos e netos):** Não depende da nationalidade do requerente. Um angolano neto de português tem o mesmo processo que um brasileiro neto de português. O que importa é a cadeia de filiação — não o passaporte.
 
-**Via por casamento:** Igual para todos — 3 anos de casamento, independentemente da nationalidade.
+**Via por casamento:** Igual para todos — 3 anos de casamento, independentemente da nacionalidade. O pedido está sujeito a verificação de vínculo efetivo com a comunidade portuguesa, salvo quando o casamento ou UF tiver mais de 6 anos, existirem filhos comuns portugueses ou o cônjuge residir legalmente em Portugal.
 
 ## Brasileiros: a situação específica
 
@@ -5370,7 +5370,7 @@ Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a
 
 ## Via 3: Aquisição por casamento ou união de facto
 
-Cônjuge de cidadão português, após 3 anos de casamento civil ou união de facto judicialmente reconhecida. Pode ser feito do Brasil. Prazo: 50 a 54 meses (mais 2 a 3 meses de transcrição prévia).
+Cônjuge de cidadão português, após 3 anos de casamento civil ou união de facto judicialmente reconhecida (sujeito a verificação de vínculo efetivo, salvo casamento/UF com mais de 6 anos, filhos comuns portugueses ou residência legal em Portugal). Pode ser feito do Brasil. Prazo: 50 a 54 meses (mais 2 a 3 meses de transcrição prévia).
 
 ## Via 4: Naturalização por residência em Portugal
 
@@ -6576,7 +6576,7 @@ Existe recurso. O sucesso depende do motivo. Veja [por que processos são indefe
 
 **Filhos menores:** 3 a 5 meses de análise. Vale a pena protocolar urgentemente antes dos 18 anos.
 **Filhos maiores:** Processo individual, 4 a 6 meses.
-**Cônjuge:** Pode pedir cidadania por casamento após 3 anos de casamento com você (após você ser cidadão português).
+**Cônjuge:** Pode pedir cidadania por casamento após 3 anos de casamento com você (após você ser cidadão português). O pedido está sujeito a verificação de vínculo efetivo, salvo casamento com mais de 6 anos, filhos comuns portugueses ou residência legal em Portugal.
 
 ## "Por onde começo?"
 
