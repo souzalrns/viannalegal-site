@@ -109,7 +109,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       'Se um dos pais é cidadão português, o filho menor de idade tem direito automático à nacionalidade — sem exigência de vínculo efetivo. É o processo mais rápido entre todos os caminhos de descendência.',
     heroDuration: '3 a 5 meses',
     intro: [
-      'Entre todos os processos de cidadania por descendência, o de filhos menores é o mais direto. A lei portuguesa reconhece que quem nasce filho de português é português desde o nascimento — não é necessário provar vínculo cultural ou afetivo com Portugal, como ocorre no caso dos netos.',
+      'Entre todos os processos de cidadania por descendência, o de filhos menores é o mais célere. A lei portuguesa reconhece que quem nasce filho de português é português desde o nascimento — não é necessário provar vínculo cultural ou afetivo com Portugal, como ocorre no caso dos netos.',
       'Isso significa que, sendo confirmada a filiação com as certidões corretas, o processo costuma seguir um trâmite relativamente previsível, com foco em garantir que toda a documentação esteja completa e correta desde a primeira submissão.',
       'O ponto de atenção mais comum nesse tipo de processo não é o direito em si — que já está garantido por lei — e sim detalhes formais: tradução, apostilamento e prazo de validade das certidões brasileiras.',
     ],
