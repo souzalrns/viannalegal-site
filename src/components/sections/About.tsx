@@ -43,7 +43,7 @@ export function About() {
                 <source srcSet={consultantImageWebp} type="image/webp" />
                 <img
                   src={consultantImage}
-                  alt="Kathia Vianna, advogada especialista em cidadania portuguesa para brasileiros, inscrita na Ordem dos Advogados de Portugal, Porto"
+                  alt="Kathia Vianna, advogada especialista em cidadania portuguesa, inscrita na Ordem dos Advogados de Portugal"
                   className="w-full h-[580px] object-cover"
                   loading="lazy"
                   width={800}
