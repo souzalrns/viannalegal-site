@@ -83,8 +83,8 @@ const modalidades = [
 
 function QuizBannerHome() {
   return (
-    <section className="bg-primary py-12 px-4">
-      <div className="max-w-3xl mx-auto">
+    <section className="bg-primary section-padding">
+      <div className="container-width">
         <div className="bg-white/10 border border-white/20 rounded-3xl p-8 md:p-10 text-center">
           <div className="w-14 h-14 rounded-2xl bg-gold/20 flex items-center justify-center mx-auto mb-5">
             <Sparkles className="w-7 h-7 text-gold" />
