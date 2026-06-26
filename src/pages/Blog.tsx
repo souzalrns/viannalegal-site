@@ -228,12 +228,12 @@ export default function Blog() {
                   Pronto para iniciar seu processo de cidadania?
                 </h3>
                 <p className="text-muted-foreground mb-6 max-w-xl mx-auto">
-                  Nossa equipe especializada pode analisar seu caso gratuitamente e indicar 
+                  Nossa equipe especializada pode avaliar o seu caso e indicar 
                   o melhor caminho para sua cidadania portuguesa.
                 </p>
                 <Button variant="gold" size="lg" asChild>
                   <a href={SITE_CONFIG.whatsapp.url} target="_blank" rel="noopener noreferrer">
-                    Agendar análise gratuita
+                    Avaliar o meu caso
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </a>
                 </Button>
