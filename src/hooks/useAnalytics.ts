@@ -107,7 +107,7 @@ export function useAnalytics() {
 
   const trackPageView = (path: string, title: string) => {
     if (!isGA4()) return;
-    window.gtag!('config', 'G-PLACEHOLDER', {
+    window.gtag!('config', 'G-HLQ0ZPK4BP', {
       page_path: path,
       page_title: title,
     });
