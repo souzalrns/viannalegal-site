@@ -35,7 +35,7 @@ export const SITE_CONFIG = {
   site: {
     name:    'ViannaLegal',
     url:     'https://viannalegal.com.br',
-    tagline: 'Cidadania Portuguesa para Brasileiros',
+    tagline: 'Cidadania Portuguesa | Assessoria Jurídica em Portugal',
   },
 } as const;
 
