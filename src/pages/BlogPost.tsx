@@ -316,13 +316,13 @@ export default function BlogPost() {
                   Precisa de ajuda com seu processo?
                 </h3>
                 <p className="text-muted-foreground mb-6">
-                  A ViannaLegal oferece análise gratuita do seu caso. Nossa equipe especializada 
+                  A ViannaLegal avalia o seu caso com um especialista dedicado. 
                   pode orientar você em cada etapa do processo de cidadania portuguesa.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button variant="gold" size="lg" asChild>
                     <a href={SITE_CONFIG.whatsapp.url} target="_blank" rel="noopener noreferrer">
-                      Agendar análise gratuita
+                      Avaliar o meu caso
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </a>
                   </Button>
