@@ -13,7 +13,7 @@ const trustMarkers = [
 export function Hero() {
   return (
     <section className="relative flex items-center overflow-hidden bg-primary">
-      <div className="w-full max-w-7xl mx-auto px-8 md:px-16 pt-32 pb-20 md:pt-36 md:pb-24">
+      <div className="w-full max-w-7xl mx-auto pl-4 md:pl-8 pr-8 md:pr-16 pt-32 pb-20 md:pt-36 md:pb-24">
         <div className="flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-0">
 
           {/* Conteúdo — 58% */}
@@ -86,7 +86,7 @@ export function Hero() {
             <img
               src={kvLogo}
               alt="Kathia Vianna — Advogada Especialista em Nacionalidade Portuguesa"
-              className="w-full max-w-md xl:max-w-lg opacity-90"
+              className="w-full max-w-xl xl:max-w-2xl opacity-90"
               loading="eager"
             />
           </div>
