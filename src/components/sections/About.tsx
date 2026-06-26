@@ -18,7 +18,7 @@ const credentials = [
   },
   {
     icon: MapPin,
-    title: 'Porto, Portugal — desde 2016',
+    title: 'Portugal — desde 2016',
     description: 'Actua presencialmente em Portugal, em Conservatórias e Tribunais. Conhece o IRN por dentro — não por descrição.',
   },
   {
