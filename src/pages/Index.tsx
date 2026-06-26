@@ -204,7 +204,7 @@ const Index = () => (
   <>
     <SchemaHomepage />
     <Helmet>
-      <title>ViannaLegal — Cidadania Portuguesa para Brasileiros</title>
+      <title>ViannaLegal — Cidadania Portuguesa | Assessoria Jurídica</title>
       <meta name="description" content="Assessoria especializada em cidadania portuguesa. Filhos, netos e bisnetos de portugueses. Mais de 2.000 famílias atendidas. Processo 100% online." />
     </Helmet>
     <Header />
