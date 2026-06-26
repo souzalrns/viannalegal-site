@@ -1,4 +1,4 @@
-import { ArrowRight, Heart, GraduationCap, Scale, MapPin, FileCheck } from 'lucide-react';
+import { ArrowRight, GraduationCap, Scale, MapPin, FileCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import consultantImage from '@/assets/consultant.jpg';
 import consultantImageWebp from '@/assets/consultant.webp';
@@ -9,7 +9,7 @@ const credentials = [
   {
     icon: Scale,
     title: 'Ordem dos Advogados de Portugal',
-    description: 'Inscrição ativa na OA. Representação de estrangeiros em processos de nacionalidade portuguesa em Tribunais e Conservatórias.',
+    description: 'Inscrição activa na OA. Representação de estrangeiros em processos de nacionalidade portuguesa em Tribunais e Conservatórias.',
   },
   {
     icon: GraduationCap,
@@ -19,11 +19,11 @@ const credentials = [
   {
     icon: MapPin,
     title: 'Porto, Portugal — desde 2016',
-    description: 'Actua presencialmente nas Conservatórias e Tribunais portugueses. Conhece o IRN por dentro — não por descrição.',
+    description: 'Actua presencialmente em Portugal, em Conservatórias e Tribunais. Conhece o IRN por dentro — não por descrição.',
   },
   {
     icon: FileCheck,
-    title: '10 anos em Portugal · 2.000+ processos',
+    title: '10 anos · 2.000+ processos',
     description: 'Especialista em nacionalidade portuguesa, escrituras, registos, análise de contratos e representação de investidores estrangeiros em Portugal.',
   },
 ];
@@ -37,9 +37,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
           {/* Image Side */}
-          <div
-            className="relative"
-          >
+          <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-elevated">
               <picture>
                 <source srcSet={consultantImageWebp} type="image/webp" />
@@ -52,34 +50,17 @@ export function About() {
                   height={1000}
                 />
               </picture>
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
-              {/* Nome e título sobre a foto */}
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/70 to-transparent" />
               <div className="absolute bottom-6 left-6 text-white">
                 <p className="font-display text-2xl font-bold">Kathia Vianna</p>
                 <p className="text-sm text-white/80">Advogada · Ordem dos Advogados de Portugal</p>
                 <p className="text-xs text-white/60 mt-1">Porto, Portugal · 10 anos de actuação presencial</p>
               </div>
             </div>
-
-            {/* Floating Card */}
-            <div
-              className="absolute -top-6 -right-4 bg-card rounded-2xl p-4 shadow-elevated border border-border max-w-[200px]"
-            >
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-gold" />
-                </div>
-                <div>
-                  <div className="font-display text-2xl font-bold text-foreground">2.000+</div>
-                  <div className="text-sm text-muted-foreground">famílias. Uma herança cada.</div>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Content Side */}
-          <div
-          >
+          <div>
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
               Quem trata do seu processo
             </span>
@@ -90,20 +71,20 @@ export function About() {
             </h2>
 
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              A Kathia Vianna actua presencialmente em Porto, Portugal — nas mesmas
-              Conservatórias e Tribunais onde os processos correm. Conhece o IRN por dentro,
+              A Kathia Vianna actua presencialmente em Portugal, em Conservatórias e
+              Tribunais onde os processos correm. Conhece o IRN por dentro,
               antecipa os problemas antes que apareçam e acompanha cada família
-              do primeiro contacto até ao passaporte na mão.
+              do primeiro contacto até à certidão de nascimento portuguesa.
             </p>
 
-            {/* Credenciais */}
-            <div className="grid sm:grid-cols-2 gap-5 mb-8">
-              {credentials.map((item, index) => {
+            {/* Credenciais em cards */}
+            <div className="grid sm:grid-cols-2 gap-4 mb-8">
+              {credentials.map((item) => {
                 const Icon = item.icon;
                 return (
                   <div
                     key={item.title}
-                    className="flex gap-3"
+                    className="flex gap-3 p-4 rounded-xl border border-border bg-card hover:border-primary/30 transition-colors"
                   >
                     <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
                       <Icon className="w-4 h-4 text-primary" />
