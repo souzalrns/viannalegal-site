@@ -158,7 +158,7 @@ export function Testimonials() {
         >
           <div className="flex items-center gap-3 bg-muted/50 px-4 py-4 rounded-xl">
             <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center shrink-0">
-              <span className="text-gold font-bold text-lg">98%</span>
+              <span className="text-gold font-bold text-lg">99,99%</span>
             </div>
             <div className="text-sm">
               <div className="font-semibold text-foreground">Taxa de Aprovação</div>
