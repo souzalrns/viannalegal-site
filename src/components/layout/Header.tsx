@@ -22,7 +22,7 @@ const navItems: NavItem[] = [
 ];
 
 const WHATSAPP_CTA_URL =
-  '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Gostaria de uma análise gratuita sobre cidadania portuguesa.")}';
+  '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Quero avaliar o meu caso para cidadania portuguesa.")}';
 
 export function Header() {
   const [isScrolled, setIsScrolled]       = useState(false);
@@ -91,7 +91,7 @@ export function Header() {
               <span>Já sou cliente</span>
             </a>
             <Button variant={isDark ? 'gold' : 'heroOutline'} size="sm" onClick={openWhatsApp}>
-              Análise Gratuita
+              Avaliar o meu caso
             </Button>
           </div>
 
@@ -135,7 +135,7 @@ export function Header() {
               })}
               <div className="pt-4 border-t border-border flex flex-col gap-3">
                 <Button variant="gold" className="w-full" onClick={openWhatsApp}>
-                  Análise Gratuita
+                  Avaliar o meu caso
                 </Button>
                 <a
                   href={SITE_CONFIG.whatsapp.url}
