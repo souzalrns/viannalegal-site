@@ -325,7 +325,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       {
         question: 'O prazo de residência realmente subiu para 7 anos?',
         answer:
-          'Sim, para brasileiros e demais cidadãos da CPLP, a Lei Orgânica 1/2026 (em vigor desde 18/5/2026) elevou o prazo de 5 para 7 anos. Quem já tinha processo formalmente pendente antes dessa data segue a regra anterior de 5 anos.',
+          'Sim, para brasileiros e demais cidadãos da CPLP, a <a href="https://dre.pt" target="_blank" rel="noopener noreferrer">Lei Orgânica 1/2026</a> (em vigor desde 18/5/2026) elevou o prazo de 5 para 7 anos. Quem já tinha processo formalmente pendente antes dessa data segue a regra anterior de 5 anos.',
       },
       {
         question: 'Posso solicitar a naturalização enquanto ainda tenho outro processo de cidadania em andamento (ex: por descendência)?',
@@ -347,7 +347,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       'Até maio de 2026, bisnetos de portugueses só conseguiam a cidadania de forma sequencial. A Lei Orgânica 1/2026 abriu uma via direta de atribuição — veja o que isso muda na prática.',
     heroDuration: 'A confirmar conforme regulamentação',
     intro: [
-      'Esta é uma das mudanças mais relevantes — e menos divulgadas — da Lei Orgânica n.º 1/2026, em vigor desde 18 de maio de 2026: bisnetos de portugueses passaram a ter via própria de atribuição da nacionalidade, mediante prova de vínculo efetivo com a comunidade portuguesa. Antes dessa lei, o caminho era sequencial — o bisneto só conseguia a cidadania depois que o próprio neto (pai ou mãe do bisneto) já tivesse formalizado a nacionalidade portuguesa.',
+      'Esta é uma das mudanças mais relevantes — e menos divulgadas — da <a href="https://dre.pt" target="_blank" rel="noopener noreferrer">Lei Orgânica n.º 1/2026</a>, em vigor desde 18 de maio de 2026: bisnetos de portugueses passaram a ter via própria de atribuição da nacionalidade, mediante prova de vínculo efetivo com a comunidade portuguesa. Antes dessa lei, o caminho era sequencial — o bisneto só conseguia a cidadania depois que o próprio neto (pai ou mãe do bisneto) já tivesse formalizado a nacionalidade portuguesa.',
       'Como a regulamentação prática dessa via ainda está em fase inicial de aplicação pelas conservatórias, os prazos e o nível exato de exigência documental para bisnetos podem ser ajustados nos próximos meses. Recomendamos uma análise atualizada do seu caso específico antes de presumir qualquer prazo.',
       'Na prática, isso abre uma porta para milhares de famílias brasileiras que, até então, ficavam de fora por não terem um neto com processo já concluído.',
     ],
