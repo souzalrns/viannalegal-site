@@ -18,9 +18,9 @@ const services = [
   },
   {
     id: 'filhos-menores', pageSlug: 'filhos-menores',
-    title: 'Cidadania para Filhos Menores', subtitle: 'Processo simplificado para menores de 18 anos',
+    title: 'Cidadania para Filhos Menores', subtitle: 'Processo célere para menores de 18 anos',
     duration: '3 a 5 meses', icon: Heart,
-    description: 'Processo mais célere para filhos menores de idade de cidadãos portugueses. Trâmite simplificado, sem exigência de vínculo efetivo.',
+    description: 'Processo mais célere para filhos menores de idade de cidadãos portugueses. Trâmite próprio para menores, sem exigência de vínculo efetivo.',
     requirements: ['Certidão de nascimento do menor', 'Certidão de nascimento do pai/mãe português', 'Documentos de identificação dos pais', 'Autorização de ambos os genitores'],
   },
   {
