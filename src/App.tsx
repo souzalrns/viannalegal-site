@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import { lazy, Suspense } from "react";
-import Index from "./pages/Index";
+const Index = lazy(() => import("./pages/Index"));
 
 const CidadaniaPortuguesa = lazy(() => import("./pages/CidadaniaPortuguesa"));
 const BuscaDocumentos     = lazy(() => import("./pages/BuscaDocumentos"));
