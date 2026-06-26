@@ -66,7 +66,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Procuração para a equipe jurídica', note: 'Modelo fornecido por nós, reconhecida em cartório.' },
     ],
     timeline: [
-      { stage: 'Análise gratuita e montagem da estratégia de vínculo efetivo', duration: '15-30 dias' },
+      { stage: 'Análise inicial e montagem da estratégia de vínculo efetivo', duration: '15-30 dias' },
       { stage: 'Localização e regularização de certidões', duration: '1-4 meses (varia conforme arquivo)' },
       { stage: 'Montagem e distribuição do processo na conservatória', duration: '30-60 dias' },
       { stage: 'Análise pelo IRN (Instituto dos Registos e do Notariado)', duration: '41 a 46 meses (maiores) / 2 a 4 meses (menores)' },
@@ -92,7 +92,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       {
         question: 'Posso iniciar o processo mesmo sem nunca ter visitado Portugal?',
         answer:
-          'Sim, é possível, mas a ausência de visitas exige reforçar outros elementos de vínculo efetivo (participação em comunidades, certificados de idioma, manutenção de laços familiares). Avaliamos gratuitamente quais provas fazem sentido reunir no seu caso específico antes de dar entrada no processo.',
+          'Sim, é possível, mas a ausência de visitas exige reforçar outros elementos de vínculo efetivo (participação em comunidades, certificados de idioma, manutenção de laços familiares). Avaliamos quais provas fazem sentido reunir no seu caso específico antes de dar entrada no processo.',
       },
     ],
     relatedServices: ['filhos-menores', 'transcricao-casamento'],
@@ -127,7 +127,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Procuração assinada pelos responsáveis legais', note: 'Reconhecida em cartório.' },
     ],
     timeline: [
-      { stage: 'Análise gratuita e checklist de documentos', duration: '7-15 dias' },
+      { stage: 'Análise inicial e checklist de documentos', duration: '7-15 dias' },
       { stage: 'Regularização e apostilamento de certidões', duration: '30-60 dias' },
       { stage: 'Distribuição do processo na conservatória competente', duration: '15-30 dias' },
       { stage: 'Análise e registo pelo IRN', duration: '2 a 4 meses' },
@@ -186,7 +186,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Procuração para a equipe jurídica', note: 'Reconhecida em cartório.' },
     ],
     timeline: [
-      { stage: 'Análise gratuita e checklist de documentos', duration: '7-15 dias' },
+      { stage: 'Análise inicial e checklist de documentos', duration: '7-15 dias' },
       { stage: 'Regularização e apostilamento de certidões', duration: '30-60 dias' },
       { stage: 'Distribuição do processo na conservatória ou consulado', duration: '15-30 dias' },
       { stage: 'Análise e registo pelo IRN', duration: '50 a 56 meses' },
@@ -205,7 +205,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       {
         question: 'O processo de filho maior é mais caro que o de menor de idade?',
         answer:
-          'O custo varia conforme a complexidade documental de cada família, não pela idade do requerente. Fazemos uma análise gratuita para apresentar um orçamento específico para o seu caso.',
+          'O custo varia conforme a complexidade documental de cada família, não pela idade do requerente. Apresentamos um orçamento específico para o seu caso.',
       },
       {
         question: 'Posso incluir meus próprios filhos no mesmo processo?',
@@ -246,7 +246,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Procuração para a equipe jurídica', note: 'Reconhecida em cartório por ambas as partes, quando aplicável.' },
     ],
     timeline: [
-      { stage: 'Análise gratuita e verificação do tempo de casamento', duration: '15-30 dias' },
+      { stage: 'Análise inicial e verificação do tempo de casamento', duration: '15-30 dias' },
       { stage: 'Transcrição do casamento (se ainda não feita)', duration: '1-4 meses' },
       { stage: 'Montagem e distribuição do processo de cidadania', duration: '30-60 dias' },
       { stage: 'Análise pelo IRN', duration: '50 a 54 meses' },
@@ -306,7 +306,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Comprovativo de meios de subsistência', note: 'Conforme exigido pelo IRN.' },
     ],
     timeline: [
-      { stage: 'Análise gratuita do tempo de residência e elegibilidade', duration: '15-30 dias' },
+      { stage: 'Análise inicial do tempo de residência e elegibilidade', duration: '15-30 dias' },
       { stage: 'Reunião e regularização de documentos e certificados', duration: '1-3 meses' },
       { stage: 'Submissão do processo ao IRN', duration: '30 dias' },
       { stage: 'Análise e decisão', duration: '12-24 meses' },
@@ -320,7 +320,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       {
         question: 'Brasileiro que já fala português precisa mesmo de certificado de idioma?',
         answer:
-          'Nacionais de países de língua oficial portuguesa têm presunção de cumprimento do requisito de idioma, salvo se a falta de domínio for evidenciada de forma manifesta. Mesmo assim, avaliamos a documentação específica do seu caso na análise gratuita inicial.',
+          'Nacionais de países de língua oficial portuguesa têm presunção de cumprimento do requisito de idioma, salvo se a falta de domínio for evidenciada de forma manifesta. Mesmo assim, avaliamos a documentação específica do seu caso na análise inicial.',
       },
       {
         question: 'O prazo de residência realmente subiu para 7 anos?',
@@ -366,7 +366,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Procuração para a equipe jurídica', note: 'Reconhecida em cartório.' },
     ],
     timeline: [
-      { stage: 'Análise gratuita da cadeia de filiação e estratégia de vínculo efetivo', duration: '15-30 dias' },
+      { stage: 'Análise inicial da cadeia de filiação e estratégia de vínculo efetivo', duration: '15-30 dias' },
       { stage: 'Localização de certidões do bisavô/avó (frequentemente pré-1911)', duration: '2-6 meses' },
       { stage: 'Montagem e distribuição do processo', duration: '30-60 dias' },
       { stage: 'Análise pelo IRN', duration: 'Prazo ainda em consolidação pelas conservatórias' },
@@ -425,7 +425,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Procuração para a equipe jurídica', note: 'Reconhecida em cartório.' },
     ],
     timeline: [
-      { stage: 'Análise gratuita e checklist de documentos', duration: '7-15 dias' },
+      { stage: 'Análise inicial e checklist de documentos', duration: '7-15 dias' },
       { stage: 'Apostilamento e regularização da certidão', duration: '15-30 dias' },
       { stage: 'Submissão à conservatória portuguesa', duration: '15-30 dias' },
       { stage: 'Confirmação do registro', duration: '30-60 dias' },
