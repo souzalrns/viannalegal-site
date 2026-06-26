@@ -485,7 +485,7 @@ const NODES: Record<string, Node> = {
       'Certidão de nascimento do bisavô/bisavó em Portugal (em inteiro teor)',
       'Certidão de nascimento do avô/avó e do pai/mãe',
       'Certidão de nascimento do requerente (apostilada)',
-      'Prova de residência legal em Portugal (5+ anos)',
+      'Prova de residência legal em Portugal (mínimo 5 anos)',
       'Autorização de residência válida',
       'Certidão criminal (Brasil e Portugal)',
     ],
