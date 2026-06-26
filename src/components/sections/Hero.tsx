@@ -16,39 +16,50 @@ export function Hero() {
       <div className="w-full max-w-7xl mx-auto px-8 md:px-16 pt-32 pb-20 md:pt-36 md:pb-24">
         <div className="flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-0">
 
-          {/* Conteúdo — 60% */}
-          <div className="flex-1 lg:pr-16">
+          {/* Conteúdo — 58% */}
+          <div className="flex-1 lg:pr-12">
+
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-gold/20 border border-gold/30 px-4 py-2 rounded-full text-gold mb-6">
+            <div className="inline-flex items-center gap-2 bg-gold/20 border border-gold/30 px-4 py-2 rounded-full text-gold mb-5">
               <Sparkles className="w-4 h-4" />
               <span className="text-sm font-medium">Atualizado com a Lei Orgânica 1/2026</span>
             </div>
 
+            {/* ViannaLegal — nome em destaque como na OG image */}
+            <p className="font-display text-2xl font-bold mb-1">
+              <span className="text-primary-foreground">Vianna</span><span className="text-gold">Legal</span>
+            </p>
+
+            {/* Tagline dourada */}
+            <p className="text-gold/80 italic font-display text-lg mb-4">
+              Cidadania Portuguesa — A herança que nenhum inventário divide.
+            </p>
+
             {/* H1 */}
-            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6">
+            <h1 className="font-display text-5xl md:text-6xl font-bold text-primary-foreground leading-tight mb-5">
               A herança que nenhum<br />
               <span className="text-gold">inventário divide.</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg md:text-xl text-primary-foreground/85 mb-4 leading-relaxed">
+            <p className="text-base md:text-lg text-primary-foreground/75 mb-4 leading-relaxed">
               A dupla cidadania é o presente que você deixa para os filhos,
-              passando de geração em geração. Abrirá portas para você ou
-              descendentes que nem imagina — e nunca perde o valor.
+              passando de geração em geração — e nunca perde o valor.
             </p>
 
             {/* Urgency */}
-            <div className="flex items-center gap-2 text-gold/90 text-sm font-medium mb-8">
-              <Clock className="w-4 h-4 shrink-0" />
-              <span>A fila do IRN não para. <strong className="text-gold">Quem entra hoje, sai na frente.</strong></span>
+            <div className="flex items-center gap-2 text-sm font-medium mb-7">
+              <Clock className="w-4 h-4 text-gold shrink-0" />
+              <span className="text-primary-foreground/70">A fila do IRN não para.{' '}</span>
+              <strong className="text-gold">Quem entra hoje, sai na frente.</strong>
             </div>
 
-            {/* Trust markers */}
-            <div className="flex flex-wrap gap-x-8 gap-y-2 mb-10">
+            {/* Trust markers — dourado */}
+            <div className="flex flex-wrap gap-x-6 gap-y-2 mb-9">
               {trustMarkers.map((item) => (
-                <div key={item} className="flex items-center gap-2 text-primary-foreground/90">
+                <div key={item} className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-gold shrink-0" />
-                  <span className="text-sm">{item}</span>
+                  <span className="text-sm text-primary-foreground/80">{item}</span>
                 </div>
               ))}
             </div>
@@ -70,12 +81,12 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Logo KV — 40%, só desktop */}
-          <div className="hidden lg:flex items-center justify-center lg:w-[40%] shrink-0">
+          {/* Logo KV — 42%, só desktop */}
+          <div className="hidden lg:flex items-center justify-center lg:w-[42%] shrink-0">
             <img
               src={kvLogo}
               alt="Kathia Vianna — Advogada Especialista em Nacionalidade Portuguesa"
-              className="w-full max-w-sm xl:max-w-md opacity-90"
+              className="w-full max-w-md xl:max-w-lg opacity-90"
               loading="eager"
             />
           </div>
