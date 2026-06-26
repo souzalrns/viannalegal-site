@@ -75,11 +75,10 @@ export function Hero() {
             <img
               src={kvLogo}
               alt="Kathia Vianna — Advogada Especialista em Nacionalidade Portuguesa"
-              className="w-72 xl:w-80 opacity-90 drop-shadow-lg"
+              className="w-96 xl:w-[420px] opacity-90 drop-shadow-lg"
               loading="eager"
             />
-            <p className="text-gold/70 text-xs tracking-[0.3em] uppercase mt-4">Kathia Vianna</p>
-            <p className="text-primary-foreground/50 text-xs tracking-wider mt-1">Advogada Especialista · Nacionalidade Portuguesa</p>
+
           </div>
 
         </div>
