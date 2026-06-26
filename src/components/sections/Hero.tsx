@@ -12,7 +12,7 @@ const trustMarkers = [
 export function Hero() {
   return (
     <section className="relative flex items-center overflow-hidden bg-primary">
-      <div className="relative container-width pt-32 pb-20 md:pt-36 md:pb-24 px-4 mx-auto max-w-3xl">
+      <div className="relative container-width pt-32 pb-20 md:pt-36 md:pb-24 px-6 md:px-12 lg:px-20 mx-auto">
 
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-gold/20 border border-gold/30 px-4 py-2 rounded-full text-gold mb-6">
@@ -21,7 +21,7 @@ export function Hero() {
         </div>
 
         {/* H1 */}
-        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-primary-foreground leading-tight mb-5">
+        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-primary-foreground leading-tight mb-5 max-w-2xl">
           A herança que nenhum<br />
           <span className="text-gold">inventário divide.</span>
         </h1>
