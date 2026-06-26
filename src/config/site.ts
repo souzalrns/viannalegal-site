@@ -13,12 +13,12 @@ export const SITE_CONFIG = {
 
   // Mensagens padrão WhatsApp (pré-preenchidas)
   whatsappMessages: {
-    default:        'Olá! Vim pelo site e gostaria de uma análise gratuita sobre cidadania portuguesa.',
+    default:        'Olá! Vim pelo site e quero avaliar o meu caso para cidadania portuguesa.',
     quiz:           'Olá Kathia, fiz o quiz no site e gostaria de uma análise do meu caso.',
-    contact:        'Olá! Vim pelo site e quero minha análise gratuita.',
+    contact:        'Olá! Vim pelo site e quero avaliar o meu caso para cidadania portuguesa.',
     services:       'Olá! Quero saber qual o melhor caminho de cidadania para o meu caso.',
     benefits:       'Olá! Quero entender quais vantagens da cidadania portuguesa se aplicam ao meu caso.',
-    process:        'Olá! Vi o processo completo e quero iniciar minha análise gratuita.',
+    process:        'Olá! Vi o processo completo e quero avaliar o meu caso para cidadania portuguesa.',
     about:          'Olá! Quero entender como vocês podem acelerar meu processo.',
     faq:            'Olá! Tenho uma dúvida sobre cidadania portuguesa que não encontrei no site.',
     documents:      'Olá! Preciso de ajuda com busca de documentos para cidadania portuguesa.',
