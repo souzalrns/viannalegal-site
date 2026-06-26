@@ -164,7 +164,7 @@ export function Process() {
             variant="gold"
             size="lg"
             onClick={() => window.open(
-                '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Vi o processo completo e quero iniciar minha análise gratuita.")}',
+                '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Vi o processo completo e quero avaliar o meu caso para cidadania portuguesa.")}',
                 '_blank',
                 'noopener,noreferrer'
 )
