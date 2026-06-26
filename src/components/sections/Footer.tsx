@@ -57,7 +57,7 @@ export function Footer() {
               Pronto para conquistar sua cidadania europeia?
             </h2>
             <p className="text-primary-foreground/70 text-sm">
-              Análise gratuita, sem compromisso, em poucos minutos no WhatsApp.
+              Avalie o seu caso, sem compromisso, em poucos minutos no WhatsApp.
             </p>
           </div>
           <Button
@@ -65,12 +65,12 @@ export function Footer() {
             size="lg"
             className="shrink-0"
             onClick={() => window.open(
-              '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Vim pelo site e quero minha análise gratuita.")}',
+              '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Vim pelo site e quero avaliar o meu caso para cidadania portuguesa.")}',
               '_blank', 'noopener,noreferrer'
             )}
           >
             <MessageCircle className="w-5 h-5" />
-            Análise gratuita no WhatsApp
+            Avaliar o meu caso no WhatsApp
           </Button>
         </div>
 
@@ -183,7 +183,7 @@ export function Footer() {
                 to="/quiz"
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-gold hover:underline"
               >
-                Fazer o quiz gratuito →
+                Fazer o quiz →
               </Link>
             </div>
           </div>
