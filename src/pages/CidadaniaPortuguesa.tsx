@@ -33,7 +33,7 @@ const services = [
   {
     id: 'bisnetos', pageSlug: 'bisnetos',
     title: 'Cidadania para Bisnetos', subtitle: 'Novidade da Lei Orgânica 1/2026: via de naturalização',
-    duration: '5 anos de residência em PT + análise', icon: Users,
+    duration: '28 a 36 meses (em consolidação)', icon: Users,
     description: 'Desde a Lei Orgânica n.º 1/2026 (em vigor desde maio de 2026), bisnetos têm via de naturalização específica — mas exige residência legal em Portugal por 5 anos. Não funciona morando no Brasil.',
     requirements: ['Cadeia completa de filiação documentada (4 gerações)', 'Residência legal em Portugal por 5+ anos', 'Requisitos culturais e cívicos da Lei 1/2026', 'Declaração de adesão ao Estado de Direito'],
   },
