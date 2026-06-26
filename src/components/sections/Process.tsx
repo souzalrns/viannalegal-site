@@ -53,7 +53,7 @@ const stepsPartTwo = [
     number: 6,
     icon: Handshake,
     title: 'Começa o trabalho de verdade',
-    description: 'Procuração assinada, especialista dedicado ao seu caso. Do protocolo até o passaporte na mão — sem você precisar correr atrás.',
+    description: 'Procuração assinada, especialista dedicado ao seu caso. Do protocolo até à certidão de nascimento portuguesa — sem você precisar correr atrás.',
   },
   {
     number: 7,
@@ -77,7 +77,7 @@ const stepsPartTwo = [
     number: 10,
     icon: PartyPopper,
     title: 'Aprovado. Agora é só buscar o passaporte',
-    description: 'Cidadania aprovada. Orientamos o agendamento no consulado para o Cartão de Cidadão e o passaporte português. A herança está nas suas mãos.',
+    description: 'Cidadania aprovada. Enviamos os dados de registo do seu nascimento português. Com isso poderá solicitar o seu Cartão de Cidadão e passaporte português junto ao consulado.',
   },
 ];
 
@@ -155,11 +155,10 @@ export function Process() {
           className="my-12 max-w-2xl mx-auto text-center bg-gold/10 rounded-2xl p-8 border border-gold/20"
         >
           <h3 className="font-display text-xl font-semibold text-foreground mb-2">
-            Análise gratuita, sem compromisso. A fila do IRN começa quando você protocola.
+            Sem compromisso. A fila do IRN começa quando você protocola.
           </h3>
           <p className="text-muted-foreground text-sm mb-5">
-            As 5 primeiras etapas são gratuitas. Fale agora com um especialista e descubra
-            se seu caso está pronto para avançar.
+            Fale agora com um especialista e descubra se o seu caso está pronto para avançar.
           </p>
           <Button
             variant="gold"
@@ -171,7 +170,7 @@ export function Process() {
 )
             }
           >
-            Começar agora — é gratuito
+            Falar com especialista
             <ArrowRight className="w-5 h-5" />
           </Button>
         </div>
