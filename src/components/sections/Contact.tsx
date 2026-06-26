@@ -9,7 +9,7 @@ import { SITE_CONFIG } from '@/config/site';
 
 const contactInfo = [
   { icon: Phone,  label: 'WhatsApp',   value: SITE_CONFIG.whatsapp.display, href: SITE_CONFIG.whatsapp.url },
-  { icon: MapPin, label: 'Localização', value: 'Lisboa, Portugal', href: '#' },
+  { icon: MapPin, label: 'Localização', value: 'Portugal', href: '#' },
   { icon: Clock,  label: 'Horário',     value: 'Seg-Sex: 9h às 18h', href: '#' },
 ];
 
