@@ -166,7 +166,7 @@ export default function CidadaniaPortuguesa() {
                         <Icon className="w-10 h-10 text-gold" />
                       </div>
                       <h3 className="font-display text-2xl font-bold text-foreground mb-4">Interessado nesta modalidade?</h3>
-                      <p className="text-muted-foreground mb-6">Análise gratuita do seu caso, sem compromisso.</p>
+                      <p className="text-muted-foreground mb-6">Avalie o seu caso, sem compromisso.</p>
                       <Button variant="gold" size="lg" onClick={() => window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Gostaria de informações sobre ${service.title}.")}`, '_blank', 'noopener,noreferrer')}>
                         Solicitar Análise
                         <ArrowRight className="w-5 h-5" />
