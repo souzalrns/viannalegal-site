@@ -85,16 +85,9 @@ export function About() {
             </span>
 
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Um investimento que{' '}
-              <span className="text-primary">os seus filhos vão agradecer</span>
+              Kathia Vianna —{' '}
+              <span className="text-primary">advogada especialista em cidadania portuguesa</span>
             </h2>
-
-            <p className="text-muted-foreground text-lg mb-4 leading-relaxed">
-              Quando um pai obtém a cidadania portuguesa, não está apenas a tratar de um
-              documento. Está a abrir uma porta para os filhos estudarem na Europa, trabalharem
-              em qualquer país da UE, viverem onde quiserem — e passarem esse direito
-              para os netos, e os netos para os bisnetos.
-            </p>
 
             <p className="text-muted-foreground mb-8 leading-relaxed">
               A Kathia Vianna actua presencialmente em Porto, Portugal — nas mesmas
