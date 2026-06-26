@@ -48,7 +48,7 @@ const services = [
     id: 'residencia', pageSlug: 'residencia',
     title: 'Nacionalidade por Residência', subtitle: 'Para residentes legais em Portugal',
     duration: '27 a 30 meses (após 7 anos de residência)', icon: Building,
-    description: 'Para quem reside legalmente em Portugal. Desde a Lei Orgânica 1/2026, o prazo mínimo subiu de 5 para 7 anos para brasileiros/CPLP, e o tempo de espera pelo título não conta mais.',
+    description: 'Para quem reside legalmente em Portugal. Desde a <a href="https://dre.pt" target="_blank" rel="noopener noreferrer">Lei Orgânica 1/2026</a>, o prazo mínimo subiu de 5 para 7 anos para brasileiros/CPLP, e o tempo de espera pelo título não conta mais.',
     requirements: ['Residência legal em Portugal há 7+ anos (CPLP/brasileiros)', 'Conhecimento da língua portuguesa', 'Requisitos culturais e cívicos (Lei 1/2026)', 'Ausência de condenação criminal grave'],
   },
   {
