@@ -44,7 +44,7 @@ export function About() {
                 <img
                   src={consultantImage}
                   alt="Kathia Vianna, advogada especialista em cidadania portuguesa para brasileiros, inscrita na Ordem dos Advogados de Portugal, Porto"
-                  className="w-full h-[500px] object-cover"
+                  className="w-full h-[580px] object-cover"
                   loading="lazy"
                   width={800}
                   height={1000}
@@ -54,7 +54,7 @@ export function About() {
               <div className="absolute bottom-6 left-6 text-white">
                 <p className="font-display text-2xl font-bold">Kathia Vianna</p>
                 <p className="text-sm text-white/80">Advogada · Ordem dos Advogados de Portugal</p>
-                <p className="text-xs text-white/60 mt-1">Porto, Portugal · 10 anos de actuação presencial</p>
+                <p className="text-xs text-white/60 mt-1">Portugal · 10 anos de actuação presencial</p>
               </div>
             </div>
           </div>
