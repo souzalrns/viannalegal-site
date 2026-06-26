@@ -16,8 +16,21 @@ const TermosUso           = lazy(() => import("./pages/TermosUso"));
 const NotFound            = lazy(() => import("./pages/NotFound"));
 
 const PageLoader = () => (
-  <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#0f2d23' }}>
-    <div style={{ width: 32, height: 32, borderRadius: '50%', border: '2px solid #c9a84c', borderTopColor: 'transparent', animation: 'spin 0.8s linear infinite' }} />
+  <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#163C2C', gap: '24px' }}>
+    {/* Logo ViannaLegal */}
+    <div style={{ fontSize: '28px', fontFamily: 'Georgia, serif', fontWeight: 700, letterSpacing: '-0.5px' }}>
+      <span style={{ color: '#fff' }}>Vianna</span><span style={{ color: '#B8954F' }}>Legal</span>
+    </div>
+    {/* Bandeira portuguesa animada */}
+    <div style={{ position: 'relative', width: '48px', height: '48px' }}>
+      {/* Círculo verde */}
+      <div style={{ position: 'absolute', inset: 0, borderRadius: '50%', border: '3px solid #006600', borderTopColor: 'transparent', animation: 'spin 1s linear infinite' }} />
+      {/* Círculo vermelho interior */}
+      <div style={{ position: 'absolute', inset: '6px', borderRadius: '50%', border: '3px solid #CC0000', borderBottomColor: 'transparent', animation: 'spin 1s linear infinite reverse' }} />
+      {/* Ponto dourado central */}
+      <div style={{ position: 'absolute', inset: '18px', borderRadius: '50%', background: '#B8954F' }} />
+    </div>
+    <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
   </div>
 );
 
