@@ -63,7 +63,7 @@ export function About() {
 
             {/* Floating Card */}
             <div
-              className="absolute -bottom-6 -right-6 bg-card rounded-2xl p-6 shadow-elevated border border-border max-w-xs"
+              className="absolute -top-6 -right-4 bg-card rounded-2xl p-4 shadow-elevated border border-border max-w-[200px]"
             >
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center">
