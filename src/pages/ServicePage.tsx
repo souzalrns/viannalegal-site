@@ -135,7 +135,7 @@ export default function ServicePage() {
                 )
               }
             >
-              Análise Gratuita
+              Avaliar o meu caso
               <ArrowRight className="w-5 h-5" />
             </Button>
           </div>
@@ -257,7 +257,7 @@ export default function ServicePage() {
                 variant="gold"
                 className="w-full"
                 onClick={() => window.open(
-                    whatsappLink(`Olá! Quero uma análise gratuita sobre ${content.breadcrumbLabel.toLowerCase()}.`),
+                    whatsappLink(`Olá! Quero uma análise inicial sobre ${content.breadcrumbLabel.toLowerCase()}.`),
                     '_blank',
                     'noopener,noreferrer'
                   )
