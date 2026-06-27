@@ -438,6 +438,137 @@ Para a via directa criada pela Lei 1/2026, sim — são exigidos 5 anos de resid
 
 ---
 
+## 11. Mitos Sobre Cidadania Portuguesa
+
+Alguns equívocos tornaram-se muito populares — e podem levar a estratégias erradas.
+
+**"Tenho um bisavô português, então automaticamente posso pedir."**
+Não necessariamente. A existência de um ascendente português não significa que todos os descendentes preencham os requisitos legais. É indispensável analisar a linha sucessória e a modalidade aplicável.
+
+**"Casar com um português garante a cidadania."**
+Não. O casamento permite a aquisição da nacionalidade quando forem cumpridos os requisitos da lei — incluindo verificação de vínculo efetivo. Cada situação é apreciada individualmente.
+
+**"Quem nasce em Portugal é sempre português."**
+Também não. O nascimento em Portugal é relevante mas deve ser analisado à luz dos critérios da Lei da Nacionalidade — incluindo o tempo de residência legal dos pais (mínimo 5 anos após a Lei 1/2026).
+
+**"Qualquer erro na certidão impede o processo."**
+Não. Muitas divergências são meramente formais. Contudo, algumas podem exigir rectificação. A relevância depende do caso concreto.
+
+**"Basta enviar os documentos e aguardar."**
+Não. Um processo mal instruído gera exigências que suspendem os prazos. A preparação documental rigorosa é o que determina a velocidade e o sucesso do processo.
+
+---
+
+## 12. Checklist Completo Antes do Protocolo
+
+Antes de apresentar o pedido ao IRN, confirme cada ponto:
+
+**Elegibilidade:**
+- [ ] Modalidade correcta identificada
+- [ ] Linha familiar confirmada e documentada
+- [ ] Assento de nascimento do ascendente localizado em Portugal
+
+**Documentação brasileira:**
+- [ ] Certidões actualizadas (menos de 12 meses; antecedentes criminais menos de 6 meses)
+- [ ] Todas as certidões em inteiro teor (digitada e/ou reprográfica)
+- [ ] Apostila de Haia em todos os documentos brasileiros
+- [ ] Documento de identificação válido (RG emitido há menos de 10 anos)
+
+**Documentação portuguesa:**
+- [ ] Assento do ascendente português obtido
+- [ ] Transcrição de casamento verificada (e realizada se necessária)
+- [ ] Averbamentos de divórcio ou óbito verificados
+
+**Divergências:**
+- [ ] Nomes comparados entre certidões brasileiras e registos portugueses
+- [ ] Datas e localidades verificadas
+- [ ] Rectificações concluídas se necessário
+
+**Protocolo:**
+- [ ] Formulário correcto preenchido (Modelo 1C, 1D ou outro conforme a via)
+- [ ] Procuração em ordem se o pedido for por mandatário
+- [ ] Taxa IRN preparada para pagamento
+
+Este checklist evita grande parte das exigências mais comuns.
+
+---
+
+## 13. Linha do Tempo Completa do Processo
+
+```
+[1] Avaliação inicial do caso
+        ↓
+[2] Localização do assento português
+        ↓
+[3] Análise de divergências documentais
+        ↓
+[4] Rectificações (quando necessárias) — 1 a 6 meses
+        ↓
+[5] Emissão de certidões brasileiras actualizadas
+        ↓
+[6] Apostilamento de Haia
+        ↓
+[7] Transcrição de casamento (quando aplicável) — 2 a 3 meses
+        ↓
+[8] Protocolo do pedido no IRN
+        ↓
+[9] Recepção e registo — Fase 1 e 2 do IRN
+        ↓
+[10] Consultas a entidades externas — Fase 3 (PJ, AIMA)
+        ↓
+[11] Verificação documental — Fase 4
+        ↓
+[12] Análise de mérito — Fase 5
+        ↓
+[13] Exigência do IRN (se houver) → suspende prazo
+        ↓
+[14] Despacho favorável — Fase 6
+        ↓
+[15] Lavratura do Assento de Nascimento Português — Fase 7
+        ↓
+[16] Solicitação do Cartão de Cidadão
+        ↓
+[17] Solicitação do Passaporte Português
+```
+
+> **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados abr/mai 2026) contam a partir do protocolo correcto e completo.
+
+---
+
+## 14. Vale a Pena Pedir os Documentos Antes de Analisar o Caso?
+
+Em muitos casos, não. É frequente que pessoas solicitem dezenas de certidões para descobrir depois que:
+
+- Escolheram a modalidade errada
+- Faltava uma transcrição de casamento como pré-requisito
+- Havia necessidade de rectificação antes de apostilar
+- O ascendente português relevante era diferente do que pensavam
+
+Uma análise prévia do caso evita este retrabalho e optimiza custos e tempo. O ideal é confirmar primeiro a estratégia, depois reunir a documentação.
+
+---
+
+## 15. Casos Especiais Adicionais
+
+### Documentos com Ortografia Histórica
+
+Certidões de portugueses nascidos antes de 1945 frequentemente apresentam ortografia anterior ao acordo ortográfico, municípios actualmente extintos ou grafias históricas. Exemplos: "Baptista" vs "Batista", "Phelipe" vs "Filipe", "Vizeu" vs "Viseu". Estas diferenças geralmente não impedem o processo mas devem ser contextualizadas.
+
+### Casamentos em Diferentes Países
+
+Famílias com casamento no Brasil, divórcio em outro país e segundo casamento em Portugal precisam de uma análise completa do estado civil antes do protocolo. Cada acto civil deve estar devidamente reflectido nos registos portugueses.
+
+### Mudança de Nome
+
+Alterações de nome por casamento, divórcio ou decisão judicial devem ser verificadas em todos os documentos. O objectivo é garantir coerência total entre todas as certidões apresentadas — qualquer quebra na cadeia de identidade gera exigência do IRN.
+
+### Documentos Emitidos em Múltiplos Países
+
+Famílias com documentação proveniente de países como Itália, França, Luxemburgo, Angola ou Moçambique precisam verificar as regras internacionais de apostilamento ou legalização aplicáveis a cada documento. Nem todos os países são signatários da Convenção de Haia — nesses casos aplica-se a legalização consular.
+
+
+---
+
 ## Próximos Passos
 
 O processo de cidadania portuguesa tem muitas nuances — especialmente para netos, casamentos com divergências documentais e os novos casos de bisnetos previstos na Lei 1/2026.
