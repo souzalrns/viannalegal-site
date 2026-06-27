@@ -2981,10 +2981,10 @@ O artigo 1.º, alínea b), da Lei da Nacionalidade Portuguesa estabelece que sã
 ## Menores vs. maiores de idade — diferenças importantes
 
 ### Filhos menores (até 17 anos)
-Processo simplificado, mais rápido. O pedido é feito pelos responsáveis legais. Não exige vínculo efetivo. **Prazo estimado: 6 a 12 meses.**
+Processo simplificado, mais rápido. O pedido é feito pelos responsáveis legais. Não exige vínculo efetivo. **Prazo estimado: 3 a 5 meses.**
 
 ### Filhos maiores (18 anos ou mais)
-Trâmite regular, fila padrão do IRN. Direito idêntico ao do menor. **Prazo estimado: 12 a 24 meses.**
+Trâmite regular, fila padrão do IRN. Direito idêntico ao do menor. **Prazo estimado: 4 a 6 meses.**
 
 > **Atenção:** Se o filho está próximo dos 18 anos, pode valer distribuir antes da maioridade — o processo que entra como menor segue esse trâmite mesmo que a análise ocorra após os 18 anos.
 
