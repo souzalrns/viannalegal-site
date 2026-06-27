@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 import kvLogo from '@/assets/kv-logo.png';
+import kvLogoWebp from '@/assets/kv-logo.webp';
 
 const trustMarkers = [
   '+2.000 famílias atendidas',
@@ -83,12 +84,17 @@ export function Hero() {
 
           {/* Logo KV — 42%, só desktop */}
           <div className="hidden lg:flex items-center justify-center lg:w-[42%] shrink-0">
-            <img
-              src={kvLogo}
-              alt="Kathia Vianna — Advogada Especialista em Nacionalidade Portuguesa"
-              className="w-full opacity-90"
-              loading="eager"
-            />
+            <picture>
+              <source srcSet={kvLogoWebp} type="image/webp" />
+              <img
+                src={kvLogo}
+                alt="Kathia Vianna — Advogada Especialista em Nacionalidade Portuguesa"
+                className="w-full opacity-90"
+                loading="eager"
+                width={420}
+                height={420}
+              />
+            </picture>
           </div>
 
         </div>
