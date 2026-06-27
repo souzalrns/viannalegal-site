@@ -1,3 +1,5 @@
+import { PRAZOS_IRN } from '@/config/prazos';
+import { TAXAS_IRN } from '@/config/taxas';
 import { useState, useEffect } from 'react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { Helmet } from 'react-helmet-async';
@@ -87,7 +89,7 @@ const NODES: Record<string, Node> = {
     kind: 'question',
     category: 'Descendência — Filho(a)',
     text: 'Você tem menos de 18 anos?',
-    hint: 'Para menores de idade o processo é muito mais rápido — leva apenas 3 a 5 meses.',
+    hint: `Para menores de idade o processo é muito mais rápido — leva apenas ${PRAZOS_IRN.find(p=>p.slug==='filhos-menores')?.prazo || '3 a 5 meses'}.`,
     options: [
       { icon: '🧒', label: 'Sim, sou menor de 18 anos',  next: 'result_filho_menor' },
       { icon: '🧑', label: 'Não, já sou maior de idade', next: 'result_filho_maior' },
@@ -119,7 +121,7 @@ const NODES: Record<string, Node> = {
         label: 'Opção 1 — Directa',
         tag: 'Um processo só',
         pros: [
-          '⏱️ Prazo: 42 a 48 meses',
+          `⏱️ Prazo: ${PRAZOS_IRN.find(p=>p.slug==='netos'&&p.prazoMax===48)?.prazo || '42 a 48 meses'}`,
           'Um único processo — você pede directamente como neto(a)',
           'Investimento menor',
         ],
@@ -134,9 +136,9 @@ const NODES: Record<string, Node> = {
         label: 'Opção 2 — Via ascendente (recomendada)',
         tag: 'Mais rápida e sem vínculo',
         pros: [
-          '⏱️ Prazo total: apenas 8 a 12 meses (dois processos de filho)',
-          '1.º: pai/mãe pede como filho(a) do avô/avó → 4 a 6 meses',
-          '2.º: você pede como filho(a) do pai/mãe → 4 a 6 meses',
+          `⏱️ Prazo total: ${(() => { const f = PRAZOS_IRN.find(p=>p.slug==='filhos-maiores'); return f ? `apenas ${f.prazoMax*2} meses (dois processos de filho)` : 'apenas 8 a 12 meses (dois processos de filho)'; })()} `,
+          `1.º: pai/mãe pede como filho(a) do avô/avó → ${PRAZOS_IRN.find(p=>p.slug==='filhos-maiores')?.prazo || '4 a 6 meses'}`,
+          `2.º: você pede como filho(a) do pai/mãe → ${PRAZOS_IRN.find(p=>p.slug==='filhos-maiores')?.prazo || '4 a 6 meses'}`,
           'Nenhum dos dois precisa comprovar vínculo com Portugal',
           'Juridicamente mais sólido — cadeia completa',
         ],
