@@ -92,6 +92,10 @@ Os netos precisam comprovar vínculo efetivo com a comunidade portuguesa (idioma
 
 A Lei 1/2026 criou uma via directa para bisnetos com 5 anos de residência legal em Portugal. A regulamentação está pendente. O caminho mais seguro actualmente é iniciar a cadeia pelos ascendentes vivos — cada um pedindo como filho ou neto de português — pois o falecimento de um ascendente pode fechar caminhos.
 
+### Via de Naturalização — Detalhe Importante sobre Contagem do Prazo
+
+A partir da Lei 1/2026, o prazo de 7 anos começa a contar **apenas a partir da emissão do cartão de residência válido**. O período de espera pela autorização de residência deixou de ser contabilizado para efeitos de naturalização. Exige-se ainda: conhecimento da língua portuguesa, integração cívica e cultural, declaração de adesão ao Estado de Direito Democrático, capacidade de subsistência e ausência de condenações criminais graves.
+
 ### Via de Casamento e União de Facto
 
 Após 3 anos de casamento ou união de facto reconhecida. O pedido está sujeito a verificação de vínculo efetivo com Portugal, excepto quando:
@@ -209,8 +213,11 @@ Além dos documentos de filhos:
 | Transcrição de casamento | €120 |
 | Averbamento de divórcio | Isento |
 | Certidão de nascimento portuguesa | €10 a €22 |
+| Naturalização por residência | €175 |
 
 > O pagamento é feito via cartão de crédito internacional no portal do IRN, sujeito a IOF de 4,38% para cartões brasileiros.
+
+> **Nota sobre traduções:** Documentos em português do Brasil não necessitam de tradução juramentada para Portugal. Documentos em outros idiomas (ex: declaração de óbito em alemão ou italiano de um ascendente emigrante) requerem tradução juramentada, com custo médio de R$500 por documento.
 
 ---
 
@@ -305,7 +312,21 @@ Para agendar presencialmente: [plataforma SIGA](https://irn.justica.gov.pt) ou t
 
 ---
 
-## 9. FAQ — Perguntas Frequentes
+## 9. O Que Fazer Se o Processo Ficar Parado
+
+Se o processo ultrapassar prazos razoáveis sem decisão, existem instrumentos jurídicos disponíveis:
+
+**1. Pedido de impulso processual**
+Requerimento formal à Conservatória para que decida dentro do prazo legal (90 dias, prorrogável por mais 90). Este é o primeiro passo e resolve a maioria dos casos de inércia administrativa.
+
+**2. Acção de intimação para prática de acto devido**
+Se a Conservatória permanecer inerte após o pedido de impulso, é possível recorrer ao Tribunal Administrativo exigindo a decisão. Este é um recurso jurídico que a Kathia Vianna pode acionar em representação do cliente.
+
+Quando o processo está bem instruído, não se teme a decisão. Mesmo uma decisão desfavorável pode ser contestada administrativamente ou judicialmente.
+
+---
+
+## 10. FAQ — Perguntas Frequentes
 
 **Posso fazer o processo de cidadania portuguesa estando no Brasil?**
 Sim. A maior parte do processo pode ser conduzida remotamente, com protocolo por advogado inscrito na OA portuguesa.
@@ -327,6 +348,9 @@ Para nationalidade originária (filhos e netos), a lei é mais flexível. Para a
 
 **Posso manter a cidadania brasileira?**
 Sim. O Brasil reconhece a dupla nacionalidade por ancestralidade. A obtenção da cidadania portuguesa não implica perda da cidadania brasileira.
+
+**Posso perder a cidadania portuguesa depois de obtida?**
+Sim, em casos excepcionais: fraude comprovada na obtenção (pode ser declarada nula até 10 anos após concessão) ou condenação criminal grave com pena igual ou superior a 5 anos, para quem obteve a cidadania há menos de 10 anos. Na prática, uma cidadania obtida legitimamente é estável e permanente.
 
 **Quanto custa aproximadamente o processo completo?**
 Além das taxas IRN (€175 a €250), considere: apostilas brasileiras (R$73 a R$158 por documento, por estado), certidões de cartório, eventuais rectificações e honorários de assessoria. O custo total varia significativamente por caso.
