@@ -106,6 +106,7 @@ export default function CidadaniaPortuguesa() {
         })}</script>
       </Helmet>
       <Header />
+      <div className="h-20" aria-hidden="true" />
       <section className="pt-32 pb-16 bg-primary">
         <div className="container-width">
           <div className="text-center max-w-4xl mx-auto">
