@@ -80,7 +80,7 @@ export default function Blog() {
         </script>
       </Helmet>
 
-      <div className="min-h-screen bg-background pt-20">
+      <div className="min-h-screen bg-background">
         <Header />
         
         <main className="pt-24">
