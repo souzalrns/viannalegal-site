@@ -13,7 +13,7 @@ const trustMarkers = [
 export function Hero() {
   return (
     <section className="relative flex items-center overflow-hidden bg-primary">
-      <div className="w-full max-w-7xl mx-auto pl-4 md:pl-8 pr-8 md:pr-16 pt-32 pb-20 md:pt-36 md:pb-24">
+      <div className="w-full max-w-7xl mx-auto pl-4 md:pl-8 pr-8 md:pr-16 pt-28 pb-12 md:pt-32 md:pb-16">
         <div className="flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-0">
 
           {/* Conteúdo — 58% */}
