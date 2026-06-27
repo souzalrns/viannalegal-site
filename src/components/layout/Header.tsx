@@ -53,7 +53,7 @@ export function Header() {
       'font-medium transition-colors duration-300 hover:text-gold whitespace-nowrap',
       mobile
         ? 'text-foreground py-3 min-h-[44px] flex items-center text-base'
-        : 'text-xs',
+        : 'text-sm',
       !mobile && (isDark ? 'text-foreground' : 'text-primary-foreground'),
       item.highlight && 'text-gold font-semibold'
     );
@@ -100,8 +100,15 @@ export function Header() {
           </Link>
 
           {/* Desktop nav — gap-5 para caber melhor */}
-          <div className="hidden lg:flex items-center gap-4 mx-2">
-            {navItems.map((item) => renderItem(item))}
+          <div className="hidden lg:flex items-center mx-2">
+            {navItems.map((item, idx) => (
+              <div key={item.label} className="flex items-center">
+                {idx > 0 && (
+                  <span className="w-px h-4 bg-gold/30 mx-4 shrink-0" aria-hidden="true" />
+                )}
+                {renderItem(item)}
+              </div>
+            ))}
           </div>
 
           {/* Desktop CTA */}
