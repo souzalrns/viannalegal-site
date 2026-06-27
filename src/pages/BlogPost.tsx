@@ -119,13 +119,13 @@ export default function BlogPost() {
 
         // Headers (após escape, os marcadores ## são texto puro)
         if (line.startsWith('## ')) {
-          return `<h2 class="text-2xl font-display font-bold text-foreground mt-10 mb-4">${line.slice(3)}</h2>`;
+          return `<h2 class="text-2xl font-display font-bold text-foreground mt-6 mb-3">${line.slice(3)}</h2>`;
         }
         if (line.startsWith('### ')) {
-          return `<h3 class="text-xl font-display font-semibold text-foreground mt-8 mb-3">${line.slice(4)}</h3>`;
+          return `<h3 class="text-xl font-display font-semibold text-foreground mt-5 mb-2">${line.slice(4)}</h3>`;
         }
         if (line.startsWith('#### ')) {
-          return `<h4 class="text-lg font-display font-semibold text-foreground mt-6 mb-2">${line.slice(5)}</h4>`;
+          return `<h4 class="text-lg font-display font-semibold text-foreground mt-4 mb-2">${line.slice(5)}</h4>`;
         }
         
         // Markdown links internos — apenas /blog/ paths (whitelist de destino)
@@ -179,13 +179,13 @@ export default function BlogPost() {
           return '<hr class="my-8 border-border" />';
         }
         
-        // Empty lines
+        // Empty lines — ignorar para evitar espaçamento excessivo
         if (line.trim() === '') {
-          return '<br />';
+          return '';
         }
         
         // Regular paragraphs
-        return `<p class="text-muted-foreground leading-relaxed mb-4">${line}</p>`;
+        return `<p class="text-muted-foreground leading-relaxed mb-2">${line}</p>`;
       })
       .join('\n');
   };
