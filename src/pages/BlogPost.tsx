@@ -1,3 +1,5 @@
+import { PRAZOS_IRN, PRAZOS_META } from '@/config/prazos';
+import { TAXAS_IRN, TAXAS_APOSTILA, TAXAS_META } from '@/config/taxas';
 import { useEffect } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
