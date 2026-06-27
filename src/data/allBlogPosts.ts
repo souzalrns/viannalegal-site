@@ -47,6 +47,84 @@ Neste guia completo, explicamos as principais vias de acesso, os documentos nece
 
 Se prefere descobrir rapidamente o seu caso específico, utilize o [Quiz de Elegibilidade](/quiz) — responde em 2 minutos.
 
+## Resposta Rápida
+
+**Como tirar cidadania portuguesa?** A cidadania portuguesa pode ser obtida por filiação (filhos de portugueses), descendência (netos e bisnetos), casamento ou união de facto com português, ou naturalização por residência legal em Portugal. Cada via tem requisitos, documentos, prazos e custos próprios. Desde a Lei Orgânica 1/2026 (em vigor desde 19/05/2026), alguns critérios foram alterados — especialmente os prazos de naturalização e as condições para bisnetos. O reconhecimento não é automático: exige protocolo formal, documentação correcta e aprovação pelo IRN.
+
+---
+
+## Como Saber Qual é a Sua Via: Fluxograma de Decisão
+
+```
+Tem pai ou mãe português(a)?
+├── SIM → Via de Filhos (prazo: 3-6 meses)
+└── NÃO ↓
+
+Tem avô ou avó português(a) originário?
+├── SIM → Via de Netos (prazo: 3-48 meses conforme idade)
+└── NÃO ↓
+
+Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
+├── SIM → Via de Bisnetos — Lei 1/2026 (regulamentação pendente)
+└── NÃO ↓
+
+É casado(a) ou tem união de facto com português(a) há 3+ anos?
+├── SIM → Via de Casamento/UF (prazo: 50-54 meses)
+└── NÃO ↓
+
+Reside legalmente em Portugal há 7+ anos (brasileiro/CPLP)?
+├── SIM → Via de Naturalização (prazo: 27-30 meses)
+└── NÃO → Consulte outras hipóteses previstas na Lei da Nacionalidade
+```
+
+---
+
+## Tabela de Erros — Causas, Consequências e Como Evitar
+
+| Erro | Motivo frequente | Consequência | Como evitar |
+|------|-----------------|-------------|-------------|
+| Divergência de nomes | Grafia alterada na emigração ("Josepha"→"Josefina") | Notificação de exigência, processo suspenso | Verificar antes de apostilar — rectificar no cartório |
+| Casamento não transcrito em PT | Desconhecimento do procedimento | Processo travado na fase 4 do IRN | Transcrever o casamento antes de iniciar |
+| Certidão com mais de 12 meses | Emissão antiga sem averbamentos | Rejeitada pelo IRN | Emitir certidões actualizadas no máximo 30 dias antes do envio |
+| Apostila incorrecta ou em falta | Apostila feita no estado errado ou documento errado | IRN não aceita o documento | Apostilar cada documento individualmente no estado emissor |
+| Filiação reconhecida após maioridade | Pai reconheceu o filho com mais de 18 anos | Perda do direito à atribuição automática | Analisar caso antes de protocolar |
+| União de facto sem sentença judicial | Escritura de UE do Brasil sem homologação | Indeferimento | Obter reconhecimento judicial da UF em tribunal cível português |
+| Resposta à exigência fora do prazo | Negligência ou desconhecimento | Arquivamento do processo | Acompanhamento profissional activo |
+| Ascendente naturalizado confundido com originário | Desconhecimento da distinção | Via errada, documentação errada | Confirmar como o ascendente obteve a nacionalidade |
+
+---
+
+## Glossário Jurídico
+
+**Assento de nascimento português:** Registo oficial do nascimento de um cidadão português lavrado nas Conservatórias portuguesas. É o documento base para qualquer processo de cidadania por descendência. Não confundir com certidão de nascimento brasileira.
+
+**Atribuição da nacionalidade:** Modalidade em que a pessoa é considerada portuguesa desde o nascimento, por direito originário. Aplica-se a filhos e netos de portugueses quando preenchidos os requisitos. Retroage à data do nascimento.
+
+**Aquisição da nacionalidade:** Modalidade em que a pessoa adquire a nacionalidade portuguesa num momento posterior ao nascimento. Aplica-se a casamentos, união de facto e naturalização. Os efeitos são constitutivos — contam a partir da data do registo.
+
+**Transcrição:** Acto pelo qual um registo civil ocorrido no estrangeiro (casamento, nascimento, óbito) é integrado no sistema do registo civil português. Obrigatória para casamentos de portugueses celebrados fora de Portugal.
+
+**Vínculo efetivo:** Ligação real e demonstrável com a comunidade portuguesa. Exigida para netos maiores, casamentos e naturalização. Pode ser demonstrada por domínio do idioma, visitas, laços familiares, associações lusófonas ou conhecimento da história e cultura portuguesas.
+
+**Apostila de Haia:** Certificação internacional que autentica documentos públicos para uso em países signatários da Convenção de Haia de 1961. Obrigatória em todos os documentos brasileiros apresentados ao IRN. Emitida pelo Tribunal de Justiça do Estado emissor do documento.
+
+**IRN:** Instituto dos Registos e do Notariado. Entidade pública portuguesa responsável pelo registo civil, incluindo os processos de nacionalidade. Os processos de cidadania são analisados pela Conservatória dos Registos Centrais (CRC) em Lisboa.
+
+**CRC:** Conservatória dos Registos Centrais. Unidade do IRN em Lisboa que centraliza a análise dos pedidos de nacionalidade portuguesa vindos do exterior. Endereço: Rua Rodrigo da Fonseca, 200 — 1099-033 Lisboa.
+
+**Despacho:** Decisão formal do Conservador sobre o pedido de nacionalidade. Pode ser favorável (concessão do assento de nascimento português) ou desfavorável (indeferimento com fundamento e prazo de recurso).
+
+**Exigência:** Notificação emitida pelo IRN solicitando documentos adicionais ou esclarecimentos. Suspende o prazo de análise até resposta do requerente. É a principal causa de atrasos nos processos.
+
+**Naturalização:** Modalidade de aquisição da nacionalidade por tempo de residência legal em Portugal. Após a Lei 1/2026: 7 anos para brasileiros e CPLP, 10 anos para demais nacionalidades.
+
+**Jus sanguinis:** Direito de sangue. Princípio que determina a nacionalidade pela filiação — o filho herda a nacionalidade do pai ou da mãe. Principal critério da lei portuguesa.
+
+**Jus soli:** Direito de solo. Princípio que determina a nacionalidade pelo local de nascimento. Portugal aplica este critério de forma atenuada e condicionada.
+
+---
+
+
 ---
 
 ## 1. O Que Mudou com a Lei Orgânica 1/2026
