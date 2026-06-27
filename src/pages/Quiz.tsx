@@ -744,7 +744,6 @@ export default function Quiz() {
       </Helmet>
       <SchemaQuiz />
       <Header />
-      <div className="h-20" aria-hidden="true" />
 
       <main className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-12">
         <div className="container-width max-w-2xl mx-auto px-4">
