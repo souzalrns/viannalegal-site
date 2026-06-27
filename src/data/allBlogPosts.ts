@@ -548,7 +548,7 @@ Filhos de cidadãos portugueses têm direito **automático** à cidadania, indep
 
 - Pode ser solicitado em qualquer idade
 - Não exige residência em Portugal
-- Prazo estimado: 8-14 meses (filhos menores) / 16-24 meses (filhos maiores)
+- Prazo estimado: 3 a 5 meses (filhos menores) / 4 a 6 meses (filhos maiores) — dados IRN abr/mai 2026
 
 ### 2. Netos de Portugueses — Atribuição com Vínculo Efetivo
 
