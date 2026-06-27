@@ -7,8 +7,8 @@ import { SITE_CONFIG } from '@/config/site';
 
 const navItems = [
   { label: 'Quem Somos',           href: '/#quem-somos'         },
-  { label: 'Cidadania Portuguesa', href: '/cidadania-portuguesa' },
-  { label: 'Busca de Documentos',  href: '/busca-documentos'     },
+  { label: 'Cidadania',            href: '/cidadania-portuguesa' },
+  { label: 'Documentos',           href: '/busca-documentos'     },
   { label: 'Blog',                 href: '/blog'                  },
   { label: 'Quiz — Descubra seu direito', href: '/quiz', highlight: true },
   { label: 'Contato',              href: '/#contato'              },
@@ -50,10 +50,10 @@ export function Header() {
 
   const renderItem = (item: typeof navItems[0], mobile = false) => {
     const cls = cn(
-      'font-medium transition-colors duration-300 hover:text-gold',
+      'font-medium transition-colors duration-300 hover:text-gold whitespace-nowrap',
       mobile
         ? 'text-foreground py-3 min-h-[44px] flex items-center text-base'
-        : 'text-sm',
+        : 'text-xs',
       !mobile && (isDark ? 'text-foreground' : 'text-primary-foreground'),
       item.highlight && 'text-gold font-semibold'
     );
@@ -100,7 +100,7 @@ export function Header() {
           </Link>
 
           {/* Desktop nav — gap-5 para caber melhor */}
-          <div className="hidden lg:flex items-center gap-5 mx-4">
+          <div className="hidden lg:flex items-center gap-4 mx-2">
             {navItems.map((item) => renderItem(item))}
           </div>
 
