@@ -49,6 +49,7 @@ export default function BuscaDocumentos() {
       </Helmet>
 
       <Header />
+      <div className="h-20" aria-hidden="true" />
 
       {/* Hero Section */}
       <section className="pt-32 pb-16 bg-primary">
