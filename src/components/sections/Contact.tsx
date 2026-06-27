@@ -1,3 +1,4 @@
+import { TAXAS_APOSTILA, TAXAS_CARTAO_CIDADAO, TAXAS_PASSAPORTE } from '@/config/taxas';
 import { Phone, MapPin, Clock, Send, MessageCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
