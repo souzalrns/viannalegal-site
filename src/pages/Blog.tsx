@@ -62,7 +62,7 @@ export default function Blog() {
   return (
     <>
       <Helmet>
-        <title>Blog | Cidadania Portuguesa 2025 - Guias Completos e Novidades | ViannaLegal</title>
+        <title>Blog Cidadania Portuguesa 2026 | ViannaLegal</title>
         <meta 
           name="description" 
           content="Artigos completos sobre cidadania portuguesa: guias para netos, filhos, cônjuges, naturalização. Vínculo efetivo, backlog IRN, documentos. Conteúdo atualizado 2025." 
