@@ -92,7 +92,6 @@ export default function ServicePage() {
       </Helmet>
 
       <Header />
-      <div className="h-20" aria-hidden="true" />
       <main className="pt-28 pb-20">
       {/* Breadcrumbs */}
       <div className="container-width mb-8">
