@@ -66,7 +66,7 @@ export function Header() {
       <div className="container-width">
         <nav aria-label="Navegação principal" className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2" aria-label="ViannaLegal, página inicial">
+          <Link to="/" className="flex items-center gap-2" aria-label="ViannaLegal, página inicial" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <span className={cn(
               'font-display text-2xl font-bold transition-colors duration-300',
               isDark ? 'text-primary' : 'text-primary-foreground'
