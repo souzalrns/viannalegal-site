@@ -104,7 +104,7 @@ export function Header() {
             {navItems.map((item, idx) => (
               <div key={item.label} className="flex items-center">
                 {idx > 0 && (
-                  <span className="w-px h-4 bg-gold/30 mx-4 shrink-0" aria-hidden="true" />
+                  <span className={cn("w-px h-4 mx-3 shrink-0", isDark ? "bg-gold/40" : "bg-white/30")} aria-hidden="true" />
                 )}
                 {renderItem(item)}
               </div>
