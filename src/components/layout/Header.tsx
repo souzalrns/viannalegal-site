@@ -13,12 +13,12 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { label: 'Quem Somos',           href: '/#quem-somos',         isAnchor: true  },
+  { label: 'Quem Somos',           href: '/#quem-somos',         isAnchor: false },
   { label: 'Cidadania Portuguesa', href: '/cidadania-portuguesa', isAnchor: false },
   { label: 'Busca de Documentos',  href: '/busca-documentos',    isAnchor: false },
   { label: 'Blog',                 href: '/blog',                 isAnchor: false },
   { label: 'Quiz — Descubra seu direito', href: '/quiz',          isAnchor: false, highlight: true },
-  { label: 'Contato',              href: '/#contato',             isAnchor: true  },
+  { label: 'Contato',              href: '/#contato',             isAnchor: false },
 ];
 
 const WHATSAPP_CTA_URL =
