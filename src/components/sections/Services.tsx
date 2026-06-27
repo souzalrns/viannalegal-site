@@ -1,6 +1,7 @@
 import { ArrowRight, FileText, Search, Users, Heart, Building, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { PRAZOS_IRN, formatPrazo } from '@/config/prazos';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const services = [
