@@ -19,7 +19,7 @@ export default function PoliticaPrivacidade() {
         <meta name="robots" content="noindex, follow" />
       </Helmet>
 
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background pt-20">
         <Header />
         
         <main className="pt-24">
