@@ -5513,625 +5513,7 @@ A análise do caso — entender se você tem direito, por qual via, e o que est�
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
 `
-  'como-tirar-cidadania-portuguesa': `
-> **Nota editorial:** Este guia foi integralmente revisto com a entrada em vigor da [Lei Orgânica 1/2026](https://dre.pt), em 19 de maio de 2026. As informações baseiam-se em dados oficiais do IRN e na experiência presencial em Conservatórias portuguesas. *Actualizado em junho de 2026.*
-
----
-
-## Introdução
-
-Tirar cidadania portuguesa é um dos processos mais procurados por brasileiros descendentes de portugueses — e também um dos mais mal compreendidos. Não se trata de um procedimento automático: cada caso deve ser avaliado individualmente, pois a existência de vínculos familiares com cidadãos portugueses não garante aprovação sem análise prévia da cadeia genealógica e cumprimento de todos os requisitos legais.
-
-Neste guia completo, explicamos as principais vias de acesso, os documentos necessários, prazos médios do IRN, custos envolvidos, erros comuns e o que fazer após a aprovação. Atualizado com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
-
-Se prefere descobrir rapidamente o seu caso específico, utilize o [Quiz de Elegibilidade](/quiz) — responde em 2 minutos.
-
-## Resposta Rápida
-
-**Como tirar cidadania portuguesa?** A cidadania portuguesa pode ser obtida por filiação (filhos de portugueses), descendência (netos e bisnetos), casamento ou união de facto com português, ou naturalização por residência legal em Portugal. Cada via tem requisitos, documentos, prazos e custos próprios. Desde a Lei Orgânica 1/2026 (em vigor desde 19/05/2026), alguns critérios foram alterados — especialmente os prazos de naturalização e as condições para bisnetos. O reconhecimento não é automático: exige protocolo formal, documentação correcta e aprovação pelo IRN.
-
----
-
-## Como Saber Qual é a Sua Via: Fluxograma de Decisão
-
-```
-Tem pai ou mãe português(a)?
-├── SIM → Via de Filhos (prazo: 3-6 meses)
-└── NÃO ↓
-
-Tem avô ou avó português(a) originário?
-├── SIM → Via de Netos (prazo: 3-48 meses conforme idade)
-└── NÃO ↓
-
-Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
-├── SIM → Via de Bisnetos — Lei 1/2026 (regulamentação pendente)
-└── NÃO ↓
-
-É casado(a) ou tem união de facto com português(a) há 3+ anos?
-├── SIM → Via de Casamento/UF (prazo: 50-54 meses)
-└── NÃO ↓
-
-Reside legalmente em Portugal há 7+ anos (brasileiro/CPLP)?
-├── SIM → Via de Naturalização (prazo: 27-30 meses)
-└── NÃO → Consulte outras hipóteses previstas na Lei da Nacionalidade
-```
-
----
-
-## Tabela de Erros — Causas, Consequências e Como Evitar
-
-| Erro | Motivo frequente | Consequência | Como evitar |
-|------|-----------------|-------------|-------------|
-| Divergência de nomes | Grafia alterada na emigração ("Josepha"→"Josefina") | Notificação de exigência, processo suspenso | Verificar antes de apostilar — rectificar no cartório |
-| Casamento não transcrito em PT | Desconhecimento do procedimento | Processo travado na fase 4 do IRN | Transcrever o casamento antes de iniciar |
-| Certidão com mais de 12 meses | Emissão antiga sem averbamentos | Rejeitada pelo IRN | Emitir certidões actualizadas no máximo 30 dias antes do envio |
-| Apostila incorrecta ou em falta | Apostila feita no estado errado ou documento errado | IRN não aceita o documento | Apostilar cada documento individualmente no estado emissor |
-| Filiação reconhecida após maioridade | Pai reconheceu o filho com mais de 18 anos | Perda do direito à atribuição automática | Analisar caso antes de protocolar |
-| União de facto sem sentença judicial | Escritura de UE do Brasil sem homologação | Indeferimento | Obter reconhecimento judicial da UF em tribunal cível português |
-| Resposta à exigência fora do prazo | Negligência ou desconhecimento | Arquivamento do processo | Acompanhamento profissional activo |
-| Ascendente naturalizado confundido com originário | Desconhecimento da distinção | Via errada, documentação errada | Confirmar como o ascendente obteve a nacionalidade |
-
----
-
-## Glossário Jurídico
-
-**Assento de nascimento português:** Registo oficial do nascimento de um cidadão português lavrado nas Conservatórias portuguesas. É o documento base para qualquer processo de cidadania por descendência. Não confundir com certidão de nascimento brasileira.
-
-**Atribuição da nacionalidade:** Modalidade em que a pessoa é considerada portuguesa desde o nascimento, por direito originário. Aplica-se a filhos e netos de portugueses quando preenchidos os requisitos. Retroage à data do nascimento.
-
-**Aquisição da nacionalidade:** Modalidade em que a pessoa adquire a nacionalidade portuguesa num momento posterior ao nascimento. Aplica-se a casamentos, união de facto e naturalização. Os efeitos são constitutivos — contam a partir da data do registo.
-
-**Transcrição:** Acto pelo qual um registo civil ocorrido no estrangeiro (casamento, nascimento, óbito) é integrado no sistema do registo civil português. Obrigatória para casamentos de portugueses celebrados fora de Portugal.
-
-**Vínculo efetivo:** Ligação real e demonstrável com a comunidade portuguesa. Exigida para netos maiores, casamentos e naturalização. Pode ser demonstrada por domínio do idioma, visitas, laços familiares, associações lusófonas ou conhecimento da história e cultura portuguesas.
-
-**Apostila de Haia:** Certificação internacional que autentica documentos públicos para uso em países signatários da Convenção de Haia de 1961. Obrigatória em todos os documentos brasileiros apresentados ao IRN. Emitida pelo Tribunal de Justiça do Estado emissor do documento.
-
-**IRN:** Instituto dos Registos e do Notariado. Entidade pública portuguesa responsável pelo registo civil, incluindo os processos de nacionalidade. Os processos de cidadania são analisados pela Conservatória dos Registos Centrais (CRC) em Lisboa.
-
-**CRC:** Conservatória dos Registos Centrais. Unidade do IRN em Lisboa que centraliza a análise dos pedidos de nacionalidade portuguesa vindos do exterior. Endereço: Rua Rodrigo da Fonseca, 200 — 1099-033 Lisboa.
-
-**Despacho:** Decisão formal do Conservador sobre o pedido de nacionalidade. Pode ser favorável (concessão do assento de nascimento português) ou desfavorável (indeferimento com fundamento e prazo de recurso).
-
-**Exigência:** Notificação emitida pelo IRN solicitando documentos adicionais ou esclarecimentos. Suspende o prazo de análise até resposta do requerente. É a principal causa de atrasos nos processos.
-
-**Naturalização:** Modalidade de aquisição da nacionalidade por tempo de residência legal em Portugal. Após a Lei 1/2026: 7 anos para brasileiros e CPLP, 10 anos para demais nacionalidades.
-
-**Jus sanguinis:** Direito de sangue. Princípio que determina a nacionalidade pela filiação — o filho herda a nacionalidade do pai ou da mãe. Principal critério da lei portuguesa.
-
-**Jus soli:** Direito de solo. Princípio que determina a nacionalidade pelo local de nascimento. Portugal aplica este critério de forma atenuada e condicionada.
-
----
-
-
----
-
-## 1. O Que Mudou com a Lei Orgânica 1/2026
-
-A Lei Orgânica 1/2026 alterou substancialmente a Lei da Nacionalidade portuguesa. Os principais impactos para brasileiros:
-
-| Aspecto | Antes | Após Lei 1/2026 |
-|---------|-------|-----------------|
-| Naturalização brasileiros/CPLP | 5 anos residência | **7 anos** residência |
-| Naturalização outros países | 5 anos residência | **10 anos** residência |
-| Bisnetos | Sem via directa | **Via directa** com 5 anos residência em PT |
-| Regime sefardita | Activo | **Extinto** para novos pedidos |
-| Filhos nascidos em PT | 2 anos residência dos pais | **5 anos** residência dos pais |
-| Vínculo efetivo | Critérios gerais | Requisitos reforçados |
-
-> **Importante:** Processos já protocolados antes de 19/05/2026 mantêm o regime anterior. A regulamentação complementar da Lei 1/2026 deve ser publicada até agosto de 2026.
-
----
-
-## 2. Quem Pode Ter Direito à Cidadania Portuguesa em 2026
-
-Ninguém "tem direito" automaticamente — é necessário protocolo, verificação e aprovação. As principais vias para brasileiros:
-
-| Via | Requisito Principal | Prazo Médio IRN |
-|-----|--------------------|-----------------| 
-| Filhos menores | Filiação com português | {{prazo_filhos_menores}} |
-| Filhos maiores | Filiação com português | {{prazo_filhos_maiores}} |
-| Netos menores | Cadeia genealógica + vínculo | {{prazo_filhos_menores}} |
-| Netos maiores | Cadeia genealógica + vínculo | {{prazo_netos_maiores}} |
-| Bisnetos (via directa) | 5 anos residência legal em PT | Em consolidação |
-| Casamento/União de facto | 3 anos + vínculo | {{prazo_casamento}} |
-| Naturalização | 7 anos residência (CPLP) | {{prazo_naturalizacao}} |
-
-### Via de Filhos
-
-A via mais directa. O direito à transmissão existe desde que o progenitor português possua o seu registo de nascimento actualizado em Portugal. Um ponto crítico frequentemente ignorado: se o progenitor português casou no Brasil, o seu estado civil em Portugal continua como "solteiro" até a transcrição do casamento. Sem essa transcrição prévia, o processo do filho é travado na Conservatória.
-
-### Via de Netos
-
-Os netos precisam comprovar vínculo efetivo com a comunidade portuguesa (idioma, visitas, laços familiares, associações lusófonas). O prazo para netos maiores ({{prazo_netos_maiores}}) reflecte o volume de auditoria documental interna do IRN. É a via que mais exige acompanhamento profissional.
-
-### Via de Bisnetos
-
-A Lei 1/2026 criou uma via directa para bisnetos com 5 anos de residência legal em Portugal. A regulamentação está pendente. O caminho mais seguro actualmente é iniciar a cadeia pelos ascendentes vivos — cada um pedindo como filho ou neto de português — pois o falecimento de um ascendente pode fechar caminhos.
-
-### Via de Naturalização — Detalhe Importante sobre Contagem do Prazo
-
-A partir da Lei 1/2026, o prazo de 7 anos começa a contar **apenas a partir da emissão do cartão de residência válido**. O período de espera pela autorização de residência deixou de ser contabilizado para efeitos de naturalização. Exige-se ainda: conhecimento da língua portuguesa, integração cívica e cultural, declaração de adesão ao Estado de Direito Democrático, capacidade de subsistência e ausência de condenações criminais graves.
-
-### Via de Casamento e União de Facto
-
-Após 3 anos de casamento ou união de facto reconhecida. O pedido está sujeito a verificação de vínculo efetivo com Portugal, excepto quando:
-- O casamento ou UF tiver mais de **6 anos**
-- Existirem **filhos comuns** com nacionalidade portuguesa
-- O cônjuge residir **legalmente em Portugal**
-
-A união de facto, ao contrário do casamento, exige reconhecimento judicial prévio em tribunal cível português antes do pedido de nacionalidade.
-
----
-
-## 3. Como Tirar Cidadania Portuguesa: Passo a Passo
-
-### Passo 1 — Avaliar a Árvore Genealógica
-
-Identificar o ascendente português, confirmar se era cidadão **originário** (nasceu português) e mapear potenciais divergências de nomes entre registos portugueses e brasileiros. Este passo evita meses de retrabalho.
-
-### Passo 2 — Localizar o Registo Português
-
-Para portugueses nascidos antes de 1911, o registo é um **Assento de Baptismo** paroquial nos Arquivos Distritais — não consta do sistema informático do IRN. Após 1911, o registo está digitalizado no sistema do IRN. Localizar este documento exige nome completo, filiação, ano aproximado e região de origem.
-
-### Passo 3 — Verificar e Sanear Divergências
-
-O IRN é criterioso. Divergências de nome (ex: "Josepha" no registo português e "Josefina" na certidão brasileira) ou de data de nascimento geram pedidos de rectificação que suspendem o processo. Esta verificação deve ser feita **antes** de emitir qualquer certidão brasileira.
-
-### Passo 4 — Reunir a Documentação Brasileira
-
-Todos os documentos brasileiros apresentados ao IRN devem estar:
-- Em **inteiro teor** (digitada ou reprográfica, conforme o caso)
-- **Apostilados com a Apostila de Haia** — obrigatório
-- **Actualizados** — em geral com menos de 12 meses de emissão (certidão de casamento para transcrição: menos de 6 meses)
-
-**Apostila de Haia — valores de referência 2026:**
-
-| Estado | Valor por documento |
-|--------|-------------------|
-| São Paulo | R$ 158,15 |
-| Rio de Janeiro | R$ 132,97 |
-| Rio Grande do Sul | R$ 73,11 |
-
-> **Certidão digitada vs. reprográfica:** A certidão de inteiro teor por **cópia reprográfica** é a fotografia da folha original do livro de registos. A **digitada** é a transcrição em texto. O IRN exige habitualmente a digitada; a reprográfica é solicitada quando o original é ilegível. Ambas devem estar apostiladas.
-
-### Passo 5 — Submeter o Pedido
-
-O pedido pode ser feito:
-
-**Por advogado inscrito na OA (recomendado):**
-- Acesso ao protocolo digital exclusivo do IRN
-- Representação imediata em caso de exigências
-- A Kathia Vianna actua presencialmente nas Conservatórias portuguesas
-
-**Presencialmente numa Conservatória em Portugal:**
-- Permite resolver divergências no próprio acto
-- Exige deslocação a Portugal
-
-**Por correio para a CRC:**
-- Conservatória dos Registos Centrais, Rua Rodrigo da Fonseca, 200 — 1099-033 Lisboa
-- Mais lento, sem possibilidade de correcção imediata
-
-**Nos Consulados de Portugal no Brasil:**
-- Válido mas com filas longas — não recomendado quando há alternativa
-
-### Passo 6 — Acompanhar as 7 Fases do IRN
-
-O processo tramita internamente por 7 fases:
-
-1. **Recepção** — entrada física ou digital dos documentos
-2. **Registo** — o processo ganha número formal na fila cronológica
-3. **Consultas externas** — IRN consulta PJ e AIMA (obrigatório em netos maiores e aquisição)
-4. **Verificação documental** — análise de validade e apostilamentos
-5. **Análise de mérito** — avaliação jurídica do cumprimento dos requisitos
-6. **Despacho** — decisão favorável ou desfavorável do Conservador
-7. **Lavratura do Assento** — criação do registo de nascimento português no sistema SIRIC
-
-> Divergências documentais ou falta de resposta a exigências **suspendem os prazos imediatamente**. Uma "Notificação de Pendência" do Conservador paralisa a contagem até o documento saneador ser apresentado.
-
----
-
-## 4. Documentos Necessários por Via
-
-### Filhos de Português (Maior de Idade)
-
-| Documento | Onde obter | Apostila | Observação |
-|-----------|-----------|---------|------------|
-| Certidão de nascimento do requerente | Cartório brasileiro | Sim | Menos de 12 meses |
-| Certidão de nascimento do progenitor português | IRN / Conservatória | Não | Emitida em Portugal |
-| Documento de identificação | RG ou passaporte | Sim | RG emitido há menos de 10 anos |
-| Registo criminal | Polícia Federal + estados | Sim | Menos de 6 meses |
-| Certidão de casamento dos pais | Cartório brasileiro | Sim | Se casados — e transcrita em PT |
-| Procuração | Cartório brasileiro | Sim | Se processo por mandatário |
-
-### Netos de Português
-
-Além dos documentos de filhos:
-
-| Documento | Observação |
-|-----------|-----------|
-| Certidão de nascimento do avô/avó | Obtida em Portugal — ponto de partida |
-| Certidão de nascimento do pai/mãe | Inteiro teor, apostilada |
-| Certidão de casamento dos pais | Inteiro teor, apostilada |
-| Documentos de vínculo efetivo | CAPLE/CIPLE, carimbos de passaporte, comprovativos de associações |
-
----
-
-## 5. Taxas Oficiais e Custos do Processo
-
-### Taxas IRN (Portugal) — 2026
-
-| Tipo de processo | Taxa |
-|----------------|------|
-| Filhos menores | Isento |
-| Filhos maiores | €175 |
-| Netos | €175 |
-| Cônjuges / unidos de facto | €250 |
-| Transcrição de casamento | €120 |
-| Averbamento de divórcio | Isento |
-| Certidão de nascimento portuguesa | €10 a €22 |
-| Naturalização por residência | €175 |
-
-> O pagamento é feito via cartão de crédito internacional no portal do IRN, sujeito a IOF de 4,38% para cartões brasileiros.
-
-> **Nota sobre traduções:** Documentos em português do Brasil não necessitam de tradução juramentada para Portugal. Documentos em outros idiomas (ex: declaração de óbito em alemão ou italiano de um ascendente emigrante) requerem tradução juramentada, com custo médio de R$500 por documento.
-
----
-
-## 6. Casos Especiais
-
-### Filhos Adoptivos
-
-Portugal reconhece o direito à nacionalidade para filhos adoptados por portugueses, mas com requisitos adicionais:
-- A adopção deve ser **plena** (extingue vínculos com a família biológica)
-- A sentença de adopção estrangeira deve ser **homologada pelo Tribunal da Relação em Portugal**
-- A adopção deve ter ocorrido **na menoridade** do requerente
-
-### Filhos Nascidos em Portugal (Jus Soli Atenuado)
-
-Crianças nascidas em Portugal de pais estrangeiros têm direito à nacionalidade originária se pelo menos um dos progenitores residir legalmente em Portugal há **5 anos** (exigência da Lei 1/2026, anterior era 2 anos).
-
-### Ascendentes Naturalizados
-
-O tipo de nacionalidade do ascendente determina o que pode transmitir:
-- **Nacionalidade por atribuição** (filhos/netos) → retroage ao nascimento → pode transmitir para todos os filhos
-- **Nacionalidade por aquisição** (casamento/residência) → efeitos só para o futuro → **só transmite para filhos nascidos APÓS a lavratura do assento português**
-
-### União de Facto vs. Casamento
-
-A união de facto exige reconhecimento judicial prévio num Tribunal Cível em Portugal antes do pedido de nacionalidade — passo que muitos ignoram e que atrasa o processo meses.
-
----
-
-## 7. Erros Comuns que Brasileiros Cometem
-
-**1. Protocolar sem rectificar divergências de nomes**
-O erro mais clássico: "Josepha" no registo português e "Josefina" na certidão brasileira. A Conservatória emite nota de exigência e o processo para.
-
-**2. Não fazer a transcrição de casamento antes do processo do filho**
-Se o progenitor português casou no Brasil sem transcrever o casamento em Portugal, o seu estado civil em Portugal é "solteiro". O processo do filho é travado.
-
-**3. Apostilar documentos errados ou incompletos**
-Apostila num documento desactualizado, ou esquecimento de apostilar o RG. O IRN rejeita liminarmente.
-
-**4. Ignorar exigências do IRN ou responder fora do prazo**
-A "Notificação de Pendência" tem prazo de resposta. Ignorá-la pode levar ao arquivamento do processo.
-
-**5. Filiação estabelecida após a maioridade**
-Se um pai português reconheceu a paternidade quando o filho já tinha mais de 18 anos, o direito à atribuição automática deixa de existir.
-
-**6. Enviar certidões com mais de 12 meses**
-Mesmo perfeitamente conservadas, certidões antigas são rejeitadas — podem não reflectir averbações de divórcio ou óbito recentes.
-
-**7. Tentar processo de neto sem avaliação do vínculo efetivo**
-Netos que protocolam sem documentar adequadamente o vínculo recebem oposição do Ministério Público. Avaliação prévia é essencial.
-
----
-
-## 8. Após a Aprovação: Cartão de Cidadão e Passaporte
-
-Aprovado o pedido, o IRN emite o **Assento de Nascimento português** — o documento que prova a sua cidadania. Com esse registo, pode solicitar o Cartão de Cidadão e, depois, o Passaporte Português.
-
-> O Cartão de Cidadão é requisito obrigatório para pedir o Passaporte — não é possível inverter a ordem.
-
-### Opção 1 — Pelo Consulado de Portugal no Brasil
-
-Os consulados portugueses no Brasil emitem o Cartão de Cidadão e o Passaporte, mas os procedimentos variam por localidade:
-- Alguns consulados permitem pedir os **dois documentos em simultâneo**
-- Outros exigem primeiro o Cartão de Cidadão e depois o Passaporte numa segunda ida
-- Os prazos são mais longos que em Portugal (tipicamente semanas)
-
-Consulte o consulado da sua região antes de se deslocar.
-
-### Opção 2 — Presencialmente em Portugal (mais rápido)
-
-Em Portugal, nas Conservatórias e balcões IRN nas Lojas do Cidadão, é possível obter os dois documentos em tempo recorde com pedido de urgência.
-
-**Cartão de Cidadão — taxas e prazos 2026:**
-
-| Modalidade | Taxa | Prazo |
-|-----------|------|-------|
-| Normal (até 25 anos) | €15 | 5 a 10 dias úteis |
-| Normal (mais de 25 anos) | €17 | 5 a 10 dias úteis |
-| Urgente / Expresso | €35 adicional | 2 dias úteis |
-
-**Passaporte Eletrónico Português (PEP) — taxas e prazos 2026:**
-
-| Modalidade | Prazo | Observação |
-|-----------|-------|-----------|
-| Normal | 5 a 10 dias úteis | Pedido em Conservatória ou Loja do Cidadão |
-| Urgente | 1 dia útil | Pedido até às 11h |
-| Urgência aeroporto | No próprio dia | Pedido até às 11h, levantamento a partir das 17h45 no aeroporto de Lisboa — apenas com [agendamento](mailto:lojaahd.agendamentos@irn.mj.pt) |
-
-> **Dica prática:** Numa viagem a Portugal de uma semana, é possível pedir o Cartão de Cidadão com urgência (pronto em 2 dias), e com o cartão em mãos dar entrada no Passaporte também com urgência (pronto no dia seguinte). **Em menos de uma semana é possível voltar ao Brasil com os dois documentos.** Algumas Conservatórias têm maior disponibilidade de urgência — vale confirmar antes de agendar.
-
-Para agendar presencialmente: [plataforma SIGA](https://irn.justica.gov.pt) ou telefone **211 950 500** (dias úteis, 9h-18h).
-
----
-
-## 9. O Que Fazer Se o Processo Ficar Parado
-
-Se o processo ultrapassar prazos razoáveis sem decisão, existem instrumentos jurídicos disponíveis:
-
-**1. Pedido de impulso processual**
-Requerimento formal à Conservatória para que decida dentro do prazo legal (90 dias, prorrogável por mais 90). Este é o primeiro passo e resolve a maioria dos casos de inércia administrativa.
-
-**2. Acção de intimação para prática de acto devido**
-Se a Conservatória permanecer inerte após o pedido de impulso, é possível recorrer ao Tribunal Administrativo exigindo a decisão. Este é um recurso jurídico que a Kathia Vianna pode acionar em representação do cliente.
-
-Quando o processo está bem instruído, não se teme a decisão. Mesmo uma decisão desfavorável pode ser contestada administrativamente ou judicialmente.
-
----
-
-## 10. FAQ — Perguntas Frequentes
-
-**Posso fazer o processo de cidadania portuguesa estando no Brasil?**
-Sim. A maior parte do processo pode ser conduzida remotamente, com protocolo por advogado inscrito na OA portuguesa.
-
-**Quanto tempo demora a cidadania portuguesa para netos em 2026?**
-Para netos maiores, o prazo médio é de {{prazo_netos_maiores}} segundo dados do IRN de abril/maio 2026. Divergências documentais suspendem este prazo.
-
-**O que é vínculo efetivo e como comprovar?**
-É a demonstração de ligação real com Portugal. Pode ser comprovado por: domínio do idioma (certificados CAPLE/CIPLE), visitas documentadas (carimbos de passaporte), participação em associações lusófonas, laços familiares mantidos, conhecimento da história e cultura portuguesas. A análise é feita caso a caso.
-
-**Filho adoptivo pode ter direito à cidadania portuguesa?**
-Pode ter, mediante adopção plena e homologação judicial da sentença estrangeira pelo Tribunal da Relação em Portugal. Avaliação caso a caso é indispensável.
-
-**A Lei 1/2026 afectou processos já protocolados?**
-A lei aplica-se principalmente a pedidos novos protocolados após 19/05/2026. Processos já submetidos mantêm o regime anterior.
-
-**Tenho uma condenação criminal no Brasil. Isso impede a cidadania?**
-Para nationalidade originária (filhos e netos), a lei é mais flexível. Para aquisição (casamento e naturalização), o requerente não pode ter sido condenado por crime punível em Portugal com pena máxima igual ou superior a 3 anos.
-
-**Posso manter a cidadania brasileira?**
-Sim. O Brasil reconhece a dupla nacionalidade por ancestralidade. A obtenção da cidadania portuguesa não implica perda da cidadania brasileira.
-
-**Posso perder a cidadania portuguesa depois de obtida?**
-Sim, em casos excepcionais: fraude comprovada na obtenção (pode ser declarada nula até 10 anos após concessão) ou condenação criminal grave com pena igual ou superior a 5 anos, para quem obteve a cidadania há menos de 10 anos. Na prática, uma cidadania obtida legitimamente é estável e permanente.
-
-**Quanto custa aproximadamente o processo completo?**
-Além das taxas IRN (€175 a €250), considere: apostilas brasileiras (R$73 a R$158 por documento, por estado), certidões de cartório, eventuais rectificações e honorários de assessoria. O custo total varia significativamente por caso.
-
-**Preciso morar em Portugal para bisnetos?**
-Para a via directa criada pela Lei 1/2026, sim — são exigidos 5 anos de residência legal em Portugal. A regulamentação está pendente. A via alternativa é iniciar o processo pelos ascendentes vivos.
-
----
-
-## 11. Mitos Sobre Cidadania Portuguesa
-
-Alguns equívocos tornaram-se muito populares — e podem levar a estratégias erradas.
-
-**"Tenho um bisavô português, então automaticamente posso pedir."**
-Não necessariamente. A existência de um ascendente português não significa que todos os descendentes preencham os requisitos legais. É indispensável analisar a linha sucessória e a modalidade aplicável.
-
-**"Casar com um português garante a cidadania."**
-Não. O casamento permite a aquisição da nacionalidade quando forem cumpridos os requisitos da lei — incluindo verificação de vínculo efetivo. Cada situação é apreciada individualmente.
-
-**"Quem nasce em Portugal é sempre português."**
-Também não. O nascimento em Portugal é relevante mas deve ser analisado à luz dos critérios da Lei da Nacionalidade — incluindo o tempo de residência legal dos pais (mínimo 5 anos após a Lei 1/2026).
-
-**"Qualquer erro na certidão impede o processo."**
-Não. Muitas divergências são meramente formais. Contudo, algumas podem exigir rectificação. A relevância depende do caso concreto.
-
-**"Basta enviar os documentos e aguardar."**
-Não. Um processo mal instruído gera exigências que suspendem os prazos. A preparação documental rigorosa é o que determina a velocidade e o sucesso do processo.
-
----
-
-## 12. Checklist Completo Antes do Protocolo
-
-Antes de apresentar o pedido ao IRN, confirme cada ponto:
-
-**Elegibilidade:**
-- [ ] Modalidade correcta identificada
-- [ ] Linha familiar confirmada e documentada
-- [ ] Assento de nascimento do ascendente localizado em Portugal
-
-**Documentação brasileira:**
-- [ ] Certidões actualizadas (menos de 12 meses; antecedentes criminais menos de 6 meses)
-- [ ] Todas as certidões em inteiro teor (digitada e/ou reprográfica)
-- [ ] Apostila de Haia em todos os documentos brasileiros
-- [ ] Documento de identificação válido (RG emitido há menos de 10 anos)
-
-**Documentação portuguesa:**
-- [ ] Assento do ascendente português obtido
-- [ ] Transcrição de casamento verificada (e realizada se necessária)
-- [ ] Averbamentos de divórcio ou óbito verificados
-
-**Divergências:**
-- [ ] Nomes comparados entre certidões brasileiras e registos portugueses
-- [ ] Datas e localidades verificadas
-- [ ] Rectificações concluídas se necessário
-
-**Protocolo:**
-- [ ] Formulário correcto preenchido (Modelo 1C, 1D ou outro conforme a via)
-- [ ] Procuração em ordem se o pedido for por mandatário
-- [ ] Taxa IRN preparada para pagamento
-
-Este checklist evita grande parte das exigências mais comuns.
-
----
-
-## 13. Linha do Tempo Completa do Processo
-
-```
-[1] Avaliação inicial do caso
-        ↓
-[2] Localização do assento português
-        ↓
-[3] Análise de divergências documentais
-        ↓
-[4] Rectificações (quando necessárias) — 1 a 6 meses
-        ↓
-[5] Emissão de certidões brasileiras actualizadas
-        ↓
-[6] Apostilamento de Haia
-        ↓
-[7] Transcrição de casamento (quando aplicável) — {{prazo_transcricao}}
-        ↓
-[8] Protocolo do pedido no IRN
-        ↓
-[9] Recepção e registo — Fase 1 e 2 do IRN
-        ↓
-[10] Consultas a entidades externas — Fase 3 (PJ, AIMA)
-        ↓
-[11] Verificação documental — Fase 4
-        ↓
-[12] Análise de mérito — Fase 5
-        ↓
-[13] Exigência do IRN (se houver) → suspende prazo
-        ↓
-[14] Despacho favorável — Fase 6
-        ↓
-[15] Lavratura do Assento de Nascimento Português — Fase 7
-        ↓
-[16] Solicitação do Cartão de Cidadão
-        ↓
-[17] Solicitação do Passaporte Português
-```
-
-> **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados abr/mai 2026) contam a partir do protocolo correcto e completo.
-
----
-
-## 14. Vale a Pena Pedir os Documentos Antes de Analisar o Caso?
-
-Em muitos casos, não. É frequente que pessoas solicitem dezenas de certidões para descobrir depois que:
-
-- Escolheram a modalidade errada
-- Faltava uma transcrição de casamento como pré-requisito
-- Havia necessidade de rectificação antes de apostilar
-- O ascendente português relevante era diferente do que pensavam
-
-Uma análise prévia do caso evita este retrabalho e optimiza custos e tempo. O ideal é confirmar primeiro a estratégia, depois reunir a documentação.
-
----
-
-## 15. Casos Especiais Adicionais
-
-### Documentos com Ortografia Histórica
-
-Certidões de portugueses nascidos antes de 1945 frequentemente apresentam ortografia anterior ao acordo ortográfico, municípios actualmente extintos ou grafias históricas. Exemplos: "Baptista" vs "Batista", "Phelipe" vs "Filipe", "Vizeu" vs "Viseu". Estas diferenças geralmente não impedem o processo mas devem ser contextualizadas.
-
-### Casamentos em Diferentes Países
-
-Famílias com casamento no Brasil, divórcio em outro país e segundo casamento em Portugal precisam de uma análise completa do estado civil antes do protocolo. Cada acto civil deve estar devidamente reflectido nos registos portugueses.
-
-### Mudança de Nome
-
-Alterações de nome por casamento, divórcio ou decisão judicial devem ser verificadas em todos os documentos. O objectivo é garantir coerência total entre todas as certidões apresentadas — qualquer quebra na cadeia de identidade gera exigência do IRN.
-
-### Documentos Emitidos em Múltiplos Países
-
-Famílias com documentação proveniente de países como Itália, França, Luxemburgo, Angola ou Moçambique precisam verificar as regras internacionais de apostilamento ou legalização aplicáveis a cada documento. Nem todos os países são signatários da Convenção de Haia — nesses casos aplica-se a legalização consular.
-
-
----
-
-## Próximos Passos
-
-O processo de cidadania portuguesa tem muitas nuances — especialmente para netos, casamentos com divergências documentais e os novos casos de bisnetos previstos na Lei 1/2026.
-
-A Kathia Vianna actua presencialmente em Portugal, nas Conservatórias onde os processos correm. Conhece o IRN por dentro — antecipa os problemas antes que apareçam e acompanha cada família do primeiro contacto até à certidão de nascimento portuguesa.
-
-[Avaliar o meu caso →](/contato) · [Fazer o quiz de elegibilidade →](/quiz)
-
----
-
-*Kathia Vianna — Advogada inscrita na Ordem dos Advogados de Portugal (OA n.º 56666p). Especialista em cidadania portuguesa. Actualizado em junho de 2026.*
-`
-},
-{
-    id: 1,
-    slug: 'veto-tribunal-constitucional-dezembro-2025',
-    title: 'Veto do Tribunal Constitucional Dez/2025: Residência em 5 Anos Mantida',
-    excerpt: 'O Tribunal Constitucional vetou quatro normas da nova Lei da Nacionalidade. O prazo de residência permanece em 5 anos, não subindo para 7/10 anos como previsto. Entenda o que isso significa para brasileiros.',
-    date: '9 Jan 2026',
-    readTime: '12 min',
-    author: 'Kathia Vianna',
-    category: 'Legislação',
-    icon: Scale,
-    featured: true,
-    metaDescription: 'Tribunal Constitucional português veta aumento do prazo de residência para cidadania. Residência continua em 5 anos. Saiba como isso afeta brasileiros.',
-    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'backlog-irn-prazos-reais-2025'],
-    content: `
-> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
-
-**Nota editorial (junho de 2026):** Este artigo documenta o veto do Tribunal Constitucional de dezembro de 2025, que é relevante para perceber a evolução legislativa. Contudo, **a Lei Orgânica 1/2026 (em vigor desde 19 de maio de 2026) alterou posteriormente o regime** — ver aviso detalhado no início do artigo.
-
----
-
-## ⚠️ O Que Está Em Vigor Actualmente (Lei 1/2026)
-
-Antes de ler o contexto histórico abaixo, é importante perceber o que vigora hoje:
-
-| Aspecto | Regime actual (Lei 1/2026) |
-|---------|--------------------------|
-| Prazo residência CPLP/UE | **7 anos** |
-| Prazo residência outros países | **10 anos** |
-| Bisnetos | Nova via directa (5 anos residência em PT) |
-| Regime sefardita | **Extinto** para novos pedidos |
-| Filhos nascidos em PT | Progenitor precisa de 5 anos de residência legal |
-| Processos já protocolados | Regime anterior (5 anos) mantido |
-
-O decreto regulamentador da Lei 1/2026 deve ser publicado até 16 de agosto de 2026.
-
----
-
-## O Veto do Tribunal Constitucional (dezembro de 2025)
-
-Em dezembro de 2025, o Tribunal Constitucional português (Acórdão n.º 1133/2025) pronunciou-se pela inconstitucionalidade de diversas normas do Decreto n.º 17/XVII da Assembleia da República, que pretendia alterar a Lei da Nacionalidade.
-
-## O Que Foi Declarado Inconstitucional?
-
-O TC considerou inconstitucionais, entre outras normas:
-
-### 1. Algumas das formulações sobre perda automática de nacionalidade
-Normas que previam perda automática sem procedimento adequado foram consideradas desproporcionais ou sem base constitucional suficiente.
-
-### 2. Conceitos excessivamente vagos
-Algumas formulações sobre fraude e ligação à comunidade foram consideradas demasiado indeterminadas para servir de base a restrições de direitos.
-
-### 3. Aplicação retroactiva
-Normas com efeito retroactivo foram vetadas por violação da segurança jurídica e da protecção da confiança legítima.
-
-## Por Que Este Veto Importa
-
-O Acórdão n.º 1133/2025 não pôs fim ao processo legislativo — obrigou o Parlamento a rever as normas inconstitucionais. O resultado foi a Lei 1/2026, aprovada em abril de 2026 e em vigor desde maio, que reformulou as normas para ultrapassar as inconstitucionalidades declaradas.
-
-Como referiu o Presidente da República ao promulgar a Lei 1/2026: a revisão da Lei da Nacionalidade deveria assentar num maior consenso e não ser objeto de sucessivas alterações com prejuízo da segurança jurídica.
-
-## Para Quem Estava a Acompanhar em Dezembro de 2025
-
-Se submeteu o pedido antes de 19 de maio de 2026, o regime que se aplica ao seu processo é o anterior à Lei 1/2026 — incluindo o prazo de 5 anos de residência. Ver artigo completo: [O que muda para quem protocolou antes da Lei 1/2026](/blog/protocolo-antes-lei-1-2026-o-que-muda).
-
-## Fontes e Referências Oficiais
-
-- [Presidência da República — promulgação Lei 1/2026](https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/)
-- [Tribunal Constitucional de Portugal](https://www.tribunalconstitucional.pt)
-- [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,
-  },
+    },
   {
     id: 2,
     slug: 'guia-completo-cidadania-portuguesa-2025',
@@ -12794,5 +12176,552 @@ A análise do caso — entender se você tem direito, por qual via, e o que est�
 `,
   }
 ];`,
+
+  'como-tirar-cidadania-portuguesa': `
+> **Nota editorial:** Este guia foi integralmente revisto com a entrada em vigor da [Lei Orgânica 1/2026](https://dre.pt), em 19 de maio de 2026. As informações baseiam-se em dados oficiais do IRN e na experiência presencial em Conservatórias portuguesas. *Actualizado em junho de 2026.*
+
+---
+
+## Introdução
+
+Tirar cidadania portuguesa é um dos processos mais procurados por brasileiros descendentes de portugueses — e também um dos mais mal compreendidos. Não se trata de um procedimento automático: cada caso deve ser avaliado individualmente, pois a existência de vínculos familiares com cidadãos portugueses não garante aprovação sem análise prévia da cadeia genealógica e cumprimento de todos os requisitos legais.
+
+Neste guia completo, explicamos as principais vias de acesso, os documentos necessários, prazos médios do IRN, custos envolvidos, erros comuns e o que fazer após a aprovação. Atualizado com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
+Se prefere descobrir rapidamente o seu caso específico, utilize o [Quiz de Elegibilidade](/quiz) — responde em 2 minutos.
+
+## Resposta Rápida
+
+**Como tirar cidadania portuguesa?** A cidadania portuguesa pode ser obtida por filiação (filhos de portugueses), descendência (netos e bisnetos), casamento ou união de facto com português, ou naturalização por residência legal em Portugal. Cada via tem requisitos, documentos, prazos e custos próprios. Desde a Lei Orgânica 1/2026 (em vigor desde 19/05/2026), alguns critérios foram alterados — especialmente os prazos de naturalização e as condições para bisnetos. O reconhecimento não é automático: exige protocolo formal, documentação correcta e aprovação pelo IRN.
+
+---
+
+## Como Saber Qual é a Sua Via: Fluxograma de Decisão
+
+```
+Tem pai ou mãe português(a)?
+├── SIM → Via de Filhos (prazo: 3-6 meses)
+└── NÃO ↓
+
+Tem avô ou avó português(a) originário?
+├── SIM → Via de Netos (prazo: 3-48 meses conforme idade)
+└── NÃO ↓
+
+Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
+├── SIM → Via de Bisnetos — Lei 1/2026 (regulamentação pendente)
+└── NÃO ↓
+
+É casado(a) ou tem união de facto com português(a) há 3+ anos?
+├── SIM → Via de Casamento/UF (prazo: 50-54 meses)
+└── NÃO ↓
+
+Reside legalmente em Portugal há 7+ anos (brasileiro/CPLP)?
+├── SIM → Via de Naturalização (prazo: 27-30 meses)
+└── NÃO → Consulte outras hipóteses previstas na Lei da Nacionalidade
+```
+
+---
+
+## Tabela de Erros — Causas, Consequências e Como Evitar
+
+| Erro | Motivo frequente | Consequência | Como evitar |
+|------|-----------------|-------------|-------------|
+| Divergência de nomes | Grafia alterada na emigração ("Josepha"→"Josefina") | Notificação de exigência, processo suspenso | Verificar antes de apostilar — rectificar no cartório |
+| Casamento não transcrito em PT | Desconhecimento do procedimento | Processo travado na fase 4 do IRN | Transcrever o casamento antes de iniciar |
+| Certidão com mais de 12 meses | Emissão antiga sem averbamentos | Rejeitada pelo IRN | Emitir certidões actualizadas no máximo 30 dias antes do envio |
+| Apostila incorrecta ou em falta | Apostila feita no estado errado ou documento errado | IRN não aceita o documento | Apostilar cada documento individualmente no estado emissor |
+| Filiação reconhecida após maioridade | Pai reconheceu o filho com mais de 18 anos | Perda do direito à atribuição automática | Analisar caso antes de protocolar |
+| União de facto sem sentença judicial | Escritura de UE do Brasil sem homologação | Indeferimento | Obter reconhecimento judicial da UF em tribunal cível português |
+| Resposta à exigência fora do prazo | Negligência ou desconhecimento | Arquivamento do processo | Acompanhamento profissional activo |
+| Ascendente naturalizado confundido com originário | Desconhecimento da distinção | Via errada, documentação errada | Confirmar como o ascendente obteve a nacionalidade |
+
+---
+
+## Glossário Jurídico
+
+**Assento de nascimento português:** Registo oficial do nascimento de um cidadão português lavrado nas Conservatórias portuguesas. É o documento base para qualquer processo de cidadania por descendência. Não confundir com certidão de nascimento brasileira.
+
+**Atribuição da nacionalidade:** Modalidade em que a pessoa é considerada portuguesa desde o nascimento, por direito originário. Aplica-se a filhos e netos de portugueses quando preenchidos os requisitos. Retroage à data do nascimento.
+
+**Aquisição da nacionalidade:** Modalidade em que a pessoa adquire a nacionalidade portuguesa num momento posterior ao nascimento. Aplica-se a casamentos, união de facto e naturalização. Os efeitos são constitutivos — contam a partir da data do registo.
+
+**Transcrição:** Acto pelo qual um registo civil ocorrido no estrangeiro (casamento, nascimento, óbito) é integrado no sistema do registo civil português. Obrigatória para casamentos de portugueses celebrados fora de Portugal.
+
+**Vínculo efetivo:** Ligação real e demonstrável com a comunidade portuguesa. Exigida para netos maiores, casamentos e naturalização. Pode ser demonstrada por domínio do idioma, visitas, laços familiares, associações lusófonas ou conhecimento da história e cultura portuguesas.
+
+**Apostila de Haia:** Certificação internacional que autentica documentos públicos para uso em países signatários da Convenção de Haia de 1961. Obrigatória em todos os documentos brasileiros apresentados ao IRN. Emitida pelo Tribunal de Justiça do Estado emissor do documento.
+
+**IRN:** Instituto dos Registos e do Notariado. Entidade pública portuguesa responsável pelo registo civil, incluindo os processos de nacionalidade. Os processos de cidadania são analisados pela Conservatória dos Registos Centrais (CRC) em Lisboa.
+
+**CRC:** Conservatória dos Registos Centrais. Unidade do IRN em Lisboa que centraliza a análise dos pedidos de nacionalidade portuguesa vindos do exterior. Endereço: Rua Rodrigo da Fonseca, 200 — 1099-033 Lisboa.
+
+**Despacho:** Decisão formal do Conservador sobre o pedido de nacionalidade. Pode ser favorável (concessão do assento de nascimento português) ou desfavorável (indeferimento com fundamento e prazo de recurso).
+
+**Exigência:** Notificação emitida pelo IRN solicitando documentos adicionais ou esclarecimentos. Suspende o prazo de análise até resposta do requerente. É a principal causa de atrasos nos processos.
+
+**Naturalização:** Modalidade de aquisição da nacionalidade por tempo de residência legal em Portugal. Após a Lei 1/2026: 7 anos para brasileiros e CPLP, 10 anos para demais nacionalidades.
+
+**Jus sanguinis:** Direito de sangue. Princípio que determina a nacionalidade pela filiação — o filho herda a nacionalidade do pai ou da mãe. Principal critério da lei portuguesa.
+
+**Jus soli:** Direito de solo. Princípio que determina a nacionalidade pelo local de nascimento. Portugal aplica este critério de forma atenuada e condicionada.
+
+---
+
+
+---
+
+## 1. O Que Mudou com a Lei Orgânica 1/2026
+
+A Lei Orgânica 1/2026 alterou substancialmente a Lei da Nacionalidade portuguesa. Os principais impactos para brasileiros:
+
+| Aspecto | Antes | Após Lei 1/2026 |
+|---------|-------|-----------------|
+| Naturalização brasileiros/CPLP | 5 anos residência | **7 anos** residência |
+| Naturalização outros países | 5 anos residência | **10 anos** residência |
+| Bisnetos | Sem via directa | **Via directa** com 5 anos residência em PT |
+| Regime sefardita | Activo | **Extinto** para novos pedidos |
+| Filhos nascidos em PT | 2 anos residência dos pais | **5 anos** residência dos pais |
+| Vínculo efetivo | Critérios gerais | Requisitos reforçados |
+
+> **Importante:** Processos já protocolados antes de 19/05/2026 mantêm o regime anterior. A regulamentação complementar da Lei 1/2026 deve ser publicada até agosto de 2026.
+
+---
+
+## 2. Quem Pode Ter Direito à Cidadania Portuguesa em 2026
+
+Ninguém "tem direito" automaticamente — é necessário protocolo, verificação e aprovação. As principais vias para brasileiros:
+
+| Via | Requisito Principal | Prazo Médio IRN |
+|-----|--------------------|-----------------| 
+| Filhos menores | Filiação com português | {{prazo_filhos_menores}} |
+| Filhos maiores | Filiação com português | {{prazo_filhos_maiores}} |
+| Netos menores | Cadeia genealógica + vínculo | {{prazo_filhos_menores}} |
+| Netos maiores | Cadeia genealógica + vínculo | {{prazo_netos_maiores}} |
+| Bisnetos (via directa) | 5 anos residência legal em PT | Em consolidação |
+| Casamento/União de facto | 3 anos + vínculo | {{prazo_casamento}} |
+| Naturalização | 7 anos residência (CPLP) | {{prazo_naturalizacao}} |
+
+### Via de Filhos
+
+A via mais directa. O direito à transmissão existe desde que o progenitor português possua o seu registo de nascimento actualizado em Portugal. Um ponto crítico frequentemente ignorado: se o progenitor português casou no Brasil, o seu estado civil em Portugal continua como "solteiro" até a transcrição do casamento. Sem essa transcrição prévia, o processo do filho é travado na Conservatória.
+
+### Via de Netos
+
+Os netos precisam comprovar vínculo efetivo com a comunidade portuguesa (idioma, visitas, laços familiares, associações lusófonas). O prazo para netos maiores ({{prazo_netos_maiores}}) reflecte o volume de auditoria documental interna do IRN. É a via que mais exige acompanhamento profissional.
+
+### Via de Bisnetos
+
+A Lei 1/2026 criou uma via directa para bisnetos com 5 anos de residência legal em Portugal. A regulamentação está pendente. O caminho mais seguro actualmente é iniciar a cadeia pelos ascendentes vivos — cada um pedindo como filho ou neto de português — pois o falecimento de um ascendente pode fechar caminhos.
+
+### Via de Naturalização — Detalhe Importante sobre Contagem do Prazo
+
+A partir da Lei 1/2026, o prazo de 7 anos começa a contar **apenas a partir da emissão do cartão de residência válido**. O período de espera pela autorização de residência deixou de ser contabilizado para efeitos de naturalização. Exige-se ainda: conhecimento da língua portuguesa, integração cívica e cultural, declaração de adesão ao Estado de Direito Democrático, capacidade de subsistência e ausência de condenações criminais graves.
+
+### Via de Casamento e União de Facto
+
+Após 3 anos de casamento ou união de facto reconhecida. O pedido está sujeito a verificação de vínculo efetivo com Portugal, excepto quando:
+- O casamento ou UF tiver mais de **6 anos**
+- Existirem **filhos comuns** com nacionalidade portuguesa
+- O cônjuge residir **legalmente em Portugal**
+
+A união de facto, ao contrário do casamento, exige reconhecimento judicial prévio em tribunal cível português antes do pedido de nacionalidade.
+
+---
+
+## 3. Como Tirar Cidadania Portuguesa: Passo a Passo
+
+### Passo 1 — Avaliar a Árvore Genealógica
+
+Identificar o ascendente português, confirmar se era cidadão **originário** (nasceu português) e mapear potenciais divergências de nomes entre registos portugueses e brasileiros. Este passo evita meses de retrabalho.
+
+### Passo 2 — Localizar o Registo Português
+
+Para portugueses nascidos antes de 1911, o registo é um **Assento de Baptismo** paroquial nos Arquivos Distritais — não consta do sistema informático do IRN. Após 1911, o registo está digitalizado no sistema do IRN. Localizar este documento exige nome completo, filiação, ano aproximado e região de origem.
+
+### Passo 3 — Verificar e Sanear Divergências
+
+O IRN é criterioso. Divergências de nome (ex: "Josepha" no registo português e "Josefina" na certidão brasileira) ou de data de nascimento geram pedidos de rectificação que suspendem o processo. Esta verificação deve ser feita **antes** de emitir qualquer certidão brasileira.
+
+### Passo 4 — Reunir a Documentação Brasileira
+
+Todos os documentos brasileiros apresentados ao IRN devem estar:
+- Em **inteiro teor** (digitada ou reprográfica, conforme o caso)
+- **Apostilados com a Apostila de Haia** — obrigatório
+- **Actualizados** — em geral com menos de 12 meses de emissão (certidão de casamento para transcrição: menos de 6 meses)
+
+**Apostila de Haia — valores de referência 2026:**
+
+| Estado | Valor por documento |
+|--------|-------------------|
+| São Paulo | R$ 158,15 |
+| Rio de Janeiro | R$ 132,97 |
+| Rio Grande do Sul | R$ 73,11 |
+
+> **Certidão digitada vs. reprográfica:** A certidão de inteiro teor por **cópia reprográfica** é a fotografia da folha original do livro de registos. A **digitada** é a transcrição em texto. O IRN exige habitualmente a digitada; a reprográfica é solicitada quando o original é ilegível. Ambas devem estar apostiladas.
+
+### Passo 5 — Submeter o Pedido
+
+O pedido pode ser feito:
+
+**Por advogado inscrito na OA (recomendado):**
+- Acesso ao protocolo digital exclusivo do IRN
+- Representação imediata em caso de exigências
+- A Kathia Vianna actua presencialmente nas Conservatórias portuguesas
+
+**Presencialmente numa Conservatória em Portugal:**
+- Permite resolver divergências no próprio acto
+- Exige deslocação a Portugal
+
+**Por correio para a CRC:**
+- Conservatória dos Registos Centrais, Rua Rodrigo da Fonseca, 200 — 1099-033 Lisboa
+- Mais lento, sem possibilidade de correcção imediata
+
+**Nos Consulados de Portugal no Brasil:**
+- Válido mas com filas longas — não recomendado quando há alternativa
+
+### Passo 6 — Acompanhar as 7 Fases do IRN
+
+O processo tramita internamente por 7 fases:
+
+1. **Recepção** — entrada física ou digital dos documentos
+2. **Registo** — o processo ganha número formal na fila cronológica
+3. **Consultas externas** — IRN consulta PJ e AIMA (obrigatório em netos maiores e aquisição)
+4. **Verificação documental** — análise de validade e apostilamentos
+5. **Análise de mérito** — avaliação jurídica do cumprimento dos requisitos
+6. **Despacho** — decisão favorável ou desfavorável do Conservador
+7. **Lavratura do Assento** — criação do registo de nascimento português no sistema SIRIC
+
+> Divergências documentais ou falta de resposta a exigências **suspendem os prazos imediatamente**. Uma "Notificação de Pendência" do Conservador paralisa a contagem até o documento saneador ser apresentado.
+
+---
+
+## 4. Documentos Necessários por Via
+
+### Filhos de Português (Maior de Idade)
+
+| Documento | Onde obter | Apostila | Observação |
+|-----------|-----------|---------|------------|
+| Certidão de nascimento do requerente | Cartório brasileiro | Sim | Menos de 12 meses |
+| Certidão de nascimento do progenitor português | IRN / Conservatória | Não | Emitida em Portugal |
+| Documento de identificação | RG ou passaporte | Sim | RG emitido há menos de 10 anos |
+| Registo criminal | Polícia Federal + estados | Sim | Menos de 6 meses |
+| Certidão de casamento dos pais | Cartório brasileiro | Sim | Se casados — e transcrita em PT |
+| Procuração | Cartório brasileiro | Sim | Se processo por mandatário |
+
+### Netos de Português
+
+Além dos documentos de filhos:
+
+| Documento | Observação |
+|-----------|-----------|
+| Certidão de nascimento do avô/avó | Obtida em Portugal — ponto de partida |
+| Certidão de nascimento do pai/mãe | Inteiro teor, apostilada |
+| Certidão de casamento dos pais | Inteiro teor, apostilada |
+| Documentos de vínculo efetivo | CAPLE/CIPLE, carimbos de passaporte, comprovativos de associações |
+
+---
+
+## 5. Taxas Oficiais e Custos do Processo
+
+### Taxas IRN (Portugal) — 2026
+
+| Tipo de processo | Taxa |
+|----------------|------|
+| Filhos menores | Isento |
+| Filhos maiores | €175 |
+| Netos | €175 |
+| Cônjuges / unidos de facto | €250 |
+| Transcrição de casamento | €120 |
+| Averbamento de divórcio | Isento |
+| Certidão de nascimento portuguesa | €10 a €22 |
+| Naturalização por residência | €175 |
+
+> O pagamento é feito via cartão de crédito internacional no portal do IRN, sujeito a IOF de 4,38% para cartões brasileiros.
+
+> **Nota sobre traduções:** Documentos em português do Brasil não necessitam de tradução juramentada para Portugal. Documentos em outros idiomas (ex: declaração de óbito em alemão ou italiano de um ascendente emigrante) requerem tradução juramentada, com custo médio de R$500 por documento.
+
+---
+
+## 6. Casos Especiais
+
+### Filhos Adoptivos
+
+Portugal reconhece o direito à nacionalidade para filhos adoptados por portugueses, mas com requisitos adicionais:
+- A adopção deve ser **plena** (extingue vínculos com a família biológica)
+- A sentença de adopção estrangeira deve ser **homologada pelo Tribunal da Relação em Portugal**
+- A adopção deve ter ocorrido **na menoridade** do requerente
+
+### Filhos Nascidos em Portugal (Jus Soli Atenuado)
+
+Crianças nascidas em Portugal de pais estrangeiros têm direito à nacionalidade originária se pelo menos um dos progenitores residir legalmente em Portugal há **5 anos** (exigência da Lei 1/2026, anterior era 2 anos).
+
+### Ascendentes Naturalizados
+
+O tipo de nacionalidade do ascendente determina o que pode transmitir:
+- **Nacionalidade por atribuição** (filhos/netos) → retroage ao nascimento → pode transmitir para todos os filhos
+- **Nacionalidade por aquisição** (casamento/residência) → efeitos só para o futuro → **só transmite para filhos nascidos APÓS a lavratura do assento português**
+
+### União de Facto vs. Casamento
+
+A união de facto exige reconhecimento judicial prévio num Tribunal Cível em Portugal antes do pedido de nacionalidade — passo que muitos ignoram e que atrasa o processo meses.
+
+---
+
+## 7. Erros Comuns que Brasileiros Cometem
+
+**1. Protocolar sem rectificar divergências de nomes**
+O erro mais clássico: "Josepha" no registo português e "Josefina" na certidão brasileira. A Conservatória emite nota de exigência e o processo para.
+
+**2. Não fazer a transcrição de casamento antes do processo do filho**
+Se o progenitor português casou no Brasil sem transcrever o casamento em Portugal, o seu estado civil em Portugal é "solteiro". O processo do filho é travado.
+
+**3. Apostilar documentos errados ou incompletos**
+Apostila num documento desactualizado, ou esquecimento de apostilar o RG. O IRN rejeita liminarmente.
+
+**4. Ignorar exigências do IRN ou responder fora do prazo**
+A "Notificação de Pendência" tem prazo de resposta. Ignorá-la pode levar ao arquivamento do processo.
+
+**5. Filiação estabelecida após a maioridade**
+Se um pai português reconheceu a paternidade quando o filho já tinha mais de 18 anos, o direito à atribuição automática deixa de existir.
+
+**6. Enviar certidões com mais de 12 meses**
+Mesmo perfeitamente conservadas, certidões antigas são rejeitadas — podem não reflectir averbações de divórcio ou óbito recentes.
+
+**7. Tentar processo de neto sem avaliação do vínculo efetivo**
+Netos que protocolam sem documentar adequadamente o vínculo recebem oposição do Ministério Público. Avaliação prévia é essencial.
+
+---
+
+## 8. Após a Aprovação: Cartão de Cidadão e Passaporte
+
+Aprovado o pedido, o IRN emite o **Assento de Nascimento português** — o documento que prova a sua cidadania. Com esse registo, pode solicitar o Cartão de Cidadão e, depois, o Passaporte Português.
+
+> O Cartão de Cidadão é requisito obrigatório para pedir o Passaporte — não é possível inverter a ordem.
+
+### Opção 1 — Pelo Consulado de Portugal no Brasil
+
+Os consulados portugueses no Brasil emitem o Cartão de Cidadão e o Passaporte, mas os procedimentos variam por localidade:
+- Alguns consulados permitem pedir os **dois documentos em simultâneo**
+- Outros exigem primeiro o Cartão de Cidadão e depois o Passaporte numa segunda ida
+- Os prazos são mais longos que em Portugal (tipicamente semanas)
+
+Consulte o consulado da sua região antes de se deslocar.
+
+### Opção 2 — Presencialmente em Portugal (mais rápido)
+
+Em Portugal, nas Conservatórias e balcões IRN nas Lojas do Cidadão, é possível obter os dois documentos em tempo recorde com pedido de urgência.
+
+**Cartão de Cidadão — taxas e prazos 2026:**
+
+| Modalidade | Taxa | Prazo |
+|-----------|------|-------|
+| Normal (até 25 anos) | €15 | 5 a 10 dias úteis |
+| Normal (mais de 25 anos) | €17 | 5 a 10 dias úteis |
+| Urgente / Expresso | €35 adicional | 2 dias úteis |
+
+**Passaporte Eletrónico Português (PEP) — taxas e prazos 2026:**
+
+| Modalidade | Prazo | Observação |
+|-----------|-------|-----------|
+| Normal | 5 a 10 dias úteis | Pedido em Conservatória ou Loja do Cidadão |
+| Urgente | 1 dia útil | Pedido até às 11h |
+| Urgência aeroporto | No próprio dia | Pedido até às 11h, levantamento a partir das 17h45 no aeroporto de Lisboa — apenas com [agendamento](mailto:lojaahd.agendamentos@irn.mj.pt) |
+
+> **Dica prática:** Numa viagem a Portugal de uma semana, é possível pedir o Cartão de Cidadão com urgência (pronto em 2 dias), e com o cartão em mãos dar entrada no Passaporte também com urgência (pronto no dia seguinte). **Em menos de uma semana é possível voltar ao Brasil com os dois documentos.** Algumas Conservatórias têm maior disponibilidade de urgência — vale confirmar antes de agendar.
+
+Para agendar presencialmente: [plataforma SIGA](https://irn.justica.gov.pt) ou telefone **211 950 500** (dias úteis, 9h-18h).
+
+---
+
+## 9. O Que Fazer Se o Processo Ficar Parado
+
+Se o processo ultrapassar prazos razoáveis sem decisão, existem instrumentos jurídicos disponíveis:
+
+**1. Pedido de impulso processual**
+Requerimento formal à Conservatória para que decida dentro do prazo legal (90 dias, prorrogável por mais 90). Este é o primeiro passo e resolve a maioria dos casos de inércia administrativa.
+
+**2. Acção de intimação para prática de acto devido**
+Se a Conservatória permanecer inerte após o pedido de impulso, é possível recorrer ao Tribunal Administrativo exigindo a decisão. Este é um recurso jurídico que a Kathia Vianna pode acionar em representação do cliente.
+
+Quando o processo está bem instruído, não se teme a decisão. Mesmo uma decisão desfavorável pode ser contestada administrativamente ou judicialmente.
+
+---
+
+## 10. FAQ — Perguntas Frequentes
+
+**Posso fazer o processo de cidadania portuguesa estando no Brasil?**
+Sim. A maior parte do processo pode ser conduzida remotamente, com protocolo por advogado inscrito na OA portuguesa.
+
+**Quanto tempo demora a cidadania portuguesa para netos em 2026?**
+Para netos maiores, o prazo médio é de {{prazo_netos_maiores}} segundo dados do IRN de abril/maio 2026. Divergências documentais suspendem este prazo.
+
+**O que é vínculo efetivo e como comprovar?**
+É a demonstração de ligação real com Portugal. Pode ser comprovado por: domínio do idioma (certificados CAPLE/CIPLE), visitas documentadas (carimbos de passaporte), participação em associações lusófonas, laços familiares mantidos, conhecimento da história e cultura portuguesas. A análise é feita caso a caso.
+
+**Filho adoptivo pode ter direito à cidadania portuguesa?**
+Pode ter, mediante adopção plena e homologação judicial da sentença estrangeira pelo Tribunal da Relação em Portugal. Avaliação caso a caso é indispensável.
+
+**A Lei 1/2026 afectou processos já protocolados?**
+A lei aplica-se principalmente a pedidos novos protocolados após 19/05/2026. Processos já submetidos mantêm o regime anterior.
+
+**Tenho uma condenação criminal no Brasil. Isso impede a cidadania?**
+Para nationalidade originária (filhos e netos), a lei é mais flexível. Para aquisição (casamento e naturalização), o requerente não pode ter sido condenado por crime punível em Portugal com pena máxima igual ou superior a 3 anos.
+
+**Posso manter a cidadania brasileira?**
+Sim. O Brasil reconhece a dupla nacionalidade por ancestralidade. A obtenção da cidadania portuguesa não implica perda da cidadania brasileira.
+
+**Posso perder a cidadania portuguesa depois de obtida?**
+Sim, em casos excepcionais: fraude comprovada na obtenção (pode ser declarada nula até 10 anos após concessão) ou condenação criminal grave com pena igual ou superior a 5 anos, para quem obteve a cidadania há menos de 10 anos. Na prática, uma cidadania obtida legitimamente é estável e permanente.
+
+**Quanto custa aproximadamente o processo completo?**
+Além das taxas IRN (€175 a €250), considere: apostilas brasileiras (R$73 a R$158 por documento, por estado), certidões de cartório, eventuais rectificações e honorários de assessoria. O custo total varia significativamente por caso.
+
+**Preciso morar em Portugal para bisnetos?**
+Para a via directa criada pela Lei 1/2026, sim — são exigidos 5 anos de residência legal em Portugal. A regulamentação está pendente. A via alternativa é iniciar o processo pelos ascendentes vivos.
+
+---
+
+## 11. Mitos Sobre Cidadania Portuguesa
+
+Alguns equívocos tornaram-se muito populares — e podem levar a estratégias erradas.
+
+**"Tenho um bisavô português, então automaticamente posso pedir."**
+Não necessariamente. A existência de um ascendente português não significa que todos os descendentes preencham os requisitos legais. É indispensável analisar a linha sucessória e a modalidade aplicável.
+
+**"Casar com um português garante a cidadania."**
+Não. O casamento permite a aquisição da nacionalidade quando forem cumpridos os requisitos da lei — incluindo verificação de vínculo efetivo. Cada situação é apreciada individualmente.
+
+**"Quem nasce em Portugal é sempre português."**
+Também não. O nascimento em Portugal é relevante mas deve ser analisado à luz dos critérios da Lei da Nacionalidade — incluindo o tempo de residência legal dos pais (mínimo 5 anos após a Lei 1/2026).
+
+**"Qualquer erro na certidão impede o processo."**
+Não. Muitas divergências são meramente formais. Contudo, algumas podem exigir rectificação. A relevância depende do caso concreto.
+
+**"Basta enviar os documentos e aguardar."**
+Não. Um processo mal instruído gera exigências que suspendem os prazos. A preparação documental rigorosa é o que determina a velocidade e o sucesso do processo.
+
+---
+
+## 12. Checklist Completo Antes do Protocolo
+
+Antes de apresentar o pedido ao IRN, confirme cada ponto:
+
+**Elegibilidade:**
+- [ ] Modalidade correcta identificada
+- [ ] Linha familiar confirmada e documentada
+- [ ] Assento de nascimento do ascendente localizado em Portugal
+
+**Documentação brasileira:**
+- [ ] Certidões actualizadas (menos de 12 meses; antecedentes criminais menos de 6 meses)
+- [ ] Todas as certidões em inteiro teor (digitada e/ou reprográfica)
+- [ ] Apostila de Haia em todos os documentos brasileiros
+- [ ] Documento de identificação válido (RG emitido há menos de 10 anos)
+
+**Documentação portuguesa:**
+- [ ] Assento do ascendente português obtido
+- [ ] Transcrição de casamento verificada (e realizada se necessária)
+- [ ] Averbamentos de divórcio ou óbito verificados
+
+**Divergências:**
+- [ ] Nomes comparados entre certidões brasileiras e registos portugueses
+- [ ] Datas e localidades verificadas
+- [ ] Rectificações concluídas se necessário
+
+**Protocolo:**
+- [ ] Formulário correcto preenchido (Modelo 1C, 1D ou outro conforme a via)
+- [ ] Procuração em ordem se o pedido for por mandatário
+- [ ] Taxa IRN preparada para pagamento
+
+Este checklist evita grande parte das exigências mais comuns.
+
+---
+
+## 13. Linha do Tempo Completa do Processo
+
+```
+[1] Avaliação inicial do caso
+        ↓
+[2] Localização do assento português
+        ↓
+[3] Análise de divergências documentais
+        ↓
+[4] Rectificações (quando necessárias) — 1 a 6 meses
+        ↓
+[5] Emissão de certidões brasileiras actualizadas
+        ↓
+[6] Apostilamento de Haia
+        ↓
+[7] Transcrição de casamento (quando aplicável) — {{prazo_transcricao}}
+        ↓
+[8] Protocolo do pedido no IRN
+        ↓
+[9] Recepção e registo — Fase 1 e 2 do IRN
+        ↓
+[10] Consultas a entidades externas — Fase 3 (PJ, AIMA)
+        ↓
+[11] Verificação documental — Fase 4
+        ↓
+[12] Análise de mérito — Fase 5
+        ↓
+[13] Exigência do IRN (se houver) → suspende prazo
+        ↓
+[14] Despacho favorável — Fase 6
+        ↓
+[15] Lavratura do Assento de Nascimento Português — Fase 7
+        ↓
+[16] Solicitação do Cartão de Cidadão
+        ↓
+[17] Solicitação do Passaporte Português
+```
+
+> **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados abr/mai 2026) contam a partir do protocolo correcto e completo.
+
+---
+
+## 14. Vale a Pena Pedir os Documentos Antes de Analisar o Caso?
+
+Em muitos casos, não. É frequente que pessoas solicitem dezenas de certidões para descobrir depois que:
+
+- Escolheram a modalidade errada
+- Faltava uma transcrição de casamento como pré-requisito
+- Havia necessidade de rectificação antes de apostilar
+- O ascendente português relevante era diferente do que pensavam
+
+Uma análise prévia do caso evita este retrabalho e optimiza custos e tempo. O ideal é confirmar primeiro a estratégia, depois reunir a documentação.
+
+---
+
+## 15. Casos Especiais Adicionais
+
+### Documentos com Ortografia Histórica
+
+Certidões de portugueses nascidos antes de 1945 frequentemente apresentam ortografia anterior ao acordo ortográfico, municípios actualmente extintos ou grafias históricas. Exemplos: "Baptista" vs "Batista", "Phelipe" vs "Filipe", "Vizeu" vs "Viseu". Estas diferenças geralmente não impedem o processo mas devem ser contextualizadas.
+
+### Casamentos em Diferentes Países
+
+Famílias com casamento no Brasil, divórcio em outro país e segundo casamento em Portugal precisam de uma análise completa do estado civil antes do protocolo. Cada acto civil deve estar devidamente reflectido nos registos portugueses.
+
+### Mudança de Nome
+
+Alterações de nome por casamento, divórcio ou decisão judicial devem ser verificadas em todos os documentos. O objectivo é garantir coerência total entre todas as certidões apresentadas — qualquer quebra na cadeia de identidade gera exigência do IRN.
+
+### Documentos Emitidos em Múltiplos Países
+
+Famílias com documentação proveniente de países como Itália, França, Luxemburgo, Angola ou Moçambique precisam verificar as regras internacionais de apostilamento ou legalização aplicáveis a cada documento. Nem todos os países são signatários da Convenção de Haia — nesses casos aplica-se a legalização consular.
+
+
+---
+
+## Próximos Passos
+
+O processo de cidadania portuguesa tem muitas nuances — especialmente para netos, casamentos com divergências documentais e os novos casos de bisnetos previstos na Lei 1/2026.
+
+A Kathia Vianna actua presencialmente em Portugal, nas Conservatórias onde os processos correm. Conhece o IRN por dentro — antecipa os problemas antes que apareçam e acompanha cada família do primeiro contacto até à certidão de nascimento portuguesa.
+
+[Avaliar o meu caso →](/contato) · [Fazer o quiz de elegibilidade →](/quiz)
+
+---
+
+*Kathia Vianna — Advogada inscrita na Ordem dos Advogados de Portugal (OA n.º 56666p). Especialista em cidadania portuguesa. Actualizado em junho de 2026.*`,
 
 };
