@@ -65,7 +65,7 @@ export default function CidadaniaPortuguesa() {
   return (
     <>
       <Helmet>
-        <title>Cidadania Portuguesa para Netos, Filhos, Bisnetos e Cônjuges | ViannaLegal</title>
+        <title>Cidadania Portuguesa — Netos, Filhos e Cônjuges | ViannaLegal</title>
         <meta name="description" content="Assessoria completa para obtenção da cidadania portuguesa. Netos, bisnetos, filhos maiores e menores, cônjuges. Atualizado com a Lei Orgânica 1/2026. Processo 100% online." />
         <link rel="canonical" href="https://viannalegal.com.br/cidadania-portuguesa" />
         <meta property="og:title" content="Cidadania Portuguesa para Netos, Filhos, Bisnetos e Cônjuges | ViannaLegal" />
