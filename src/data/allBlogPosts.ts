@@ -616,7 +616,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
 | Netos menores | **3 a 5 meses** |
 | Netos maiores | **42 a 48 meses** |
-| Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação pendente até agosto de 2026 |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -945,7 +945,7 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
 | Netos menores | **3 a 5 meses** |
 | Netos maiores | **42 a 48 meses** |
-| Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação pendente até agosto de 2026 |
 
 ### Cidadania por Casamento / União de Facto
 
@@ -2557,7 +2557,7 @@ Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 | Netos maiores | **42 a 48 meses** |
 | Casamento / União de facto | **50 a 54 meses** |
 | Naturalização CPLP (7 anos) | **27 a 30 meses** |
-| Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação pendente até agosto de 2026 |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
