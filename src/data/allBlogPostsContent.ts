@@ -12177,6 +12177,7 @@ A análise do caso — entender se você tem direito, por qual via, e o que est�
   }
 ];`,
 
+
   'como-tirar-cidadania-portuguesa': `
 > **Nota editorial:** Este guia foi integralmente revisto com a entrada em vigor da [Lei Orgânica 1/2026](https://dre.pt), em 19 de maio de 2026. As informações baseiam-se em dados oficiais do IRN e na experiência presencial em Conservatórias portuguesas. *Actualizado em junho de 2026.*
 
@@ -12198,7 +12199,7 @@ Se prefere descobrir rapidamente o seu caso específico, utilize o [Quiz de Eleg
 
 ## Como Saber Qual é a Sua Via: Fluxograma de Decisão
 
-```
+\`\`\`
 Tem pai ou mãe português(a)?
 ├── SIM → Via de Filhos (prazo: 3-6 meses)
 └── NÃO ↓
@@ -12218,7 +12219,7 @@ Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
 Reside legalmente em Portugal há 7+ anos (brasileiro/CPLP)?
 ├── SIM → Via de Naturalização (prazo: 27-30 meses)
 └── NÃO → Consulte outras hipóteses previstas na Lei da Nacionalidade
-```
+\`\`\`
 
 ---
 
@@ -12638,7 +12639,7 @@ Este checklist evita grande parte das exigências mais comuns.
 
 ## 13. Linha do Tempo Completa do Processo
 
-```
+\`\`\`
 [1] Avaliação inicial do caso
         ↓
 [2] Localização do assento português
@@ -12672,7 +12673,7 @@ Este checklist evita grande parte das exigências mais comuns.
 [16] Solicitação do Cartão de Cidadão
         ↓
 [17] Solicitação do Passaporte Português
-```
+\`\`\`
 
 > **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados abr/mai 2026) contam a partir do protocolo correcto e completo.
 
