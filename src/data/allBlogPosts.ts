@@ -596,6 +596,8 @@ A Kathia Vianna actua presencialmente em Portugal, nas Conservatórias onde os p
     metaDescription: 'Tribunal Constitucional português veta aumento do prazo de residência para cidadania. Residência continua em 5 anos. Saiba como isso afeta brasileiros.',
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'backlog-irn-prazos-reais-2025'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Nota editorial (junho de 2026):** Este artigo documenta o veto do Tribunal Constitucional de dezembro de 2025, que é relevante para perceber a evolução legislativa. Contudo, **a Lei Orgânica 1/2026 (em vigor desde 19 de maio de 2026) alterou posteriormente o regime** — ver aviso detalhado no início do artigo.
 
 ---
@@ -665,6 +667,8 @@ Se submeteu o pedido antes de 19 de maio de 2026, o regime que se aplica ao seu 
     metaDescription: 'Guia definitivo para cidadania portuguesa por descendência em 2025. Filhos, netos, bisnetos: documentos, prazos, custos e vínculo efetivo explicados.',
     relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'vinculo-efetivo-como-comprovar', 'cidadania-portuguesa-netos-guia-definitivo-2025'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
 > ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
@@ -785,6 +789,8 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
     metaDescription: 'Aprenda a comprovar vínculo efetivo para cidadania portuguesa. 6 formas aceitas, exemplos práticos e dicas para [netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025) em 2025.',
     relatedSlugs: ['cidadania-portuguesa-netos-guia-definitivo-2025', 'guia-completo-cidadania-portuguesa-2025', 'como-buscar-certidoes-portuguesas-portugal'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 ## O Que é Vínculo Efetivo com a Comunidade Portuguesa?
 
 > ⚠️ **Aviso importante (junho de 2026):** A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo, mas o decreto regulamentador **ainda não foi publicado** (prazo oficial: até 16 de agosto de 2026). Adicionalmente, a Lei 1/2026 introduziu um **teste de conhecimentos de história e cultura portuguesas** que é exigido a netos, bisnetos e cônjuges — separado e adicional ao vínculo efetivo. O formato deste teste também ainda não está regulamentado. As informações sobre formas de comprovação descritas neste artigo baseiam-se na prática administrativa do IRN vigente até 2025, podendo ser alteradas quando a regulamentação for publicada.
@@ -1051,6 +1057,8 @@ Não espere mais para começar. Se você ainda não tem um dossiê forte, comece
     metaDescription: 'Prazos reais de cidadania portuguesa em 2025. Backlog IRN explicado: tempos por tipo de processo, conservatórias mais rápidas e estratégias de otimização.',
     relatedSlugs: ['como-acompanhar-processo-cidadania-portuguesa', 'documentos-cidadania-portuguesa-lista-completa', 'guia-completo-cidadania-portuguesa-2025'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Os prazos apresentados são estimativas baseadas em dados públicos disponíveis. Cada processo tem as suas particularidades. Consulte sempre um advogado especializado.
@@ -1144,6 +1152,8 @@ Depois do protocolo, pode acompanhar o estado no [portal MJ.pt](/blog/como-acomp
     metaDescription: 'Vantagens da dupla cidadania Brasil-Portugal: passaporte para 190+ países, trabalho na UE, saúde, educação e benefícios exclusivos. Guia completo 2025.',
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'cidadania-portuguesa-por-casamento-guia-completo'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 ## Introdução: Por Que a Dupla Cidadania é Tão Valiosa?
 
 A dupla cidadania Brasil-Portugal representa muito mais que um documento adicional. É uma **[porta de entrada para a Europa](/blog/cidadania-portuguesa-por-residencia-passo-a-passo)**, um plano de segurança para você e sua família, e um legado que pode ser transmitido por gerações.
@@ -1443,6 +1453,8 @@ Seja para aproveitar a mobilidade global, acessar oportunidades profissionais na
     metaDescription: 'Lista completa de documentos para cidadania portuguesa 2025. Checklists por tipo: filhos, netos, cônjuges, residência. Apostilamento, tradução e taxas.',
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'como-buscar-certidoes-portuguesas-portugal', 'cidadania-portuguesa-netos-guia-definitivo-2025'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
 > ⚠️ **Aviso jurídico:** Este artigo é informativo. Os documentos exactos variam por caso. Consulte sempre um advogado especializado. O decreto regulamentador da Lei 1/2026 (prazo: até 16 de agosto de 2026) pode introduzir novos requisitos documentais.
@@ -1590,6 +1602,8 @@ Todos os documentos emitidos no Brasil precisam de ser apostilados pela Convenç
     metaDescription: 'Cidadania portuguesa por casamento 2025. Requisitos, 3 anos mínimos, [documentos necessários](/blog/documentos-cidadania-portuguesa-lista-completa), união de facto e passo a passo completo.',
     relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'vinculo-efetivo-como-comprovar', 'dupla-cidadania-brasil-portugal-vantagens'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
 > ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado antes de iniciar o seu processo.
@@ -1714,6 +1728,8 @@ Um advogado especializado pode ajudar a escolher a via mais adequada ao seu caso
     metaDescription: 'Naturalização portuguesa por residência 2025. Requisitos de 5 anos, teste de português A2, documentos e passo a passo completo para brasileiros.',
     relatedSlugs: ['veto-tribunal-constitucional-dezembro-2025', 'documentos-cidadania-portuguesa-lista-completa', 'como-acompanhar-processo-cidadania-portuguesa'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor desde 19 de maio de 2026**
 
 > ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado antes de iniciar o seu processo.
@@ -1898,6 +1914,8 @@ Para quem não tem ascendência, a naturalização por residência é o único c
     metaDescription: 'Como buscar certidões portuguesas: conservatórias, arquivos distritais, registros paroquiais e genealogia. Guia completo para descendentes.',
     relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'cidadania-portuguesa-netos-guia-definitivo-2025', 'vinculo-efetivo-como-comprovar'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 ## Introdução: A Busca pelas Raízes
 
 Encontrar certidões de antepassados portugueses é frequentemente o primeiro desafio no [processo de cidadania](/blog/documentos-cidadania-portuguesa-lista-completa). Muitas famílias perderam documentos ao longo das gerações — especialmente quem busca a [cidadania para netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025), ou simplesmente não sabem onde o avô ou bisavô nasceu em Portugal.
@@ -2195,6 +2213,8 @@ Se você está tendo dificuldade, não desista. A ViannaLegal tem experiência e
     metaDescription: 'Cidadania portuguesa para netos 2025: guia definitivo. Vínculo efetivo, documentos, prazos IRN, estratégias de aprovação e passo a passo completo.',
     relatedSlugs: ['vinculo-efetivo-como-comprovar', 'documentos-cidadania-portuguesa-lista-completa', 'como-buscar-certidoes-portuguesas-portugal'],
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
 > ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado antes de iniciar o seu processo.
@@ -2478,6 +2498,8 @@ Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer
     relatedSlugs: ['cidadania-portuguesa-netos-guia-definitivo-2025', 'guia-completo-cidadania-portuguesa-2025', 'vinculo-efetivo-como-comprovar'],
     metaDescription: 'Entenda a diferença entre Via 1 (atribuição originária) e Via 2 (aquisição derivada) para bisnetos na cidadania portuguesa — Lei 1/2026. Veja qual se aplica ao seu caso.',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. A regulamentação da via para bisnetos ainda não foi publicada à data deste artigo. Consulte sempre um advogado especializado.
@@ -2564,6 +2586,8 @@ O [Diário da República](https://dre.pt) é o local oficial onde essa regulamen
     relatedSlugs: ['veto-tribunal-constitucional-dezembro-2025', 'backlog-irn-prazos-reais-2025', 'como-acompanhar-processo-cidadania-portuguesa'],
     metaDescription: 'Quem submeteu o pedido de cidadania portuguesa antes de 19 de maio de 2026 mantém as regras antigas. O IRN confirmou: vale a data de submissão, não a de análise.',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este artigo é informativo. Para análise do seu caso específico, consulte sempre um advogado especializado.
@@ -2643,6 +2667,8 @@ Se tem elegibilidade para submeter agora, a data de submissão funciona como uma
     relatedSlugs: ['backlog-irn-prazos-reais-2025', 'como-acompanhar-processo-cidadania-portuguesa', 'documentos-cidadania-portuguesa-lista-completa'],
     metaDescription: 'O IRN tem 700.000 processos de cidadania pendentes após a Lei 1/2026. Saiba o que isso muda nos prazos reais e como proteger o seu processo.',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Os números e prazos aqui apresentados são estimativas baseadas em dados públicos. Cada processo tem as suas particularidades. Consulte sempre um advogado especializado.
@@ -2744,6 +2770,8 @@ Por outro lado, submeter um processo incompleto pode ser pior do que esperar par
     relatedSlugs: ['protocolo-antes-lei-1-2026-o-que-muda', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'documentos-cidadania-portuguesa-lista-completa'],
     metaDescription: 'A Lei 1/2026 exige agora 5 anos de residência legal dos pais para que filhos nascidos em Portugal sejam portugueses. Saiba quem é afectado e quais as alternativas.',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 **Actualizado em 23 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado antes de tomar decisões com base neste conteúdo.
@@ -3210,6 +3238,8 @@ Não. Nossa análise inicial é gratuita e sem compromisso.`,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Passaporte Português: Como Solicitar Após Aprovação da Cidadania',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A aprovação do processo de cidadania portuguesa é o momento mais esperado de toda a jornada. Mas o passaporte não chega automaticamente — é necessário dar entrada num pedido separado, presencialmente num consulado de Portugal no Brasil.
 
 ## A sequência correcta após a aprovação
@@ -3279,6 +3309,8 @@ O processo inclui coleta de biometria (impressões digitais e foto ao vivo). Nã
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Naturalização por Residência em Portugal: Requisitos Atualizados 2026',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A naturalização por residência é a via para quem construiu vida em Portugal sem ter ascendência portuguesa directa ou casamento com cidadão português. É também a via que mais mudou com a [Lei Orgânica n.º 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996).
 
 ## Mudanças da Lei 1/2026
@@ -3348,6 +3380,8 @@ Pedidos formalmente protocolados antes de 19 de maio de 2026 seguem as regras an
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Como Escolher um Advogado Especialista em Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Com o crescimento do interesse pela cidadania portuguesa, cresceu também o número de escritórios e assessorias oferecendo esse serviço. A diferença de qualidade entre eles é enorme — e escolher errado pode custar meses de atraso e dinheiro desperdiçado.
 
 ## O que avaliar antes de contratar
@@ -3406,6 +3440,8 @@ Quantos processos aprovados? Têm representação jurídica em Portugal? Como re
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Quanto Custa o Processo de Cidadania Portuguesa para Netos?',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 O custo do processo de cidadania portuguesa para netos varia bastante — depende muito da situação documental de cada família. Aqui está uma estimativa realista dos componentes de custo.
 
 ## Componentes de custo
@@ -3480,6 +3516,8 @@ Passaporte português: acesso a 190+ países, livre circulação na UE, direito 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Cônjuges: 3 ou 6 Anos de Casamento?',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Esta é uma das dúvidas mais comuns — e mais simples de responder: o prazo mínimo de casamento para pedir cidadania portuguesa é de **3 anos**. Não 6. A [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) não alterou esse requisito.
 
 ## De onde vem a confusão sobre 6 anos?
@@ -3534,6 +3572,8 @@ O prazo de 3 anos foi mantido. Foram adicionados novos requisitos de conheciment
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Checklist Completa de Documentos para Netos de Portugueses',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 O processo de netos é o mais complexo do ponto de vista documental — cadeia de certidões mais longa, dossiê de vínculo efetivo obrigatório, e mais pontos onde erros e vencimentos podem surgir.
 
 ## Documentos do avô/avó — obtidos em Portugal
@@ -3609,6 +3649,8 @@ O processo de netos é o mais complexo do ponto de vista documental — cadeia d
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Brasileiros que Moram no Brasil em 2026',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Uma das dúvidas mais comuns: preciso me mudar para Portugal para obter a cidadania? Na grande maioria dos casos, a resposta é não.
 
 ## Quais vias funcionam 100% do Brasil
@@ -3665,6 +3707,8 @@ O processo é conduzido por **procuração** — autorização legal para que a 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Prazo de Validade dos Documentos na Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Um dos erros que mais gera retrabalho nos processos de cidadania portuguesa é chegar ao protocolo com documentos vencidos. Cada certidão tem um prazo de validade específico — e alguns são mais curtos do que se imagina.
 
 ## Prazos por tipo de documento
@@ -3732,6 +3776,8 @@ Certidões portuguesas não precisam de apostila — são obtidas pelo portal [e
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Menores de Idade: O que os Pais Precisam Saber',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Para crianças e adolescentes com direito à cidadania portuguesa, o processo tem características próprias — incluindo prazo de análise muito mais curto e requisitos específicos de autorização.
 
 ## Por que o processo de menores é muito mais rápido
@@ -3784,6 +3830,8 @@ Se o processo foi protocolado antes dos 18 anos, **mantém o tratamento priorit�
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Como Obter a Certidão de Antecedentes Criminais para Portugal',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A certidão de antecedentes criminais é um dos documentos obrigatórios no processo de cidadania portuguesa — e um dos que exige mais atenção ao timing, por ter o prazo de validade mais curto: apenas 3 meses.
 
 ## Os dois tipos de certidão criminal brasileira necessários
@@ -3840,6 +3888,8 @@ Se o requerente viveu em outro país por mais de 1 ano após a maioridade, pode 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Benefícios de Ter Passaporte Português em 2026',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 O passaporte português é frequentemente citado como um dos mais valiosos do mundo. Mas o que isso significa na prática para um brasileiro que obteve a cidadania e continua vivendo no Brasil?
 
 ## Acesso sem visto: os destinos que mais importam
@@ -3901,6 +3951,8 @@ Com passaporte português, pode estudar em qualquer universidade da UE pagando a
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Como Corrigir Erros em Certidões para Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Erros em certidões são mais comuns do que se imagina — e podem surgir em qualquer ponto da cadeia documental. O que fazer quando o processo de cidadania encontra um documento com erro?
 
 ## Tipos de erros e o que significam
@@ -3969,6 +4021,8 @@ A resposta à diligência inclui: a certidão corrigida (se necessária correcç
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa e Direito de Votar na Europa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Um dos direitos menos discutidos — mas genuinamente relevantes — da cidadania portuguesa é a participação no processo democrático europeu. Como cidadão português, você tem direitos eleitorais que vão além de Portugal.
 
 ## Quais eleições um cidadão português pode votar
@@ -4025,6 +4079,8 @@ O Brasil reconhece plenamente a dupla cidadania. Você pode votar em Portugal (n
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Filhos de Pais Separados',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 
 "Meu marido não vai querer assinar nada para o processo da nossa filha." Ou: "Minha ex-mulher discorda e não vai cooperar." Essas situações aparecem com regularidade nos processos de cidadania para menores — e têm solução, embora nem sempre seja simples.
 
@@ -4111,6 +4167,8 @@ Juridicamente, a recusa injustificada de autorizar um direito do filho pode ser 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'O Que Fazer Após a Aprovação da Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A aprovação do processo de cidadania portuguesa chega muitas vezes de forma silenciosa — uma mudança de status no portal. Depois do alívio inicial, a pergunta imediata é: e agora? O que fazer, em que ordem?
 
 ## A sequência correcta
@@ -4169,6 +4227,8 @@ Filhos menores nascidos depois da aprovação são automaticamente portugueses. 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Diferença entre Atribuição e Aquisição de Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 
 Quando as pessoas pesquisam sobre cidadania portuguesa, frequentemente encontram duas palavras usadas como se fossem sinônimas: "atribuição" e "aquisição". Não são. A distinção entre elas não é apenas terminológica — define prazos, requisitos, possibilidades e até os efeitos retroativos do processo.
 
@@ -4271,6 +4331,8 @@ Depende do momento e da legislação vigente. O divórcio durante o processo de 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Quem Tem Avó que Perdeu a Nacionalidade',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 
 Existe uma situação que aparece com mais frequência do que se imagina: a família descobriu que o avô ou avó era português, começou a pesquisar o processo — e encontrou a informação de que ele ou ela "perdeu a nacionalidade" ao casar com um brasileiro. Isso fecha o processo?
 
@@ -4358,6 +4420,8 @@ Sim — se o avô paterno era português e o seu pai ou mãe nasceu dessa relaç
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Brasileiros em São Paulo',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 São Paulo concentra a maior comunidade portuguesa do Brasil e a maior demanda por processos de cidadania portuguesa.
 
 ## O consulado competente
@@ -4410,6 +4474,8 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são igu
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Brasileiros no Rio de Janeiro',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 O Rio de Janeiro tem forte ligação histórica com Portugal — foi capital do Império Português no Brasil entre 1808 e 1821.
 
 ## O consulado competente
@@ -4462,6 +4528,8 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Brasileiros no Sul do Brasil',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 O Sul do Brasil tem presença significativa de descendentes de açorianos que colonizaram o litoral catarinense e a região das Missões gaúchas desde o século XVIII.
 
 ## Os consulados competentes
@@ -4519,6 +4587,8 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Quem Mora em Portugal',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Para brasileiros que já residem em Portugal, o processo de cidadania tem algumas vantagens práticas — mas também confusões comuns sobre o que muda e o que não muda por estar fisicamente no país.
 
 ## O que muda por morar em Portugal
@@ -4570,6 +4640,8 @@ Se você chegou há 2 anos e é neto de português, a via de neto pode ser exerc
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Adotados por Portugueses',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 
 A adoção por cidadãos portugueses pode gerar direito à cidadania portuguesa — mas os requisitos variam conforme o tipo de adoção, a época em que ocorreu, e como está documentada. É um tema que exige precisão, porque as diferenças entre tipos de vínculo adotivo têm consequências jurídicas reais.
 
@@ -4656,6 +4728,8 @@ A certidão de nascimento atualizada pós-adoção é o documento apresentado �
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa e Herança: O que os Descendentes Precisam Saber',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Cidadania e herança intersectam-se de formas que muitas famílias não antecipam — e que podem ter implicações práticas quando há bens nos dois países.
 
 ## A cidadania como herança em si mesma
@@ -4706,6 +4780,8 @@ Famílias luso-brasileiras com bens nos dois países precisam conduzir o invent�
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Filho vs. Neto: Diferenças no Processo de Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 "Sou filho de português — é diferente de ser neto?" Sim. Embora ambos sejam atribuição por descendência, há diferenças práticas importantes.
 
 ## A diferença fundamental: vínculo efetivo
@@ -4769,6 +4845,8 @@ Se o pai faleceu sem formalizar a cidadania, em alguns casos é mais simples con
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Pedir Cidadania no Brasil ou em Portugal: Vantagens e Desvantagens',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Para os processos mais comuns — filhos e netos de portugueses — o processo é conduzido pela Conservatória dos Registos Centrais em Lisboa e o local de residência do requerente não altera o trâmite. A fila do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) é a mesma — não há vantagem de prazo em fazer o processo residindo em Portugal.
 
 ## O que não muda por estar em Portugal vs. no Brasil
@@ -4813,6 +4891,8 @@ A naturalização por residência exige presença em Portugal — 7 anos para br
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Tradução Juramentada de Documentos para Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Quando o processo de cidadania portuguesa envolve documentos em língua diferente do português, a tradução juramentada pode ser necessária. Mas o cenário mais comum — brasileiros descendentes de portugueses — raramente exige tradução.
 
 ## Quando a tradução NÃO é necessária
@@ -4871,6 +4951,8 @@ Se a tradução precisar ser usada em Portugal, também pode precisar de [Aposti
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Casais em União de Facto (União Estável)',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A união de facto — equivalente à "união estável" no vocabulário brasileiro — dá direito à cidadania portuguesa pelo cônjuge, com o mesmo prazo de 3 anos que o casamento civil. Mas o processo tem uma especificidade importante que o torna mais complexo.
 
 ## O requisito que complica: reconhecimento judicial
@@ -4924,6 +5006,8 @@ Da data de início da convivência — não da data do reconhecimento judicial. 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Como Acompanhar o Andamento do Processo de Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Dar entrada no processo de cidadania portuguesa e depois ficar sem notícias por meses — ou anos — é uma experiência que a maioria dos requerentes conhece bem. Não é sinal de problema: é o funcionamento normal de um sistema com mais de 700 mil processos pendentes. Mas isso não significa que você deva ficar no escuro.
 
 ## O portal oficial de acompanhamento
@@ -4990,6 +5074,8 @@ Enviar e-mails ao [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) per
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa e Serviço Militar Obrigatório',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Uma dúvida frequente, especialmente entre homens jovens: a cidadania portuguesa gera obrigação de serviço militar em Portugal?
 
 ## A resposta directa: não
@@ -5039,6 +5125,8 @@ Se você residir em outro país da UE (Alemanha, França, etc.), as obrigações
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Como Acelerar o Processo de Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A pergunta que todo requerente faz em algum momento: existe alguma forma de acelerar o processo de cidadania portuguesa? A resposta honesta é: não existe atalho para a fila do IRN — mas existem erros que atrasam desnecessariamente, e evitá-los é o equivalente prático de "acelerar".
 
 ## O que determina o prazo: a fila do IRN
@@ -5099,6 +5187,8 @@ A [Lei 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-11235
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Cidadãos da CPLP',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A Comunidade dos Países de Língua Portuguesa (CPLP) tem tratamento diferenciado na Lei da Nacionalidade Portuguesa — mas a [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) trouxe mudanças significativas.
 
 ## O que mudou com a Lei 1/2026 na naturalização
@@ -5153,6 +5243,8 @@ A mudança da Lei 1/2026 afecta directamente quem chegou a Portugal nos últimos
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Atualização de Dados no Processo de Cidadania Já Iniciado',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Processos de cidadania portuguesa demoram anos. Nesse período, muita coisa pode mudar na vida do requerente. O que precisa ser comunicado — e o que não afecta o processo?
 
 ## O que precisa ser comunicado
@@ -5207,6 +5299,8 @@ O processo de cidadania extingue-se. Os herdeiros que também tenham direito pre
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Atualizações da Lei da Nacionalidade Portuguesa em 2026',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A [Lei Orgânica n.º 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996), publicada em 18 de maio e em vigor desde 19 de maio de 2026, foi a alteração mais significativa à Lei da Nacionalidade Portuguesa dos últimos anos.
 
 ## O que mudou
@@ -5271,6 +5365,8 @@ Pedidos protocolados antes de 19 de maio de 2026 seguem as regras anteriores em 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Quem Tem Antepassados de Macau ou Goa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Um nicho específico envolve descendentes de portugueses que viveram nos antigos territórios ultramarinos — particularmente Macau e Goa. Esses casos têm particularidades históricas e documentais que os distinguem dos processos típicos.
 
 ## O contexto histórico
@@ -5323,6 +5419,8 @@ Processos de descendentes de Macau ou Goa exigem análise jurídica especializad
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Como Usar o Portal ePortugal no Processo de Cidadania',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 O portal ePortugal é a plataforma digital do governo português para serviços públicos. Para quem está em processo de cidadania, algumas funcionalidades são directamente úteis.
 
 ## O que o ePortugal oferece para o processo
@@ -5385,6 +5483,8 @@ O ePortugal exige autenticação (Cartão de Cidadão, Chave Móvel Digital) par
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Descendentes de Emigrantes',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A maioria dos brasileiros que buscam cidadania portuguesa é descendente de emigrantes — portugueses que deixaram Portugal nos séculos XIX e XX. Entender o perfil desse emigrante ajuda a antever os desafios documentais.
 
 ## As ondas de emigração para o Brasil
@@ -5455,6 +5555,8 @@ Pesquisa online disponível no [Digitarq](https://arquivos.pt) e FamilySearch.
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Checklist Final Antes de Entregar o Processo de Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Antes de protocolar o processo de cidadania portuguesa, existe uma verificação final que pode evitar diligências, atrasos e retrabalho. Esta checklist não substitui a análise da assessoria — mas é o filtro que impede os erros mais comuns.
 
 ## Certidões: verificação crítica
@@ -5532,6 +5634,8 @@ Com o número de processo, acompanhe em [nacionalidade.justica.gov.pt](https://n
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Quem Tem Pai Falecido',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 
 Quando a família descobre que tem direito à cidadania portuguesa, uma das primeiras perguntas é: "mas meu pai já faleceu — ainda dá para pedir?". A resposta é sim — e importa entender por quê, para que ninguém desista sem precisar.
 
@@ -5622,6 +5726,8 @@ Sim. Cada processo é individual, mas podem correr em paralelo — geralmente co
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Quem Tem Documentos Perdidos',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 
 "Minha família não tem absolutamente nada sobre o meu avô português. Nenhum documento, nenhum papel." Essa frase chega com frequência. E na maioria das vezes, ela não fecha o processo — apenas indica que o trabalho começa nos arquivos portugueses, não em casa.
 
@@ -5722,6 +5828,8 @@ Aceita — o que o IRN exige é a certidão em si, não como ela foi obtida. A a
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Filhos Nascidos Fora do Casamento',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 
 A palavra "ilegítimo" — usada em períodos históricos para classificar filhos nascidos fora do casamento — não existe mais no direito brasileiro nem no português. E não deveria influenciar o processo de cidadania portuguesa em 2026. Mas a falta de documentação formal da filiação ainda pode complicar o caminho.
 
@@ -5817,6 +5925,8 @@ O reconhecimento voluntário em cartório pode ser feito em dias. O reconhecimen
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa e Nome Português: Como Alterar Após a Aprovação',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Após a aprovação da cidadania portuguesa, o Cartão de Cidadão vai registar qual nome? E é possível adaptar o nome para uma grafia mais portuguesa?
 
 ## O nome no Cartão de Cidadão
@@ -5869,6 +5979,8 @@ Durante o processo, divergências como "Antônio" no BR vs. "António" no PT sã
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Brasileiros no Nordeste',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 O Nordeste tem forte ligação histórica com Portugal — foi o primeiro ponto de chegada dos colonizadores nos séculos XVI e XVII.
 
 ## Os consulados competentes
@@ -5919,6 +6031,8 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Guia Definitivo: Todas as Formas de Obter Cidadania Portuguesa em 2026',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Existem múltiplas formas de obter a cidadania portuguesa — e a mais adequada depende da situação familiar, da residência e do tempo disponível. Este guia mapa todas as vias com as regras actualizadas pela [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996).
 
 ## Via 1: Filiação directa (filhos de portugueses)
@@ -5992,6 +6106,8 @@ Adoptados em adoção plena por cidadão(ã) português(a). Mesmos direitos que 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa e Acesso à Universidade na Europa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Um dos benefícios mais concretos da cidadania portuguesa é o acesso à educação europeia como cidadão da UE — especialmente relevante para quem pensa nos filhos ou em retornar aos estudos.
 
 ## O que muda com a cidadania portuguesa
@@ -6047,6 +6163,8 @@ Filhos de cidadãos portugueses nascidos após a aprovação são automaticament
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Erros Comuns na Árvore Genealógica para Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A árvore genealógica é o coração do processo de cidadania portuguesa por descendência — e é onde estão os erros que mais frequentemente causam atrasos, diligências e indeferimentos.
 
 ## Erro 1: Confundir linha paterna e materna
@@ -6113,6 +6231,8 @@ A análise da cadeia de filiação com assessoria antes de iniciar o levantament
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Brasileiros com Dupla Nacionalidade Não-Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 O que acontece quando um brasileiro já tem outra cidadania — americana, italiana, alemã, espanhola — e agora quer acrescentar também a portuguesa?
 
 ## Portugal e a múltipla cidadania
@@ -6161,6 +6281,8 @@ Se você viveu em outro país por mais de 1 ano após a maioridade, pode ser nec
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Tempo Médio de Aprovação por Tipo de Processo em 2026',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Uma das primeiras perguntas de quem considera iniciar o processo: quanto tempo vai demorar? A resposta depende do tipo de processo — e as diferenças são enormes.
 
 ## Os prazos actuais por tipo de processo
@@ -6222,6 +6344,8 @@ O prazo de análise para naturalização (27 a 30 meses) é menor do que para ne
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Brasileiros em Belo Horizonte e Minas Gerais',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Minas Gerais tem forte presença de descendentes de portugueses — muitos dos primeiros colonizadores das minas de ouro nos séculos XVII e XVIII eram portugueses que se instalaram na região.
 
 ## Os consulados competentes
@@ -6270,6 +6394,8 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são igu
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Brasileiros em Curitiba e Paraná',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 O Paraná tem composição étnica diversificada, com forte presença de descendentes de imigrantes europeus — incluindo portugueses, além de italianos, alemães, poloneses e ucranianos.
 
 ## O consulado competente
@@ -6316,6 +6442,8 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Consulado de Portugal no Brasil: Onde Fica e Para Que Serve',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Para brasileiros com cidadania portuguesa — ou que estão a tratar de obtê-la — os consulados de Portugal no Brasil são a ligação directa com o Estado português. Mas muitos não sabem exactamente o que o consulado faz, o que não faz, e qual é o consulado competente para a sua área.
 
 ## O que o consulado faz (e não faz)
@@ -6388,6 +6516,8 @@ Documentos necessários: Cartão de Cidadão anterior (para renovação) ou prov
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Por Que Processos de Cidadania Portuguesa São Indeferidos e Como Recorrer',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Receber um indeferimento após anos de espera é uma das experiências mais frustrantes do processo. Mas o indeferimento não é necessariamente o fim: na maioria dos casos, é possível recorrer — e em muitos, reverter a decisão.
 
 ## Por que processos são indeferidos
@@ -6446,6 +6576,8 @@ Sobre erros que geram problemas, veja nosso artigo sobre [erros na árvore genea
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Documentos Digitais vs. Físicos no Processo de Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Com a digitalização progressiva dos serviços portugueses, uma dúvida crescente: certidões digitais funcionam? O processo pode ser conduzido completamente online?
 
 A resposta varia conforme o tipo de documento e a fase do processo. Em 2026, o cenário é de transição.
@@ -6510,6 +6642,8 @@ Não. O protocolo do processo de cidadania é feito junto à Conservatória dos 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa: Mitos e Verdades',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Com tanta informação circulando sobre cidadania portuguesa — em grupos de WhatsApp, fóruns, vídeos no YouTube — algumas crenças incorrectas se tornaram quase senso comum. Aqui estão os mitos mais frequentes, com a resposta correcta.
 
 ## Mito 1: "Preciso ir a Portugal para dar entrada no processo"
@@ -6575,6 +6709,8 @@ Com tanta informação circulando sobre cidadania portuguesa — em grupos de Wh
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Brasileiros em Brasília e Centro-Oeste',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Brasília e o Centro-Oeste têm população relativamente jovem em termos históricos — mas muitas famílias instaladas no Planalto Central têm raízes em estados com forte imigração portuguesa como MG, SP e estados do Nordeste.
 
 ## O consulado competente
@@ -6621,6 +6757,8 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa e Aquisição de Imóveis em Portugal',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A cidadania portuguesa não "desbloquia" o acesso ao mercado imobiliário português — qualquer estrangeiro pode comprar imóvel em Portugal. O que a cidadania muda são outras dimensões práticas.
 
 ## O que a cidadania muda na compra de imóveis
@@ -6674,6 +6812,8 @@ A cidadania portuguesa não implica residência fiscal em Portugal. Para quem vi
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Benefícios Fiscais para Novos Cidadãos Portugueses',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Muita informação imprecisa circula sobre "isenções fiscais" da cidadania portuguesa. É importante ter clareza sobre o que são benefícios reais e o que são mitos.
 
 ## O que a cidadania portuguesa NÃO faz automaticamente
@@ -6727,6 +6867,8 @@ Para quem vive em Portugal e tem rendimentos de fontes brasileiras, o Acordo Bra
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Como Preparar a Entrevista no IRN para Cidadania Portuguesa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Uma dúvida frequente: existe entrevista no processo de cidadania portuguesa? A resposta surpreende muitos — na esmagadora maioria dos casos, **não existe entrevista**.
 
 ## O processo padrão não tem entrevista
@@ -6779,6 +6921,8 @@ Após a aprovação, no consulado de Portugal no Brasil — para o Cartão de Ci
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa: O Que Acontece se Eu Viver Entre Brasil e Portugal',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Muitos novos cidadãos portugueses não querem se mudar definitivamente — querem a flexibilidade de viver entre os dois países. A cidadania portuguesa não impõe obrigação de residência em Portugal para ser mantida.
 
 ## A cidadania portuguesa não exige residência em Portugal
@@ -6834,6 +6978,8 @@ Filhos de pai ou mãe português nascidos em Portugal são automaticamente portu
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Descendentes de Emigrantes que Voltaram a Portugal',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Existe uma situação específica e pouco discutida: o ancestral emigrou para o Brasil, viveu alguns anos, e depois retornou a Portugal — deixando descendentes dos dois lados do Atlântico. Como isso afecta o processo de cidadania dos descendentes que ficaram no Brasil?
 
 ## O que o retorno do emigrante muda (e o que não muda)
@@ -6880,6 +7026,8 @@ O que muda é a localização de alguns documentos.
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa e Acesso a Benefícios Sociais na Europa',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 A cidadania portuguesa dá acesso ao sistema de bem-estar social europeu — mas com condições importantes. Não existe "acesso automático a benefícios" apenas por ter o passaporte.
 
 ## O princípio fundamental: residência e contribuição
@@ -6935,6 +7083,8 @@ Principalmente: direito de viajar com o passaporte português, acesso à UE sem 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Como Manter a Cidadania Portuguesa Ativa Após a Aprovação',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Após a aprovação, surge uma pergunta razoável: existe alguma obrigação para "manter" a cidadania portuguesa activa? Existe o risco de a perder?
 
 ## A cidadania portuguesa pode ser perdida?
@@ -6998,6 +7148,8 @@ A renovação é feita no consulado de Portugal da sua área de residência no B
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa para Quem Tem Processo Parado Há Anos',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 
 "Dei entrada no processo há 3 anos e não tenho nenhuma notícia." Essa situação é mais comum do que deveria — e tem causas e soluções muito específicas. O primeiro passo é distinguir se o processo está parado de verdade ou se simplesmente está na fila normal do IRN.
 
@@ -7098,6 +7250,8 @@ Não o andamento em si — mas pode fazer com que as notificações do IRN não 
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
     metaDescription: 'Cidadania Portuguesa — Perguntas Finais Antes de Começar',
     content: `
+> **Actualizado em junho de 2026** com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
+
 Antes de dar o primeiro passo, existem dúvidas que quase toda a gente tem mas nem sempre pergunta. Aqui estão as respostas directas para as questões mais frequentes.
 
 ## "Tenho direito a pedir?"
