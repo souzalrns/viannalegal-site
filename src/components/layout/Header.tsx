@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 interface NavItem {
@@ -26,9 +26,25 @@ const WHATSAPP_CTA_URL =
 export function Header() {
   const [isScrolled, setIsScrolled]       = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const location  = useLocation();
+  const location   = useLocation();
+  const navigate   = useNavigate();
   const isHomePage = location.pathname === '/';
   const isDark     = isScrolled || !isHomePage;
+
+  const scrollToSection = useCallback((hash: string) => {
+    const id = hash.replace('#', '');
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      // Não está na página — navega para homepage e espera carregar
+      navigate('/');
+      setTimeout(() => {
+        const el2 = document.getElementById(id);
+        if (el2) el2.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 300);
+    }
+  }, [navigate]);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
@@ -67,6 +83,17 @@ export function Header() {
                 isDark ? 'text-foreground' : 'text-primary-foreground',
                 item.highlight && 'text-gold font-semibold'
               );
+              if (item.href.startsWith('/#')) {
+                return (
+                  <button
+                    key={item.label}
+                    className={cls}
+                    onClick={() => scrollToSection(item.href.replace('/', ''))}
+                  >
+                    {item.label}
+                  </button>
+                );
+              }
               return (
                 <Link key={item.label} to={item.href} className={cls}>{item.label}</Link>
               );
