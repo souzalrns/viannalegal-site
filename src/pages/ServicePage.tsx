@@ -1,3 +1,5 @@
+import { PRAZOS_IRN, formatPrazo } from '@/config/prazos';
+import { TAXAS_IRN, formatTaxaIRN } from '@/config/taxas';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { Helmet } from 'react-helmet-async';
