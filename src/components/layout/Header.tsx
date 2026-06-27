@@ -8,17 +8,16 @@ import { SITE_CONFIG, waUrl } from '@/config/site';
 interface NavItem {
   label: string;
   href: string;
-  isAnchor: boolean;
   highlight?: boolean;
 }
 
 const navItems: NavItem[] = [
-  { label: 'Quem Somos',           href: '/#quem-somos',         isAnchor: false },
+  { label: 'Quem Somos',           href: '/#quem-somos',     },
   { label: 'Cidadania Portuguesa', href: '/cidadania-portuguesa', isAnchor: false },
-  { label: 'Busca de Documentos',  href: '/busca-documentos',    isAnchor: false },
-  { label: 'Blog',                 href: '/blog',                 isAnchor: false },
-  { label: 'Quiz — Descubra seu direito', href: '/quiz',          isAnchor: false, highlight: true },
-  { label: 'Contato',              href: '/#contato',             isAnchor: false },
+  { label: 'Busca de Documentos',  href: '/busca-documentos',},
+  { label: 'Blog',                 href: '/blog',             },
+  { label: 'Quiz — Descubra seu direito', href: '/quiz',      highlight: true },
+  { label: 'Contato',              href: '/#contato',         },
 ];
 
 const WHATSAPP_CTA_URL =
@@ -68,9 +67,7 @@ export function Header() {
                 isDark ? 'text-foreground' : 'text-primary-foreground',
                 item.highlight && 'text-gold font-semibold'
               );
-              return item.isAnchor ? (
-                <a key={item.label} href={item.href} className={cls}>{item.label}</a>
-              ) : (
+              return (
                 <Link key={item.label} to={item.href} className={cls}>{item.label}</Link>
               );
             })}
