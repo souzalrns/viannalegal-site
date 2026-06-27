@@ -22,6 +22,24 @@ export interface BlogPostMeta {
 // 82 artigos — apenas metadados
 export const allBlogPostsMeta: BlogPostMeta[] = [
   {
+    id: 83,
+    slug: 'como-tirar-cidadania-portuguesa',
+    title: 'Como Tirar Cidadania Portuguesa: Guia Completo 2026',
+    excerpt: 'Guia passo a passo actualizado com a Lei Orgânica 1/2026. Quem tem direito, documentos, prazos reais do IRN, custos, erros comuns e o que fazer após aprovação.',
+    date: '27 Jun 2026',
+    readTime: '25 min',
+    author: 'Kathia Vianna',
+    category: 'Guia Completo',
+    icon: 'Scale',
+    featured: true,
+    metaDescription: 'Como tirar cidadania portuguesa em 2026: quem tem direito, documentos, prazos IRN e custos. Guia completo actualizado com a Lei Orgânica 1/2026.',
+    relatedSlugs: [
+      'guia-completo-cidadania-portuguesa-2025',
+      'cidadania-portuguesa-netos-guia-completo',
+      'documentos-cidadania-portuguesa-checklist-completo',
+    ],
+  },
+  {
     id: 1,
     slug: 'veto-tribunal-constitucional-dezembro-2025',
     title: 'Veto do Tribunal Constitucional Dez/2025: Residência em 5 Anos Mantida',
