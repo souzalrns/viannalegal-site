@@ -153,8 +153,7 @@ export function Contact() {
                 noValidate
               >
                 {/* Honeypot anti-spam (oculto) */}
-                <input type="hidden" name="form-name" value="contato-viannalegal" />
-                <div className="hidden" aria-hidden="true">
+                        <div className="hidden" aria-hidden="true">
                   <label>Não preencher: <input name="bot-field" /></label>
                 </div>
 
