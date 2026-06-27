@@ -108,7 +108,26 @@ export default function BlogPost() {
       .replace(/'/g, '&#x27;');
 
   // Convert markdown-like content to HTML (com sanitização XSS)
+  // Resolver placeholders de prazos a partir da tabela central
+  const resolvePlaceholders = (text: string): string => {
+    const get = (slug: string, max?: number) => {
+      const p = max
+        ? PRAZOS_IRN.find(p => p.slug === slug && p.prazoMax === max)
+        : PRAZOS_IRN.find(p => p.slug === slug);
+      return p?.prazo || '';
+    };
+    return text
+      .replace(/{{prazo_filhos_menores}}/g, get('filhos-menores') || '3 a 5 meses')
+      .replace(/{{prazo_filhos_maiores}}/g, get('filhos-maiores') || '4 a 6 meses')
+      .replace(/{{prazo_netos_maiores}}/g,  get('netos', 48)     || '42 a 48 meses')
+      .replace(/{{prazo_casamento}}/g,      get('conjuges')      || '50 a 54 meses')
+      .replace(/{{prazo_naturalizacao}}/g,  get('residencia')    || '27 a 30 meses')
+      .replace(/{{prazo_transcricao}}/g,    get('transcricao-casamento') || '2 a 3 meses');
+  };
+
   const formatContent = (content: string) => {
+    // Primeiro resolver placeholders, depois formatar markdown
+    content = resolvePlaceholders(content);
     if (!content) return '';
     
     return content
