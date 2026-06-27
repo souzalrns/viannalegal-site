@@ -739,7 +739,7 @@ export default function Quiz() {
   return (
     <>
       <Helmet>
-        <title>Quiz Cidadania Portuguesa — Descubra se Você Tem Direito | ViannaLegal</title>
+        <title>Quiz — Tenho Direito à Cidadania Portuguesa? | ViannaLegal</title>
         <meta name="description" content="Responda algumas perguntas e descubra em minutos se você tem direito à cidadania portuguesa e qual é o caminho mais adequado para o seu perfil." />
       </Helmet>
       <SchemaQuiz />
