@@ -23,7 +23,8 @@ export function Header() {
   const location   = useLocation();
   const navigate   = useNavigate();
   const isHomePage = location.pathname === '/';
-  const isDark     = isScrolled || !isHomePage;
+  const forceDark = ['/blog', '/cidadania-portuguesa', '/busca-documentos', '/quiz', '/contato', '/politica-privacidade', '/termos-uso'].some(p => location.pathname.startsWith(p));
+  const isDark     = isScrolled || !isHomePage || forceDark;
 
   useEffect(() => {
     const fn = () => setIsScrolled(window.scrollY > 20);
