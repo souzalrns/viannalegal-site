@@ -54,7 +54,7 @@ export function Header() {
       mobile
         ? 'text-foreground py-3 min-h-[44px] flex items-center text-base'
         : 'text-sm',
-      !mobile && (isDark ? 'text-foreground' : 'text-primary-foreground'),
+      !mobile && (isScrolled ? 'text-foreground' : 'text-primary-foreground'),
       item.highlight && 'text-gold font-semibold'
     );
     if (item.href.startsWith('/#')) {
@@ -93,7 +93,7 @@ export function Header() {
             className="shrink-0">
             <span className={cn(
               'font-display text-2xl font-bold transition-colors duration-300',
-              isDark ? 'text-primary' : 'text-primary-foreground'
+              isScrolled ? 'text-primary' : 'text-primary-foreground'
             )}>
               Vianna<span className="text-gold">Legal</span>
             </span>
@@ -143,8 +143,8 @@ export function Header() {
             aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen
-              ? <X className={cn('w-6 h-6', isDark ? 'text-foreground' : 'text-primary-foreground')} />
-              : <Menu className={cn('w-6 h-6', isDark ? 'text-foreground' : 'text-primary-foreground')} />
+              ? <X className={cn('w-6 h-6', isScrolled ? 'text-foreground' : 'text-primary-foreground')} />
+              : <Menu className={cn('w-6 h-6', isScrolled ? 'text-foreground' : 'text-primary-foreground')} />
             }
           </button>
         </nav>
