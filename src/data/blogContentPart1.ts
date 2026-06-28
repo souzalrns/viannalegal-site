@@ -2621,7 +2621,6 @@ O processo de netos é o mais complexo do ponto de vista documental — cadeia d
 - [ ] **Certidão de casamento** (se casado) — apostilada, máx. 12 meses
 - [ ] **RG válido** — cópia autenticada em cartório
 - [ ] **Certidão criminal federal** — apostilada, máx. 3 meses
-- [ ] **Certidão criminal estadual** — apostilada, máx. 3 meses
 - [ ] **Certidão criminal do IRN** (PT) — solicitada pela assessoria ao [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 
 ## Dossiê de vínculo efetivo
