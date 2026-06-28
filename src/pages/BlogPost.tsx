@@ -10,7 +10,8 @@ import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-rea
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
 import { SchemaArticle, SchemaBreadcrumb, SchemaFAQ } from '@/components/seo/SchemaMarkup';
-import { allBlogPostsContent } from '@/data/allBlogPostsContent';
+import { allBlogPostsContent, loadArtigoPilar } from '@/data/allBlogPostsContent';
+import { useState, useEffect as useEffectContent } from 'react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { SITE_CONFIG } from '@/config/site';
 
