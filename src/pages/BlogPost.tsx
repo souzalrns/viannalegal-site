@@ -126,87 +126,158 @@ export default function BlogPost() {
   };
 
   const formatContent = (content: string) => {
-    // Primeiro resolver placeholders, depois formatar markdown
     content = resolvePlaceholders(content);
     if (!content) return '';
-    
-    return content
-      .split('\n')
-      .map(rawLine => {
-        // Escapar HTML antes de qualquer processamento
+
+    const applyInline = (line: string): string => {
+      // Links internos
+      line = line.replace(
+        /\[([^\]]{1,120})\]\((\/blog\/[a-z0-9\-]{1,100})\)/g,
+        '<a href="$2" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
+      );
+      line = line.replace(
+        /\[([^\]]{1,120})\]\((\/[a-z][a-z0-9\-/]{0,60})\)/g,
+        '<a href="$2" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
+      );
+      // Links externos
+      line = line.replace(
+        /\[([^\]]{1,120})\]\((https:\/\/[^\)]{1,200})\)/g,
+        '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
+      );
+      // mailto
+      line = line.replace(
+        /\[([^\]]{1,120})\]\((mailto:[^\)]{1,100})\)/g,
+        '<a href="$2" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
+      );
+      // Bold + italic
+      line = line.replace(/\*\*\*(.*?)\*\*\*/g, '<strong class="font-semibold text-foreground"><em>$1</em></strong>');
+      line = line.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-foreground">$1</strong>');
+      line = line.replace(/\*(.*?)\*/g, '<em class="italic">$1</em>');
+      // Inline code
+      line = line.replace(/`([^`]+)`/g, '<code class="bg-muted px-1 py-0.5 rounded text-sm font-mono text-foreground">$1</code>');
+      return line;
+    };
+
+    // Processar tabelas como bloco antes de dividir por linhas
+    const processTableBlock = (rows: string[]): string => {
+      const dataRows = rows.filter(r => !r.replace(/\|/g, '').trim().replace(/-/g, '').trim() === '');
+      const validRows = rows.filter(r => !r.replace(/[|\s-]/g, '') === '');
+      
+      let headerDone = false;
+      let html = '<div class="overflow-x-auto my-4"><table class="w-full border-collapse text-sm">';
+      
+      for (const row of rows) {
+        // Linha separadora (---|---|---)
+        if (/^\|[\s|:-]*-{2,}[\s|:-]*\|?$/.test(row.trim()) || row.replace(/[|\s-:]/g, '') === '') {
+          if (!headerDone) {
+            html = html.replace('</thead-placeholder>', '</tr></thead><tbody>');
+            headerDone = true;
+          }
+          continue;
+        }
+        const cells = row.split('|').slice(1, -1);
+        if (!headerDone) {
+          if (html.includes('thead-placeholder')) {
+            // já tem header
+            html += `<tr class="border-b-2 border-border">${cells.map(c => `<th class="px-3 py-2 text-left font-semibold text-foreground bg-muted/50">${applyInline(escapeHtml(c.trim()))}</th>`).join('')}</thead-placeholder>`;
+          } else {
+            html += `<thead><tr class="border-b-2 border-border">${cells.map(c => `<th class="px-3 py-2 text-left font-semibold text-foreground bg-muted/50">${applyInline(escapeHtml(c.trim()))}</th>`).join('')}</thead-placeholder>`;
+          }
+        } else {
+          html += `<tr class="border-b border-border/40 hover:bg-muted/20">${cells.map(c => `<td class="px-3 py-2 text-muted-foreground">${applyInline(escapeHtml(c.trim()))}</td>`).join('')}</tr>`;
+        }
+      }
+      
+      if (!headerDone) {
+        // Sem separador — tratar tudo como dados
+        html = '<div class="overflow-x-auto my-4"><table class="w-full border-collapse text-sm"><tbody>';
+        for (const row of rows) {
+          const cells = row.split('|').slice(1, -1);
+          html += `<tr class="border-b border-border/40">${cells.map(c => `<td class="px-3 py-2 text-muted-foreground">${applyInline(escapeHtml(c.trim()))}</td>`).join('')}</tr>`;
+        }
+      }
+      
+      html += '</tbody></table></div>';
+      return html.replace('</thead-placeholder>', '</tr></thead><tbody>');
+    };
+
+    // Pré-processar: agrupar blocos de tabela
+    const rawLines = content.split('\n');
+    const segments: Array<{type: 'table' | 'text', lines: string[]}> = [];
+    let i = 0;
+    while (i < rawLines.length) {
+      if (rawLines[i].trim().startsWith('|')) {
+        const tableLines: string[] = [];
+        while (i < rawLines.length && (rawLines[i].trim().startsWith('|') || rawLines[i].trim() === '')) {
+          if (rawLines[i].trim().startsWith('|')) tableLines.push(rawLines[i]);
+          else if (tableLines.length > 0 && i + 1 < rawLines.length && rawLines[i+1].trim().startsWith('|')) tableLines.push(rawLines[i]);
+          else break;
+          i++;
+        }
+        if (tableLines.length > 0) segments.push({type: 'table', lines: tableLines});
+      } else {
+        if (segments.length === 0 || segments[segments.length-1].type !== 'text') {
+          segments.push({type: 'text', lines: []});
+        }
+        segments[segments.length-1].lines.push(rawLines[i]);
+        i++;
+      }
+    }
+
+    const parts: string[] = [];
+
+    for (const seg of segments) {
+      if (seg.type === 'table') {
+        parts.push(processTableBlock(seg.lines));
+        continue;
+      }
+
+      const html = seg.lines.map(rawLine => {
         let line = escapeHtml(rawLine);
 
-        // Headers (após escape, os marcadores ## são texto puro)
-        if (line.startsWith('## ')) {
-          return `<h2 class="text-2xl font-display font-bold text-foreground mt-6 mb-3">${line.slice(3)}</h2>`;
-        }
-        if (line.startsWith('### ')) {
-          return `<h3 class="text-xl font-display font-semibold text-foreground mt-5 mb-2">${line.slice(4)}</h3>`;
-        }
-        if (line.startsWith('#### ')) {
-          return `<h4 class="text-lg font-display font-semibold text-foreground mt-4 mb-2">${line.slice(5)}</h4>`;
-        }
-        
-        // Markdown links internos — apenas /blog/ paths (whitelist de destino)
-        line = line.replace(
-          /\[([^\]]{1,120})\]\((\/blog\/[a-z0-9\-]{1,100})\)/g,
-          '<a href="$2" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
-        );
-        // Links externos — apenas https (sem javascript:, data:, etc.)
-        line = line.replace(
-          /\[([^\]]{1,120})\]\((https:\/\/[^\)]{1,200})\)/g,
-          '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2 hover:text-gold transition-colors font-medium">$1</a>'
-        );
+        if (line.startsWith('## ')) return `<h2 class="text-2xl font-display font-bold text-foreground mt-8 mb-3">${applyInline(line.slice(3))}</h2>`;
+        if (line.startsWith('### ')) return `<h3 class="text-xl font-display font-semibold text-foreground mt-6 mb-2">${applyInline(line.slice(4))}</h3>`;
+        if (line.startsWith('#### ')) return `<h4 class="text-lg font-display font-semibold text-foreground mt-4 mb-2">${applyInline(line.slice(5))}</h4>`;
 
-        // Bold text
-        line = line.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-foreground">$1</strong>');
-        
-        // Lists
-        if (line.startsWith('- ')) {
-          return `<li class="ml-4 text-muted-foreground">${line.slice(2)}</li>`;
+        // Blockquote
+        if (line.startsWith('&gt; ')) {
+          return `<blockquote class="border-l-4 border-gold pl-4 my-3 text-muted-foreground italic">${applyInline(line.slice(5))}</blockquote>`;
         }
-        if (line.startsWith('☐ ')) {
-          return `<li class="ml-4 text-muted-foreground flex items-start gap-2"><span class="text-gold">☐</span>${line.slice(2)}</li>`;
+
+        // Code block marker
+        if (line.startsWith('\`\`\`')) return '';
+
+        // HR
+        if (line.trim() === '---') return '<hr class="my-6 border-border" />';
+
+        // Listas checkboxes
+        if (line.startsWith('- [ ] ') || line.startsWith('[ ] ')) {
+          const text = line.startsWith('- [ ] ') ? line.slice(6) : line.slice(4);
+          return `<li class="ml-4 text-muted-foreground flex items-start gap-2 my-1"><span class="mt-0.5 text-muted-foreground border border-border rounded w-4 h-4 flex-shrink-0 inline-block"></span><span>${applyInline(text)}</span></li>`;
         }
-        if (line.startsWith('✓ ')) {
-          return `<li class="ml-4 text-muted-foreground flex items-start gap-2"><span class="text-portugal-green">✓</span>${line.slice(2)}</li>`;
+        if (line.startsWith('☐ ')) return `<li class="ml-4 text-muted-foreground flex items-start gap-2 my-1"><span class="text-gold">☐</span><span>${applyInline(line.slice(2))}</span></li>`;
+        if (line.startsWith('✓ ') || line.startsWith('✅ ')) return `<li class="ml-4 text-muted-foreground flex items-start gap-2 my-1"><span class="text-green-600">✓</span><span>${applyInline(line.slice(2))}</span></li>`;
+        if (line.startsWith('✗ ') || line.startsWith('❌ ')) return `<li class="ml-4 text-muted-foreground flex items-start gap-2 my-1"><span class="text-red-500">✗</span><span>${applyInline(line.slice(2))}</span></li>`;
+
+        // Lista normal
+        if (line.startsWith('- ') || line.startsWith('* ')) {
+          return `<li class="ml-5 list-disc text-muted-foreground my-0.5">${applyInline(line.slice(2))}</li>`;
         }
-        if (line.startsWith('✗ ')) {
-          return `<li class="ml-4 text-muted-foreground flex items-start gap-2"><span class="text-red-500">✗</span>${line.slice(2)}</li>`;
-        }
-        
-        // Numbered lists
+        // Lista numerada
         if (/^\d+\.\s/.test(line)) {
-          return `<li class="ml-4 text-muted-foreground">${line.replace(/^\d+\.\s/, '')}</li>`;
+          return `<li class="ml-5 list-decimal text-muted-foreground my-0.5">${applyInline(line.replace(/^\d+\.\s/, ''))}</li>`;
         }
-        
-        // Tables (simplified)
-        if (line.startsWith('|') && line.endsWith('|')) {
-          const cells = line.split('|').filter(c => c.trim());
-          if (line.includes('---')) {
-            return ''; // Skip separator rows
-          }
-          const isHeader = !line.includes('---') && cells.every(c => !c.includes('meses') && !c.includes('€'));
-          if (isHeader) {
-            return `<tr class="border-b border-border">${cells.map(c => `<th class="px-4 py-2 text-left font-semibold text-foreground">${c.trim()}</th>`).join('')}</tr>`;
-          }
-          return `<tr class="border-b border-border/50">${cells.map(c => `<td class="px-4 py-2 text-muted-foreground">${c.trim()}</td>`).join('')}</tr>`;
-        }
-        
-        // Horizontal rule
-        if (line.startsWith('---')) {
-          return '<hr class="my-8 border-border" />';
-        }
-        
-        // Empty lines — ignorar para evitar espaçamento excessivo
-        if (line.trim() === '') {
-          return '';
-        }
-        
-        // Regular paragraphs
-        return `<p class="text-muted-foreground leading-relaxed mb-2">${line}</p>`;
-      })
-      .join('\n');
+
+        // Linha vazia
+        if (line.trim() === '') return '';
+
+        return `<p class="text-muted-foreground leading-relaxed mb-2">${applyInline(line)}</p>`;
+      }).join('\n');
+
+      parts.push(html);
+    }
+
+    return parts.join('\n');
   };
 
   const Icon = post.icon;
