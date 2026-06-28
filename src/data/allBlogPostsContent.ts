@@ -1,5 +1,5 @@
 // ViannaLegal — Índice de conteúdo dos artigos
-// Build fix: artigo pilar carregado via dynamic import para não bloquear bundle inicial
+// Artigo pilar carregado via dynamic import — não bloqueia bundle inicial
 import { blogContentPart1 } from './blogContentPart1';
 import { blogContentPart2 } from './blogContentPart2';
 import { blogContentPart3 } from './blogContentPart3';
