@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-react';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
-import { SchemaArticle, SchemaBreadcrumb, SchemaFAQ } from '@/components/seo/SchemaMarkup';
+import { SchemaArticle, SchemaBreadcrumb, SchemaFAQ, SchemaHowTo } from '@/components/seo/SchemaMarkup';
 import { allBlogPostsContent, loadArtigoPilar } from '@/data/allBlogPostsContent';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { SITE_CONFIG } from '@/config/site';
@@ -325,6 +325,7 @@ export default function BlogPost() {
       </Helmet>
 
       <div className="min-h-screen bg-background">
+        {post.slug === 'como-tirar-cidadania-portuguesa' && <SchemaHowTo />}
         <SchemaArticle
         title={post.title}
         description={post.excerpt}
