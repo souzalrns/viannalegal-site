@@ -41,7 +41,7 @@ O processo é conduzido por **procuração** — autorização legal para que a 
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'prazo-de-validade-dos-documentos-na-cidadania-portuguesa': `
 Um dos erros que mais gera retrabalho nos processos de cidadania portuguesa é chegar ao protocolo com documentos vencidos. Cada certidão tem um prazo de validade específico — e alguns são mais curtos do que se imagina.
 
@@ -94,7 +94,7 @@ Certidões portuguesas não precisam de apostila — são obtidas pelo portal [e
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-para-menores-de-idade-o-que-os-pais-precisam-saber': `
 Para crianças e adolescentes com direito à cidadania portuguesa, o processo tem características próprias — incluindo prazo de análise muito mais curto e requisitos específicos de autorização.
 
@@ -132,7 +132,7 @@ Se o processo foi protocolado antes dos 18 anos, **mantém o tratamento priorit�
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'como-obter-a-certidao-de-antecedentes-criminais-para-portugal': `
 A certidão de antecedentes criminais é um dos documentos obrigatórios no processo de cidadania portuguesa — e um dos que exige mais atenção ao timing, por ter o prazo de validade mais curto: apenas 3 meses.
 
@@ -174,7 +174,7 @@ Se o requerente viveu em outro país por mais de 1 ano após a maioridade, pode 
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'beneficios-de-ter-passaporte-portugues-em-2026': `
 O passaporte português é frequentemente citado como um dos mais valiosos do mundo. Mas o que isso significa na prática para um brasileiro que obteve a cidadania e continua vivendo no Brasil?
 
@@ -221,7 +221,7 @@ Com passaporte português, pode estudar em qualquer universidade da UE pagando a
 ## Fontes e Referências Oficiais
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'como-corrigir-erros-em-certidoes-para-cidadania-portuguesa': `
 Erros em certidões são mais comuns do que se imagina — e podem surgir em qualquer ponto da cadeia documental. O que fazer quando o processo de cidadania encontra um documento com erro?
 
@@ -275,7 +275,7 @@ A resposta à diligência inclui: a certidão corrigida (se necessária correcç
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-e-direito-de-votar-na-europa': `
 Um dos direitos menos discutidos — mas genuinamente relevantes — da cidadania portuguesa é a participação no processo democrático europeu. Como cidadão português, você tem direitos eleitorais que vão além de Portugal.
 
@@ -317,7 +317,7 @@ O Brasil reconhece plenamente a dupla cidadania. Você pode votar em Portugal (n
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'cidadania-portuguesa-para-filhos-de-pais-separados': `
 
 "Meu marido não vai querer assinar nada para o processo da nossa filha." Ou: "Minha ex-mulher discorda e não vai cooperar." Essas situações aparecem com regularidade nos processos de cidadania para menores — e têm solução, embora nem sempre seja simples.
@@ -389,7 +389,7 @@ Juridicamente, a recusa injustificada de autorizar um direito do filho pode ser 
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
 
-`,,
+`,
   'o-que-fazer-apos-a-aprovacao-da-cidadania-portuguesa': `
 A aprovação do processo de cidadania portuguesa chega muitas vezes de forma silenciosa — uma mudança de status no portal. Depois do alívio inicial, a pergunta imediata é: e agora? O que fazer, em que ordem?
 
@@ -433,7 +433,7 @@ Filhos menores nascidos depois da aprovação são automaticamente portugueses. 
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'diferenca-entre-atribuicao-e-aquisicao-de-cidadania-portuguesa': `
 
 Quando as pessoas pesquisam sobre cidadania portuguesa, frequentemente encontram duas palavras usadas como se fossem sinônimas: "atribuição" e "aquisição". Não são. A distinção entre elas não é apenas terminológica — define prazos, requisitos, possibilidades e até os efeitos retroativos do processo.
@@ -521,7 +521,7 @@ Depende do momento e da legislação vigente. O divórcio durante o processo de 
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
 
-`,,
+`,
   'cidadania-portuguesa-para-quem-tem-avo-que-perdeu-a-nacionalidade': `
 
 Existe uma situação que aparece com mais frequência do que se imagina: a família descobriu que o avô ou avó era português, começou a pesquisar o processo — e encontrou a informação de que ele ou ela "perdeu a nacionalidade" ao casar com um brasileiro. Isso fecha o processo?
@@ -594,7 +594,7 @@ Sim — se o avô paterno era português e o seu pai ou mãe nasceu dessa relaç
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 
-`,,
+`,
   'cidadania-portuguesa-para-brasileiros-em-sao-paulo': `
 São Paulo concentra a maior comunidade portuguesa do Brasil e a maior demanda por processos de cidadania portuguesa.
 
@@ -632,7 +632,7 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são igu
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-para-brasileiros-no-rio-de-janeiro': `
 O Rio de Janeiro tem forte ligação histórica com Portugal — foi capital do Império Português no Brasil entre 1808 e 1821.
 
@@ -670,7 +670,7 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-para-brasileiros-no-sul-do-brasil': `
 O Sul do Brasil tem presença significativa de descendentes de açorianos que colonizaram o litoral catarinense e a região das Missões gaúchas desde o século XVIII.
 
@@ -713,7 +713,7 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Arquivo Regional dos Açores](https://arquivo.azores.gov.pt)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-para-quem-mora-em-portugal': `
 Para brasileiros que já residem em Portugal, o processo de cidadania tem algumas vantagens práticas — mas também confusões comuns sobre o que muda e o que não muda por estar fisicamente no país.
 
@@ -750,7 +750,7 @@ Se você chegou há 2 anos e é neto de português, a via de neto pode ser exerc
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [AIMA](https://aima.gov.pt)
-`,,
+`,
   'cidadania-portuguesa-para-adotados-por-portugueses': `
 
 A adoção por cidadãos portugueses pode gerar direito à cidadania portuguesa — mas os requisitos variam conforme o tipo de adoção, a época em que ocorreu, e como está documentada. É um tema que exige precisão, porque as diferenças entre tipos de vínculo adotivo têm consequências jurídicas reais.
@@ -822,7 +822,7 @@ A certidão de nascimento atualizada pós-adoção é o documento apresentado �
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
 
-`,,
+`,
   'cidadania-portuguesa-e-heranca-o-que-os-descendentes-precisam-saber': `
 Cidadania e herança intersectam-se de formas que muitas famílias não antecipam — e que podem ter implicações práticas quando há bens nos dois países.
 
@@ -858,7 +858,7 @@ Famílias luso-brasileiras com bens nos dois países precisam conduzir o invent�
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'filho-vs-neto-diferencas-no-processo-de-cidadania-portuguesa': `
 "Sou filho de português — é diferente de ser neto?" Sim. Embora ambos sejam atribuição por descendência, há diferenças práticas importantes.
 
@@ -907,7 +907,7 @@ Se o pai faleceu sem formalizar a cidadania, em alguns casos é mais simples con
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'pedir-cidadania-no-brasil-ou-em-portugal-vantagens-e-desvantagens': `
 Para os processos mais comuns — filhos e netos de portugueses — o processo é conduzido pela Conservatória dos Registos Centrais em Lisboa e o local de residência do requerente não altera o trâmite. A fila do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) é a mesma — não há vantagem de prazo em fazer o processo residindo em Portugal.
 
@@ -937,7 +937,7 @@ A naturalização por residência exige presença em Portugal — 7 anos para br
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'traducao-juramentada-de-documentos-para-cidadania-portuguesa': `
 Quando o processo de cidadania portuguesa envolve documentos em língua diferente do português, a tradução juramentada pode ser necessária. Mas o cenário mais comum — brasileiros descendentes de portugueses — raramente exige tradução.
 
@@ -981,7 +981,7 @@ Se a tradução precisar ser usada em Portugal, também pode precisar de [Aposti
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-para-casais-em-uniao-de-facto-uniao-estavel': `
 A união de facto — equivalente à "união estável" no vocabulário brasileiro — dá direito à cidadania portuguesa pelo cônjuge, com o mesmo prazo de 3 anos que o casamento civil. Mas o processo tem uma especificidade importante que o torna mais complexo.
 
@@ -1020,7 +1020,7 @@ Da data de início da convivência — não da data do reconhecimento judicial. 
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'como-acompanhar-o-andamento-do-processo-de-cidadania-portuguesa': `
 Dar entrada no processo de cidadania portuguesa e depois ficar sem notícias por meses — ou anos — é uma experiência que a maioria dos requerentes conhece bem. Não é sinal de problema: é o funcionamento normal de um sistema com mais de 700 mil processos pendentes. Mas isso não significa que você deva ficar no escuro.
 
@@ -1072,7 +1072,7 @@ Enviar e-mails ao [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) per
 
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'cidadania-portuguesa-e-servico-militar-obrigatorio': `
 Uma dúvida frequente, especialmente entre homens jovens: a cidadania portuguesa gera obrigação de serviço militar em Portugal?
 
@@ -1107,7 +1107,7 @@ Se você residir em outro país da UE (Alemanha, França, etc.), as obrigações
 ## Fontes e Referências Oficiais
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'como-acelerar-o-processo-de-cidadania-portuguesa': `
 A pergunta que todo requerente faz em algum momento: existe alguma forma de acelerar o processo de cidadania portuguesa? A resposta honesta é: não existe atalho para a fila do IRN — mas existem erros que atrasam desnecessariamente, e evitá-los é o equivalente prático de "acelerar".
 
@@ -1153,7 +1153,7 @@ A [Lei 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-11235
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'cidadania-portuguesa-para-cidadaos-da-cplp': `
 A Comunidade dos Países de Língua Portuguesa (CPLP) tem tratamento diferenciado na Lei da Nacionalidade Portuguesa — mas a [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) trouxe mudanças significativas.
 
@@ -1193,6 +1193,6 @@ A mudança da Lei 1/2026 afecta directamente quem chegou a Portugal nos últimos
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [AIMA](https://aima.gov.pt)
-`,,
+`,
 
 };
