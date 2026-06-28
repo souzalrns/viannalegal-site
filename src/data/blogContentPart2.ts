@@ -29,7 +29,7 @@ O processo é conduzido por **procuração** — autorização legal para que a 
 
 ## Perguntas frequentes
 
-**Posso dar entrada pelo consulado de São Paulo?** Para alguns tipos de processo (especialmente filhos menores), sim. Para netos adultos, o processo vai directamente à CRC em Lisboa.
+**Como é feito o protocolo do processo?** Por advogado inscrito na OA portuguesa, perante a Conservatória dos Registos Centrais em Lisboa — canal profissional com rastreabilidade e segurança jurídica.
 
 **Ir a Portugal acelera o processo?** Não — não altera a posição na fila do IRN. Protocolar cedo é o que conta.
 
@@ -614,7 +614,7 @@ SP tem uma das comunidades portuguesas mais activas fora de Portugal. Associaç�
 
 ## Certidão criminal em São Paulo
 
-A certidão estadual é emitida pela SSP/SP (IIRGD). A emissão pode ser feita online pelo portal da SSP-SP.
+A certidão estadual é emitida pela SSP/SP (IIRGD) — necessária para o processo e obtida com a orientação da assessoria.
 
 ## Prazos e processo
 
@@ -652,7 +652,7 @@ Associações como a **Câmara Portuguesa de Comércio** e o **Centro Português
 
 ## Certidão criminal no Rio de Janeiro
 
-Emitida pela Secretaria de Estado de Polícia Civil (SEPC). Solicitação online pelo portal da Detran-RJ ou presencial.
+Emitida pela Secretaria de Estado de Polícia Civil (SEPC). Emitida pela Secretaria de Estado de Polícia Civil (SEPC) do Rio de Janeiro.
 
 ## Prazos
 
