@@ -250,8 +250,8 @@ Antes de protocolar o processo de cidadania portuguesa, existe uma verificação
 - [ ] Certidão de nascimento do pai/mãe — apostilada
 - [ ] Certidão de casamento dos pais — apostilada
 - [ ] Certidão de nascimento do requerente — apostilada
-- [ ] Certidão criminal federal (BR) — apostilada, máx. 3 meses
-- [ ] Certidão criminal estadual (BR) — apostilada, máx. 3 meses
+- [ ] Certidão criminal — Polícia Federal, apostilada, válida 3 meses
+- 
 - [ ] Certidão criminal do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) (PT) — solicitada pela assessoria
 
 ## Divergências de nome
