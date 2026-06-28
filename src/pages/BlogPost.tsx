@@ -1,6 +1,6 @@
 import { PRAZOS_IRN, PRAZOS_META } from '@/config/prazos';
 import { TAXAS_IRN, TAXAS_APOSTILA, TAXAS_META } from '@/config/taxas';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
@@ -293,6 +293,8 @@ export default function BlogPost() {
 
     return parts.join('\n');
   };
+
+  const formattedContent = useMemo(() => formatContent(post.content), [post.content, post.slug]);
 
   const Icon = post.icon;
 
