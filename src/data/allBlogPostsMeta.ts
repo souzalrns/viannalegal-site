@@ -482,7 +482,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Benefícios de Ter Passaporte Português em 2026',
+    metaDescription: 'Benefícios do passaporte português em 2026: acesso a 190+ países, trabalho na UE, educação europeia e transmissão para filhos. Veja o que muda com a cidadania portuguesa.',
   },
 
   {
@@ -512,7 +512,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa e Direito de Votar na Europa',
+    metaDescription: 'Cidadania portuguesa dá direito a votar nas eleições portuguesas e europeias. Saiba como se inscrever no recenseamento e participar na democracia europeia estando no Brasil.',
   },
 
   {
@@ -632,7 +632,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Quem Mora em Portugal',
+    metaDescription: 'Brasileiro que mora em Portugal pode pedir cidadania por descendência sem esperar os 7 anos de naturalização. Saiba qual via é mais vantajosa para o seu caso.',
   },
 
   {
@@ -752,7 +752,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa e Serviço Militar Obrigatório',
+    metaDescription: 'O serviço militar obrigatório está suspenso em Portugal desde 2004. Obter a cidadania portuguesa não gera obrigação militar — nem no Brasil nem em Portugal.',
   },
 
   {
@@ -767,7 +767,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Como Acelerar o Processo de Cidadania Portuguesa',
+    metaDescription: 'Não existe taxa de urgência no IRN. O que realmente acelera o processo é documentação completa e sem divergências. Veja os erros que atrasam e como evitá-los.',
   },
 
   {
@@ -782,7 +782,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Users,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Cidadãos da CPLP',
+    metaDescription: 'Cidadãos da CPLP — incluindo brasileiros — têm prazo de 7 anos para naturalização após a Lei 1/2026. Veja como o tratamento diferenciado funciona e o que não mudou.',
   },
 
   {
@@ -1142,7 +1142,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa e Aquisição de Imóveis em Portugal',
+    metaDescription: 'Cidadania portuguesa facilita o acesso a crédito habitação em Portugal mas não é requisito para comprar imóvel. Saiba o que muda em impostos, NIF e financiamento.',
   },
 
   {
@@ -1187,7 +1187,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa: O Que Acontece se Eu Viver Entre Brasil e Portugal',
+    metaDescription: 'Ter cidadania portuguesa e viver entre Brasil e Portugal é totalmente legal. Não há obrigação de residência em Portugal. Saiba o que muda em termos fiscais e documentais.',
   },
 
   {
