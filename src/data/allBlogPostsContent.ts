@@ -1,4 +1,5 @@
 // ViannaLegal — Índice de conteúdo dos artigos
+// Build fix: b6bba27c
 // Dividido em partes para evitar limite de tamanho do TypeScript
 import { blogContentPart1 } from './blogContentPart1';
 import { blogContentPart2 } from './blogContentPart2';
