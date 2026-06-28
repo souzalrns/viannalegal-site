@@ -1052,7 +1052,7 @@ Ao detectar "em diligência" no portal, contacte a assessoria imediatamente. O t
 | Netos maiores | 42 a 48 meses |
 | Casamento / União de facto | 50 a 54 meses |
 | Naturalização CPLP | 27 a 30 meses |
-| Bisnetos (Art. 6.º n.º 8) | 28 a 36 meses |
+| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação pendente até agosto de 2026 |
 
 ## O que NÃO agiliza o processo
 
@@ -1133,7 +1133,7 @@ O que está sob o seu controlo: **entrar na fila o quanto antes** e **não sair 
 
 ## A estratégia: protocolar o quanto antes
 
-O maior "acelerador" real é entrar na fila cedo. A análise gratuita mapeia o que está disponível e permite protocolar sem esperar ter "tudo perfeito". Saiba o que é necessário em nosso [checklist para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses).
+O maior "acelerador" real é entrar na fila cedo. A análise inicial mapeia o que está disponível e permite protocolar sem esperar ter "tudo perfeito". Saiba o que é necessário em nosso [checklist para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses).
 
 ## O que a Lei 1/2026 não mudou
 
