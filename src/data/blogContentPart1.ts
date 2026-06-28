@@ -2338,8 +2338,8 @@ O custo é um investimento único com retorno permanente: acesso a 190+ países,
 
 ## FAQ
 
-**Posso fazer por conta própria para economizar?**
-Sim, mas erros documentais que geram diligências — e o custo de retrabalho — frequentemente superam a economia.
+**Vale a pena tentar sem acompanhamento jurídico?**
+A experiência mostra que erros documentais — nomes divergentes, certidões desactualizadas, procurações incorrectas — geram diligências que atrasam meses e custam mais do que a assessoria teria custado.
 
 **As taxas da conservatória podem ser pagas no Brasil?**
 Sim, por transferência internacional.
@@ -2491,7 +2491,7 @@ Quantos processos aprovados? Têm representação jurídica em Portugal? Como re
 
 **Posso conduzir o processo sem advogado?** Tecnicamente sim em alguns tipos. Mas a complexidade e o risco de erros que resultam em arquivamento tornam a assessoria altamente recomendável.
 
-**Se já dei entrada sem assessoria e o processo está parado, posso contratar agora?** Sim — é possível contratar para um processo em andamento. A nova assessoria assume com nova procuração.
+**Se o processo está parado e não tenho acompanhamento, posso contratar agora?** Sim — é possível assumir um processo já iniciado com nova procuração.
 
 > ⚠️ **Aviso jurídico:** Este conteúdo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
 
