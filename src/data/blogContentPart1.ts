@@ -138,7 +138,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
 | Netos menores | **3 a 5 meses** |
 | Netos maiores | **42 a 48 meses** |
-| Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação pendente até agosto de 2026** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -389,7 +389,7 @@ O falecimento do ascendente não impede o pedido. O vínculo relevante é o seu,
 
 ## Como a ViannaLegal Pode Ajudar
 
-Nossa equipe especializada auxilia na:
+A ViannaLegal auxilia em:
 
 1. **Análise prévia** do potencial de vínculo efetivo
 2. **Orientação** sobre documentos necessários
@@ -405,7 +405,7 @@ Não espere mais para começar. Se você ainda não tem um dossiê forte, comece
 
 ---
 
-**Quer saber se seu vínculo é suficiente?** Agende uma análise gratuita com a ViannaLegal. Nossa equipe avaliará sua documentação e indicará os próximos passos.
+**Quer saber se seu vínculo é suficiente?** Agende uma análise inicial com a ViannaLegal. A análise identifica a documentação disponível e os próximos passos.
     
 
 ## Fontes e Referências Oficiais
@@ -439,7 +439,7 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
 | Netos menores | **3 a 5 meses** |
 | Netos maiores | **42 a 48 meses** |
-| Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação pendente até agosto de 2026** |
 
 ### Cidadania por Casamento / União de Facto
 
@@ -769,7 +769,7 @@ Seja para aproveitar a mobilidade global, acessar oportunidades profissionais na
 
 ---
 
-**Pronto para conquistar todos esses benefícios?** A ViannaLegal pode ajudar você a obter sua cidadania portuguesa. Agende uma análise gratuita e comece sua jornada europeia.
+**Pronto para conquistar todos esses benefícios?** A ViannaLegal pode ajudar você a obter sua cidadania portuguesa. Agende uma análise inicial e comece sua jornada europeia.
     
 
 ## Fontes e Referências Oficiais
@@ -1182,7 +1182,7 @@ Para quem tem ascendência portuguesa, a via por [descendência (netos, filhos)]
 
 Para quem não tem ascendência, a naturalização por residência é o único caminho — e a data de início da residência legal é o activo mais importante a proteger.
 
-**Tem dúvidas sobre o seu caso?** A análise inicial é gratuita — fale connosco pelo WhatsApp.
+**Tem dúvidas sobre o seu caso?** Fale connosco pelo WhatsApp para análise do seu caso.
 
 ## Fontes e Referências Oficiais
 
@@ -1715,11 +1715,11 @@ Consulte imediatamente um advogado. Diligências respondidas incorretamente são
 
 Acompanhar o processo de cidadania portuguesa no MJ.pt é simples quando você entende as bolinhas de status e tem a senha de acesso em mãos. A paciência é fundamental: o IRN analisa milhares de pedidos, e a ausência de movimentação por meses é comum.
 
-Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer ter certeza de que tudo está correto, a ViannaLegal pode ajudar. Nossa equipe acompanha processos de cidadania portuguesa e orienta requerentes em cada etapa.
+Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer ter certeza de que tudo está correto, a ViannaLegal pode ajudar. A ViannaLegal acompanha processos de cidadania portuguesa e orienta em cada etapa.
 
 ---
 
-**Precisa de ajuda para acompanhar ou regularizar seu processo?** Fale conosco pelo WhatsApp. Análise inicial gratuita.
+**Precisa de ajuda para acompanhar ou regularizar seu processo?** Fale conosco pelo WhatsApp. Análise inicial.
     
 
 ## Fontes e Referências Oficiais
@@ -1908,7 +1908,7 @@ Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 | Netos maiores | **42 a 48 meses** |
 | Casamento / União de facto | **50 a 54 meses** |
 | Naturalização CPLP (7 anos) | **27 a 30 meses** |
-| Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação pendente até agosto de 2026** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -1940,7 +1940,7 @@ Dado o aumento contínuo do backlog, existe um argumento claro para não esperar
 
 Por outro lado, submeter um processo incompleto pode ser pior do que esperar para completar a documentação — as exigências do IRN fazem recomeçar o relógio.
 
-**Tem dúvidas sobre se a sua documentação está pronta para submissão?** A análise inicial é gratuita — fale connosco pelo WhatsApp.
+**Tem dúvidas sobre se a sua documentação está pronta para submissão?** Fale connosco pelo WhatsApp para análise do seu caso.
 
 ## Fontes e Referências Oficiais
 
@@ -2112,7 +2112,7 @@ Entre 24 e 42 meses no total (montagem + fila do IRN).
 
 ## Conclusão
 
-O processo é viável para quem tem o direito e se prepara corretamente. O maior erro não é a demora do IRN — é dar entrada com documentação mal preparada, que gera diligências e atrasos evitáveis. Nossa análise gratuita mapeia o seu caso antes de qualquer movimentação de documento.`,
+O processo é viável para quem tem o direito e se prepara corretamente. O maior erro não é a demora do IRN — é dar entrada com documentação mal preparada, que gera diligências e atrasos evitáveis. Nossa análise inicial mapeia o seu caso antes de qualquer movimentação de documento.`,
   'nacionalidade-portuguesa-para-filhos-guia-completo-2026': `**Atualizado em 18 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este conteúdo tem caráter meramente informativo. Leis podem sofrer alterações. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados.
@@ -2650,7 +2650,7 @@ O processo de netos é o mais complexo do ponto de vista documental — cadeia d
 
 ## Perguntas frequentes
 
-**Preciso de tudo antes de começar a análise?** Não. A análise gratuita identifica o que você tem e o que falta — sem precisar ter tudo reunido.
+**Preciso de tudo antes de começar a análise?** Não. A análise inicial identifica o que você tem e o que falta — sem precisar ter tudo reunido.
 
 **E se eu nunca fui a Portugal? O vínculo efetivo fica fraco?** Não inviabiliza o processo. Participação em associações portuguesas no Brasil, diplomas em português, correspondência com parentes compensam a ausência de viagens.
 
