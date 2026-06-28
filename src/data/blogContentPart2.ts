@@ -1194,5 +1194,4 @@ A mudança da Lei 1/2026 afecta directamente quem chegou a Portugal nos últimos
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [AIMA](https://aima.gov.pt)
 `,
-
 };
