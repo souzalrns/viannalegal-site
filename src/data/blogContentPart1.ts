@@ -2489,7 +2489,7 @@ Quantos processos aprovados? Têm representação jurídica em Portugal? Como re
 
 ## Perguntas frequentes
 
-**Posso conduzir o processo sem advogado?** Tecnicamente sim em alguns tipos. Mas a complexidade e o risco de erros que resultam em arquivamento tornam a assessoria altamente recomendável.
+**O acompanhamento jurídico faz diferença no resultado?** Sim. A complexidade documental, a gestão de diligências do IRN e os critérios de vínculo efetivo tornam a assessoria especializada o factor mais determinante para o sucesso e a velocidade do processo.
 
 **Se o processo está parado e não tenho acompanhamento, posso contratar agora?** Sim — é possível assumir um processo já iniciado com nova procuração.
 
