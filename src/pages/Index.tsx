@@ -204,9 +204,22 @@ const Index = () => (
   <>
     <SchemaHomepage />
     <Helmet>
-      <title>ViannaLegal — Cidadania Portuguesa | Assessoria Jurídica</title>
-      <meta name="description" content="Assessoria especializada em cidadania portuguesa. Filhos, netos e bisnetos de portugueses. Mais de 2.000 famílias atendidas. Processo 100% online." />
-    </Helmet>
+        <title>ViannaLegal — Cidadania Portuguesa | Assessoria Jurídica</title>
+        <meta name="description" content="Assessoria especializada em cidadania portuguesa. Mais de 2.000 famílias atendidas. Processo 100% online, sem sair do Brasil." />
+        <link rel="canonical" href="https://viannalegal.com.br/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="ViannaLegal — Cidadania Portuguesa | Assessoria Jurídica" />
+        <meta property="og:description" content="Assessoria especializada em cidadania portuguesa. Mais de 2.000 famílias atendidas. Processo 100% online, sem sair do Brasil." />
+        <meta property="og:url" content="https://viannalegal.com.br/" />
+        <meta property="og:image" content="https://viannalegal.com.br/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="pt_BR" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ViannaLegal — Cidadania Portuguesa | Assessoria Jurídica" />
+        <meta name="twitter:description" content="Assessoria especializada em cidadania portuguesa. Mais de 2.000 famílias atendidas." />
+        <meta name="twitter:image" content="https://viannalegal.com.br/og-image.jpg" />
+      </Helmet>
     <Header />
     <Hero />
     <QuizBannerHome />
