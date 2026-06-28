@@ -445,8 +445,8 @@ Varia muito conforme a localidade e o volume de trabalho do arquivo. Arquivos di
 **Família de origem açoriana — é diferente?**
 Os arquivos açorianos estão no Arquivo Regional dos Açores, separado dos distritais do continente. O processo de pesquisa segue a mesma lógica, mas o acervo de referência é diferente. Parte está disponível no FamilySearch.
 
-**O IRN aceita certidões obtidas por pesquisa genealógica sem assessoria jurídica?**
-Aceita — o que o IRN exige é a certidão em si, não como ela foi obtida. A assessoria jurídica é necessária para conduzir o processo de cidadania em si (distribuição, petição, representação), não necessariamente para a fase de pesquisa documental.
+**A pesquisa genealógica está incluída na assessoria?**
+Depende do caso. A ViannaLegal realiza pesquisa em arquivos portugueses quando necessário. O que o IRN exige é a certidão em inteiro teor — a forma como é obtida é parte da estratégia de instrução do processo.
 
 > ⚠️ **Aviso jurídico:** Este conteúdo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
 
@@ -589,7 +589,7 @@ O processo de cidadania é conduzido por advogado inscrito na OA perante a CRC e
 
 ## Apostilas e certidões criminais
 
-A Apostila de Haia é emitida pelos cartórios autorizados pelo TJ de cada estado. Custos similares ao nacional (R$70 a R$100 por apostila). A certidão criminal é emitida pela Secretaria de Segurança Pública estadual — a maioria tem emissão online.
+A Apostila de Haia é emitida pelos cartórios autorizados pelo TJ de cada estado. Custos similares ao nacional (R$70 a R$100 por apostila). A certidão criminal é emitida pela Secretaria de Segurança Pública estadual — obtida junto à Secretaria de Segurança Pública do estado emissor.
 
 ## O perfil do imigrante português no Nordeste
 
@@ -888,7 +888,7 @@ O [Consulado Geral de Portugal em Curitiba](https://www.cgcuritiba.pt) é compet
 
 ## Apostilas e certidão criminal no Paraná
 
-Apostilas pelos cartórios autorizados pelo TJ/PR (R$70 a R$100, 2 a 5 dias úteis). Certidão criminal estadual pela Secretaria de Segurança Pública do PR (SESP/PR) — solicitação online pelo portal da SESP ou presencial.
+Apostilas pelos cartórios autorizados pelo TJ/PR (R$70 a R$100, 2 a 5 dias úteis). Certidão criminal estadual pela Secretaria de Segurança Pública do PR (SESP/PR) — emitida pela SESP/PR com orientação da assessoria.
 
 ## Comunidade portuguesa no Paraná
 
