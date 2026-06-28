@@ -91,6 +91,7 @@ export function Hero() {
                 alt="Kathia Vianna — Advogada Especialista em Nacionalidade Portuguesa"
                 className="w-full opacity-90"
                 loading="eager"
+                fetchPriority="high"
                 width={420}
                 height={420}
               />
