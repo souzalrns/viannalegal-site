@@ -361,10 +361,12 @@ Para agendar presencialmente: [plataforma SIGA](https://irn.justica.gov.pt) ou t
 Se o processo ultrapassar prazos razoáveis sem decisão, existem instrumentos jurídicos disponíveis:
 
 **1. Pedido de impulso processual**
-Requerimento formal à Conservatória para que decida dentro do prazo legal (90 dias, prorrogável por mais 90). Este é o primeiro passo e resolve a maioria dos casos de inércia administrativa.
+Requerimento formal à Conservatória para que decida dentro do prazo legal previsto no Código do Procedimento Administrativo (90 dias, prorrogável por mais 90). Na prática, dado o volume histórico de mais de 700.000 processos pendentes no IRN, este mecanismo tem actualmente efeito limitado: a Conservatória pode reconhecer a comunicação sem conseguir acelerar a análise por razões estruturais de capacidade. Vale a pena tentar, mas sem expectativa de resolução imediata.
 
 **2. Acção de intimação para prática de acto devido**
-Se a Conservatória permanecer inerte após o pedido de impulso, é possível recorrer ao Tribunal Administrativo exigindo a decisão. Este é um recurso jurídico que a Kathia Vianna pode acionar em representação do cliente.
+Se a Conservatória permanecer inerte após o pedido de impulso, é possível recorrer ao Tribunal Administrativo exigindo a prática do acto. Contudo, é importante ter expectativas realistas: o próprio sistema judicial administrativo está sobrecarregado com processos de imigração e nacionalidade, e a demora do processo judicial pode ser equivalente — ou mesmo superior — à espera passiva na fila do IRN.
+
+> **Nota jurídica relevante:** Têm sido proferidas decisões judiciais que acolhem o argumento do Estado de que o atraso decorre da alta procura e da insuficiência estrutural de meios — e não de inércia culposa. Nesse contexto, o Tribunal pode declarar que o IRN deve decidir "dentro de prazo razoável" sem fixar uma data específica de cumprimento imediato. A acção de intimação é um instrumento legítimo, mas o seu impacto prático em contexto de backlog generalizado deve ser avaliado caso a caso.
 
 Quando o processo está bem instruído, não se teme a decisão. Mesmo uma decisão desfavorável pode ser contestada administrativamente ou judicialmente.
 
