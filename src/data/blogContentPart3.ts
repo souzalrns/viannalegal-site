@@ -39,7 +39,7 @@ O processo de cidadania extingue-se. Os herdeiros que também tenham direito pre
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'atualizacoes-da-lei-da-nacionalidade-portuguesa-em-2026': `
 A [Lei Orgânica n.º 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996), publicada em 18 de maio e em vigor desde 19 de maio de 2026, foi a alteração mais significativa à Lei da Nacionalidade Portuguesa dos últimos anos.
 
@@ -89,7 +89,7 @@ Pedidos protocolados antes de 19 de maio de 2026 seguem as regras anteriores em 
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [AIMA](https://aima.gov.pt)
-`,,
+`,
   'cidadania-portuguesa-para-quem-tem-antepassados-de-macau-ou-goa': `
 Um nicho específico envolve descendentes de portugueses que viveram nos antigos territórios ultramarinos — particularmente Macau e Goa. Esses casos têm particularidades históricas e documentais que os distinguem dos processos típicos.
 
@@ -127,7 +127,7 @@ Processos de descendentes de Macau ou Goa exigem análise jurídica especializad
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Arquivo Nacional Torre do Tombo / Arquivo Histórico Ultramarino](https://arquivos.pt)
-`,,
+`,
   'como-usar-o-portal-eportugal-no-processo-de-cidadania': `
 O portal ePortugal é a plataforma digital do governo português para serviços públicos. Para quem está em processo de cidadania, algumas funcionalidades são directamente úteis.
 
@@ -175,7 +175,7 @@ O ePortugal exige autenticação (Cartão de Cidadão, Chave Móvel Digital) par
 - [ePortugal](https://eportugal.gov.pt)
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'cidadania-portuguesa-para-descendentes-de-emigrantes': `
 A maioria dos brasileiros que buscam cidadania portuguesa é descendente de emigrantes — portugueses que deixaram Portugal nos séculos XIX e XX. Entender o perfil desse emigrante ajuda a antever os desafios documentais.
 
@@ -231,7 +231,7 @@ Pesquisa online disponível no [Digitarq](https://arquivos.pt) e FamilySearch.
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Arquivo Nacional Torre do Tombo / Digitarq](https://arquivos.pt)
-`,,
+`,
   'checklist-final-antes-de-entregar-o-processo-de-cidadania-portuguesa': `
 Antes de protocolar o processo de cidadania portuguesa, existe uma verificação final que pode evitar diligências, atrasos e retrabalho. Esta checklist não substitui a análise da assessoria — mas é o filtro que impede os erros mais comuns.
 
@@ -294,7 +294,7 @@ Com o número de processo, acompanhe em [nacionalidade.justica.gov.pt](https://n
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-para-quem-tem-pai-falecido': `
 
 Quando a família descobre que tem direito à cidadania portuguesa, uma das primeiras perguntas é: "mas meu pai já faleceu — ainda dá para pedir?". A resposta é sim — e importa entender por quê, para que ninguém desista sem precisar.
@@ -370,7 +370,7 @@ Sim. Cada processo é individual, mas podem correr em paralelo — geralmente co
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
 
-`,,
+`,
   'cidadania-portuguesa-para-quem-tem-documentos-perdidos': `
 
 "Minha família não tem absolutamente nada sobre o meu avô português. Nenhum documento, nenhum papel." Essa frase chega com frequência. E na maioria das vezes, ela não fecha o processo — apenas indica que o trabalho começa nos arquivos portugueses, não em casa.
@@ -456,7 +456,7 @@ Aceita — o que o IRN exige é a certidão em si, não como ela foi obtida. A a
 - [Arquivo Nacional Torre do Tombo / Digitarq](https://arquivos.pt)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 
-`,,
+`,
   'cidadania-portuguesa-para-filhos-nascidos-fora-do-casamento': `
 
 A palavra "ilegítimo" — usada em períodos históricos para classificar filhos nascidos fora do casamento — não existe mais no direito brasileiro nem no português. E não deveria influenciar o processo de cidadania portuguesa em 2026. Mas a falta de documentação formal da filiação ainda pode complicar o caminho.
@@ -537,7 +537,7 @@ O reconhecimento voluntário em cartório pode ser feito em dias. O reconhecimen
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
 
-`,,
+`,
   'cidadania-portuguesa-e-nome-portugues-como-alterar-apos-a-aprovacao': `
 Após a aprovação da cidadania portuguesa, o Cartão de Cidadão vai registar qual nome? E é possível adaptar o nome para uma grafia mais portuguesa?
 
@@ -575,7 +575,7 @@ Durante o processo, divergências como "Antônio" no BR vs. "António" no PT sã
 ## Fontes e Referências Oficiais
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'cidadania-portuguesa-para-brasileiros-no-nordeste': `
 O Nordeste tem forte ligação histórica com Portugal — foi o primeiro ponto de chegada dos colonizadores nos séculos XVI e XVII.
 
@@ -611,7 +611,7 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Arquivo Nacional Torre do Tombo / Digitarq](https://arquivos.pt)
-`,,
+`,
   'guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026': `
 Existem múltiplas formas de obter a cidadania portuguesa — e a mais adequada depende da situação familiar, da residência e do tempo disponível. Este guia mapa todas as vias com as regras actualizadas pela [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996).
 
@@ -670,7 +670,7 @@ Adoptados em adoção plena por cidadão(ã) português(a). Mesmos direitos que 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'cidadania-portuguesa-e-acesso-a-universidade-na-europa': `
 Um dos benefícios mais concretos da cidadania portuguesa é o acesso à educação europeia como cidadão da UE — especialmente relevante para quem pensa nos filhos ou em retornar aos estudos.
 
@@ -711,7 +711,7 @@ Filhos de cidadãos portugueses nascidos após a aprovação são automaticament
 ## Fontes e Referências Oficiais
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'erros-comuns-na-arvore-genealogica-para-cidadania-portuguesa': `
 A árvore genealógica é o coração do processo de cidadania portuguesa por descendência — e é onde estão os erros que mais frequentemente causam atrasos, diligências e indeferimentos.
 
@@ -763,7 +763,7 @@ A análise da cadeia de filiação com assessoria antes de iniciar o levantament
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'cidadania-portuguesa-para-brasileiros-com-dupla-nacionalidade-nao-portuguesa': `
 O que acontece quando um brasileiro já tem outra cidadania — americana, italiana, alemã, espanhola — e agora quer acrescentar também a portuguesa?
 
@@ -797,7 +797,7 @@ Se você viveu em outro país por mais de 1 ano após a maioridade, pode ser nec
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'tempo-medio-de-aprovacao-por-tipo-de-processo-em-2026': `
 Uma das primeiras perguntas de quem considera iniciar o processo: quanto tempo vai demorar? A resposta depende do tipo de processo — e as diferenças são enormes.
 
@@ -844,7 +844,7 @@ O prazo de análise para naturalização (27 a 30 meses) é menor do que para ne
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'cidadania-portuguesa-para-brasileiros-em-belo-horizonte-e-minas-gerais': `
 Minas Gerais tem forte presença de descendentes de portugueses — muitos dos primeiros colonizadores das minas de ouro nos séculos XVII e XVIII eram portugueses que se instalaram na região.
 
@@ -878,7 +878,7 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são igu
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Arquivo Nacional Torre do Tombo / Digitarq](https://arquivos.pt)
-`,,
+`,
   'cidadania-portuguesa-para-brasileiros-em-curitiba-e-parana': `
 O Paraná tem composição étnica diversificada, com forte presença de descendentes de imigrantes europeus — incluindo portugueses, além de italianos, alemães, poloneses e ucranianos.
 
@@ -910,7 +910,7 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'consulado-de-portugal-no-brasil-onde-fica-e-para-que-serve': `
 Para brasileiros com cidadania portuguesa — ou que estão a tratar de obtê-la — os consulados de Portugal no Brasil são a ligação directa com o Estado português. Mas muitos não sabem exactamente o que o consulado faz, o que não faz, e qual é o consulado competente para a sua área.
 
@@ -968,7 +968,7 @@ Documentos necessários: Cartão de Cidadão anterior (para renovação) ou prov
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'por-que-processos-de-cidadania-portuguesa-sao-indeferidos-e-como-recorrer': `
 Receber um indeferimento após anos de espera é uma das experiências mais frustrantes do processo. Mas o indeferimento não é necessariamente o fim: na maioria dos casos, é possível recorrer — e em muitos, reverter a decisão.
 
@@ -1012,7 +1012,7 @@ Sobre erros que geram problemas, veja nosso artigo sobre [erros na árvore genea
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'documentos-digitais-vs-fisicos-no-processo-de-cidadania-portuguesa': `
 Com a digitalização progressiva dos serviços portugueses, uma dúvida crescente: certidões digitais funcionam? O processo pode ser conduzido completamente online?
 
@@ -1062,7 +1062,7 @@ Não. O protocolo do processo de cidadania é feito junto à Conservatória dos 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [ePortugal](https://eportugal.gov.pt)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-mitos-e-verdades': `
 Com tanta informação circulando sobre cidadania portuguesa — em grupos de WhatsApp, fóruns, vídeos no YouTube — algumas crenças incorrectas se tornaram quase senso comum. Aqui estão os mitos mais frequentes, com a resposta correcta.
 
@@ -1113,7 +1113,7 @@ Com tanta informação circulando sobre cidadania portuguesa — em grupos de Wh
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'cidadania-portuguesa-para-brasileiros-em-brasilia-e-centro-oeste': `
 Brasília e o Centro-Oeste têm população relativamente jovem em termos históricos — mas muitas famílias instaladas no Planalto Central têm raízes em estados com forte imigração portuguesa como MG, SP e estados do Nordeste.
 
@@ -1145,7 +1145,7 @@ Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os 
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-e-aquisicao-de-imoveis-em-portugal': `
 A cidadania portuguesa não "desbloquia" o acesso ao mercado imobiliário português — qualquer estrangeiro pode comprar imóvel em Portugal. O que a cidadania muda são outras dimensões práticas.
 
@@ -1184,7 +1184,7 @@ A cidadania portuguesa não implica residência fiscal em Portugal. Para quem vi
 ## Fontes e Referências Oficiais
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'beneficios-fiscais-para-novos-cidadaos-portugueses': `
 Muita informação imprecisa circula sobre "isenções fiscais" da cidadania portuguesa. É importante ter clareza sobre o que são benefícios reais e o que são mitos.
 
@@ -1223,7 +1223,7 @@ Para quem vive em Portugal e tem rendimentos de fontes brasileiras, o Acordo Bra
 ## Fontes e Referências Oficiais
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'como-preparar-a-entrevista-no-irn-para-cidadania-portuguesa': `
 Uma dúvida frequente: existe entrevista no processo de cidadania portuguesa? A resposta surpreende muitos — na esmagadora maioria dos casos, **não existe entrevista**.
 
@@ -1261,7 +1261,7 @@ Após a aprovação, no consulado de Portugal no Brasil — para o Cartão de Ci
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'cidadania-portuguesa-o-que-acontece-se-eu-viver-entre-brasil-e-portugal': `
 Muitos novos cidadãos portugueses não querem se mudar definitivamente — querem a flexibilidade de viver entre os dois países. A cidadania portuguesa não impõe obrigação de residência em Portugal para ser mantida.
 
@@ -1302,7 +1302,7 @@ Filhos de pai ou mãe português nascidos em Portugal são automaticamente portu
 ## Fontes e Referências Oficiais
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'cidadania-portuguesa-para-descendentes-de-emigrantes-que-voltaram-a-portugal': `
 Existe uma situação específica e pouco discutida: o ancestral emigrou para o Brasil, viveu alguns anos, e depois retornou a Portugal — deixando descendentes dos dois lados do Atlântico. Como isso afecta o processo de cidadania dos descendentes que ficaram no Brasil?
 
@@ -1334,7 +1334,7 @@ O que muda é a localização de alguns documentos.
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Arquivo Nacional Torre do Tombo / Digitarq](https://arquivos.pt)
-`,,
+`,
   'cidadania-portuguesa-e-acesso-a-beneficios-sociais-na-europa': `
 A cidadania portuguesa dá acesso ao sistema de bem-estar social europeu — mas com condições importantes. Não existe "acesso automático a benefícios" apenas por ter o passaporte.
 
@@ -1375,7 +1375,7 @@ Principalmente: direito de viajar com o passaporte português, acesso à UE sem 
 ## Fontes e Referências Oficiais
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'como-manter-a-cidadania-portuguesa-ativa-apos-a-aprovacao': `
 Após a aprovação, surge uma pergunta razoável: existe alguma obrigação para "manter" a cidadania portuguesa activa? Existe o risco de a perder?
 
@@ -1424,7 +1424,7 @@ A renovação é feita no consulado de Portugal da sua área de residência no B
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'cidadania-portuguesa-para-quem-tem-processo-parado-ha-anos': `
 
 "Dei entrada no processo há 3 anos e não tenho nenhuma notícia." Essa situação é mais comum do que deveria — e tem causas e soluções muito específicas. O primeiro passo é distinguir se o processo está parado de verdade ou se simplesmente está na fila normal do IRN.
@@ -1510,7 +1510,7 @@ Não o andamento em si — mas pode fazer com que as notificações do IRN não 
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 
-`,,
+`,
   'cidadania-portuguesa-perguntas-finais-antes-de-comecar': `
 Antes de dar o primeiro passo, existem dúvidas que quase toda a gente tem mas nem sempre pergunta. Aqui estão as respostas directas para as questões mais frequentes.
 
