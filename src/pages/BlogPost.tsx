@@ -311,7 +311,11 @@ export default function BlogPost() {
         <meta property="article:published_time" content={parseDate(post.date)} />
         <meta property="article:author" content={post.author} />
         
+        <meta property="og:image" content="https://viannalegal.com.br/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://viannalegal.com.br/og-image.jpg" />
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={post.metaDescription || post.excerpt} />
         
