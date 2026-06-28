@@ -216,7 +216,7 @@ O processo tramita internamente por 7 fases:
 | Certidão de nascimento do requerente | Cartório brasileiro | Sim | Menos de 12 meses |
 | Certidão de nascimento do progenitor português | IRN / Conservatória | Não | Emitida em Portugal |
 | Documento de identificação | RG ou passaporte | Sim | RG emitido há menos de 10 anos |
-| Registo criminal | Polícia Federal + estados | Sim | Menos de 6 meses |
+| Registo criminal | Polícia Federal | Sim | Menos de 6 meses |
 | Certidão de casamento dos pais | Cartório brasileiro | Sim | Se casados — e transcrita em PT |
 | Procuração | Cartório brasileiro | Sim | Se processo por mandatário |
 
@@ -1429,7 +1429,7 @@ Independentemente da via, estes documentos são sempre necessários:
 - **Documento de identidade válido** — passaporte ou BI
 - **NIF** (Número de Identificação Fiscal português)
 - **Registo criminal português** — emitido pelo IRN ou online, **válido apenas 3 meses** (solicitar próximo da data de protocolo)
-- **Registo criminal do país de origem** — para brasileiros: federal (Polícia Federal) + estadual, apostilados
+- **Registo criminal do país de origem** — para brasileiros: Polícia Federal, apostilada
 - **Registo criminal de outros países** onde residiu mais de 1 ano (com apostila)
 
 ## Novo — Lei 1/2026: Documentos de Integração
@@ -1470,7 +1470,7 @@ A Lei 1/2026 introduziu requisitos documentais adicionais aplicáveis a **netos,
 
 **Do requerente:**
 - Certidão de nascimento em inteiro teor (apostilada)
-- Registo criminal português + brasileiro (apostilado)
+- Registo criminal português + certidão criminal brasileira — Polícia Federal (apostilada)
 - Documentação de vínculo efetivo (viagens, associações, diplomas, etc.)
 - Prova de língua (diploma escolar brasileiro normalmente basta)
 - Prova de conhecimentos de história/cultura portuguesas *(formato a regulamentar)*
@@ -1488,7 +1488,7 @@ A Lei 1/2026 introduziu requisitos documentais adicionais aplicáveis a **netos,
 - Certidão de nascimento (apostilada)
 - Certidão de casamento ou declaração de UF (apostilada)
 - Comprovantes de vida em comum: extrato bancário conjunto, contratos de arrendamento com ambos os nomes, registos de despesas comuns, fotos com datas, passagens e estadias conjuntas
-- Registo criminal português + brasileiro (apostilado)
+- Registo criminal português + certidão criminal brasileira — Polícia Federal (apostilada)
 - Prova de língua
 - Prova de conhecimentos de história/cultura *(a regulamentar)*
 - Declaração de adesão ao Estado de direito democrático
@@ -1637,7 +1637,7 @@ Casamentos realizados no Brasil ou noutro país:
 - Certidão de casamento ou declaração de UF (apostilada)
 - Documento de identidade válido
 - Registo criminal português (válido 3 meses)
-- Registo criminal brasileiro federal e estadual (apostilado)
+- Registo criminal brasileiro — Polícia Federal (apostilado)
 - Comprovantes de vida em comum (conta bancária, contratos, fotos, viagens)
 - Diplomas de escolaridade (para dispensa do exame de língua)
 - Documentação de conhecimentos de história/cultura (formato a regulamentar)
@@ -1807,7 +1807,7 @@ Comprovação de capacidade para se manter:
 
 **Idoneidade:**
 - Registo criminal português (válido 3 meses — solicitar próximo da data de protocolo)
-- Registo criminal brasileiro federal e estadual (apostilado)
+- Registo criminal brasileiro — Polícia Federal (apostilado)
 - Registos de outros países onde residiu mais de 1 ano
 
 **Língua e integração:**
@@ -2260,7 +2260,7 @@ Sem condenação com pena de prisão ≥ 3 anos por crimes de terrorismo, crimin
 - Certidão de nascimento em inteiro teor (apostilada)
 - Documento de identidade válido
 - Registo criminal português (válido 3 meses)
-- Registo criminal brasileiro federal e estadual (apostilado)
+- Registo criminal brasileiro — Polícia Federal (apostilado)
 - Documentação de vínculo efetivo (quanto mais, melhor)
 - Diplomas de escolaridade (para comprovação de língua)
 - Documentação de conhecimentos de história/cultura portuguesas (formato a regulamentar)
@@ -3801,7 +3801,7 @@ A certidão de antecedentes criminais é um dos documentos obrigatórios no proc
 - Emissão: gratuita, imediata para quem não tem registo
 - Validade: 3 meses
 
-**2. Certidão estadual (do estado de residência):**
+****
 Emitida pela Secretaria de Segurança Pública estadual. A maioria dos estados permite solicitação online. Se morou em outro estado por mais de 1 ano após a maioridade, certidão desse estado também é necessária.
 
 ## Apostila das certidões criminais brasileiras
@@ -5534,8 +5534,8 @@ Antes de protocolar o processo de cidadania portuguesa, existe uma verificação
 - [ ] Certidão de nascimento do pai/mãe — apostilada
 - [ ] Certidão de casamento dos pais — apostilada
 - [ ] Certidão de nascimento do requerente — apostilada
-- [ ] Certidão criminal federal (BR) — apostilada, máx. 3 meses
-- [ ] Certidão criminal estadual (BR) — apostilada, máx. 3 meses
+- [ ] Certidão criminal — Polícia Federal, apostilada, válida 3 meses
+- 
 - [ ] Certidão criminal do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) (PT) — solicitada pela assessoria
 
 ## Divergências de nome
