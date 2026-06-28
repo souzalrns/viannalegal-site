@@ -188,3 +188,68 @@ export function SchemaFAQ({ items }: FAQSchemaProps) {
     </Helmet>
   );
 }
+
+export const SchemaHowTo = () => {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Como Tirar Cidadania Portuguesa",
+    "description": "Passo a passo completo para obter a cidadania portuguesa, actualizado com a Lei Orgânica 1/2026.",
+    "totalTime": "P24M",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": "175"
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Identificar a via correcta",
+        "text": "Determinar se tem direito por filiação (filhos), descendência (netos), casamento ou residência."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Localizar o assento português do ascendente",
+        "text": "Obter a certidão de nascimento do pai, mãe ou avô/avó nos registos civis portugueses."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Reunir e apostilar documentos brasileiros",
+        "text": "Emitir certidões em inteiro teor e apostilá-las com a Apostila de Haia no estado emissor."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Verificar divergências de nomes",
+        "text": "Comparar grafias entre documentos portugueses e brasileiros e rectificar antes do protocolo."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 5,
+        "name": "Submeter o pedido ao IRN",
+        "text": "Protocolar o pedido na Conservatória dos Registos Centrais em Lisboa por advogado inscrito na OA."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 6,
+        "name": "Acompanhar as 7 fases do IRN",
+        "text": "Monitorizar o processo no portal nacionalidade.justica.gov.pt e responder a eventuais diligências."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 7,
+        "name": "Solicitar Cartão de Cidadão e Passaporte",
+        "text": "Após aprovação, solicitar o Cartão de Cidadão e o Passaporte Português no consulado de Portugal no Brasil."
+      }
+    ]
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
