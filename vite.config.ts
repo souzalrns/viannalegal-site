@@ -17,25 +17,39 @@ export default defineConfig({
   build: {
     outDir: "dist",
     cssCodeSplit: true,
+    // Aumentar limite de chunk para reduzir warnings mas manter splitting
+    chunkSizeWarningLimit: 600,
     rollupOptions: {
       output: {
         manualChunks(id) {
-          // React core — carrega primeiro, em separado
+          // React core — carrega primeiro
           if (id.includes("node_modules/react/") ||
               id.includes("node_modules/react-dom/") ||
               id.includes("node_modules/scheduler/")) {
             return "vendor-react";
           }
-          // Router — necessário para navegação
+          // Router
           if (id.includes("node_modules/react-router-dom/") ||
               id.includes("node_modules/react-router/")) {
             return "vendor-router";
           }
-          // Dados do blog — muito pesados, lazy
+          // Artigo pilar — chunk separado (416KB)
+          if (id.includes("artigoPilar")) {
+            return "data-pilar";
+          }
+          // Dados do blog partes — chunks separados
+          if (id.includes("blogContentPart1")) return "data-blog-1";
+          if (id.includes("blogContentPart2")) return "data-blog-2";
+          if (id.includes("blogContentPart3")) return "data-blog-3";
+          // Meta e índice — carrega com o blog listing
           if (id.includes("allBlogPostsMeta") ||
               id.includes("allBlogPostsContent") ||
               id.includes("allBlogPosts")) {
-            return "data-blog";
+            return "data-blog-meta";
+          }
+          // Config central (prazos/taxas) — pequeno, vai com app
+          if (id.includes("/config/")) {
+            return "app-config";
           }
           // Radix UI — componentes shadcn
           if (id.includes("node_modules/@radix-ui/")) {
