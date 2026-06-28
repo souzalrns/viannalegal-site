@@ -8234,6 +8234,5 @@ A análise do caso — entender se você tem direito, por qual via, e o que est�
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
 `,
-  }
 
 };
