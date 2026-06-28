@@ -1,6 +1,6 @@
 import { PRAZOS_IRN, PRAZOS_META } from '@/config/prazos';
 import { TAXAS_IRN, TAXAS_APOSTILA, TAXAS_META } from '@/config/taxas';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
@@ -11,7 +11,6 @@ import { QuizBanner } from '@/components/ui/QuizBanner';
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
 import { SchemaArticle, SchemaBreadcrumb, SchemaFAQ } from '@/components/seo/SchemaMarkup';
 import { allBlogPostsContent, loadArtigoPilar } from '@/data/allBlogPostsContent';
-import { useState, useEffect as useEffectContent } from 'react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { SITE_CONFIG } from '@/config/site';
 
@@ -20,8 +19,22 @@ export default function BlogPost() {
   const { trackArticleView } = useAnalytics();
 
   const postMeta = blogPosts.find(p => p.slug === slug);
+  const isPilar = slug === 'como-tirar-cidadania-portuguesa';
+
+  // Artigo pilar (407KB) — carregado on-demand para não bloquear bundle inicial
+  const [pilarContent, setPilarContent] = useState<string>('');
+  useEffect(() => {
+    if (isPilar) {
+      loadArtigoPilar().then(setPilarContent);
+    }
+  }, [isPilar]);
+
+  const postContent = isPilar
+    ? pilarContent
+    : allBlogPostsContent[slug ?? ''] || '';
+
   const post = postMeta
-    ? { ...postMeta, content: allBlogPostsContent[slug ?? ''] || '' }
+    ? { ...postMeta, content: postContent }
     : undefined;
 
   // Rastrear visualização do artigo
