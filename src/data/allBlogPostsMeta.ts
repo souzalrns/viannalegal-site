@@ -80,7 +80,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     category: 'Dicas',
     icon: TrendingUp,
     featured: false,
-    metaDescription: 'Aprenda a comprovar vínculo efetivo para cidadania portuguesa. 6 formas aceitas, exemplos práticos e dicas para [netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025) em 2025.',
+    metaDescription: 'Aprenda a comprovar vínculo efetivo para cidadania portuguesa. 6 formas aceitas, exemplos práticos e dicas para [netos de…',
     relatedSlugs: ['cidadania-portuguesa-netos-guia-definitivo-2025', 'guia-completo-cidadania-portuguesa-2025', 'como-buscar-certidoes-portuguesas-portugal'],
   },
 
@@ -140,7 +140,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     category: 'Guias',
     icon: Heart,
     featured: false,
-    metaDescription: 'Cidadania portuguesa por casamento 2025. Requisitos, 3 anos mínimos, [documentos necessários](/blog/documentos-cidadania-portuguesa-lista-completa), união de facto e passo a passo completo.',
+    metaDescription: 'Cidadania portuguesa por casamento 2025. Requisitos, 3 anos mínimos, [documentos necessários](/blog/documentos-cidadania-portuguesa-lista-completa),…',
     relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'vinculo-efetivo-como-comprovar', 'dupla-cidadania-brasil-portugal-vantagens'],
   },
 
@@ -216,7 +216,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: true,
     relatedSlugs: ['cidadania-portuguesa-netos-guia-definitivo-2025', 'guia-completo-cidadania-portuguesa-2025', 'vinculo-efetivo-como-comprovar'],
-    metaDescription: 'Entenda a diferença entre Via 1 (atribuição originária) e Via 2 (aquisição derivada) para bisnetos na cidadania portuguesa — Lei 1/2026. Veja qual se aplica ao seu caso.',
+    metaDescription: 'Entenda a diferença entre Via 1 (atribuição originária) e Via 2 (aquisição derivada) para bisnetos na cidadania portuguesa — Lei 1/2026. Veja qual se…',
   },
 
   {
@@ -231,7 +231,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Clock,
     featured: false,
     relatedSlugs: ['veto-tribunal-constitucional-dezembro-2025', 'backlog-irn-prazos-reais-2025', 'como-acompanhar-processo-cidadania-portuguesa'],
-    metaDescription: 'Quem submeteu o pedido de cidadania portuguesa antes de 19 de maio de 2026 mantém as regras antigas. O IRN confirmou: vale a data de submissão, não a de análise.',
+    metaDescription: 'Quem submeteu o pedido de cidadania portuguesa antes de 19 de maio de 2026 mantém as regras antigas. O IRN confirmou: vale a data de submissão, não a…',
   },
 
   {
@@ -261,7 +261,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Users,
     featured: false,
     relatedSlugs: ['protocolo-antes-lei-1-2026-o-que-muda', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'documentos-cidadania-portuguesa-lista-completa'],
-    metaDescription: 'A Lei 1/2026 exige agora 5 anos de residência legal dos pais para que filhos nascidos em Portugal sejam portugueses. Saiba quem é afectado e quais as alternativas.',
+    metaDescription: 'A Lei 1/2026 exige agora 5 anos de residência legal dos pais para que filhos nascidos em Portugal sejam portugueses. Saiba quem é afectado e quais as…',
   },
 
   {
@@ -317,7 +317,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     category: 'Custos e Planejamento',
     icon: TrendingUp,
     featured: false,
-    metaDescription: 'Custos reais da cidadania portuguesa em 2026: taxas IRN (€175-250), apostilas (R$60-90/doc), pesquisa genealógica e honorários. Estimativas por tipo de processo.',
+    metaDescription: 'Custos reais da cidadania portuguesa em 2026: taxas IRN (€175-250), apostilas (R$60-90/doc), pesquisa genealógica e honorários. Estimativas por tipo de…',
   },
 
   {
@@ -332,7 +332,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Passaporte Português: Como Solicitar Após Aprovação da Cidadania',
+    metaDescription: 'Passaporte Português: Como Solicitar Após Aprovação da Cidadania. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -347,7 +347,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Home,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Naturalização por Residência em Portugal: Requisitos Atualizados 2026',
+    metaDescription: 'Naturalização por Residência em Portugal: Requisitos Atualizados 2026. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -362,7 +362,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Como Escolher um Advogado Especialista em Cidadania Portuguesa',
+    metaDescription: 'Como Escolher um Advogado Especialista em Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -377,7 +377,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Users,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Quanto Custa o Processo de Cidadania Portuguesa para Netos?',
+    metaDescription: 'Quanto Custa o Processo de Cidadania Portuguesa para Netos?. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -392,7 +392,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Heart,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Cônjuges: 3 ou 6 Anos de Casamento?',
+    metaDescription: 'Cidadania Portuguesa para Cônjuges: 3 ou 6 Anos de Casamento?. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -407,7 +407,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Checklist Completa de Documentos para Netos de Portugueses',
+    metaDescription: 'Checklist Completa de Documentos para Netos de Portugueses. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -422,7 +422,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Brasileiros que Moram no Brasil em 2026',
+    metaDescription: 'Cidadania Portuguesa para Brasileiros que Moram no Brasil em 2026. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -437,7 +437,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Prazo de Validade dos Documentos na Cidadania Portuguesa',
+    metaDescription: 'Prazo de Validade dos Documentos na Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -467,7 +467,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Como Obter a Certidão de Antecedentes Criminais para Portugal',
+    metaDescription: 'Como Obter a Certidão de Antecedentes Criminais para Portugal. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -482,7 +482,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Benefícios do passaporte português em 2026: acesso a 190+ países, trabalho na UE, educação europeia e transmissão para filhos. Veja o que muda com a cidadania portuguesa.',
+    metaDescription: 'Benefícios do passaporte português em 2026: acesso a 190+ países, trabalho na UE, educação europeia e transmissão para filhos. Veja o que muda com a…',
   },
 
   {
@@ -497,7 +497,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Como Corrigir Erros em Certidões para Cidadania Portuguesa',
+    metaDescription: 'Como Corrigir Erros em Certidões para Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -512,7 +512,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania portuguesa dá direito a votar nas eleições portuguesas e europeias. Saiba como se inscrever no recenseamento e participar na democracia europeia estando no Brasil.',
+    metaDescription: 'Cidadania portuguesa dá direito a votar nas eleições portuguesas e europeias. Saiba como se inscrever no recenseamento e participar na democracia…',
   },
 
   {
@@ -527,7 +527,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Heart,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Filhos de Pais Separados',
+    metaDescription: 'Cidadania Portuguesa para Filhos de Pais Separados. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -542,7 +542,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'O Que Fazer Após a Aprovação da Cidadania Portuguesa',
+    metaDescription: 'O Que Fazer Após a Aprovação da Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -557,7 +557,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Diferença entre Atribuição e Aquisição de Cidadania Portuguesa',
+    metaDescription: 'Diferença entre Atribuição e Aquisição de Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -572,7 +572,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Quem Tem Avó que Perdeu a Nacionalidade',
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Avó que Perdeu a Nacionalidade. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -587,7 +587,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Brasileiros em São Paulo',
+    metaDescription: 'Cidadania Portuguesa para Brasileiros em São Paulo. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -602,7 +602,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Brasileiros no Rio de Janeiro',
+    metaDescription: 'Cidadania Portuguesa para Brasileiros no Rio de Janeiro. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -617,7 +617,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Brasileiros no Sul do Brasil',
+    metaDescription: 'Cidadania Portuguesa para Brasileiros no Sul do Brasil. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -632,7 +632,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Brasileiro que mora em Portugal pode pedir cidadania por descendência sem esperar os 7 anos de naturalização. Saiba qual via é mais vantajosa para o seu caso.',
+    metaDescription: 'Brasileiro que mora em Portugal pode pedir cidadania por descendência sem esperar os 7 anos de naturalização. Saiba qual via é mais vantajosa para o…',
   },
 
   {
@@ -647,7 +647,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Adotados por Portugueses',
+    metaDescription: 'Cidadania Portuguesa para Adotados por Portugueses. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -662,7 +662,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa e Herança: O que os Descendentes Precisam Saber',
+    metaDescription: 'Cidadania Portuguesa e Herança: O que os Descendentes Precisam Saber. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -677,7 +677,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Heart,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Filho vs. Neto: Diferenças no Processo de Cidadania Portuguesa',
+    metaDescription: 'Filho vs. Neto: Diferenças no Processo de Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -692,7 +692,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Pedir Cidadania no Brasil ou em Portugal: Vantagens e Desvantagens',
+    metaDescription: 'Pedir Cidadania no Brasil ou em Portugal: Vantagens e Desvantagens. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -707,7 +707,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Tradução Juramentada de Documentos para Cidadania Portuguesa',
+    metaDescription: 'Tradução Juramentada de Documentos para Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -722,7 +722,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Casais em União de Facto (União Estável)',
+    metaDescription: 'Cidadania Portuguesa para Casais em União de Facto (União Estável). Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -737,7 +737,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Search,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Como Acompanhar o Andamento do Processo de Cidadania Portuguesa',
+    metaDescription: 'Como Acompanhar o Andamento do Processo de Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -752,7 +752,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'O serviço militar obrigatório está suspenso em Portugal desde 2004. Obter a cidadania portuguesa não gera obrigação militar — nem no Brasil nem em Portugal.',
+    metaDescription: 'O serviço militar obrigatório está suspenso em Portugal desde 2004. Obter a cidadania portuguesa não gera obrigação militar — nem no Brasil nem em…',
   },
 
   {
@@ -767,7 +767,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Não existe taxa de urgência no IRN. O que realmente acelera o processo é documentação completa e sem divergências. Veja os erros que atrasam e como evitá-los.',
+    metaDescription: 'Não existe taxa de urgência no IRN. O que realmente acelera o processo é documentação completa e sem divergências. Veja os erros que atrasam e como…',
   },
 
   {
@@ -782,7 +782,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Users,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadãos da CPLP — incluindo brasileiros — têm prazo de 7 anos para naturalização após a Lei 1/2026. Veja como o tratamento diferenciado funciona e o que não mudou.',
+    metaDescription: 'Cidadãos da CPLP — incluindo brasileiros — têm prazo de 7 anos para naturalização após a Lei 1/2026. Veja como o tratamento diferenciado funciona e o…',
   },
 
   {
@@ -797,7 +797,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Atualização de Dados no Processo de Cidadania Já Iniciado',
+    metaDescription: 'Atualização de Dados no Processo de Cidadania Já Iniciado. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -812,7 +812,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Atualizações da Lei da Nacionalidade Portuguesa em 2026',
+    metaDescription: 'Atualizações da Lei da Nacionalidade Portuguesa em 2026. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -827,7 +827,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Quem Tem Antepassados de Macau ou Goa',
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Antepassados de Macau ou Goa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -842,7 +842,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Search,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Como Usar o Portal ePortugal no Processo de Cidadania',
+    metaDescription: 'Como Usar o Portal ePortugal no Processo de Cidadania. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -857,7 +857,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Descendentes de Emigrantes',
+    metaDescription: 'Cidadania Portuguesa para Descendentes de Emigrantes. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -872,7 +872,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Checklist Final Antes de Entregar o Processo de Cidadania Portuguesa',
+    metaDescription: 'Checklist Final Antes de Entregar o Processo de Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -887,7 +887,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Quem Tem Pai Falecido',
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Pai Falecido. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -902,7 +902,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Quem Tem Documentos Perdidos',
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Documentos Perdidos. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -917,7 +917,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Heart,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Filhos Nascidos Fora do Casamento',
+    metaDescription: 'Cidadania Portuguesa para Filhos Nascidos Fora do Casamento. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -932,7 +932,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa e Nome Português: Como Alterar Após a Aprovação',
+    metaDescription: 'Cidadania Portuguesa e Nome Português: Como Alterar Após a Aprovação. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -947,7 +947,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Brasileiros no Nordeste',
+    metaDescription: 'Cidadania Portuguesa para Brasileiros no Nordeste. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -977,7 +977,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: TrendingUp,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa e Acesso à Universidade na Europa',
+    metaDescription: 'Cidadania Portuguesa e Acesso à Universidade na Europa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -992,7 +992,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Erros Comuns na Árvore Genealógica para Cidadania Portuguesa',
+    metaDescription: 'Erros Comuns na Árvore Genealógica para Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1022,7 +1022,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Clock,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Tempo Médio de Aprovação por Tipo de Processo em 2026',
+    metaDescription: 'Tempo Médio de Aprovação por Tipo de Processo em 2026. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1052,7 +1052,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Brasileiros em Curitiba e Paraná',
+    metaDescription: 'Cidadania Portuguesa para Brasileiros em Curitiba e Paraná. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1067,7 +1067,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: MapPin,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Consulado de Portugal no Brasil: Onde Fica e Para Que Serve',
+    metaDescription: 'Consulado de Portugal no Brasil: Onde Fica e Para Que Serve. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1097,7 +1097,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Documentos Digitais vs. Físicos no Processo de Cidadania Portuguesa',
+    metaDescription: 'Documentos Digitais vs. Físicos no Processo de Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1112,7 +1112,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa: Mitos e Verdades',
+    metaDescription: 'Cidadania Portuguesa: Mitos e Verdades. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1127,7 +1127,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: Scale,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Brasileiros em Brasília e Centro-Oeste',
+    metaDescription: 'Cidadania Portuguesa para Brasileiros em Brasília e Centro-Oeste. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1142,7 +1142,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania portuguesa facilita o acesso a crédito habitação em Portugal mas não é requisito para comprar imóvel. Saiba o que muda em impostos, NIF e financiamento.',
+    metaDescription: 'Cidadania portuguesa facilita o acesso a crédito habitação em Portugal mas não é requisito para comprar imóvel. Saiba o que muda em impostos, NIF e…',
   },
 
   {
@@ -1157,7 +1157,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: TrendingUp,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Benefícios Fiscais para Novos Cidadãos Portugueses',
+    metaDescription: 'Benefícios Fiscais para Novos Cidadãos Portugueses. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1172,7 +1172,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Como Preparar a Entrevista no IRN para Cidadania Portuguesa',
+    metaDescription: 'Como Preparar a Entrevista no IRN para Cidadania Portuguesa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1187,7 +1187,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Ter cidadania portuguesa e viver entre Brasil e Portugal é totalmente legal. Não há obrigação de residência em Portugal. Saiba o que muda em termos fiscais e documentais.',
+    metaDescription: 'Ter cidadania portuguesa e viver entre Brasil e Portugal é totalmente legal. Não há obrigação de residência em Portugal. Saiba o que muda em termos…',
   },
 
   {
@@ -1217,7 +1217,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: TrendingUp,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa e Acesso a Benefícios Sociais na Europa',
+    metaDescription: 'Cidadania Portuguesa e Acesso a Benefícios Sociais na Europa. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1232,7 +1232,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Como Manter a Cidadania Portuguesa Ativa Após a Aprovação',
+    metaDescription: 'Como Manter a Cidadania Portuguesa Ativa Após a Aprovação. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1247,7 +1247,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa para Quem Tem Processo Parado Há Anos',
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Processo Parado Há Anos. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   },
 
   {
@@ -1262,6 +1262,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     icon: FileText,
     featured: false,
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
-    metaDescription: 'Cidadania Portuguesa — Perguntas Finais Antes de Começar',
+    metaDescription: 'Cidadania Portuguesa — Perguntas Finais Antes de Começar. Assessoria especializada em cidadania portuguesa. Kathia Vianna, OA n.º 56666p.',
   }
 ];
