@@ -856,7 +856,7 @@ Minas Gerais tem forte presença de descendentes de portugueses — muitos dos p
 
 ## Apostilas e certidão criminal em Minas Gerais
 
-Apostilas pelos cartórios autorizados pelo TJ/MG (R$70 a R$100, 2 a 5 dias úteis). Certidão criminal estadual pela Polícia Civil de MG (PCMG) — solicitação online ou presencial.
+Apostilas pelos cartórios autorizados pelo TJ/MG (R$70 a R$100, 2 a 5 dias úteis). 
 
 ## O perfil do imigrante português em Minas
 
@@ -888,7 +888,7 @@ O [Consulado Geral de Portugal em Curitiba](https://www.cgcuritiba.pt) é compet
 
 ## Apostilas e certidão criminal no Paraná
 
-Apostilas pelos cartórios autorizados pelo TJ/PR (R$70 a R$100, 2 a 5 dias úteis). Certidão criminal estadual pela Secretaria de Segurança Pública do PR (SESP/PR) — emitida pela SESP/PR com orientação da assessoria.
+Apostilas pelos cartórios autorizados pelo TJ/PR (R$70 a R$100, 2 a 5 dias úteis). Certidão criminal estadual pela Secretaria de Segurança Pública do PR (SESP/PR) .
 
 ## Comunidade portuguesa no Paraná
 
