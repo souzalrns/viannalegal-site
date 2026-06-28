@@ -1433,7 +1433,10 @@ Este guia apresenta os [documentos necessários](/blog/como-buscar-certidoes-por
 
 Independentemente da via, estes documentos são sempre necessários:
 
-- **Certidão de nascimento do requerente** — em inteiro teor, apostilada se emitida no Brasil, traduzida para português se noutro idioma
+- **Certidão de nascimento do requerente** — em **inteiro teor**, apostilada se emitida no Brasil. O IRN aceita dois formatos:
+  - **Digitada:** transcrição em texto do registo original — o formato padrão exigido na maioria dos pedidos
+  - **Reprográfica:** fotografia da folha original do livro de registos — solicitada pelo IRN quando o original é de leitura difícil ou quando importa confrontar a grafia histórica exacta do nome
+  - Em caso de dúvida, obter ambas e apostilar as duas — evita nova diligência posterior
 - **Documento de identidade válido** — passaporte ou BI
 - **NIF** (Número de Identificação Fiscal português)
 - **Registo criminal português** — emitido pelo IRN ou online, **válido apenas 3 meses** (solicitar próximo da data de protocolo)
