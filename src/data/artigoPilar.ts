@@ -184,23 +184,12 @@ Todos os documentos brasileiros apresentados ao IRN devem estar:
 
 ### Passo 5 — Submeter o Pedido
 
-O pedido pode ser feito:
+O pedido é submetido por advogado inscrito na Ordem dos Advogados de Portugal, com acesso ao protocolo digital exclusivo do IRN. A representação por advogado garante:
 
-**Por advogado inscrito na OA (recomendado):**
-- Acesso ao protocolo digital exclusivo do IRN
-- Representação imediata em caso de exigências
-- A Kathia Vianna actua presencialmente nas Conservatórias portuguesas
-
-**Presencialmente numa Conservatória em Portugal:**
-- Permite resolver divergências no próprio acto
-- Exige deslocação a Portugal
-
-**Por correio para a CRC:**
-- Conservatória dos Registos Centrais, Rua Rodrigo da Fonseca, 200 — 1099-033 Lisboa
-- Mais lento, sem possibilidade de correcção imediata
-
-**Nos Consulados de Portugal no Brasil:**
-- Válido mas com filas longas — não recomendado quando há alternativa
+- Acesso ao canal profissional do IRN — mais seguro e rastreável
+- Resposta imediata a qualquer exigência do Conservador
+- Actuação presencial nas Conservatórias portuguesas quando necessário
+- Monitorização contínua do processo nas 7 fases internas do IRN
 
 ### Passo 6 — Acompanhar as 7 Fases do IRN
 
@@ -3185,8 +3174,8 @@ O custo é um investimento único com retorno permanente: acesso a 190+ países,
 
 ## FAQ
 
-**Posso fazer por conta própria para economizar?**
-Sim, mas erros documentais que geram diligências — e o custo de retrabalho — frequentemente superam a economia.
+**Vale a pena tentar fazer o processo sem acompanhamento jurídico?**
+A experiência mostra que erros documentais que geram diligências — nomes divergentes não explicados, certidões desactualizadas, procurações no modelo errado — resultam em atrasos de meses e custos de retrabalho que frequentemente superam qualquer economia inicial. Um processo bem instruído desde o início é o caminho mais eficiente.
 
 **As taxas da conservatória podem ser pagas no Brasil?**
 Sim, por transferência internacional.
