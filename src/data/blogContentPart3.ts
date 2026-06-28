@@ -8235,6 +8235,5 @@ A análise do caso — entender se você tem direito, por qual via, e o que est�
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
 `,
   }
-];`,,
 
 };
