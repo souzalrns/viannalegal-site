@@ -585,7 +585,7 @@ O Nordeste tem forte ligação histórica com Portugal — foi o primeiro ponto 
 
 **Consulado Geral de Portugal em Salvador:** Competente para a Bahia.
 
-Para o processo de cidadania em si (netos, filhos maiores), o protocolo é feito na CRC em Lisboa por procuração — não nos consulados.
+O processo de cidadania é conduzido por advogado inscrito na OA perante a CRC em Lisboa, por procuração.
 
 ## Apostilas e certidões criminais
 
