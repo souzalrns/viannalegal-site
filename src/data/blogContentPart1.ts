@@ -2661,5 +2661,4 @@ O processo de netos é o mais complexo do ponto de vista documental — cadeia d
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
 `,
-
 };
