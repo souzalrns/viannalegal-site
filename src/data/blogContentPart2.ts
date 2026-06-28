@@ -143,7 +143,7 @@ A certidão de antecedentes criminais é um dos documentos obrigatórios no proc
 - Emissão: gratuita, imediata para quem não tem registo
 - Validade: 3 meses
 
-**2. Certidão estadual (do estado de residência):**
+****
 Emitida pela Secretaria de Segurança Pública estadual. A maioria dos estados permite solicitação online. Se morou em outro estado por mais de 1 ano após a maioridade, certidão desse estado também é necessária.
 
 ## Apostila das certidões criminais brasileiras
