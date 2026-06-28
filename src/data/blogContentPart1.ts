@@ -54,7 +54,7 @@ Se submeteu o pedido antes de 19 de maio de 2026, o regime que se aplica ao seu 
 - [Presidência da República — promulgação Lei 1/2026](https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/)
 - [Tribunal Constitucional de Portugal](https://www.tribunalconstitucional.pt)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'guia-completo-cidadania-portuguesa-2025': `
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
@@ -160,7 +160,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei n.º 37/81 (Lei da Nacionalidade) — texto consolidado](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
-`,,
+`,
   'vinculo-efetivo-como-comprovar': `
 ## O Que é Vínculo Efetivo com a Comunidade Portuguesa?
 
@@ -412,7 +412,7 @@ Não espere mais para começar. Se você ainda não tem um dossiê forte, comece
 
 - [IRN — Informação sobre Nacionalidade Portuguesa](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Diário da República — Lei Orgânica 1/2026](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
-`,,
+`,
   'backlog-irn-prazos-reais-2025': `
 **Actualizado em 23 de junho de 2026**
 
@@ -491,7 +491,7 @@ Depois do protocolo, pode acompanhar o estado no [portal MJ.pt](/blog/como-acomp
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
 - [Portal de Consulta de Nacionalidade — MJ.pt](https://nacionalidade.justica.gov.pt)
 - [Presidência da República — nota sobre promulgação Lei 1/2026](https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/)
-`,,
+`,
   'dupla-cidadania-brasil-portugal-vantagens': `
 ## Introdução: Por Que a Dupla Cidadania é Tão Valiosa?
 
@@ -776,7 +776,7 @@ Seja para aproveitar a mobilidade global, acessar oportunidades profissionais na
 
 - [Henley Passport Index — Ranking de passaportes](https://www.henleyglobal.com/passport-index)
 - [Consulado-Geral de Portugal no Brasil](https://www.secomunidades.pt/web/brasilia)
-`,,
+`,
   'documentos-cidadania-portuguesa-lista-completa': `
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
@@ -909,7 +909,7 @@ Todos os documentos emitidos no Brasil precisam de ser apostilados pela Convenç
 - [ANTT — Arquivo Nacional Torre do Tombo](https://arquivos.pt)
 - [Convenção da Apostilha da Haia](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'cidadania-portuguesa-por-casamento-guia-completo': `
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
@@ -1019,7 +1019,7 @@ Um advogado especializado pode ajudar a escolher a via mais adequada ao seu caso
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [IRN — Nacionalidade Portuguesa por Casamento](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei n.º 37/81 — texto consolidado](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
-`,,
+`,
   'cidadania-portuguesa-por-residencia-passo-a-passo': `
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor desde 19 de maio de 2026**
 
@@ -1189,7 +1189,7 @@ Para quem não tem ascendência, a naturalização por residência é o único c
 - [Lei Orgânica n.º 1/2026 — Diário da República (18 mai. 2026)](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [IRN — Naturalização por Residência](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [AIMA — Agência para a Integração, Migrações e Asilo](https://aima.gov.pt)
-`,,
+`,
   'como-buscar-certidoes-portuguesas-portugal': `
 ## Introdução: A Busca pelas Raízes
 
@@ -1472,7 +1472,7 @@ Se você está tendo dificuldade, não desista. A ViannaLegal tem experiência e
 
 - [ANTT — Arquivo Nacional Torre do Tombo (registos históricos)](https://arquivos.pt)
 - [IRN — Conservatórias de Registo Civil em Portugal](https://irn.justica.gov.pt/conservatorias-registo-civil)
-`,,
+`,
   'cidadania-portuguesa-netos-guia-definitivo-2025': `
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
@@ -1593,7 +1593,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [IRN — Cidadania Portuguesa para Netos](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei n.º 37/81 — texto consolidado](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
-`,,
+`,
   'como-acompanhar-processo-cidadania-portuguesa': `**Atualizado em 23 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este conteúdo tem caráter meramente informativo. As interfaces do MJ.pt podem ser alteradas. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados.
@@ -1726,7 +1726,7 @@ Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer
 
 - [Portal de Consulta de Nacionalidade — MJ.pt](https://nacionalidade.justica.gov.pt)
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
-`,,
+`,
   'bisnetos-via1-vs-via2-cidadania-portuguesa': `
 **Actualizado em 23 de junho de 2026**
 
@@ -1797,7 +1797,7 @@ O [Diário da República](https://dre.pt) é o local oficial onde essa regulamen
 
 - [Lei Orgânica n.º 1/2026 (Diário da República)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
-`,,
+`,
   'protocolo-antes-lei-1-2026-o-que-muda': `
 **Actualizado em 23 de junho de 2026**
 
@@ -1861,7 +1861,7 @@ Se tem elegibilidade para submeter agora, a data de submissão funciona como uma
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
 - [Portal de Consulta de Nacionalidade MJ.pt](https://nacionalidade.justica.gov.pt)
 - [Lei Orgânica n.º 1/2026 (DRE)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
-`,,
+`,
   '700-mil-processos-irn-o-que-significa-para-voce': `
 **Actualizado em 23 de junho de 2026**
 
@@ -1947,7 +1947,7 @@ Por outro lado, submeter um processo incompleto pode ser pior do que esperar par
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
 - [Portal de Consulta de Nacionalidade MJ.pt](https://nacionalidade.justica.gov.pt)
 - [Diário da República — Lei Orgânica 1/2026](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
-`,,
+`,
   'filhos-nascidos-em-portugal-nova-lei-2026': `
 **Actualizado em 23 de junho de 2026**
 
@@ -2014,7 +2014,7 @@ Se tem dúvidas sobre como esta mudança afecta o seu caso, **a análise inicial
 - [Lei Orgânica n.º 1/2026 — texto na íntegra (DRE)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [AIMA — Agência para a Integração, Migrações e Asilo](https://aima.gov.pt)
-`,,
+`,
   'nacionalidade-portuguesa-para-netos-guia-completo-2026': `**Atualizado em 18 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este conteúdo tem caráter meramente informativo. Leis podem sofrer alterações. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados.
@@ -2112,7 +2112,7 @@ Entre 24 e 42 meses no total (montagem + fila do IRN).
 
 ## Conclusão
 
-O processo é viável para quem tem o direito e se prepara corretamente. O maior erro não é a demora do IRN — é dar entrada com documentação mal preparada, que gera diligências e atrasos evitáveis. Nossa análise gratuita mapeia o seu caso antes de qualquer movimentação de documento.`,,
+O processo é viável para quem tem o direito e se prepara corretamente. O maior erro não é a demora do IRN — é dar entrada com documentação mal preparada, que gera diligências e atrasos evitáveis. Nossa análise gratuita mapeia o seu caso antes de qualquer movimentação de documento.`,
   'nacionalidade-portuguesa-para-filhos-guia-completo-2026': `**Atualizado em 18 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este conteúdo tem caráter meramente informativo. Leis podem sofrer alterações. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados.
@@ -2191,7 +2191,7 @@ Não. Falecimento não extingue o direito.
 
 ## Conclusão
 
-A cidadania para filhos é o processo mais rápido e direto. O que determina a velocidade é a qualidade da documentação desde o início — especialmente confirmar a situação da cidadania do progenitor antes de qualquer movimentação de certidão.`,,
+A cidadania para filhos é o processo mais rápido e direto. O que determina a velocidade é a qualidade da documentação desde o início — especialmente confirmar a situação da cidadania do progenitor antes de qualquer movimentação de certidão.`,
   'nacionalidade-portuguesa-por-casamento-uniao-facto-2026': `**Atualizado em 18 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este conteúdo tem caráter meramente informativo. Leis podem sofrer alterações. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados.
@@ -2272,7 +2272,7 @@ Sim. Cidadania concedida não é revertida por divórcio posterior.
 
 ## Conclusão
 
-O caminho por casamento é viável e bem estabelecido. A chave é respeitar a sequência: transcrição primeiro, depois cidadania. Iniciar a transcrição o quanto antes — mesmo antes de completar os 3 anos — é sempre o movimento mais inteligente.`,,
+O caminho por casamento é viável e bem estabelecido. A chave é respeitar a sequência: transcrição primeiro, depois cidadania. Iniciar a transcrição o quanto antes — mesmo antes de completar os 3 anos — é sempre o movimento mais inteligente.`,
   'quanto-custa-nacionalidade-portuguesa-2026': `**Atualizado em 18 de junho de 2026**
 
 > ⚠️ **Aviso jurídico:** Este conteúdo tem caráter meramente informativo. Leis podem sofrer alterações. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados.
@@ -2345,7 +2345,7 @@ Sim, mas erros documentais que geram diligências — e o custo de retrabalho �
 Sim, por transferência internacional.
 
 **A análise inicial tem custo?**
-Não. Nossa análise inicial é gratuita e sem compromisso.`,,
+Não. Nossa análise inicial é gratuita e sem compromisso.`,
   'passaporte-portugues-como-solicitar-apos-aprovacao-da-cidadania': `
 A aprovação do processo de cidadania portuguesa é o momento mais esperado de toda a jornada. Mas o passaporte não chega automaticamente — é necessário dar entrada num pedido separado, presencialmente num consulado de Portugal no Brasil.
 
@@ -2400,7 +2400,7 @@ O processo inclui coleta de biometria (impressões digitais e foto ao vivo). Nã
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'naturalizacao-por-residencia-em-portugal-requisitos-atualizados-2026': `
 A naturalização por residência é a via para quem construiu vida em Portugal sem ter ascendência portuguesa directa ou casamento com cidadão português. É também a via que mais mudou com a [Lei Orgânica n.º 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996).
 
@@ -2455,7 +2455,7 @@ Pedidos formalmente protocolados antes de 19 de maio de 2026 seguem as regras an
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [AIMA](https://aima.gov.pt)
-`,,
+`,
   'como-escolher-um-advogado-especialista-em-cidadania-portuguesa': `
 Com o crescimento do interesse pela cidadania portuguesa, cresceu também o número de escritórios e assessorias oferecendo esse serviço. A diferença de qualidade entre eles é enorme — e escolher errado pode custar meses de atraso e dinheiro desperdiçado.
 
@@ -2499,7 +2499,7 @@ Quantos processos aprovados? Têm representação jurídica em Portugal? Como re
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
-`,,
+`,
   'quanto-custa-o-processo-de-cidadania-portuguesa-para-netos': `
 O custo do processo de cidadania portuguesa para netos varia bastante — depende muito da situação documental de cada família. Aqui está uma estimativa realista dos componentes de custo.
 
@@ -2559,7 +2559,7 @@ Passaporte português: acesso a 190+ países, livre circulação na UE, direito 
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
   'cidadania-portuguesa-para-conjuges-3-ou-6-anos-de-casamento': `
 Esta é uma das dúvidas mais comuns — e mais simples de responder: o prazo mínimo de casamento para pedir cidadania portuguesa é de **3 anos**. Não 6. A [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) não alterou esse requisito.
 
@@ -2599,7 +2599,7 @@ O prazo de 3 anos foi mantido. Foram adicionados novos requisitos de conheciment
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
-`,,
+`,
   'checklist-completa-de-documentos-para-netos-de-portugueses': `
 O processo de netos é o mais complexo do ponto de vista documental — cadeia de certidões mais longa, dossiê de vínculo efetivo obrigatório, e mais pontos onde erros e vencimentos podem surgir.
 
@@ -2660,6 +2660,6 @@ O processo de netos é o mais complexo do ponto de vista documental — cadeia d
 
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [Apostila de Haia — HCCH](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
-`,,
+`,
 
 };
