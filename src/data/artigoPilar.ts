@@ -984,7 +984,7 @@ O falecimento do ascendente não impede o pedido. O vínculo relevante é o seu,
 
 ## Como a ViannaLegal Pode Ajudar
 
-Nossa equipe especializada auxilia na:
+A ViannaLegal auxilia em:
 
 1. **Análise prévia** do potencial de vínculo efetivo
 2. **Orientação** sobre documentos necessários
@@ -1000,7 +1000,7 @@ Não espere mais para começar. Se você ainda não tem um dossiê forte, comece
 
 ---
 
-**Quer saber se seu vínculo é suficiente?** Agende uma análise gratuita com a ViannaLegal. Nossa equipe avaliará sua documentação e indicará os próximos passos.
+**Quer saber se seu vínculo é suficiente?** Agende uma análise inicial com a ViannaLegal. A análise identifica a documentação disponível e os próximos passos.
     
 
 ## Fontes e Referências Oficiais
@@ -1396,7 +1396,7 @@ Seja para aproveitar a mobilidade global, acessar oportunidades profissionais na
 
 ---
 
-**Pronto para conquistar todos esses benefícios?** A ViannaLegal pode ajudar você a obter sua cidadania portuguesa. Agende uma análise gratuita e comece sua jornada europeia.
+**Pronto para conquistar todos esses benefícios?** A ViannaLegal pode ajudar você a obter sua cidadania portuguesa. Agende uma análise inicial e comece sua jornada europeia.
     
 
 ## Fontes e Referências Oficiais
@@ -1857,7 +1857,7 @@ Para quem tem ascendência portuguesa, a via por [descendência (netos, filhos)]
 
 Para quem não tem ascendência, a naturalização por residência é o único caminho — e a data de início da residência legal é o activo mais importante a proteger.
 
-**Tem dúvidas sobre o seu caso?** A análise inicial é gratuita — fale connosco pelo WhatsApp.
+**Tem dúvidas sobre o seu caso?** Fale connosco pelo WhatsApp para análise do seu caso.
 
 ## Fontes e Referências Oficiais
 
@@ -2436,11 +2436,11 @@ Consulte imediatamente um advogado. Diligências respondidas incorretamente são
 
 Acompanhar o processo de cidadania portuguesa no MJ.pt é simples quando você entende as bolinhas de status e tem a senha de acesso em mãos. A paciência é fundamental: o IRN analisa milhares de pedidos, e a ausência de movimentação por meses é comum.
 
-Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer ter certeza de que tudo está correto, a ViannaLegal pode ajudar. Nossa equipe acompanha processos de cidadania portuguesa e orienta requerentes em cada etapa.
+Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer ter certeza de que tudo está correto, a ViannaLegal pode ajudar. A ViannaLegal acompanha processos de cidadania portuguesa e orienta em cada etapa.
 
 ---
 
-**Precisa de ajuda para acompanhar ou regularizar seu processo?** Fale conosco pelo WhatsApp. Análise inicial gratuita.
+**Precisa de ajuda para acompanhar ou regularizar seu processo?** Fale conosco pelo WhatsApp. Análise inicial.
     
 
 ## Fontes e Referências Oficiais
@@ -2712,7 +2712,7 @@ Dado o aumento contínuo do backlog, existe um argumento claro para não esperar
 
 Por outro lado, submeter um processo incompleto pode ser pior do que esperar para completar a documentação — as exigências do IRN fazem recomeçar o relógio.
 
-**Tem dúvidas sobre se a sua documentação está pronta para submissão?** A análise inicial é gratuita — fale connosco pelo WhatsApp.
+**Tem dúvidas sobre se a sua documentação está pronta para submissão?** Fale connosco pelo WhatsApp para análise do seu caso.
 
 ## Fontes e Referências Oficiais
 
@@ -2915,7 +2915,7 @@ Entre 24 e 42 meses no total (montagem + fila do IRN).
 
 ## Conclusão
 
-O processo é viável para quem tem o direito e se prepara corretamente. O maior erro não é a demora do IRN — é dar entrada com documentação mal preparada, que gera diligências e atrasos evitáveis. Nossa análise gratuita mapeia o seu caso antes de qualquer movimentação de documento.\`,
+O processo é viável para quem tem o direito e se prepara corretamente. O maior erro não é a demora do IRN — é dar entrada com documentação mal preparada, que gera diligências e atrasos evitáveis. Nossa análise inicial mapeia o seu caso antes de qualquer movimentação de documento.\`,
   },
   {
     id: 2,
@@ -3589,7 +3589,7 @@ O processo de netos é o mais complexo do ponto de vista documental — cadeia d
 
 ## Perguntas frequentes
 
-**Preciso de tudo antes de começar a análise?** Não. A análise gratuita identifica o que você tem e o que falta — sem precisar ter tudo reunido.
+**Preciso de tudo antes de começar a análise?** Não. A análise inicial identifica o que você tem e o que falta — sem precisar ter tudo reunido.
 
 **E se eu nunca fui a Portugal? O vínculo efetivo fica fraco?** Não inviabiliza o processo. Participação em associações portuguesas no Brasil, diplomas em português, correspondência com parentes compensam a ausência de viagens.
 
@@ -5004,7 +5004,7 @@ Ao detectar "em diligência" no portal, contacte a assessoria imediatamente. O t
 | Netos maiores | {{prazo_netos_maiores}} |
 | Casamento / União de facto | {{prazo_casamento}} |
 | Naturalização CPLP | {{prazo_naturalizacao}} |
-| Bisnetos (Art. 6.º n.º 8) | 28 a 36 meses |
+| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação pendente até agosto de 2026 |
 
 ## O que NÃO agiliza o processo
 
@@ -5117,7 +5117,7 @@ O que está sob o seu controlo: **entrar na fila o quanto antes** e **não sair 
 
 ## A estratégia: protocolar o quanto antes
 
-O maior "acelerador" real é entrar na fila cedo. A análise gratuita mapeia o que está disponível e permite protocolar sem esperar ter "tudo perfeito". Saiba o que é necessário em nosso [checklist para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses).
+O maior "acelerador" real é entrar na fila cedo. A análise inicial mapeia o que está disponível e permite protocolar sem esperar ter "tudo perfeito". Saiba o que é necessário em nosso [checklist para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses).
 
 ## O que a Lei 1/2026 não mudou
 
@@ -6019,7 +6019,7 @@ Estrangeiros com residência legal continuada. Para brasileiros e CPLP: **7 anos
 
 ## Via 5: Nova via de bisnetos (Art. 6.º n.º 8, Lei 1/2026)
 
-Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: 28 a 36 meses.
+Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: A confirmar — regulamentação pendente até agosto de 2026.
 
 ## Via 6: Filhos nascidos em Portugal de pais estrangeiros
 
@@ -6264,7 +6264,7 @@ Estimativas baseadas nas informações das conservatórias aos advogados (estado
 | Netos maiores de português | {{prazo_netos_maiores}} |
 | Casamento / União de facto | {{prazo_casamento}} |
 | Naturalização CPLP (7 anos) | {{prazo_naturalizacao}} |
-| Bisnetos (Art. 6.º n.º 8) | 28 a 36 meses |
+| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação pendente até agosto de 2026 |
 
 O prazo contabilizado é a partir da **data de distribuição formal do processo** no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) — não de quando você começou a reunir documentos.
 
@@ -7224,7 +7224,7 @@ Antes de dar o primeiro passo, existem dúvidas que quase toda a gente tem mas n
 
 O direito existe se: seu pai ou mãe nasceu em Portugal; seu avô ou avó nasceu em Portugal (com vínculo efetivo); você é casado(a) com português(a) há pelo menos 3 anos; você reside legalmente em Portugal há pelo menos 7 anos (brasileiros); ou você é bisneto de português com 5 anos de residência em Portugal.
 
-A análise gratuita confirma com base nos documentos específicos da sua família.
+A análise inicial confirma com base nos documentos específicos da sua família.
 
 ## "Preciso ir a Portugal?"
 
