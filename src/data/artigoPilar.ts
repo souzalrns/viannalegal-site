@@ -3554,7 +3554,6 @@ O processo de netos é o mais complexo do ponto de vista documental — cadeia d
 - [ ] **Certidão de casamento** (se casado) — apostilada, máx. 12 meses
 - [ ] **RG válido** — cópia autenticada em cartório
 - [ ] **Certidão criminal federal** — apostilada, máx. 3 meses
-- [ ] **Certidão criminal estadual** — apostilada, máx. 3 meses
 - [ ] **Certidão criminal do IRN** (PT) — solicitada pela assessoria ao [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 
 ## Dossiê de vínculo efetivo
@@ -3824,7 +3823,7 @@ Se o requerente viveu em outro país por mais de 1 ano após a maioridade, pode 
 
 **Uma ocorrência antiga mas arquivada impede a cidadania?** O impedimento é para condenação com pena de prisão efectiva igual ou superior a 3 anos. Ocorrências sem condenação normalmente não impedem. Análise jurídica específica recomendada se houver qualquer registo.
 
-**A certidão estadual pode ser substituída pela federal?** Não — cobrem registos diferentes. Ambas são necessárias.
+**A certidão da Polícia Federal é o documento exigido** no processo de cidadania portuguesa.
 
 > ⚠️ **Aviso jurídico:** Este conteúdo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
 
@@ -4400,7 +4399,7 @@ SP tem uma das comunidades portuguesas mais activas fora de Portugal. Associaç�
 
 ## Certidão criminal em São Paulo
 
-A certidão estadual é emitida pela SSP/SP (IIRGD) — necessária para o processo e obtida com a orientação da assessoria.
+
 
 ## Prazos e processo
 
@@ -4454,7 +4453,7 @@ Associações como a **Câmara Portuguesa de Comércio** e o **Centro Português
 
 ## Certidão criminal no Rio de Janeiro
 
-Emitida pela Secretaria de Estado de Polícia Civil (SEPC). Emitida pela Secretaria de Estado de Polícia Civil (SEPC) do Rio de Janeiro.
+
 
 ## Prazos
 
@@ -4506,9 +4505,7 @@ Açorianos são portugueses — nascidos nas Ilhas Açores, que fazem parte do t
 
 ## Certidões, apostilas e criminal
 
-**RS:** Certidão criminal pela SSP/RS. Apostilas pelo TJ/RS.
-**SC:** SSP/SC e TJ/SC.
-**PR:** SSP/PR e TJ/PR.
+**Apostilas:** RS → TJ/RS · SC → TJ/SC · PR → TJ/PR.
 
 ## Comunidade portuguesa no Sul
 
@@ -6316,7 +6313,7 @@ Minas Gerais tem forte presença de descendentes de portugueses — muitos dos p
 
 ## Apostilas e certidão criminal em Minas Gerais
 
-Apostilas pelos cartórios autorizados pelo TJ/MG (R$70 a R$100, 2 a 5 dias úteis). Certidão criminal estadual pela Polícia Civil de MG (PCMG) — solicitação online ou presencial.
+Apostilas pelos cartórios autorizados pelo TJ/MG (R$70 a R$100, 2 a 5 dias úteis). 
 
 ## O perfil do imigrante português em Minas
 
@@ -6364,7 +6361,7 @@ O [Consulado Geral de Portugal em Curitiba](https://www.cgcuritiba.pt) é compet
 
 ## Apostilas e certidão criminal no Paraná
 
-Apostilas pelos cartórios autorizados pelo TJ/PR (R$70 a R$100, 2 a 5 dias úteis). Certidão criminal estadual pela Secretaria de Segurança Pública do PR (SESP/PR) — emitida pela SESP/PR com orientação da assessoria.
+Apostilas pelos cartórios autorizados pelo TJ/PR (R$70 a R$100, 2 a 5 dias úteis). Certidão criminal estadual pela Secretaria de Segurança Pública do PR (SESP/PR) .
 
 ## Comunidade portuguesa no Paraná
 
