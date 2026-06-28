@@ -1,13 +1,14 @@
 // ViannaLegal — Índice de conteúdo dos artigos
-// Build fix: b6bba27c
-// Dividido em partes para evitar limite de tamanho do TypeScript
+// Build fix: artigo pilar carregado via dynamic import para não bloquear bundle inicial
 import { blogContentPart1 } from './blogContentPart1';
 import { blogContentPart2 } from './blogContentPart2';
 import { blogContentPart3 } from './blogContentPart3';
-import { artigoCidadaniaPortuguesa } from './artigoPilar';
+
+// Artigo pilar — 407KB, carregado on-demand
+export const loadArtigoPilar = (): Promise<string> =>
+  import('./artigoPilar').then(m => m.artigoCidadaniaPortuguesa);
 
 export const allBlogPostsContent: Record<string, string> = {
-  'como-tirar-cidadania-portuguesa': artigoCidadaniaPortuguesa,
   ...blogContentPart1,
   ...blogContentPart2,
   ...blogContentPart3,
