@@ -42,7 +42,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 1,
     slug: 'veto-tribunal-constitucional-dezembro-2025',
-    title: 'Veto do Tribunal Constitucional Dez/2025: Residência em 5 Anos Mantida',
+    title: 'Veto do Tribunal Constitucional Dez/2025',
     excerpt: 'O Tribunal Constitucional vetou quatro normas da nova Lei da Nacionalidade. O prazo de residência permanece em 5 anos, não subindo para 7/10 anos como previsto. Entenda o que isso significa para brasileiros.',
     date: '22 Jun 2026',
     readTime: '12 min',
@@ -192,7 +192,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 11,
     slug: 'como-acompanhar-processo-cidadania-portuguesa',
-    title: 'Como Acompanhar o Processo de Cidadania Portuguesa: Guia do Portal MJ.pt',
+    title: 'Como Acompanhar o Processo de Cidadania Portuguesa',
     excerpt: 'Aprenda a consultar seu [processo de nacionalidade portuguesa](/blog/guia-completo-cidadania-portuguesa-2025) no portal MJ.pt. Entenda as 7 bolinhas de status, a senha de acesso e o que fazer em cada etapa.',
     date: '22 Jun 2026',
     readTime: '10 min',
@@ -207,7 +207,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 12,
     slug: 'bisnetos-via1-vs-via2-cidadania-portuguesa',
-    title: 'Bisnetos e a Cidadania Portuguesa: Via 1 (Atribuição) vs Via 2 (Aquisição) — Qual a Diferença?',
+    title: 'Bisnetos e a Cidadania Portuguesa',
     excerpt: 'A Lei Orgânica 1/2026 criou duas vias distintas para bisnetos de portugueses. Entenda a diferença crucial entre atribuição originária e aquisição derivada — e por que isso afecta o que você pode transmitir aos seus filhos.',
     date: '20 Jun 2026',
     readTime: '10 min',
@@ -222,7 +222,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 13,
     slug: 'protocolo-antes-lei-1-2026-o-que-muda',
-    title: 'Protocolei Meu Pedido Antes de 19 de Maio de 2026 — O Que Muda para Mim?',
+    title: 'Protocolei Meu Pedido Antes de 19 de Maio de 2026',
     excerpt: 'O IRN confirmou: a data de submissão determina qual lei se aplica ao seu processo. Quem entrou antes da Lei 1/2026 mantém as regras anteriores — mesmo que a análise ocorra depois. Entenda os seus direitos.',
     date: '8 Jun 2026',
     readTime: '7 min',
@@ -237,7 +237,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 14,
     slug: '700-mil-processos-irn-o-que-significa-para-voce',
-    title: '700.000 Processos Pendentes no IRN: O Que Isso Significa para o Seu Caso?',
+    title: '700.000 Processos Pendentes no IRN',
     excerpt: 'O número de processos pendentes no IRN atingiu 700.000 após a Lei 1/2026 — um recorde histórico. Entenda o impacto real nos prazos, o que o IRN fez para responder ao colapso e como posicionar melhor o seu pedido.',
     date: '27 Mai 2026',
     readTime: '8 min',
@@ -267,7 +267,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 1,
     slug: 'nacionalidade-portuguesa-para-netos-guia-completo-2026',
-    title: 'Nacionalidade Portuguesa para Netos: Guia Completo Atualizado 2026',
+    title: 'Nacionalidade Portuguesa para Netos',
     excerpt: 'Neto de português tem direito à cidadania europeia — mas o processo não é automático. Entenda o que é vínculo efetivo, quais documentos reunir, quanto tempo leva e o que mudou com a Lei Orgânica 1/2026.',
     date: '6 Jun 2026',
     readTime: '18 min',
@@ -281,7 +281,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 2,
     slug: 'nacionalidade-portuguesa-para-filhos-guia-completo-2026',
-    title: 'Nacionalidade Portuguesa para Filhos: Guia Completo e Atualizado 2026',
+    title: 'Nacionalidade Portuguesa para Filhos',
     excerpt: 'Filho de português tem direito automático à cidadania portuguesa, independentemente da idade. Entenda as diferenças entre menores e maiores de idade, documentos e prazos reais em 2026.',
     date: '4 Jun 2026',
     readTime: '14 min',
@@ -295,7 +295,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 3,
     slug: 'nacionalidade-portuguesa-por-casamento-uniao-facto-2026',
-    title: 'Nacionalidade Portuguesa por Casamento ou União de Facto em 2026',
+    title: 'Nacionalidade Portuguesa por Casamento ou União de Facto …',
     excerpt: 'Casado(a) com português(a) há mais de 3 anos? Entenda o processo completo: transcrição de casamento, documentos, prazos e o que a Lei Orgânica 1/2026 não alterou.',
     date: '2 Jun 2026',
     readTime: '13 min',
@@ -309,7 +309,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 4,
     slug: 'quanto-custa-nacionalidade-portuguesa-2026',
-    title: 'Quanto Custa a Nacionalidade Portuguesa em 2026? Valores Reais e Despesas Totais',
+    title: 'Quanto Custa a Nacionalidade Portuguesa em 2026? Valores …',
     excerpt: 'Guia completo de custos: taxas do IRN, apostilas, certidões, pesquisa genealógica e honorários de assessoria — por tipo de processo.',
     date: '31 Mai 2026',
     readTime: '12 min',
@@ -323,7 +323,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 20,
     slug: 'passaporte-portugues-como-solicitar-apos-aprovacao-da-cidadania',
-    title: 'Passaporte Português: Como Solicitar Após Aprovação da Cidadania',
+    title: 'Passaporte Português: Como Solicitar Após Aprovação da Ci…',
     excerpt: 'Leis podem sofrer alterações. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A aprovação do processo de cidadania portuguesa é motivo de celebração — mas ...',
     date: '12 Jun 2026',
     readTime: '5 min',
@@ -338,7 +338,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 21,
     slug: 'naturalizacao-por-residencia-em-portugal-requisitos-atualizados-2026',
-    title: 'Naturalização por Residência em Portugal: Requisitos Atualizados 2026',
+    title: 'Naturalização por Residência em Portugal',
     excerpt: 'Leis podem sofrer alterações. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A naturalização por residência é o caminho para quem construiu vida em Portug...',
     date: '10 Jun 2026',
     readTime: '5 min',
@@ -353,7 +353,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 22,
     slug: 'como-escolher-um-advogado-especialista-em-cidadania-portuguesa',
-    title: 'Como Escolher um Advogado Especialista em Cidadania Portuguesa',
+    title: 'Como Escolher um Advogado Especialista em Cidadania Portu…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Com o crescimento do interesse pela cidadania portuguesa, cresceu também o número de escritórios e assessor...',
     date: '8 Jun 2026',
     readTime: '5 min',
@@ -383,7 +383,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 24,
     slug: 'cidadania-portuguesa-para-conjuges-3-ou-6-anos-de-casamento',
-    title: 'Cidadania Portuguesa para Cônjuges: 3 ou 6 Anos de Casamento?',
+    title: 'Cidadania Portuguesa para Cônjuges',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Esta é uma das dúvidas mais comuns — e mais simples de responder: o prazo mínimo de casamento para pedir ci...',
     date: '4 Jun 2026',
     readTime: '5 min',
@@ -413,7 +413,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 26,
     slug: 'cidadania-portuguesa-para-brasileiros-que-moram-no-brasil-em-2026',
-    title: 'Cidadania Portuguesa para Brasileiros que Moram no Brasil em 2026',
+    title: 'Cidadania Portuguesa para Brasileiros que Moram no Brasil…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Uma das dúvidas mais comuns de brasileiros interessados em cidadania portuguesa é: &quot;preciso me mudar p...',
     date: '31 Mai 2026',
     readTime: '5 min',
@@ -443,7 +443,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 28,
     slug: 'cidadania-portuguesa-para-menores-de-idade-o-que-os-pais-precisam-saber',
-    title: 'Cidadania Portuguesa para Menores de Idade: O que os Pais Precisam Saber',
+    title: 'Cidadania Portuguesa para Menores de Idade',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O processo de cidadania portuguesa para menores de idade é o mais rápido e simples entre todos os caminhos ...',
     date: '27 Mai 2026',
     readTime: '5 min',
@@ -458,7 +458,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 29,
     slug: 'como-obter-a-certidao-de-antecedentes-criminais-para-portugal',
-    title: 'Como Obter a Certidão de Antecedentes Criminais para Portugal',
+    title: 'Como Obter a Certidão de Antecedentes Criminais para Port…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A certidão de antecedentes criminais — também chamada de certidão de registo criminal — é exigida em alguns...',
     date: '25 Mai 2026',
     readTime: '5 min',
@@ -548,7 +548,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 35,
     slug: 'diferenca-entre-atribuicao-e-aquisicao-de-cidadania-portuguesa',
-    title: 'Diferença entre Atribuição e Aquisição de Cidadania Portuguesa',
+    title: 'Diferença entre Atribuição e Aquisição de Cidadania Portu…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A lei portuguesa distingue dois mecanismos fundamentalmente diferentes para se tornar cidadão português: a ...',
     date: '13 Mai 2026',
     readTime: '5 min',
@@ -563,7 +563,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 36,
     slug: 'cidadania-portuguesa-para-quem-tem-avo-que-perdeu-a-nacionalidade',
-    title: 'Cidadania Portuguesa para Quem Tem Avó que Perdeu a Nacionalidade',
+    title: 'Cidadania Portuguesa para Quem Tem Avó que Perdeu a Nacio…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Uma situação que surge com frequência em famílias com ancestrais portugueses emigrados há décadas é a quest...',
     date: '11 Mai 2026',
     readTime: '5 min',
@@ -653,7 +653,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 42,
     slug: 'cidadania-portuguesa-e-heranca-o-que-os-descendentes-precisam-saber',
-    title: 'Cidadania Portuguesa e Herança: O que os Descendentes Precisam Saber',
+    title: 'Cidadania Portuguesa e Herança',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Ter cidadania portuguesa — ou ser descendente de portugueses — pode ter implicações em processos de herança...',
     date: '29 Abr 2026',
     readTime: '5 min',
@@ -668,7 +668,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 43,
     slug: 'filho-vs-neto-diferencas-no-processo-de-cidadania-portuguesa',
-    title: 'Filho vs. Neto: Diferenças no Processo de Cidadania Portuguesa',
+    title: 'Filho vs. Neto: Diferenças no Processo de Cidadania Portu…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Dois dos processos de cidadania portuguesa mais comuns — o de filhos e o de netos — têm diferenças signific...',
     date: '27 Abr 2026',
     readTime: '5 min',
@@ -683,7 +683,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 44,
     slug: 'pedir-cidadania-no-brasil-ou-em-portugal-vantagens-e-desvantagens',
-    title: 'Pedir Cidadania no Brasil ou em Portugal: Vantagens e Desvantagens',
+    title: 'Pedir Cidadania no Brasil ou em Portugal',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Para a maioria dos processos de cidadania portuguesa, o requerente tem escolha: conduzir o processo do Bras...',
     date: '25 Abr 2026',
     readTime: '5 min',
@@ -713,7 +713,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 46,
     slug: 'cidadania-portuguesa-para-casais-em-uniao-de-facto-uniao-estavel',
-    title: 'Cidadania Portuguesa para Casais em União de Facto (União Estável)',
+    title: 'Cidadania Portuguesa para Casais em União de Facto (União…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A união de facto — equivalente à união estável brasileira — é reconhecida pela lei portuguesa como via para...',
     date: '21 Abr 2026',
     readTime: '5 min',
@@ -728,7 +728,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 47,
     slug: 'como-acompanhar-o-andamento-do-processo-de-cidadania-portuguesa',
-    title: 'Como Acompanhar o Andamento do Processo de Cidadania Portuguesa',
+    title: 'Como Acompanhar o Andamento do Processo de Cidadania Port…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Um dos momentos que mais gera ansiedade no processo de cidadania portuguesa é a espera — especialmente dura...',
     date: '19 Abr 2026',
     readTime: '5 min',
@@ -818,7 +818,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 53,
     slug: 'cidadania-portuguesa-para-quem-tem-antepassados-de-macau-ou-goa',
-    title: 'Cidadania Portuguesa para Quem Tem Antepassados de Macau ou Goa',
+    title: 'Cidadania Portuguesa para Quem Tem Antepassados de Macau …',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Macau e Goa foram territórios sob administração portuguesa por séculos — Goa até 1961 e Macau até 1999. Fam...',
     date: '7 Abr 2026',
     readTime: '5 min',
@@ -863,7 +863,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 56,
     slug: 'checklist-final-antes-de-entregar-o-processo-de-cidadania-portuguesa',
-    title: 'Checklist Final Antes de Entregar o Processo de Cidadania Portuguesa',
+    title: 'Checklist Final Antes de Entregar o Processo de Cidadania…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Antes de distribuir o processo à conservatória, uma revisão final pode evitar meses de atraso por erros que...',
     date: '1 Abr 2026',
     readTime: '5 min',
@@ -923,7 +923,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 60,
     slug: 'cidadania-portuguesa-e-nome-portugues-como-alterar-apos-a-aprovacao',
-    title: 'Cidadania Portuguesa e Nome Português: Como Alterar Após a Aprovação',
+    title: 'Cidadania Portuguesa e Nome Português',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Ao obter a cidadania portuguesa, alguns requerentes têm interesse em usar o nome em sua forma portuguesa — ...',
     date: '24 Mar 2026',
     readTime: '5 min',
@@ -953,7 +953,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 62,
     slug: 'guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026',
-    title: 'Guia Definitivo: Todas as Formas de Obter Cidadania Portuguesa em 2026',
+    title: 'Guia Definitivo: Todas as Formas de Obter Cidadania Portu…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Este artigo consolida em um único lugar todas as vias disponíveis para obter a cidadania portuguesa em 2026...',
     date: '20 Mar 2026',
     readTime: '5 min',
@@ -998,7 +998,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 65,
     slug: 'cidadania-portuguesa-para-brasileiros-com-dupla-nacionalidade-nao-portuguesa',
-    title: 'Cidadania Portuguesa para Brasileiros com Dupla Nacionalidade Não-Portuguesa',
+    title: 'Cidadania Portuguesa para Brasileiros com Dupla Nacionali…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Muitos brasileiros têm não apenas a cidadania brasileira, mas também uma terceira cidadania — italiana, ale...',
     date: '14 Mar 2026',
     readTime: '5 min',
@@ -1028,7 +1028,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 67,
     slug: 'cidadania-portuguesa-para-brasileiros-em-belo-horizonte-e-minas-gerais',
-    title: 'Cidadania Portuguesa para Brasileiros em Belo Horizonte e Minas Gerais',
+    title: 'Cidadania Portuguesa para Brasileiros em Belo Horizonte e…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Minas Gerais tem uma das maiores comunidades de descendentes de portugueses do Brasil — resultado de século...',
     date: '10 Mar 2026',
     readTime: '5 min',
@@ -1073,7 +1073,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 70,
     slug: 'por-que-processos-de-cidadania-portuguesa-sao-indeferidos-e-como-recorrer',
-    title: 'Por Que Processos de Cidadania Portuguesa São Indeferidos e Como Recorrer',
+    title: 'Por Que Processos de Cidadania Portuguesa São Indeferidos…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O indeferimento de um pedido de cidadania portuguesa é frustrante — mas não necessariamente o fim. Entender...',
     date: '4 Mar 2026',
     readTime: '5 min',
@@ -1088,7 +1088,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 71,
     slug: 'documentos-digitais-vs-fisicos-no-processo-de-cidadania-portuguesa',
-    title: 'Documentos Digitais vs. Físicos no Processo de Cidadania Portuguesa',
+    title: 'Documentos Digitais vs. Físicos no Processo de Cidadania …',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. À medida que a digitalização avança, surge a dúvida: quais documentos do processo de cidadania portuguesa p...',
     date: '2 Mar 2026',
     readTime: '5 min',
@@ -1118,7 +1118,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 73,
     slug: 'cidadania-portuguesa-para-brasileiros-em-brasilia-e-centro-oeste',
-    title: 'Cidadania Portuguesa para Brasileiros em Brasília e Centro-Oeste',
+    title: 'Cidadania Portuguesa para Brasileiros em Brasília e Centr…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Brasília e o Centro-Oeste têm características migratórias particulares — a capital federal foi construída a...',
     date: '26 Fev 2026',
     readTime: '5 min',
@@ -1178,7 +1178,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 77,
     slug: 'cidadania-portuguesa-o-que-acontece-se-eu-viver-entre-brasil-e-portugal',
-    title: 'Cidadania Portuguesa: O Que Acontece se Eu Viver Entre Brasil e Portugal',
+    title: 'Cidadania Portuguesa: O Que Acontece se Eu Viver Entre Br…',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Um número crescente de brasileiros com cidadania portuguesa (ou buscando-a) tem um estilo de vida que divid...',
     date: '18 Fev 2026',
     readTime: '5 min',
@@ -1193,7 +1193,7 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   {
     id: 78,
     slug: 'cidadania-portuguesa-para-descendentes-de-emigrantes-que-voltaram-a-portugal',
-    title: 'Cidadania Portuguesa para Descendentes de Emigrantes que Voltaram a Portugal',
+    title: 'Cidadania Portuguesa para Descendentes de Emigrantes que …',
     excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Existe um perfil específico de família luso-brasileira que tem particularidades no processo de cidadania: a...',
     date: '16 Fev 2026',
     readTime: '5 min',
