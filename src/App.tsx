@@ -5,6 +5,7 @@ import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import { lazy, Suspense } from "react";
 const Index = lazy(() => import("./pages/Index"));
 
+const QuemSomos = lazy(() => import('./pages/QuemSomos'));
 const CidadaniaPortuguesa = lazy(() => import("./pages/CidadaniaPortuguesa"));
 const BuscaDocumentos     = lazy(() => import("./pages/BuscaDocumentos"));
 const ServicePage         = lazy(() => import("./pages/ServicePage"));
