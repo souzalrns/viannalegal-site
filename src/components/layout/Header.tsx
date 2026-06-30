@@ -6,12 +6,12 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { SITE_CONFIG } from '@/config/site';
 
 const navItems = [
-  { label: 'Quem Somos',           href: '/#quem-somos'         },
+  { label: 'Quem Somos',           href: '/quem-somos'         },
   { label: 'Cidadania',            href: '/cidadania-portuguesa' },
   { label: 'Documentos',           href: '/busca-documentos'     },
   { label: 'Blog',                 href: '/blog'                  },
   { label: 'Quiz — Descubra seu direito', href: '/quiz', highlight: true },
-  { label: 'Contato',              href: '/#contato'              },
+  { label: 'Contato',              href: '/contato'              },
 ];
 
 const WA_URL = SITE_CONFIG.whatsapp.url;
