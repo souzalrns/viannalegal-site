@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
+import { SchemaPerson } from '@/components/seo/SchemaMarkup';
 import { Footer } from '@/components/sections/Footer';
 import { About } from '@/components/sections/About';
 import { Button } from '@/components/ui/button';
@@ -51,6 +52,7 @@ export default function QuemSomos() {
         <meta property="og:image" content="https://viannalegal.com.br/og-image.jpg" />
       </Helmet>
 
+      <SchemaPerson />
       <Header />
 
       <main>
