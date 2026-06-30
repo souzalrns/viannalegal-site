@@ -77,7 +77,7 @@ export function Hero() {
                 <ArrowRight className="w-5 h-5" />
               </Button>
               <Button variant="outline" size="xl" asChild className="border-white/25 text-white hover:bg-white/10">
-                <Link to="/quiz">Ver se tenho direito</Link>
+                <Link to="/quiz">Veja se tem direito</Link>
               </Button>
             </div>
           </div>
