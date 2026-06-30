@@ -743,6 +743,12 @@ export default function Quiz() {
       <Helmet>
         <title>Quiz — Tenho Direito à Cidadania Portuguesa? | ViannaLegal</title>
         <link rel="canonical" href="https://viannalegal.com.br/quiz" />
+        <meta property="og:title" content="Quiz de Elegibilidade — Descubra se Tem Direito à Cidadania Portuguesa" />
+        <meta property="og:description" content="Responda 5 perguntas e saiba em 2 minutos se tem direito à cidadania portuguesa. Actualizado com a Lei Orgânica 1/2026." />
+        <meta property="og:url" content="https://viannalegal.com.br/quiz" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://viannalegal.com.br/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="description" content="Responda algumas perguntas e descubra em minutos se você tem direito à cidadania portuguesa e qual é o caminho mais adequado para o seu perfil." />
       </Helmet>
       <SchemaQuiz />
