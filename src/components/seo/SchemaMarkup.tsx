@@ -253,3 +253,41 @@ export const SchemaHowTo = () => {
     />
   );
 };
+
+export const SchemaPerson = () => {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kathia Vianna",
+    "jobTitle": "Advogada especialista em cidadania portuguesa",
+    "description": "Advogada inscrita na Ordem dos Advogados de Portugal (OA n.º 56666p). Especialista em cidadania portuguesa, naturalização e processos perante o IRN. Actuação presencial em Portugal desde 2016.",
+    "url": "https://viannalegal.com.br/quem-somos",
+    "worksFor": {
+      "@type": "LegalService",
+      "name": "ViannaLegal",
+      "url": "https://viannalegal.com.br"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Universidade de Lisboa" },
+      { "@type": "CollegeOrUniversity", "name": "Universidade Portucalense" }
+    ],
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Ordem dos Advogados de Portugal",
+      "identifier": "OA n.º 56666p"
+    },
+    "knowsAbout": [
+      "Cidadania portuguesa",
+      "Nacionalidade portuguesa",
+      "Processos no IRN",
+      "Lei Orgânica 1/2026",
+      "Direito da Nacionalidade"
+    ]
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
