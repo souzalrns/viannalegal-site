@@ -73,11 +73,11 @@ export function Hero() {
                 className="shadow-gold text-base font-bold"
                 onClick={() => window.open(waUrl(SITE_CONFIG.whatsappMessages.default), '_blank', 'noopener,noreferrer')}
               >
-                Quero deixar essa herança
+                Falar com especialista
                 <ArrowRight className="w-5 h-5" />
               </Button>
               <Button variant="outline" size="xl" asChild className="border-white/25 text-white hover:bg-white/10">
-                <Link to="/quiz">Descobrir se tenho direito</Link>
+                <Link to="/quiz">Ver se tenho direito</Link>
               </Button>
             </div>
           </div>
