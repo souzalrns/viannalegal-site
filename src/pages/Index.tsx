@@ -182,7 +182,6 @@ const Index = () => (
       </Helmet>
     <Header />
     <Hero />
-    <QuizBannerHome />
     <ModalidadesSection />
     <About />
     <Process />
