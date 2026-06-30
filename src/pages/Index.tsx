@@ -81,46 +81,6 @@ const modalidades = [
   },
 ];
 
-function QuizBannerHome() {
-  return (
-    <section className="bg-primary section-padding">
-      <div className="container-width">
-        <div className="bg-white/10 border border-white/20 rounded-3xl p-8 md:p-10 text-center">
-          <div className="w-14 h-14 rounded-2xl bg-gold/20 flex items-center justify-center mx-auto mb-5">
-            <Sparkles className="w-7 h-7 text-gold" />
-          </div>
-          <p className="text-gold text-xs font-bold uppercase tracking-widest mb-3">
-            Não sabe se tem direito?
-          </p>
-          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-3 leading-snug">
-            Descubra em 2 minutos qual é o seu caminho
-          </h2>
-          <p className="text-white/70 text-sm mb-8 max-w-lg mx-auto">
-            Responda algumas perguntas simples e receba um diagnóstico personalizado —
-            actualizado com a Lei 1/2026.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link
-              to="/quiz"
-              className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4 rounded-2xl transition-colors text-base"
-            >
-              Descobrir o meu caminho
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-            <a
-              href={waUrl(SITE_CONFIG.whatsappMessages.default)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-medium px-8 py-4 rounded-2xl transition-colors border border-white/20 text-base"
-            >
-              Falar com especialista
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function ModalidadesSection() {
   return (
