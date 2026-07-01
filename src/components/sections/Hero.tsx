@@ -6,7 +6,7 @@ import kvLogo from '@/assets/kv-logo.png';
 import kvLogoWebp from '@/assets/kv-logo.webp';
 
 const trustMarkers = [
-  '+2.000 famílias atendidas',
+  '+1.200+ casos acompanhados',
   'Processo 100% online',
   '10 anos de experiência em Portugal',
 ];
