@@ -9,6 +9,13 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://viannalegal.com.br/contato</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://viannalegal.com.br/quiz</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
