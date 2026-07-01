@@ -7,7 +7,7 @@ import kvLogoWebp from '@/assets/kv-logo.webp';
 
 const trustMarkers = [
   '+1.200+ casos acompanhados',
-  'Processo 100% online',
+  'Processo com actuação presencial em Portugal',
   '10 anos de experiência em Portugal',
 ];
 
