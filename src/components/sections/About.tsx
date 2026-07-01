@@ -23,8 +23,8 @@ const credentials = [
   },
   {
     icon: FileCheck,
-    title: '10 anos · 1.200+ processos',
-    description: 'Especialista em nacionalidade portuguesa, escrituras, registos, análise de contratos e representação de investidores estrangeiros em Portugal.',
+    title: '10 anos · 1.200+ casos',
+    description: 'Foco exclusivo em cidadania portuguesa e direito da nacionalidade. Actualizada com a Lei Orgânica 1/2026 em vigor desde Maio de 2026.',
   },
 ];
 
@@ -114,7 +114,7 @@ export function About() {
                 );
               }}
             >
-              Começar a construir essa herança
+              Falar com a Kathia
               <ArrowRight className="w-5 h-5" />
             </Button>
           </div>
