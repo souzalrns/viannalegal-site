@@ -165,11 +165,11 @@ const Index = () => (
     <SchemaHomepage />
     <Helmet>
         <title>ViannaLegal — Cidadania Portuguesa | Assessoria Jurídica</title>
-        <meta name="description" content="Assessoria especializada em cidadania portuguesa. Mais de 1.200+ casos acompanhados. Processo 100% online, sem sair do Brasil." />
+        <meta name="description" content="Assessoria especializada em cidadania portuguesa. Mais de 1.200+ casos acompanhados. Processo com actuação presencial em Portugal." />
         <link rel="canonical" href="https://viannalegal.com.br/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="ViannaLegal — Cidadania Portuguesa | Assessoria Jurídica" />
-        <meta property="og:description" content="Assessoria especializada em cidadania portuguesa. Mais de 1.200+ casos acompanhados. Processo 100% online, sem sair do Brasil." />
+        <meta property="og:description" content="Assessoria especializada em cidadania portuguesa. Mais de 1.200+ casos acompanhados. Processo com actuação presencial em Portugal." />
         <meta property="og:url" content="https://viannalegal.com.br/" />
         <meta property="og:image" content="https://viannalegal.com.br/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
