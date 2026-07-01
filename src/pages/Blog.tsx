@@ -27,7 +27,7 @@ export default function Blog() {
 
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Blog",
+    "@type": "Artigos",
     "name": "Blog ViannaLegal - Cidadania Portuguesa",
     "description": "Artigos completos, guias e novidades sobre cidadania portuguesa para brasileiros. Atualizações sobre Lei da Nacionalidade 2025, vínculo efetivo, prazos IRN.",
     "url": "https://viannalegal.com.br/blog",
