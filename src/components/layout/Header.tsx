@@ -11,7 +11,7 @@ const navItems = [
   { label: 'Documentos',           href: '/busca-documentos'     },
   { label: 'Blog',                 href: '/blog'                  },
   { label: 'Quiz — Descubra seu direito', href: '/quiz', highlight: true },
-  { label: 'Contato',              href: '/contato'              },
+  { label: 'Contato',              href: '/#contato'              },
 ];
 
 const WA_URL = SITE_CONFIG.whatsapp.url;
@@ -23,7 +23,7 @@ export function Header() {
   const location   = useLocation();
   const navigate   = useNavigate();
   const isHomePage = location.pathname === '/';
-  const forceDark = ['/blog', '/cidadania-portuguesa', '/busca-documentos', '/quiz', '/contato', '/politica-privacidade', '/termos-uso'].some(p => location.pathname.startsWith(p));
+  const forceDark = ['/blog', '/cidadania-portuguesa', '/busca-documentos', '/quiz', '/politica-privacidade', '/termos-uso'].some(p => location.pathname.startsWith(p));
   const isDark     = isScrolled || !isHomePage || forceDark;
 
   useEffect(() => {
