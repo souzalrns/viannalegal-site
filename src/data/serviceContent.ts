@@ -63,7 +63,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Sua certidão de nascimento', note: 'Apostilada, com no máximo 12 meses de emissão na maioria dos casos.' },
       { item: 'Documento de identificação válido', note: 'RG ou passaporte.' },
       { item: 'Provas de vínculo efetivo', note: 'Passaportes com selos de entrada em Portugal, certificados de idioma, comprovantes de participação em associações lusófonas, entre outros.' },
-      { item: 'Procuração para a equipe jurídica', note: 'Modelo fornecido por nós, reconhecida em cartório.' },
+      { item: 'Procuração para a advogada', note: 'Modelo fornecido por nós, reconhecida em cartório.' },
     ],
     timeline: [
       { stage: 'Análise inicial e montagem da estratégia de vínculo efetivo', duration: '15-30 dias' },
@@ -183,7 +183,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Certidão de nacionalidade portuguesa do progenitor', note: 'Ou certidão de nascimento portuguesa do pai/mãe, conforme o caso.' },
       { item: 'Documento de identificação válido', note: 'RG ou passaporte.' },
       { item: 'Certidão de casamento dos pais', note: 'Quando aplicável à linha de filiação.' },
-      { item: 'Procuração para a equipe jurídica', note: 'Reconhecida em cartório.' },
+      { item: 'Procuração para a advogada', note: 'Reconhecida em cartório.' },
     ],
     timeline: [
       { stage: 'Análise inicial e checklist de documentos', duration: '7-15 dias' },
@@ -243,7 +243,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Certidão de nacionalidade portuguesa do cônjuge', note: 'Ou documento equivalente comprovando a cidadania.' },
       { item: 'Comprovação de tempo de relação', note: 'Documentos que demonstrem a vida em comum quando aplicável à união de facto.' },
       { item: 'Documento de identidade de ambos os cônjuges', note: 'RG, passaporte ou cartão de cidadão.' },
-      { item: 'Procuração para a equipe jurídica', note: 'Reconhecida em cartório por ambas as partes, quando aplicável.' },
+      { item: 'Procuração para a advogada', note: 'Reconhecida em cartório por ambas as partes, quando aplicável.' },
     ],
     timeline: [
       { stage: 'Análise inicial e verificação do tempo de casamento', duration: '15-30 dias' },
@@ -363,7 +363,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Certidões de toda a cadeia de filiação', note: 'Avô/avó, pai/mãe e a sua própria, todas em inteiro teor.' },
       { item: 'Provas de vínculo efetivo', note: 'Mesmo padrão exigido para netos: idioma, visitas, laços culturais e familiares documentáveis.' },
       { item: 'Documento de identificação válido', note: 'RG ou passaporte.' },
-      { item: 'Procuração para a equipe jurídica', note: 'Reconhecida em cartório.' },
+      { item: 'Procuração para a advogada', note: 'Reconhecida em cartório.' },
     ],
     timeline: [
       { stage: 'Análise inicial da cadeia de filiação e estratégia de vínculo efetivo', duration: '15-30 dias' },
@@ -422,7 +422,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { item: 'Apostila de Haia', note: 'Aplicada na certidão pelo cartório competente no Brasil.' },
       { item: 'Documentos de identidade de ambos os cônjuges', note: 'RG, passaporte ou cartão de cidadão.' },
       { item: 'Certidão de nascimento de ambos', note: 'Quando exigida pela conservatória responsável.' },
-      { item: 'Procuração para a equipe jurídica', note: 'Reconhecida em cartório.' },
+      { item: 'Procuração para a advogada', note: 'Reconhecida em cartório.' },
     ],
     timeline: [
       { stage: 'Análise inicial e checklist de documentos', duration: '7-15 dias' },
@@ -449,7 +449,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       {
         question: 'Preciso viajar a Portugal para fazer a transcrição?',
         answer:
-          'Não. O processo é feito a distância, com procuração para a nossa equipe jurídica, sem necessidade de deslocamento.',
+          'Não. O processo é feito a distância, com procuração para a a ViannaLegal jurídica, sem necessidade de deslocamento.',
       },
     ],
     relatedServices: ['conjuges', 'netos'],
