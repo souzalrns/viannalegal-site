@@ -347,7 +347,7 @@ export default function BlogPost() {
       })()}
       <SchemaBreadcrumb items={[
         { name: 'Início', url: 'https://viannalegal.com.br' },
-        { name: 'Blog', url: 'https://viannalegal.com.br/blog' },
+        { name: 'Artigos', url: 'https://viannalegal.com.br/blog' },
         { name: post.title, url: `https://viannalegal.com.br/blog/${post.slug}` },
       ]} />
       <Header />
@@ -359,7 +359,7 @@ export default function BlogPost() {
               <nav className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Link to="/" className="hover:text-foreground transition-colors">Início</Link>
                 <span>/</span>
-                <Link to="/blog" className="hover:text-foreground transition-colors">Blog</Link>
+                <Link to="/blog" className="hover:text-foreground transition-colors">Artigos</Link>
                 <span>/</span>
                 <span className="text-foreground truncate max-w-[200px]">{post.title}</span>
               </nav>
