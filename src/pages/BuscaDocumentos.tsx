@@ -170,7 +170,7 @@ export default function BuscaDocumentos() {
               </h2>
               <p className="text-muted-foreground text-lg mb-6">
                 Os registros portugueses anteriores ao século XX são escritos em caligrafia antiga, 
-                muitas vezes ilegível para pessoas não especializadas. Nossa equipe possui formação 
+                muitas vezes ilegível para pessoas não especializadas. A ViannaLegal possui formação 
                 em <strong>paleografia</strong>, a ciência de leitura de escritas antigas.
               </p>
               <p className="text-muted-foreground mb-6">
@@ -327,7 +327,7 @@ export default function BuscaDocumentos() {
               Precisa localizar documentos?
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8">
-              Entre em contato com nossa equipe especializada em pesquisa documental. 
+              Entre em contato com a ViannaLegal especializada em pesquisa documental. 
               Analisamos seu caso e indicamos o melhor caminho para obter os documentos 
               necessários ao seu processo de cidadania.
             </p>
