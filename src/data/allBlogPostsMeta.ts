@@ -35,8 +35,8 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
     metaDescription: 'Como tirar cidadania portuguesa em 2026: quem tem direito, documentos, prazos IRN e custos. Guia completo actualizado com a Lei Orgânica 1/2026.',
     relatedSlugs: [
       'guia-completo-cidadania-portuguesa-2025',
-      'cidadania-portuguesa-netos-guia-completo',
-      'documentos-cidadania-portuguesa-checklist-completo',
+      'cidadania-portuguesa-netos',
+      'documentos-cidadania-portuguesa-lista-completa',
     ],
   },
   {
