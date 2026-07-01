@@ -9,7 +9,7 @@ const navItems = [
   { label: 'Quem Somos',           href: '/quem-somos'         },
   { label: 'Cidadania',            href: '/cidadania-portuguesa' },
   { label: 'Documentos',           href: '/busca-documentos'     },
-  { label: 'Blog',                 href: '/blog'                  },
+  { label: 'Artigos',                 href: '/blog'                  },
   { label: 'Quiz — Descubra seu direito', href: '/quiz', highlight: true },
   { label: 'Contato',              href: '/contato'               },
 ];
