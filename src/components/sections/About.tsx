@@ -23,7 +23,7 @@ const credentials = [
   },
   {
     icon: FileCheck,
-    title: '10 anos · 2.000+ processos',
+    title: '10 anos · 1.200+ processos',
     description: 'Especialista em nacionalidade portuguesa, escrituras, registos, análise de contratos e representação de investidores estrangeiros em Portugal.',
   },
 ];
