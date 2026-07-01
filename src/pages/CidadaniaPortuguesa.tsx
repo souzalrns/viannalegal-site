@@ -16,7 +16,7 @@ const services = [
     title: 'Cidadania para Filhos Maiores', subtitle: 'Filhos maiores de idade de cidadãos portugueses',
     duration: PRAZOS_IRN.find(p=>p.slug==='filhos-maiores')?.prazo || '4 a 6 meses', icon: Heart,
     description: 'Processo destinado a filhos maiores de idade de cidadãos portugueses. A nacionalidade é atribuída por filiação, sendo necessário comprovar o vínculo parental com o ascendente português.',
-    requirements: ['Certidão de nascimento do requerente', 'Certidão de nascimento do pai/mãe português', 'Documentos de identificação válidos', 'Procuração para a equipe jurídica'],
+    requirements: ['Certidão de nascimento do requerente', 'Certidão de nascimento do pai/mãe português', 'Documentos de identificação válidos', 'Procuração para a advogada'],
   },
   {
     id: 'filhos-menores', pageSlug: 'filhos-menores',
@@ -58,7 +58,7 @@ const services = [
     title: 'Transcrição de Casamento', subtitle: 'Registro do casamento brasileiro em Portugal',
     duration: '1-4 meses', icon: FileText,
     description: 'Para cidadãos portugueses casados no Brasil. A transcrição registra o casamento nos livros civis portugueses e é pré-requisito obrigatório para o pedido de cidadania por casamento.',
-    requirements: ['Certidão de casamento brasileira apostilada', 'Documentos de identificação dos cônjuges', 'Certidão de nascimento do cônjuge português', 'Procuração para a equipe jurídica'],
+    requirements: ['Certidão de casamento brasileira apostilada', 'Documentos de identificação dos cônjuges', 'Certidão de nascimento do cônjuge português', 'Procuração para a advogada'],
   },
 ];
 
@@ -68,7 +68,7 @@ export default function CidadaniaPortuguesa() {
     <>
       <Helmet>
         <title>Cidadania Portuguesa — Netos, Filhos e Cônjuges | ViannaLegal</title>
-        <meta name="description" content="Assessoria completa para obtenção da cidadania portuguesa. Netos, bisnetos, filhos maiores e menores, cônjuges. Atualizado com a Lei Orgânica 1/2026. Processo 100% online." />
+        <meta name="description" content="Assessoria completa para obtenção da cidadania portuguesa. Netos, bisnetos, filhos maiores e menores, cônjuges. Atualizado com a Lei Orgânica 1/2026. Assessoria com actuação presencial em Portugal." />
         <link rel="canonical" href="https://viannalegal.com.br/cidadania-portuguesa" />
         <meta property="og:title" content="Cidadania Portuguesa para Netos, Filhos, Bisnetos e Cônjuges | ViannaLegal" />
         <meta property="og:url" content="https://viannalegal.com.br/cidadania-portuguesa" />
@@ -185,7 +185,7 @@ export default function CidadaniaPortuguesa() {
         <div className="container-width">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground mb-6">Pronto para iniciar sua jornada?</h2>
-            <p className="text-primary-foreground/80 text-lg mb-8">Nossa equipe está pronta para analisar seu caso e orientá-lo em cada etapa do processo.</p>
+            <p className="text-primary-foreground/80 text-lg mb-8">A ViannaLegal está pronta para analisar seu caso e orientá-lo em cada etapa do processo.</p>
             <Button variant="gold" size="xl" onClick={() => window.open(SITE_CONFIG.whatsapp.url, '_blank', 'noopener,noreferrer')}>
               <MessageCircle className="w-5 h-5" />
               Falar no WhatsApp
