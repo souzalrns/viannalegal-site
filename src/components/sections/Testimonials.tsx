@@ -98,8 +98,8 @@ export function Testimonials() {
             Depoimentos
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Mais de 2.000 famílias já{' '}
-            <span className="text-primary">conquistaram sua cidadania</span>
+            Casos reais,{' '}
+            <span className="text-primary">resultados comprovados</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             Resultados reais, com prazos reais. Veja o que aconteceu depois que essas
@@ -158,11 +158,11 @@ export function Testimonials() {
         >
           <div className="flex items-center gap-3 bg-muted/50 px-4 py-4 rounded-xl">
             <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center shrink-0">
-              <span className="text-gold font-bold text-lg">99,99%</span>
+              <span className="text-gold font-bold text-lg">+99%</span>
             </div>
             <div className="text-sm">
-              <div className="font-semibold text-foreground">Taxa de Aprovação</div>
-              <div className="text-muted-foreground text-xs">Processos deferidos</div>
+              <div className="font-semibold text-foreground">Histórico de Aprovações</div>
+              <div className="text-muted-foreground text-xs">Consistente em 10 anos</div>
             </div>
           </div>
           <div className="flex items-center gap-3 bg-muted/50 px-4 py-4 rounded-xl">
