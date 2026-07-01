@@ -9,7 +9,7 @@ import { ArrowRight, Scale, GraduationCap, MapPin, FileCheck, Star } from 'lucid
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const stats = [
-  { value: '2.000+', label: 'processos acompanhados' },
+  { value: '1.200+', label: 'processos acompanhados' },
   { value: '10 anos', label: 'de actuação em Portugal' },
   { value: 'OA n.º 56666p', label: 'Ordem dos Advogados de Portugal' },
   { value: '100%', label: 'foco em cidadania portuguesa' },
@@ -43,7 +43,7 @@ export default function QuemSomos() {
     <>
       <Helmet>
         <title>Quem Somos — Kathia Vianna | ViannaLegal</title>
-        <meta name="description" content="Kathia Vianna, advogada inscrita na OA n.º 56666p, especialista em cidadania portuguesa. 10 anos de actuação presencial em Portugal, 2.000+ processos acompanhados." />
+        <meta name="description" content="Kathia Vianna, advogada inscrita na OA n.º 56666p, especialista em cidadania portuguesa. 10 anos de actuação presencial em Portugal, 1.200+ casos acompanhados." />
         <link rel="canonical" href="https://viannalegal.com.br/quem-somos" />
         <meta property="og:title" content="Quem Somos — Kathia Vianna | ViannaLegal" />
         <meta property="og:description" content="Kathia Vianna, advogada inscrita na OA n.º 56666p, especialista em cidadania portuguesa. 10 anos de actuação presencial em Portugal." />
