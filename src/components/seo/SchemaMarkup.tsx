@@ -19,7 +19,7 @@ const organizationSchema = {
   "url": "https://viannalegal.com.br",
   "logo": "https://viannalegal.com.br/og-image.jpg",
   "image": "https://viannalegal.com.br/og-image.jpg",
-  "description": "Assessoria especializada em cidadania portuguesa para brasileiros. Filhos, netos e bisnetos de portugueses. Processo 100% online.",
+  "description": "Assessoria especializada em cidadania portuguesa para brasileiros. Filhos, netos e bisnetos de portugueses. Assessoria com actuação presencial em Portugal.",
   "telephone": "+351-913-134-260",
   "priceRange": "$$",
   "areaServed": { "@type": "Country", "name": "Brazil" },
