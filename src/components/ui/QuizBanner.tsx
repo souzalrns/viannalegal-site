@@ -15,7 +15,7 @@ export function QuizBanner() {
             Não sabe se tem direito?
           </p>
           <h3 className="font-display text-lg md:text-xl font-bold text-primary-foreground leading-snug">
-            Descubra em 2 minutos com nosso quiz gratuito
+            Descubra em 2 minutos com nosso quiz de elegibilidade
           </h3>
           <p className="text-primary-foreground/65 text-sm mt-1">
             6 perguntas · Resultado imediato · Atualizado com a Lei 1/2026
