@@ -44,6 +44,7 @@ const App = () => (
         <Suspense fallback={<PageLoader />}>
           <Routes>
             <Route path="/"                           element={<Index />} />
+<Route path="/quem-somos"                  element={<QuemSomos />} />
             <Route path="/cidadania-portuguesa"       element={<CidadaniaPortuguesa />} />
             <Route path="/cidadania-portuguesa/:slug" element={<ServicePage />} />
             <Route path="/busca-documentos"           element={<BuscaDocumentos />} />
