@@ -19,11 +19,11 @@ const footerLinks: { services: FooterLink[]; company: FooterLink[]; legal: Foote
     { label: 'Transcrição de Casamento',   href: '/cidadania-portuguesa/transcricao-casamento' },
   ],
   company: [
-    { label: 'Quem Somos',                href: '/#quem-somos',  isAnchor: true },
+    { label: 'Quem Somos',                href: '/quem-somos',   isAnchor: false },
     { label: 'Como Funciona o Processo',  href: '/#processo',    isAnchor: true },
     { label: 'Quiz — Descubra seu direito', href: '/quiz' },
-    { label: 'Blog',                       href: '/blog' },
-    { label: 'Fale Conosco',              href: '/#contato',     isAnchor: true },
+    { label: 'Artigos',                    href: '/blog' },
+    { label: 'Fale Conosco',              href: '/contato',      isAnchor: false },
   ],
   legal: [
     { label: 'Política de Privacidade',   href: '/politica-privacidade' },
