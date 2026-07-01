@@ -14,6 +14,7 @@ const BlogPost            = lazy(() => import("./pages/BlogPost"));
 const Quiz                = lazy(() => import("./pages/Quiz"));
 const PoliticaPrivacidade = lazy(() => import("./pages/PoliticaPrivacidade"));
 const TermosUso           = lazy(() => import("./pages/TermosUso"));
+const Contato = lazy(() => import('./pages/Contato'));
 const NotFound            = lazy(() => import("./pages/NotFound"));
 
 const PageLoader = () => (
@@ -52,7 +53,8 @@ const App = () => (
             <Route path="/blog/:slug"                 element={<BlogPost />} />
             <Route path="/quiz"                       element={<Quiz />} />
             <Route path="/politica-privacidade"       element={<PoliticaPrivacidade />} />
-            <Route path="/termos-uso"                 element={<TermosUso />} />
+            <Route path="/contato"                     element={<Contato />} />
+<Route path="/termos-uso"                 element={<TermosUso />} />
             <Route path="*"                           element={<NotFound />} />
           </Routes>
         </Suspense>
