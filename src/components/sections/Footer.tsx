@@ -28,6 +28,8 @@ const footerLinks: { services: FooterLink[]; company: FooterLink[]; legal: Foote
   legal: [
     { label: 'Política de Privacidade',   href: '/politica-privacidade' },
     { label: 'Termos de Uso',             href: '/termos-uso' },
+    { label: 'Informações Legais',        href: '/informacoes-legais' },
+    { label: 'Livro de Reclamações',      href: 'https://www.livroreclamacoes.pt' },
   ],
 };
 
@@ -166,9 +168,20 @@ export function Footer() {
             <ul className="flex flex-col gap-3 mb-8">
               {footerLinks.legal.map(({ label, href }) => (
                 <li key={label}>
-                  <Link to={href} className="text-sm text-primary-foreground/60 hover:text-gold transition-colors">
-                    {label}
-                  </Link>
+                  {href.startsWith('http') ? (
+                    <a
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-primary-foreground/60 hover:text-gold transition-colors"
+                    >
+                      {label}
+                    </a>
+                  ) : (
+                    <Link to={href} className="text-sm text-primary-foreground/60 hover:text-gold transition-colors">
+                      {label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

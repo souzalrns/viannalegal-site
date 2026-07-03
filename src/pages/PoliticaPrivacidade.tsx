@@ -40,9 +40,14 @@ export default function PoliticaPrivacidade() {
                     1. Introdução
                   </h2>
                   <p>
-                    A ViannaLegal está comprometida em proteger a privacidade dos usuários de nossos serviços. 
-                    Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos 
-                    suas informações pessoais em conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
+                    A ViannaLegal — actividade de advocacia exercida por Kathia Vianna, advogada inscrita na 
+                    Ordem dos Advogados portuguesa (cédula n.º 56666P) — está comprometida em proteger a 
+                    privacidade dos utilizadores dos seus serviços. Como os clientes estão maioritariamente 
+                    no Brasil e a responsável pelo tratamento está estabelecida em Portugal, esta Política 
+                    de Privacidade foi desenhada para cumprir <strong>simultaneamente</strong> a Lei Geral 
+                    de Proteção de Dados brasileira (LGPD — Lei n.º 13.709/2018) e o Regulamento Geral sobre 
+                    a Proteção de Dados europeu (RGPD — Regulamento (UE) 2016/679), que se aplicam em 
+                    paralelo e não em alternativa.
                   </p>
 
                   <h2 className="font-display text-2xl font-semibold text-foreground mt-8 mb-4">
@@ -88,14 +93,33 @@ export default function PoliticaPrivacidade() {
                   <h2 className="font-display text-2xl font-semibold text-foreground mt-8 mb-4">
                     6. Seus Direitos
                   </h2>
-                  <p>De acordo com a LGPD, você tem direito a:</p>
+                  <p>De acordo com a LGPD e o RGPD, você tem direito a:</p>
                   <ul className="list-disc pl-6 space-y-2">
                     <li>Confirmar a existência de tratamento de dados</li>
                     <li>Acessar seus dados pessoais</li>
                     <li>Corrigir dados incompletos ou desatualizados</li>
                     <li>Solicitar a exclusão de dados desnecessários</li>
                     <li>Revogar o consentimento a qualquer momento</li>
+                    <li>Opor-se ao tratamento ou solicitar a sua limitação</li>
+                    <li>Solicitar a portabilidade dos dados</li>
                   </ul>
+                  <p className="mt-4">
+                    Se estiver na União Europeia, tem ainda o direito de apresentar reclamação junto da 
+                    Comissão Nacional de Proteção de Dados portuguesa (CNPD) — 
+                    <a href="https://www.cnpd.pt" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline"> www.cnpd.pt</a>. 
+                    Se estiver no Brasil, pode recorrer à Autoridade Nacional de Proteção de Dados (ANPD) — 
+                    <a href="https://www.gov.br/anpd" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline"> www.gov.br/anpd</a>.
+                  </p>
+
+                  <h2 className="font-display text-2xl font-semibold text-foreground mt-8 mb-4">
+                    6.1. Sigilo Profissional
+                  </h2>
+                  <p>
+                    Por a responsável ser advogada inscrita na Ordem dos Advogados portuguesa, está adicionalmente 
+                    vinculada ao dever de sigilo profissional previsto no Estatuto da Ordem dos Advogados, aplicável 
+                    a toda a informação obtida no âmbito do exercício da advocacia — uma protecção adicional às 
+                    garantias gerais de protecção de dados.
+                  </p>
 
                   <h2 className="font-display text-2xl font-semibold text-foreground mt-8 mb-4">
                     7. Retenção de Dados
