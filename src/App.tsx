@@ -16,6 +16,7 @@ const PoliticaPrivacidade = lazy(() => import("./pages/PoliticaPrivacidade"));
 const InformacoesLegais   = lazy(() => import("./pages/InformacoesLegais"));
 const TermosUso           = lazy(() => import("./pages/TermosUso"));
 const Contato = lazy(() => import('./pages/Contato'));
+const QuantoCusta = lazy(() => import('./pages/QuantoCusta'));
 const NotFound            = lazy(() => import("./pages/NotFound"));
 
 const PageLoader = () => (
@@ -55,7 +56,8 @@ const App = () => (
             <Route path="/quiz"                       element={<Quiz />} />
             <Route path="/politica-privacidade"       element={<PoliticaPrivacidade />} />
             <Route path="/informacoes-legais"          element={<InformacoesLegais />} />
-            <Route path="/contato"                     element={<Contato />} />
+            <Route path="/quanto-custa"                element={<QuantoCusta />} />
+<Route path="/contato"                     element={<Contato />} />
 <Route path="/termos-uso"                 element={<TermosUso />} />
             <Route path="*"                           element={<NotFound />} />
           </Routes>
