@@ -168,7 +168,7 @@ O IRN é criterioso. Divergências de nome (ex: "Josepha" no registo português 
 ### Passo 4 — Reunir a Documentação Brasileira
 
 Todos os documentos brasileiros apresentados ao IRN devem estar:
-- Em **inteiro teor** (digitada ou reprográfica, conforme o caso)
+- Em **inteiro teor por cópia reprográfica** (se ilegível, também a digitada)
 - **Apostilados com a Apostila de Haia** — obrigatório
 - **Actualizados** — em geral com menos de 12 meses de emissão (certidão de casamento para transcrição: menos de 6 meses)
 
@@ -180,7 +180,7 @@ Todos os documentos brasileiros apresentados ao IRN devem estar:
 | Rio de Janeiro | R$ 132,97 |
 | Rio Grande do Sul | R$ 73,11 |
 
-> **Certidão digitada vs. reprográfica:** A certidão de inteiro teor por **cópia reprográfica** é a fotografia da folha original do livro de registos. A **digitada** é a transcrição em texto. O IRN exige habitualmente a digitada; a reprográfica é solicitada quando o original é ilegível. Ambas devem estar apostiladas.
+> **Certidão reprográfica vs. digitada:** A regra é a certidão de inteiro teor por **cópia reprográfica** — a fotografia da folha original do livro de registos, apostilada. Quando a letra do registo original é de difícil compreensão ou ilegível, são necessárias **as duas**: a reprográfica **e** a digitada (transcrição em texto), ambas apostiladas.
 
 ### Passo 5 — Submeter o Pedido
 
@@ -427,7 +427,7 @@ Antes de apresentar o pedido ao IRN, confirme cada ponto:
 
 **Documentação brasileira:**
 - [ ] Certidões actualizadas (menos de 12 meses; antecedentes criminais menos de 6 meses)
-- [ ] Todas as certidões em inteiro teor (digitada e/ou reprográfica)
+- [ ] Todas as certidões em inteiro teor por cópia reprográfica (+ digitada se o original for ilegível)
 - [ ] Apostila de Haia em todos os documentos brasileiros
 - [ ] Documento de identificação válido (RG emitido há menos de 10 anos)
 
