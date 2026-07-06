@@ -1,29 +1,42 @@
 # ViannaLegal
 
-> Assessoria especializada em cidadania portuguesa e dupla cidadania para brasileiros. Processo 100% online, sem necessidade de viajar.
+> Assessoria jurídica especializada em cidadania portuguesa para brasileiros, conduzida pela advogada Kathia Vianna (Ordem dos Advogados de Portugal, OA n.º 56666p), com actuação presencial nas Conservatórias e Tribunais portugueses.
 
 ## Sobre
 
-A ViannaLegal é uma consultoria jurídica especializada em processos de naturalização e atribuição de nacionalidade portuguesa, com mais de 2.000 famílias atendidas. Todos os processos são conduzidos remotamente.
+A ViannaLegal é uma assessoria jurídica especializada em processos de atribuição e aquisição da nacionalidade portuguesa. É liderada pela advogada Kathia Vianna, inscrita na Ordem dos Advogados de Portugal (OA n.º 56666p), licenciada pela Universidade de Lisboa, com formação em Registos e Notariado pela Universidade Portucalense, mais de 20 anos de experiência jurídica e 10 anos de especialização em cidadania portuguesa. Mais de 1.200 casos acompanhados, com histórico de aprovações consistente. O processo é conduzido em Portugal por procuração — o cliente não precisa de sair do Brasil durante o processo. Conteúdo actualizado com a Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026.
 
 ## Serviços
 
-- [Cidadania para Netos de Portugueses](/cidadania-portuguesa/netos)
-- [Cidadania para Filhos Menores](/cidadania-portuguesa/filhos-menores)
-- [Cidadania para Filhos Maiores](/cidadania-portuguesa/filhos-maiores)
-- [Cidadania para Cônjuges e Companheiros](/cidadania-portuguesa/conjuges)
-- [Nacionalidade por Residência em Portugal](/cidadania-portuguesa/residencia)
-- [Cidadania para Bisnetos (Lei Orgânica 1/2026)](/cidadania-portuguesa/bisnetos)
-- [Transcrição de Casamento em Portugal](/cidadania-portuguesa/transcricao-casamento)
-- [Pesquisa Genealógica e Busca de Documentos](/busca-documentos)
+- [Cidadania para Netos de Portugueses](https://viannalegal.com.br/cidadania-portuguesa/netos): via de descendência com comprovação de vínculo efetivo
+- [Cidadania para Filhos Menores](https://viannalegal.com.br/cidadania-portuguesa/filhos-menores): atribuição por filiação
+- [Cidadania para Filhos Maiores](https://viannalegal.com.br/cidadania-portuguesa/filhos-maiores): atribuição por filiação para adultos
+- [Cidadania para Cônjuges e Companheiros](https://viannalegal.com.br/cidadania-portuguesa/conjuges): aquisição por casamento ou união de facto (3+ anos)
+- [Nacionalidade por Residência](https://viannalegal.com.br/cidadania-portuguesa/residencia): naturalização com 7 anos de residência legal (brasileiros/CPLP, Lei 1/2026)
+- [Cidadania para Bisnetos](https://viannalegal.com.br/cidadania-portuguesa/bisnetos): via directa com 5 anos de residência em Portugal (Lei Orgânica 1/2026)
+- [Transcrição de Casamento](https://viannalegal.com.br/cidadania-portuguesa/transcricao-casamento): registo de casamento em Portugal
+- [Busca de Documentos em Portugal](https://viannalegal.com.br/busca-documentos): pesquisa genealógica em arquivos e Conservatórias portuguesas, incluindo registos históricos do século XIX
 
-## Blog
+## Recursos
 
-Artigos detalhados sobre cidadania portuguesa, documentação, prazos, custos e legislação atualizada (Lei Orgânica 1/2026).
+- [Guia Completo: Como Tirar Cidadania Portuguesa](https://viannalegal.com.br/blog/como-tirar-cidadania-portuguesa): artigo pilar com mais de 14.000 palavras, actualizado com a Lei 1/2026
+- [Artigos sobre Cidadania Portuguesa](https://viannalegal.com.br/blog): mais de 80 artigos sobre vias, documentos, prazos e legislação
+- [Quiz de Elegibilidade](https://viannalegal.com.br/quiz): diagnóstico em 2 minutos sobre qual via de cidadania se aplica
+- [Quem Somos](https://viannalegal.com.br/quem-somos): perfil da advogada Kathia Vianna
+- [Contato](https://viannalegal.com.br/contato): WhatsApp e formulário
 
-- [Ver todos os artigos](/blog)
+## Factos principais
 
-## Contato
+- Prazo médio dos processos: 18 a 24 meses (filhos), 24 a 36 meses (netos)
+- Taxa do IRN: 175€ por registo
+- Certidão criminal exigida: Polícia Federal brasileira, apostilada, válida 3 meses
+- O IRN tem backlog de mais de 700.000 processos pendentes
+- Lei Orgânica 1/2026: naturalização de brasileiros passou a 7 anos; bisnetos ganharam via directa com 5 anos de residência; regime sefardita extinto para novos pedidos
+- Processos protocolados antes de 19/05/2026 mantêm o regime anterior
+- Brasil e Portugal permitem dupla cidadania
 
-WhatsApp: +351 913 134 260
-Horário: Segunda a Sexta, 9h às 18h (Lisboa)
+## Contacto
+
+- Site: https://viannalegal.com.br
+- Email: kathia.vianna-56666p@adv.oa.pt
+- Advogada responsável: Kathia Vianna, OA n.º 56666p
