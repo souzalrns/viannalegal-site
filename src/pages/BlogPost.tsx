@@ -421,6 +421,27 @@ export default function BlogPost() {
                 dangerouslySetInnerHTML={{ __html: formatContent(post.content || '') }}
               />
 
+
+              {/* Lead magnet — checklist PDF */}
+              <div className="mt-10 p-6 bg-primary rounded-2xl flex flex-col sm:flex-row items-center gap-5">
+                <div className="flex-1">
+                  <p className="font-display text-lg font-bold text-white mb-1">
+                    Checklist de Documentos — Cidadania Portuguesa 2026
+                  </p>
+                  <p className="text-white/75 text-sm">
+                    PDF prático com os documentos por via, actualizado com a Lei 1/2026.
+                  </p>
+                </div>
+                <a
+                  href="/checklist-documentos-cidadania-portuguesa-2026.pdf"
+                  download
+                  onClick={() => { try { (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag?.('event', 'download_checklist', { event_category: 'lead_magnet' }); } catch { /* noop */ } }}
+                  className="shrink-0 bg-gold text-primary font-semibold px-6 py-3 rounded-xl hover:bg-gold/90 transition-colors text-sm"
+                >
+                  Descarregar PDF
+                </a>
+              </div>
+
               {/* CTA Box */}
               <div
                 className="mt-12 p-8 bg-gradient-to-br from-portugal-green/10 to-gold/10 rounded-2xl border border-border"
