@@ -71,9 +71,6 @@ export function Contact() {
         setFormState('success');
         trackConversion('lead_form', { page: '/' });
         trackPixelLead({ content_name: 'Formulário Contato' });
-        // Também abre WhatsApp como backup imediato
-        const msg = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
-        window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
       } else {
         throw new Error(data.message || 'Falha no envio');
       }
@@ -151,7 +148,7 @@ export function Contact() {
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   Recebemos o seu contacto e um especialista responderá em breve.<br />
-                  Também abrimos o WhatsApp para uma resposta mais rápida.
+                  Você também pode entrar em contacto pelo WhatsApp para um atendimento mais rápido e dinâmico.
                 </p>
               </div>
             ) : (
