@@ -36,26 +36,38 @@ export function Contact() {
     return Object.keys(e).length === 0;
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!validate()) return;
+
+    // Honeypot anti-spam — se o campo oculto "botcheck" vier preenchido, é bot
+    const honeypot = (e.currentTarget.elements.namedItem('botcheck') as HTMLInputElement)?.value;
+    if (honeypot) {
+      setFormState('success');
+      return;
+    }
 
     setFormState('submitting');
 
     try {
-      // Netlify Forms — funciona sem backend, só precisa do atributo data-netlify
-      const body = new URLSearchParams({
-        'form-name': 'contato-viannalegal',
-        ...formData,
-      });
-
-      const res = await fetch('/', {
+      // Web3Forms — funciona sem backend, só precisa da access_key
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: body.toString(),
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          access_key: 'c310b18f-8bc6-4b53-a42b-73e2b4ae2b60',
+          subject: 'Novo contacto — Site ViannaLegal',
+          from_name: 'ViannaLegal — Formulário de Contacto',
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+        }),
       });
 
-      if (res.ok) {
+      const data = await res.json();
+
+      if (data.success) {
         setFormState('success');
         trackConversion('lead_form', { page: '/' });
         trackPixelLead({ content_name: 'Formulário Contato' });
@@ -63,7 +75,7 @@ export function Contact() {
         const msg = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
         window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
       } else {
-        throw new Error('Falha no envio');
+        throw new Error(data.message || 'Falha no envio');
       }
     } catch {
       // Fallback: redirecionar para WhatsApp mesmo se o email falhar
@@ -143,19 +155,15 @@ export function Contact() {
                 </p>
               </div>
             ) : (
-              /* Netlify Forms: data-netlify="true" e o campo hidden form-name são obrigatórios */
               <form
                 onSubmit={handleSubmit}
                 className="space-y-5"
                 name="contato-viannalegal"
-                method="POST"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
                 noValidate
               >
-                {/* Honeypot anti-spam (oculto) */}
-                        <div className="hidden" aria-hidden="true">
-                  <label>Não preencher: <input name="bot-field" /></label>
+                {/* Honeypot anti-spam (oculto) — bots costumam preencher todos os campos */}
+                <div className="hidden" aria-hidden="true">
+                  <label>Não preencher: <input name="botcheck" tabIndex={-1} autoComplete="off" /></label>
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-5">
