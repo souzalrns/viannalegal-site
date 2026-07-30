@@ -147,10 +147,10 @@ export function Contact() {
               >
                 <CheckCircle className="w-12 h-12 text-emerald-500 mx-auto mb-4" />
                 <h3 className="font-display text-xl font-bold text-foreground mb-2">
-                  Mensagem recebida!
+                  Mensagem enviada!
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Recebemos o seu contacto e um especialista responderá em até 24h.<br />
+                  Recebemos o seu contacto e um especialista responderá em breve.<br />
                   Também abrimos o WhatsApp para uma resposta mais rápida.
                 </p>
               </div>
