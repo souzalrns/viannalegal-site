@@ -8,7 +8,7 @@ export default function ContatoPage() {
     <>
       <Helmet>
         <title>Contato — ViannaLegal | Assessoria em Cidadania Portuguesa</title>
-        <meta name="description" content="Fale com Kathia Vianna, advogada especialista em cidadania portuguesa. Atendimento via WhatsApp ou formulário. Resposta em até 24 horas." />
+        <meta name="description" content="Fale com Kathia Vianna, advogada especialista em cidadania portuguesa. Atendimento via WhatsApp ou formulário. Resposta em breve." />
         <link rel="canonical" href="https://viannalegal.com.br/contato" />
         <meta property="og:title" content="Contato — ViannaLegal | Cidadania Portuguesa" />
         <meta property="og:description" content="Fale com Kathia Vianna, advogada especialista em cidadania portuguesa. Atendimento via WhatsApp ou formulário." />
@@ -47,7 +47,7 @@ export default function ContatoPage() {
               </h1>
               <p className="text-white/80 text-lg leading-relaxed">
                 Fale directamente com a Kathia Vianna — advogada inscrita na OA n.º 56666p, 
-                especialista em cidadania portuguesa. Resposta em até 24 horas.
+                especialista em cidadania portuguesa. Resposta em breve.
               </p>
             </div>
           </div>
