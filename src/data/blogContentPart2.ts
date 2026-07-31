@@ -483,7 +483,7 @@ A característica central da aquisição é que **os requisitos precisam ser man
 
 **Para questões históricas:** A atribuição "retroativa" é um aspecto poderoso da lei portuguesa. Se o seu bisavô emigrou nos anos 1930 sem nunca formalizar a cidadania, mas nasceu em Portugal, tinha cidadania. Esse direito — dependendo da cadeia de filiação documentada — pode ter chegado até você. Veja as formas disponíveis em nosso [guia de todas as vias de cidadania](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
 
-## A nova via de bisnetos: aquisição com residência (aguardando regulamentação)
+## A nova via de bisnetos: aquisição com residência [Via jurídica aprovada — Aguarda regulamentação do IRN para início de pedidos]
 
 Uma inovação da Lei Orgânica 1/2026 é a criação de um caminho para bisnetos de portugueses — pela primeira vez, a lei reconhece explicitamente os bisnetos como potenciais cidadãos. Mas coloca essa via sob aquisição (não atribuição), exigindo 5 anos de residência legal em Portugal como condição para o pedido. O decreto regulamentador que definirá os critérios exatos para novos pedidos ainda não foi publicado (prazo: até 16 de agosto de 2026).
 
