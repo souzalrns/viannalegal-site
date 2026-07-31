@@ -621,7 +621,7 @@ Filhos de pai ou mãe português(a), nascidos em qualquer lugar. Atribuição �
 
 ## Via 2: Descendência (netos de portugueses)
 
-Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a comunidade portuguesa. Atribuição sem prazo de caducidade. Pode ser feito do Brasil. Prazo: 3 a 5 meses (menores) / 42 a 48 meses (maiores).
+Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a comunidade portuguesa — critérios exatos de comprovação aguardando regulamentação (prazo: até 16 de agosto de 2026). Atribuição sem prazo de caducidade. Pode ser feito do Brasil. Prazo: 3 a 5 meses (menores) / 42 a 48 meses (maiores).
 
 ## Via 3: Aquisição por casamento ou união de facto
 
@@ -631,7 +631,7 @@ Cônjuge de cidadão português, após 3 anos de casamento civil ou união de fa
 
 Estrangeiros com residência legal continuada. Para brasileiros e CPLP: **7 anos** (desde a Lei 1/2026). Não pode ser feito do Brasil. Prazo de análise: 27 a 30 meses.
 
-## Via 5: Nova via de bisnetos (Art. 6.º n.º 8, Lei 1/2026)
+## Via 5: Nova via de bisnetos — aguardando regulamentação (Art. 6.º n.º 8, Lei 1/2026)
 
 Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: A confirmar — regulamentação pendente até agosto de 2026.
 
