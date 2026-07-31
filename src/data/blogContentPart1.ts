@@ -72,7 +72,7 @@ Filhos de cidadãos portugueses têm direito **automático** à cidadania, indep
 - Não exige residência em Portugal
 - Prazo estimado: 8-14 meses (filhos menores) / 16-24 meses (filhos maiores)
 
-### 2. Netos de Portugueses — Atribuição com Vínculo Efetivo [Processo aberto — Critérios de vínculo em regulamentação]
+### 2. Netos de Portugueses — Atribuição com Vínculo Efetivo [Processo legalmente aberto — Submissão temporariamente condicionada à regulamentação do teste de história/cultura]
 
 Netos de cidadãos portugueses têm direito à cidadania desde 2015, mas com a Lei 1/2026 passaram a ser exigidos requisitos adicionais de integração:
 
@@ -108,7 +108,7 @@ Importante: a via para bisnetos tem duas naturezas jurídicas distintas com cons
 - Prova de nacionalidade portuguesa do pai/mãe (cartão de cidadão ou passaporte PT)
 - Certidão de casamento dos pais ou reconhecimento de paternidade (se aplicável)
 
-### Netos de Portugueses [Processo aberto — Critérios de vínculo em regulamentação]
+### Netos de Portugueses [Processo legalmente aberto — Submissão temporariamente condicionada à regulamentação do teste de história/cultura]
 - Assento de nascimento do avô/avó nos registos portugueses (conservatória)
 - Certidão de casamento dos avós (apostilada, se aplicável)
 - Certidão de óbito do avô/avó (se falecido)
@@ -816,7 +816,7 @@ A Lei 1/2026 introduziu requisitos documentais adicionais aplicáveis a **netos,
 
 ---
 
-### NETOS DE PORTUGUESES [Processo aberto — Critérios de vínculo em regulamentação]
+### NETOS DE PORTUGUESES [Processo legalmente aberto — Submissão temporariamente condicionada à regulamentação do teste de história/cultura]
 - Certidão de nascimento portuguesa em inteiro teor (obtida em conservatória em Portugal)
 - Certidão de casamento dos avós (apostilada)
 - Certidão de óbito do avô/avó (se falecido)
