@@ -1,6 +1,8 @@
 // ViannaLegal — Conteúdo dos artigos Parte 1
 export const blogContentPart1: Record<string, string> = {
   'veto-tribunal-constitucional-dezembro-2025': `
+> ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
+
 **Nota editorial (junho de 2026):** Este artigo documenta o veto do Tribunal Constitucional de dezembro de 2025, que é relevante para perceber a evolução legislativa. Contudo, **a Lei Orgânica 1/2026 (em vigor desde 19 de maio de 2026) alterou posteriormente o regime** — ver aviso detalhado no início do artigo.
 
 ---
@@ -158,6 +160,8 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 - [Lei n.º 37/81 (Lei da Nacionalidade) — texto consolidado](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
 `,
   'vinculo-efetivo-como-comprovar': `
+> ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
+
 ## O Que é Vínculo Efetivo com a Comunidade Portuguesa?
 
 > ⚠️ **Aviso importante (junho de 2026):** A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo, mas o decreto regulamentador **ainda não foi publicado** (prazo oficial: até 16 de agosto de 2026). Adicionalmente, a Lei 1/2026 introduziu um **teste de conhecimentos de história e cultura portuguesas** que é exigido a netos, bisnetos e cônjuges — separado e adicional ao vínculo efetivo. O formato deste teste também ainda não está regulamentado. As informações sobre formas de comprovação descritas neste artigo baseiam-se na prática administrativa do IRN vigente até 2025, podendo ser alteradas quando a regulamentação for publicada.
@@ -489,6 +493,8 @@ Depois do protocolo, pode acompanhar o estado no [portal MJ.pt](/blog/como-acomp
 - [Presidência da República — nota sobre promulgação Lei 1/2026](https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/)
 `,
   'dupla-cidadania-brasil-portugal-vantagens': `
+> ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
+
 ## Introdução: Por Que a Dupla Cidadania é Tão Valiosa?
 
 A dupla cidadania Brasil-Portugal representa muito mais que um documento adicional. É uma **[porta de entrada para a Europa](/blog/cidadania-portuguesa-por-residencia-passo-a-passo)**, um plano de segurança para você e sua família, e um legado que pode ser transmitido por gerações.
@@ -1185,6 +1191,8 @@ Para quem não tem ascendência, a naturalização por residência é o único c
 - [AIMA — Agência para a Integração, Migrações e Asilo](https://aima.gov.pt)
 `,
   'como-buscar-certidoes-portuguesas-portugal': `
+> ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
+
 ## Introdução: A Busca pelas Raízes
 
 Encontrar certidões de antepassados portugueses é frequentemente o primeiro desafio no [processo de cidadania](/blog/documentos-cidadania-portuguesa-lista-completa). Muitas famílias perderam documentos ao longo das gerações — especialmente quem busca a [cidadania para netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025), ou simplesmente não sabem onde o avô ou bisavô nasceu em Portugal.
