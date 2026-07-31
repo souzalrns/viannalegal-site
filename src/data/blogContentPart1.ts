@@ -13,7 +13,7 @@ Antes de ler o contexto histórico abaixo, é importante perceber o que vigora h
 |---------|--------------------------|
 | Prazo residência CPLP/UE | **7 anos** |
 | Prazo residência outros países | **10 anos** |
-| Bisnetos | Nova via directa (5 anos residência em PT) |
+| Bisnetos | Via aguardando regulamentação (5 anos residência em PT) |
 | Regime sefardita | **Extinto** para novos pedidos |
 | Filhos nascidos em PT | Progenitor precisa de 5 anos de residência legal |
 | Processos já protocolados | Regime anterior (5 anos) mantido |
@@ -72,7 +72,7 @@ Filhos de cidadãos portugueses têm direito **automático** à cidadania, indep
 - Não exige residência em Portugal
 - Prazo estimado: 8-14 meses (filhos menores) / 16-24 meses (filhos maiores)
 
-### 2. Netos de Portugueses — Atribuição com Vínculo Efetivo
+### 2. Netos de Portugueses — Atribuição com Vínculo Efetivo (Comprovação Aguardando Regulamentação)
 
 Netos de cidadãos portugueses têm direito à cidadania desde 2015, mas com a Lei 1/2026 passaram a ser exigidos requisitos adicionais de integração:
 
@@ -87,9 +87,9 @@ Netos de cidadãos portugueses têm direito à cidadania desde 2015, mas com a L
 
 - Prazo estimado: 36-54 meses (com o backlog actual de 700k processos)
 
-### 3. Bisnetos de Portugueses — Nova Via da Lei 1/2026
+### 3. Bisnetos de Portugueses — Nova Via da Lei 1/2026 (Aguardando Regulamentação)
 
-A Lei 1/2026 criou uma via directa para bisnetos — algo que antes só era possível pelo processo sequencial.
+A Lei 1/2026 criou uma via para bisnetos, ainda aguardando regulamentação para novos pedidos — algo que antes só era possível pelo processo sequencial.
 
 **Requisito:** residência legal em Portugal há pelo menos **5 anos** (art. 6.º, n.º 8 da Lei 1/2026).
 
@@ -108,18 +108,14 @@ Importante: a via para bisnetos tem duas naturezas jurídicas distintas com cons
 - Prova de nacionalidade portuguesa do pai/mãe (cartão de cidadão ou passaporte PT)
 - Certidão de casamento dos pais ou reconhecimento de paternidade (se aplicável)
 
-### Netos de Portugueses
-
-- Certidão de nascimento do requerente (apostilada)
-- Certidão de nascimento do pai/mãe
-- Certidão de nascimento do avô/avó português(a)
+### Netos de Portugueses (comprovação de vínculo aguardando regulamentação)
 - Assento de nascimento do avô/avó nos registos portugueses (conservatória)
 - Certidão de casamento dos avós (apostilada, se aplicável)
 - Certidão de óbito do avô/avó (se falecido)
 - Documentação de [vínculo efetivo](/blog/vinculo-efetivo-como-comprovar)
 - Prova de conhecimento de história e cultura portuguesas (formato a regulamentar)
 
-### Bisnetos de Portugueses (via directa — Lei 1/2026)
+### Bisnetos de Portugueses (via aguardando regulamentação — Lei 1/2026)
 
 - Cadeia documental completa de 4 gerações (bisavô/avó → avô/avó → pai/mãe → requerente)
 - Assento de nascimento do bisavô/avó nos registos portugueses
@@ -820,9 +816,7 @@ A Lei 1/2026 introduziu requisitos documentais adicionais aplicáveis a **netos,
 
 ---
 
-### NETOS DE PORTUGUESES
-
-**Do avô/avó português:**
+### NETOS DE PORTUGUESES (comprovação de vínculo aguardando regulamentação)
 - Certidão de nascimento portuguesa em inteiro teor (obtida em conservatória em Portugal)
 - Certidão de casamento dos avós (apostilada)
 - Certidão de óbito do avô/avó (se falecido)
@@ -874,7 +868,7 @@ A Lei 1/2026 introduziu requisitos documentais adicionais aplicáveis a **netos,
 
 ---
 
-### BISNETOS (via directa Lei 1/2026 — requer 5 anos residência em PT)
+### BISNETOS (via aguardando regulamentação — Lei 1/2026, requer 5 anos residência em PT)
 
 - Cadeia documental completa de 4 gerações (bisavô/avó → avô/avó → pai/mãe → requerente)
 - Assento de nascimento do bisavô/avó nos registos portugueses
