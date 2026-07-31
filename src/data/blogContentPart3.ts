@@ -619,7 +619,7 @@ Existem múltiplas formas de obter a cidadania portuguesa — e a mais adequada 
 
 Filhos de pai ou mãe português(a), nascidos em qualquer lugar. Atribuição — o direito existe desde o nascimento, não prescreve. Pode ser feito do Brasil. Prazo no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa): 3 a 5 meses (menores) / 4 a 6 meses (maiores).
 
-## Via 2: Descendência (netos de portugueses) [Processo aberto — Critérios de vínculo em regulamentação]
+## Via 2: Descendência (netos de portugueses) [Processo legalmente aberto — Submissão temporariamente condicionada à regulamentação do teste de história/cultura]
 
 Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a comunidade portuguesa — critérios exatos de comprovação aguardando regulamentação (prazo: até 16 de agosto de 2026). Atribuição sem prazo de caducidade. Pode ser feito do Brasil. Prazo: 3 a 5 meses (menores) / 42 a 48 meses (maiores).
 
