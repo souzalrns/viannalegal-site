@@ -213,3 +213,17 @@
   .stagger-4 { animation-delay: 0.4s; }
   .stagger-5 { animation-delay: 0.5s; }
 }
+
+/* Respeita a preferência de movimento reduzido do utilizador (acessibilidade
+   e enjoo de movimento) — sem isto, todas as animações e transições do site
+   corriam sempre, ignorando por completo essa preferência do sistema. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

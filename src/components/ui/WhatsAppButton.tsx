@@ -9,7 +9,7 @@ export function WhatsAppButton() {
       className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 active:scale-95 group"
       aria-label="Fale conosco no WhatsApp"
     >
-      <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-25" />
+      <span className="absolute inset-0 rounded-full bg-[#25D366] motion-safe:animate-ping opacity-25" aria-hidden="true" />
       <svg
         viewBox="0 0 24 24"
         className="w-7 h-7 text-white fill-current relative z-10"
