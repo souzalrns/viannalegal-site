@@ -19,6 +19,20 @@ export default defineConfig({
     cssCodeSplit: true,
     // Aumentar limite de chunk para reduzir warnings mas manter splitting
     chunkSizeWarningLimit: 600,
+    // Por padrão o Vite injeta <link rel="modulepreload"> no index.html
+    // (carregado em TODA página, é SPA) para todos os chunks lazy()
+    // alcançáveis a partir de App.tsx — incluindo data-blog-1/2/3/meta e
+    // data-pilar, que só fazem sentido nas páginas /blog e /blog/:slug.
+    // Resultado real medido: ~107KB de dados de blog pedidos com
+    // prioridade ALTA logo na homepage, competindo por banda com o
+    // conteúdo que devia aparecer primeiro (LCP). Este filtro exclui
+    // esses chunks do modulepreload — continuam a ser buscados
+    // normalmente quando o utilizador navega para o blog, só não
+    // adiantados em toda página onde não são precisos.
+    modulePreload: {
+      resolveDependencies: (_filename, deps) =>
+        deps.filter((dep) => !dep.includes("data-blog") && !dep.includes("data-pilar")),
+    },
     rollupOptions: {
       output: {
         manualChunks(id) {
