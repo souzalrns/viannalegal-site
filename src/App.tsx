@@ -2,6 +2,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
+import { Toaster } from "@/components/ui/toaster";
 import { Analytics } from "@vercel/analytics/react";
 import { lazy, Suspense } from "react";
 const Index = lazy(() => import("./pages/Index"));
@@ -64,6 +65,7 @@ const App = () => (
           </Routes>
         </Suspense>
         <WhatsAppButton />
+        <Toaster />
         <Analytics />
       </BrowserRouter>
     </QueryClientProvider>

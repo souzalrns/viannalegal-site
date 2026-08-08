@@ -3,7 +3,7 @@ import * as React from "react";
 import type { ToastActionElement, ToastProps } from "@/components/ui/toast";
 
 const TOAST_LIMIT = 1;
-const TOAST_REMOVE_DELAY = 1000000;
+const TOAST_REMOVE_DELAY = 5000; // 5s — o default do template shadcn era 1.000.000ms (~16min); nada aqui sobrescrevia isso, então qualquer toast ficava preso na tela quase 17 minutos.
 
 type ToasterToast = ToastProps & {
   id: string;

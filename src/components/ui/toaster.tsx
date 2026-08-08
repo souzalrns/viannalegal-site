@@ -18,7 +18,12 @@ export function Toaster() {
           </Toast>
         );
       })}
-      <ToastViewport className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-2 w-full max-w-[420px] z-[100]" />
+      {/* Sem className de posição customizada — usa o default do ToastViewport
+          (topo no mobile, canto inferior direito no desktop), que já vem
+          com as animações certas (desliza a partir da borda). A versão
+          anterior sobrepunha isso com posição fixa no centro do ecrã,
+          quebrando a animação de entrada e tapando conteúdo por baixo. */}
+      <ToastViewport />
     </ToastProvider>
   );
 }
