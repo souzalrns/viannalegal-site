@@ -12,52 +12,41 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Diagnostico de network requests na homepage
+      - name: PageSpeed pos-fix modulepreload
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
         run: |
-          curl -s -o result-mobile.json \
-            "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fviannalegal.com.br&strategy=mobile&category=performance&key=$PAGESPEED_API_KEY"
+          for STRATEGY in mobile desktop; do
+            curl -s -o result-$STRATEGY.json \
+              "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fviannalegal.com.br&strategy=$STRATEGY&category=performance&key=$PAGESPEED_API_KEY"
+            sleep 3
+          done
 
           python3 << 'PYEOF'
           import json
-
-          with open('result-mobile.json') as f:
-              data = json.load(f)
-
-          lh = data.get("lighthouseResult", {})
-          audits = lh.get("audits", {})
-
-          out = ["## Network requests reais na homepage (mobile)\n"]
-
-          nr = audits.get("network-requests", {})
-          items = nr.get("details", {}).get("items", [])
-          out.append(f"Total de requests: {len(items)}\n")
-
-          items_sorted = sorted(items, key=lambda x: x.get("transferSize", 0), reverse=True)
-          out.append("### Maiores transferencias (por bytes)")
-          for item in items_sorted[:15]:
-              url = item.get('url', 'n/a')
-              # encurtar data: URIs
-              if url.startswith('data:'):
-                  url = url[:50] + '...(data URI)'
-              size_kb = item.get('transferSize', 0) / 1024
-              resource_type = item.get('resourceType', '?')
-              out.append(f"- {size_kb:.1f} KB [{resource_type}] {url}")
-
-          # Ver se algum modulepreload/link puxa os chunks de blog
-          out.append("\n### Todos os .js pedidos (para ver se data-blog-* aparece)")
-          for item in items:
-              url = item.get('url', '')
-              if '.js' in url and 'viannalegal.com.br' in url:
-                  size_kb = item.get('transferSize', 0) / 1024
-                  priority = item.get('priority', '?')
-                  out.append(f"- {size_kb:.1f} KB priority={priority} {url.split('/')[-1]}")
-
-          with open("summary.md", "w") as f:
+          out = []
+          for strategy in ["mobile", "desktop"]:
+              with open(f"result-{strategy}.json") as f:
+                  data = json.load(f)
+              if "error" in data:
+                  out.append(f"## {strategy.upper()}\nErro: {json.dumps(data['error'])}\n")
+                  continue
+              lh = data.get("lighthouseResult", {})
+              cats = lh.get("categories", {})
+              audits = lh.get("audits", {})
+              out.append(f"## {strategy.upper()}")
+              score = cats.get("performance", {}).get("score")
+              out.append(f"- **Performance:** {round(score*100) if score is not None else 'n/a'}/100")
+              for k, label in [("largest-contentful-paint","LCP"),("cumulative-layout-shift","CLS"),
+                                ("total-blocking-time","TBT"),("first-contentful-paint","FCP"),
+                                ("speed-index","Speed Index")]:
+                  a = audits.get(k, {})
+                  if a:
+                      out.append(f"- **{label}:** {a.get('displayValue','n/a')}")
+              out.append("")
+          with open("summary.md","w") as f:
               f.write("\n".join(out))
           PYEOF
-
           cat summary.md
-          gh issue create --title "network-diagnostico-${{ github.run_id }}" --body-file summary.md --repo ${{ github.repository }}
+          gh issue create --title "pagespeed-pos-modulepreload-${{ github.run_id }}" --body-file summary.md --repo ${{ github.repository }}
