@@ -1,0 +1,98 @@
+name: PageSpeed check (temporário)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Rodar PageSpeed Insights e publicar como Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
+        run: |
+          for STRATEGY in mobile desktop; do
+            curl -s -o result-$STRATEGY.json \
+              "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fviannalegal.com.br&strategy=$STRATEGY&category=performance&category=accessibility&category=seo&category=best-practices&key=$PAGESPEED_API_KEY"
+            sleep 3
+          done
+
+          python3 << 'PYEOF'
+          import json
+
+          out = []
+          for strategy in ["mobile", "desktop"]:
+              with open(f"result-{strategy}.json") as f:
+                  data = json.load(f)
+
+              if "error" in data:
+                  out.append(f"## {strategy.upper()}\nErro da API: {json.dumps(data['error'])}\n---\n")
+                  continue
+
+              lh = data.get("lighthouseResult", {})
+              cats = lh.get("categories", {})
+              audits = lh.get("audits", {})
+
+              out.append(f"## {strategy.upper()}\n")
+              for cat_key, cat_label in [
+                  ("performance", "Performance"),
+                  ("accessibility", "Accessibility"),
+                  ("seo", "SEO"),
+                  ("best-practices", "Best Practices"),
+              ]:
+                  score = cats.get(cat_key, {}).get("score")
+                  if score is not None:
+                      out.append(f"- **{cat_label}:** {round(score * 100)}/100")
+
+              out.append("\n**Core Web Vitals (lab data):**")
+              for audit_key, label in [
+                  ("largest-contentful-paint", "LCP"),
+                  ("cumulative-layout-shift", "CLS"),
+                  ("total-blocking-time", "TBT"),
+                  ("first-contentful-paint", "FCP"),
+                  ("speed-index", "Speed Index"),
+              ]:
+                  a = audits.get(audit_key, {})
+                  if a:
+                      out.append(f"- **{label}:** {a.get('displayValue', 'n/a')}")
+
+              # Top oportunidades de melhoria
+              opportunities = [
+                  (k, v) for k, v in audits.items()
+                  if v.get("details", {}).get("type") == "opportunity" and v.get("score", 1) is not None and v.get("score", 1) < 0.9
+              ]
+              opportunities.sort(key=lambda x: x[1].get("numericValue", 0), reverse=True)
+              if opportunities:
+                  out.append("\n**Principais oportunidades de melhoria:**")
+                  for k, v in opportunities[:5]:
+                      out.append(f"- {v.get('title', k)}: {v.get('displayValue', '')}")
+
+              crux = data.get("loadingExperience", {}).get("metrics", {})
+              if crux:
+                  out.append("\n**Dados reais de utilizadores (CrUX, últimos 28 dias):**")
+                  for metric_key, label in [
+                      ("LARGEST_CONTENTFUL_PAINT_MS", "LCP"),
+                      ("CUMULATIVE_LAYOUT_SHIFT_SCORE", "CLS"),
+                      ("INTERACTION_TO_NEXT_PAINT", "INP"),
+                      ("FIRST_CONTENTFUL_PAINT_MS", "FCP"),
+                  ]:
+                      m = crux.get(metric_key)
+                      if m:
+                          out.append(f"- **{label}:** {m.get('category', 'n/a')} (percentile: {m.get('percentile', 'n/a')})")
+              else:
+                  out.append("\n_Sem dados reais de utilizadores suficientes (tráfego baixo demais para o CrUX ter amostra)._")
+
+              out.append("\n---\n")
+
+          with open("summary.md", "w") as f:
+              f.write("\n".join(out))
+          PYEOF
+
+          cat summary.md
+          gh issue create --title "pagespeed-viannalegal-${{ github.run_id }}" --body-file summary.md --repo ${{ github.repository }}
