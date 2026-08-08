@@ -36,7 +36,7 @@ export function AuthorBio({ authorName }: AuthorBioProps) {
         </p>
         <Link
           to="/quem-somos"
-          className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-gold transition-colors"
+          className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-gold active:scale-95 transition-[color,transform]"
         >
           Conhecer a Kathia
           <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />

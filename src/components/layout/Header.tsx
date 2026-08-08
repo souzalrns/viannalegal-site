@@ -175,32 +175,39 @@ export function Header() {
         </nav>
       </div>
 
-      {/* Mobile menu */}
-      {mobileMenuOpen && (
-        <div className="lg:hidden bg-card border-t border-border">
-          <div className="container-width py-6 flex flex-col gap-2">
-            {navItems.map((item) => renderItem(item, true))}
-            <div className="pt-4 border-t border-border flex flex-col gap-3">
-              <Button
-                variant="gold"
-                className="w-full"
-                onClick={() => { window.open(`${WA_URL}?text=${WA_MSG}`, '_blank', 'noopener,noreferrer'); setMobileMenuOpen(false); }}
-              >
-                Avaliar o meu caso
-              </Button>
-              <a
-                href={`${WA_URL}?text=${WA_MSG}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 text-sm text-muted-foreground hover:text-gold transition-colors py-1"
-              >
-                <Phone className="w-4 h-4" />
-                Já sou cliente
-              </a>
-            </div>
+      {/* Mobile menu — sempre montado; a transição de max-height/opacity é o
+          que dá a sensação de abrir/fechar, em vez do pop instantâneo que
+          {mobileMenuOpen && (...)} dava antes (emil-design-eng: "unseen
+          details compound" — abrir/fechar sem transição é sentido mesmo
+          que ninguém saiba dizer o motivo). */}
+      <div
+        className={cn(
+          'lg:hidden bg-card border-t border-border overflow-hidden transition-[max-height,opacity] duration-300 ease-out',
+          mobileMenuOpen ? 'max-h-[32rem] opacity-100' : 'max-h-0 opacity-0 pointer-events-none',
+        )}
+      >
+        <div className="container-width py-6 flex flex-col gap-2">
+          {navItems.map((item) => renderItem(item, true))}
+          <div className="pt-4 border-t border-border flex flex-col gap-3">
+            <Button
+              variant="gold"
+              className="w-full"
+              onClick={() => { window.open(`${WA_URL}?text=${WA_MSG}`, '_blank', 'noopener,noreferrer'); setMobileMenuOpen(false); }}
+            >
+              Avaliar o meu caso
+            </Button>
+            <a
+              href={`${WA_URL}?text=${WA_MSG}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 text-sm text-muted-foreground hover:text-gold active:scale-95 transition-[color,transform] py-1"
+            >
+              <Phone className="w-4 h-4" />
+              Já sou cliente
+            </a>
           </div>
         </div>
-      )}
+      </div>
     </header>
   );
 }
