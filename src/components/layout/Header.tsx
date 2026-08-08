@@ -32,6 +32,30 @@ export function Header() {
     return () => window.removeEventListener('scroll', fn);
   }, []);
 
+  // Heurística de Nielsen 3 (controlo e liberdade do utilizador): o menu mobile
+  // precisa fechar com Escape, e não deve deixar o fundo a fazer scroll por
+  // baixo dele — sem isto o utilizador fica "preso" numa camada sobreposta.
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMobileMenuOpen(false);
+    };
+    document.addEventListener('keydown', onKeyDown);
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.removeEventListener('keydown', onKeyDown);
+      document.body.style.overflow = '';
+    };
+  }, [mobileMenuOpen]);
+
+  // Fecha o menu automaticamente ao mudar de rota (ex: botão voltar do
+  // browser), que não passa pelos onClick dos links.
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [location.pathname]);
+
   const scrollTo = useCallback((hash: string) => {
     const id = hash.replace('#', '');
     const el = document.getElementById(id);
