@@ -12,71 +12,82 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Rodar PageSpeed Insights e publicar como Issue
+      - name: Rodar PageSpeed Insights mobile e extrair diagnostico de LCP
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
         run: |
-          for STRATEGY in mobile desktop; do
-            curl -s -o result-$STRATEGY.json \
-              "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fviannalegal.com.br&strategy=$STRATEGY&category=performance&category=accessibility&category=seo&category=best-practices&key=$PAGESPEED_API_KEY"
-            sleep 3
-          done
+          curl -s -o result-mobile.json \
+            "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fviannalegal.com.br&strategy=mobile&category=performance&key=$PAGESPEED_API_KEY"
 
           python3 << 'PYEOF'
           import json
 
-          out = []
-          for strategy in ["mobile", "desktop"]:
-              with open(f"result-{strategy}.json") as f:
-                  data = json.load(f)
+          with open('result-mobile.json') as f:
+              data = json.load(f)
 
-              if "error" in data:
-                  out.append(f"## {strategy.upper()}\nErro da API: {json.dumps(data['error'])}\n---\n")
-                  continue
+          if "error" in data:
+              print("ERRO:", json.dumps(data["error"]))
+              with open("summary.md", "w") as f:
+                  f.write(f"Erro da API: {json.dumps(data['error'])}")
+              raise SystemExit(0)
 
-              lh = data.get("lighthouseResult", {})
-              cats = lh.get("categories", {})
-              audits = lh.get("audits", {})
+          lh = data.get("lighthouseResult", {})
+          audits = lh.get("audits", {})
 
-              out.append(f"## {strategy.upper()}\n")
-              for cat_key, cat_label in [
-                  ("performance", "Performance"),
-                  ("accessibility", "Accessibility"),
-                  ("seo", "SEO"),
-                  ("best-practices", "Best Practices"),
-              ]:
-                  score = cats.get(cat_key, {}).get("score")
-                  if score is not None:
-                      out.append(f"- **{cat_label}:** {round(score * 100)}/100")
+          out = ["## Diagnostico detalhado de LCP (mobile)\n"]
 
-              out.append("\n**Core Web Vitals (lab data):**")
-              for audit_key, label in [
-                  ("largest-contentful-paint", "LCP"),
-                  ("cumulative-layout-shift", "CLS"),
-                  ("total-blocking-time", "TBT"),
-                  ("first-contentful-paint", "FCP"),
-                  ("speed-index", "Speed Index"),
-              ]:
-                  a = audits.get(audit_key, {})
-                  if a:
-                      out.append(f"- **{label}:** {a.get('displayValue', 'n/a')}")
+          # 1. Qual elemento exato e o LCP
+          lcp_elem = audits.get("largest-contentful-paint-element", {})
+          out.append("### Elemento LCP")
+          out.append(f"Score: {lcp_elem.get('score')}")
+          details = lcp_elem.get("details", {})
+          items = details.get("items", [])
+          for item in items:
+              node = item.get("node", {})
+              out.append(f"- Seletor: `{node.get('selector', 'n/a')}`")
+              out.append(f"- Snippet: `{node.get('snippet', 'n/a')}`")
+              out.append(f"- NodeLabel: {node.get('nodeLabel', 'n/a')}")
+          # subitems (breakdown de fases: TTFB, load delay, load time, render delay)
+          for item in items:
+              for sub in item.get("subItems", {}).get("items", []):
+                  out.append(f"  - {sub.get('phase', '?')}: {sub.get('timing', '?')}ms ({sub.get('percent','?')})")
 
-              opportunities = [
-                  (k, v) for k, v in audits.items()
-                  if v.get("details", {}).get("type") == "opportunity" and v.get("score", 1) is not None and v.get("score", 1) < 0.9
-              ]
-              opportunities.sort(key=lambda x: x[1].get("numericValue", 0), reverse=True)
-              if opportunities:
-                  out.append("\n**Principais oportunidades de melhoria:**")
-                  for k, v in opportunities[:5]:
-                      out.append(f"- {v.get('title', k)}: {v.get('displayValue', '')}")
+          # 2. lcp-lazy-loaded (se o elemento LCP tem loading=lazy, o que e ruim)
+          lazy = audits.get("lcp-lazy-loaded", {})
+          out.append(f"\n### lcp-lazy-loaded: score={lazy.get('score')} — {lazy.get('title')}")
 
-              out.append("\n---\n")
+          # 3. render-blocking-resources
+          rbr = audits.get("render-blocking-resources", {})
+          out.append(f"\n### render-blocking-resources: score={rbr.get('score')} — savings {rbr.get('displayValue')}")
+          for item in rbr.get("details", {}).get("items", [])[:10]:
+              out.append(f"- {item.get('url', 'n/a')[:100]} — {item.get('wastedMs', '?')}ms")
+
+          # 4. server-response-time (TTFB)
+          srt = audits.get("server-response-time", {})
+          out.append(f"\n### server-response-time (TTFB): {srt.get('displayValue')}")
+
+          # 5. largest-contentful-paint breakdown timing
+          lcp_metric = audits.get("largest-contentful-paint", {})
+          out.append(f"\n### LCP total: {lcp_metric.get('displayValue')}")
+
+          # 6. network-requests - top 10 maiores/mais lentos
+          nr = audits.get("network-requests", {})
+          items = nr.get("details", {}).get("items", [])
+          items_sorted = sorted(items, key=lambda x: x.get("endTime", 0), reverse=True)[:10]
+          out.append("\n### Requests que terminam mais tarde (top 10)")
+          for item in items_sorted:
+              out.append(f"- endTime={item.get('endTime',0):.0f}ms startTime={item.get('startTime',0):.0f}ms — {item.get('url','n/a')[:90]}")
+
+          # 7. main-thread-tasks / bootup-time
+          bt = audits.get("bootup-time", {})
+          out.append(f"\n### bootup-time (JS main thread): {bt.get('displayValue')}")
+          for item in bt.get("details", {}).get("items", [])[:5]:
+              out.append(f"- {item.get('url','n/a')[:80]}: total={item.get('total',0):.0f}ms")
 
           with open("summary.md", "w") as f:
               f.write("\n".join(out))
           PYEOF
 
           cat summary.md
-          gh issue create --title "pagespeed-viannalegal-${{ github.run_id }}" --body-file summary.md --repo ${{ github.repository }}
+          gh issue create --title "lcp-diagnostico-${{ github.run_id }}" --body-file summary.md --repo ${{ github.repository }}
