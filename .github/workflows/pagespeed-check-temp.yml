@@ -17,9 +17,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           for STRATEGY in mobile desktop; do
-            curl -s "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fviannalegal.com.br&strategy=$STRATEGY&category=performance&category=accessibility&category=seo&category=best-practices" \
-              -o result-$STRATEGY.json
+            HTTP_CODE=$(curl -s -w "%{http_code}" -o result-$STRATEGY.json \
+              "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fviannalegal.com.br&strategy=$STRATEGY&category=performance&category=accessibility&category=seo&category=best-practices")
+            echo "HTTP $STRATEGY: $HTTP_CODE" >> http_codes.txt
+            sleep 5
           done
+          cat http_codes.txt
+          echo "--- raw mobile (primeiros 500 chars) ---"
+          head -c 500 result-mobile.json
 
           python3 << 'PYEOF'
           import json
@@ -27,7 +32,17 @@ jobs:
           out = []
           for strategy in ["mobile", "desktop"]:
               with open(f"result-{strategy}.json") as f:
-                  data = json.load(f)
+                  raw = f.read()
+              try:
+                  data = json.loads(raw)
+              except Exception as e:
+                  out.append(f"## {strategy.upper()}\nErro ao parsear JSON: {e}\nRaw (500 chars): {raw[:500]}\n---\n")
+                  continue
+
+              if "error" in data:
+                  out.append(f"## {strategy.upper()}\nErro da API: {json.dumps(data['error'])}\n---\n")
+                  continue
+
               lh = data.get("lighthouseResult", {})
               cats = lh.get("categories", {})
               audits = lh.get("audits", {})
@@ -55,7 +70,6 @@ jobs:
                   if a:
                       out.append(f"- **{label}:** {a.get('displayValue', 'n/a')}")
 
-              # CrUX field data (dados reais de utilizadores), se existir
               crux = data.get("loadingExperience", {}).get("metrics", {})
               if crux:
                   out.append("\n**Dados reais de utilizadores (CrUX, últimos 28 dias):**")
