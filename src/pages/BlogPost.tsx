@@ -8,6 +8,7 @@ import { Footer } from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-react';
 import { QuizBanner } from '@/components/ui/QuizBanner';
+import { AuthorBio } from '@/components/sections/AuthorBio';
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
 import { SchemaArticle, SchemaBreadcrumb, SchemaFAQ, SchemaHowTo } from '@/components/seo/SchemaMarkup';
 import { allBlogPostsContent, loadArtigoPilar } from '@/data/allBlogPostsContent';
@@ -468,6 +469,8 @@ export default function BlogPost() {
                 </div>
               </div>
 
+
+              <AuthorBio authorName={post.author} />
 
               {/* ── Artigos Relacionados ─────────────────────── */}
               {(() => {
