@@ -56,6 +56,19 @@
   ],
   "routes": [
     {
+      "src": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.viannalegal.com.br"
+        }
+      ],
+      "headers": {
+        "Location": "https://viannalegal.com.br/$1"
+      },
+      "status": 308
+    },
+    {
       "src": "/og-image.jpg",
       "dest": "/og-image.jpg"
     },
