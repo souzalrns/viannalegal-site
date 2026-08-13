@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# ViannaLegal
 
-## Project info
+> Site institucional e motor de conteúdo jurídico para um escritório especializado em cidadania portuguesa para descendentes de brasileiros.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+[🔗 Ver Aplicação em Produção](https://viannalegal.com.br)
 
-## How can I edit this code?
+![Status](https://img.shields.io/badge/Status-Em%20Produção-brightgreen)
+![Vite](https://img.shields.io/badge/Vite-React-646CFF)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## O Problema
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Processos de cidadania portuguesa por descendência são complexos, mudam com frequência (nova Lei Orgânica em 2026), e a maioria dos escritórios de advocacia não tem presença digital que reflita esse conhecimento técnico. Sem conteúdo educativo claro e atualizado, potenciais clientes ficam à mercê de informação desatualizada ou de intermediários sem formação jurídica.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Principais Funcionalidades
 
-**Use your preferred IDE**
+- **82 artigos técnicos** cobrindo bisnetos, avós, história/cultura e outras rotas de cidadania — cada um com marcação FAQPage (schema.org)
+- **Formulário de contacto** integrado (Web3Forms) diretamente ligado à advogada responsável
+- **Quiz de elegibilidade** interativo para triagem inicial de potenciais clientes
+- **Blog com sistema próprio** de conteúdo (sem depender de CMS externo)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Stack Técnica
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend:** Vite + React + TypeScript
+- **UI:** Tailwind CSS + shadcn/ui (Radix UI)
+- **SEO técnico:** Schema markup próprio (FAQPage, 146 pares pergunta/resposta), sitemap de 96 URLs
+- **Formulários:** Web3Forms (sem backend próprio para isto)
+- **Infraestrutura:** Vercel
 
-Follow these steps:
+## Destaques Técnicos
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. **SPA com SEO tratado à parte:** sendo uma Single Page Application, o conteúdo que os crawlers recebem por defeito é um `<div id="root">` vazio — resolvido com marcação de schema estruturada por página e sitemap completo, em vez de reescrever o site inteiro para SSR antes de validar o produto. Migração para Next.js (SSR/SSG) fica planeada como evolução futura, não bloqueio inicial.
+2. **Conteúdo como dado, não como CMS:** os 82 artigos vivem como dados tipados em TypeScript (`src/data/`), não numa base de dados externa — decisão consciente para manter o site simples de fazer deploy (Vercel, sem backend) enquanto o volume de conteúdo ainda é gerível manualmente.
+3. **Atualização legal ativa:** conteúdo revisto para refletir a Lei Orgânica 1/2026 (residência de 7 anos, rota direta para bisnetos, teste de história/cultura) — o site acompanha mudanças legislativas reais, não é conteúdo estático esquecido.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Como Rodar Localmente
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/souzalrns/viannalegal-site.git
+cd viannalegal-site
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Estado do Projeto
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Em produção** — 82 artigos publicados, GA4 e Search Console ativos. Próximo passo técnico planeado: migração para Next.js SSR para resolver a limitação de SPA nos crawlers.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Feito por Luiz Souza • [LinkedIn](#) • [Portfólio](#)
