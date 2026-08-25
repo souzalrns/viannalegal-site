@@ -1,0 +1,23 @@
+name: Disparar revisão visual pós-deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Aguardar build do Vercel
+        run: sleep 60
+
+      - name: Disparar visual-review.yml no agent-network-mcp
+        env:
+          PAT: ${{ secrets.CROSS_DISPATCH_PAT }}
+        run: |
+          curl -s -o /dev/null -w "%{http_code}\n" -X POST \
+            -H "Authorization: token $PAT" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/souzalrns/agent-network-mcp/actions/workflows/visual-review.yml/dispatches \
+            -d "{\"ref\":\"main\",\"inputs\":{\"project\":\"viannalegal-site\",\"url\":\"https://viannalegal.com.br\"}}"
