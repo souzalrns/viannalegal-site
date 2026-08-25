@@ -20,3 +20,12 @@ Não esperar o utilizador dizer “lê o STATUS”.
 
 - Manter schema FAQPage / SEO ao alterar artigos.
 - Não remover conteúdo legal sem substituição alinhada à legislação atual.
+
+
+## Skills de engenharia (addyosmani/agent-skills, espelhado localmente)
+
+Antes de spec/planejar/codar/revisar/commitar/fazer deploy, consultar
+`skills-external/README.md` — mapeia tipo de tarefa → `SKILL.md` a ler
+primeiro (TDD, code review 5-eixos, git workflow, CI/CD, segurança, etc.).
+Espelho local porque o Luiz trabalha 100% remoto (sem Claude Code CLI
+local, `/plugin` não se aplica).
