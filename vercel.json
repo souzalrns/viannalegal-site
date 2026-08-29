@@ -45,7 +45,7 @@
       ]
     },
     {
-      "source": "/(sitemap.xml|robots.txt)",
+      "source": "/(sitemap.xml|robots.txt|llms.txt)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -79,6 +79,10 @@
     {
       "src": "/robots.txt",
       "dest": "/robots.txt"
+    },
+    {
+      "src": "/llms.txt",
+      "dest": "/llms.txt"
     },
     {
       "src": "/favicon.ico",
