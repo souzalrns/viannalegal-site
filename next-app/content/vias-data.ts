@@ -341,6 +341,9 @@ export const servicesContent: Record<string, ServiceContent> = {
     relatedServices: ['conjuges', 'transcricao-casamento'],
   },
 
+  // REVIEW PENDENTE — Kathia: confirmar interpretacao de Via1 vs Via2 (via directa
+  // vs sequencial) para bisnetos antes de publicar em producao ou aplicar qualquer
+  // redirect de post antigo para esta pagina. NAO alterar sem essa confirmacao.
   bisnetos: {
     slug: 'bisnetos',
     metaTitle: 'Cidadania Portuguesa para Bisnetos | Nova Via Direta 2026 | ViannaLegal',

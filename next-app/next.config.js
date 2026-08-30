@@ -16,9 +16,10 @@ const nextConfig = {
       { source: "/blog/cidadania-portuguesa-netos-guia-definitivo-2025", destination: "/cidadania-portuguesa/netos", permanent: true },
       { source: "/blog/nacionalidade-portuguesa-para-netos-guia-completo-2026", destination: "/cidadania-portuguesa/netos", permanent: true },
 
-      // Filhos -> filhos-menores (ASSUMPTION confirmada por omissão; rever com
-      // Luiz/Kathia se o destino correcto for filhos-maiores)
-      { source: "/blog/nacionalidade-portuguesa-para-filhos-guia-completo-2026", destination: "/cidadania-portuguesa/filhos-menores", permanent: true },
+      // Filhos -> REMOVIDO em 2026-08-30 por decisão explícita: destino não
+      // confirmado (filhos-menores vs filhos-maiores). Fica só como PENDENTE
+      // no redirects.json de proposta até validação de Luiz/Kathia. NÃO
+      // reactivar aqui sem essa confirmação.
 
       // Casamento/união de facto duplicados -> hub de cônjuges
       { source: "/blog/cidadania-portuguesa-por-casamento-guia-completo", destination: "/cidadania-portuguesa/conjuges", permanent: true },
