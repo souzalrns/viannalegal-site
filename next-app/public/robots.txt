@@ -1,0 +1,34 @@
+# ViannaLegal — versão de PREVIEW (M3).
+# A produção continua a servir o robots.txt da raiz do repo (Vite) até ao cutover.
+
+User-agent: *
+Allow: /
+
+# Crawlers de IA — permitidos explicitamente (AEO/GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sem conteúdo útil para indexação
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap gerado dinamicamente por app/sitemap.ts a partir das rotas reais.
+Sitemap: https://viannalegal.com.br/sitemap.xml
