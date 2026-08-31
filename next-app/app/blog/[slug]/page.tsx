@@ -45,9 +45,8 @@ export default async function BlogPost({ params }: Props) {
         <article className="prose prose-lg max-w-none">
           <h1>{post.title}</h1>
           <p className="text-gray-600">{post.description}</p>
-          <div className="prose">{post.content}</div>
+          <div className="prose">{post.body}</div>
         </article>
       </main>
     </>
   );
-}
