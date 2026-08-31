@@ -1,105 +1,140 @@
-import { SITE_URL } from "./seo";
-import type { FaqItem } from "./content";
+// lib/schema.ts
+// JSON-LD estruturado para ViannaLegal
 
-/** Organization + WebSite — só na home. */
-export function organizationSchema() {
-  return {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": `${SITE_URL}/#organization`,
-        name: "ViannaLegal",
-        url: SITE_URL,
-        description:
-          "Assessoria jurídica especializada em cidadania portuguesa para brasileiros, conduzida pela advogada Kathia Vianna (OA n.º 56666p), com actuação presencial em Portugal.",
-      },
-      {
-        "@type": "WebSite",
-        "@id": `${SITE_URL}/#website`,
-        url: SITE_URL,
-        name: "ViannaLegal",
-        publisher: { "@id": `${SITE_URL}/#organization` },
-        inLanguage: "pt-BR",
-      },
-    ],
-  };
+export interface SchemaProps {
+  type: 'Organization' | 'Person' | 'Service' | 'BlogPosting' | 'FAQPage' | 'BreadcrumbList' | 'WebPage';
+  url: string;
+  title?: string;
+  description?: string;
+  image?: string;
+  datePublished?: string;
+  dateModified?: string;
+  author?: string;
+  faq?: { question: string; answer: string }[];
+  breadcrumbs?: { name: string; url: string }[];
 }
 
-/** Person — Kathia Vianna. Apenas dados públicos já presentes no site actual. */
-export function personSchema() {
-  return {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Kathia Vianna",
-    jobTitle: "Advogada",
-    worksFor: { "@type": "Organization", name: "ViannaLegal" },
-    memberOf: { "@type": "Organization", name: "Ordem dos Advogados de Portugal" },
-    identifier: "OA n.º 56666p",
-    alumniOf: [
-      { "@type": "CollegeOrUniversity", name: "Universidade de Lisboa" },
-      { "@type": "CollegeOrUniversity", name: "Universidade Portucalense" },
-    ],
-    knowsAbout: "Direito da Nacionalidade Portuguesa",
-    url: `${SITE_URL}/quem-somos`,
+export function generateSchema(props: SchemaProps): Record<string, any> {
+  const base = {
+    '@context': 'https://schema.org',
+    '@id': props.url,
   };
+
+  switch (props.type) {
+    case 'Organization':
+      return {
+        ...base,
+        '@type': 'Organization',
+        name: 'ViannaLegal',
+        description: 'Assessoria jurídica especializada em cidadania portuguesa para brasileiros',
+        url: 'https://viannalegal.com.br',
+        logo: 'https://viannalegal.com.br/images/kv-logo.webp',
+        founder: {
+          '@type': 'Person',
+          name: 'Kathia Vianna',
+          jobTitle: 'Advogada',
+          worksFor: {
+            '@type': 'Organization',
+            name: 'ViannaLegal'
+          }
+        },
+        sameAs: [
+          'https://www.linkedin.com/in/kathia-vianna-advogada',
+        ],
+        contactPoint: {
+          '@type': 'ContactPoint',
+          contactType: 'Atendimento',
+          availableLanguage: ['Português']
+        }
+      };
+
+    case 'Person':
+      return {
+        ...base,
+        '@type': 'Person',
+        name: 'Kathia Vianna',
+        jobTitle: 'Advogada especialista em Cidadania Portuguesa',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'ViannaLegal'
+        },
+        description: 'Advogada portuguesa, inscrita na Ordem dos Advogados de Portugal (OA n.º 56666), com atuação presencial nas Conservatórias e Tribunais portugueses desde 2016.',
+        identifier: {
+          '@type': 'PropertyValue',
+          propertyID: 'OA',
+          value: '56666'
+        }
+      };
+
+    case 'Service':
+      return {
+        ...base,
+        '@type': 'Service',
+        name: props.title || 'Cidadania Portuguesa',
+        description: props.description || '',
+        provider: {
+          '@type': 'Organization',
+          name: 'ViannaLegal'
+        },
+        url: props.url,
+        serviceType: 'Assessoria Jurídica',
+        areaServed: {
+          '@type': 'Country',
+          name: 'Brasil'
+        }
+      };
+
+    case 'BlogPosting':
+      return {
+        ...base,
+        '@type': 'BlogPosting',
+        headline: props.title || '',
+        description: props.description || '',
+        url: props.url,
+        image: props.image || 'https://viannalegal.com.br/og-image.jpg',
+        datePublished: props.datePublished || new Date().toISOString(),
+        dateModified: props.dateModified || new Date().toISOString(),
+        author: {
+          '@type': 'Person',
+          name: props.author || 'Kathia Vianna'
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'ViannaLegal'
+        }
+      };
+
+    case 'FAQPage':
+      return {
+        ...base,
+        '@type': 'FAQPage',
+        mainEntity: (props.faq || []).map(f => ({
+          '@type': 'Question',
+          name: f.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: f.answer
+          }
+        }))
+      };
+
+    case 'BreadcrumbList':
+      return {
+        ...base,
+        '@type': 'BreadcrumbList',
+        itemListElement: (props.breadcrumbs || []).map((item, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: item.name,
+          item: item.url
+        }))
+      };
+
+    default:
+      return { ...base, '@type': 'WebPage' };
+  }
 }
 
-/** Service — hub de cidadania e futuras sub-vias. */
-export function serviceSchema(opts: { name: string; description: string; path: string }) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    serviceType: opts.name,
-    name: opts.name,
-    description: opts.description,
-    url: `${SITE_URL}${opts.path}`,
-    provider: { "@type": "Organization", name: "ViannaLegal" },
-    areaServed: ["BR", "PT"],
-  };
-}
-
-/**
- * FAQPage — só deve ser chamado quando a FAQ está de facto renderizada
- * na página. As páginas usam a mesma lista do frontmatter para render e
- * para schema, por isso não podem divergir.
- */
-export function faqSchema(items: FaqItem[]) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: items.map((item) => ({
-      "@type": "Question",
-      name: item.q,
-      acceptedAnswer: { "@type": "Answer", text: item.a },
-    })),
-  };
-}
-
-/** BlogPosting — posts do blog. */
-export function blogPostingSchema(opts: {
-  headline: string;
-  description: string;
-  path: string;
-  author: string;
-  datePublished: string;
-  dateModified: string;
-}) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: opts.headline,
-    description: opts.description,
-    url: `${SITE_URL}${opts.path}`,
-    author: { "@type": "Person", name: opts.author },
-    publisher: { "@type": "Organization", name: "ViannaLegal" },
-    datePublished: opts.datePublished,
-    dateModified: opts.dateModified,
-    inLanguage: "pt-BR",
-  };
-}
-
-/** Utilitário: injecta JSON-LD no HTML inicial. */
-export function jsonLd(schema: object) {
-  return { __html: JSON.stringify(schema) };
+export function generateSchemaScript(schema: Record<string, any>): string {
+  return `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 }
