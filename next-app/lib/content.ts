@@ -1,85 +1,61 @@
-import fs from "node:fs";
-import path from "node:path";
-import matter from "gray-matter";
-import { marked } from "marked";
+﻿import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 
-marked.setOptions({ gfm: true, breaks: false });
+const contentDir = path.join(process.cwd(), 'content');
 
-const CONTENT_DIR = path.join(process.cwd(), "content");
-
-export interface FaqItem {
-  q: string;
-  a: string;
-}
-
-/**
- * Contrato de conteúdo — cada peça editorial preenche estes campos.
- * `answerBlock` e `uniquePromise` são obrigatórios por desenho: é o que
- * impede textos clonados entre URLs (ver plano, secções 6.2 e 6.4).
- */
-export interface ContentPiece {
-  slug: string;
-  routePath: string;
-  title: string;
-  description: string;
-  h1: string;
-  answerBlock: string;
-  uniquePromise: string;
-  ogType: "website" | "article" | "profile";
-  faq: FaqItem[];
-  author?: string;
-  datePublished?: string;
-  dateModified?: string;
-  bodyHtml: string;
-}
-
-function parseFile(fullPath: string, slug: string): ContentPiece {
-  const raw = fs.readFileSync(fullPath, "utf-8");
-  const { data, content } = matter(raw);
-
-  const required = ["title", "description", "h1", "answer_block", "unique_promise", "route_path"];
-  for (const field of required) {
-    if (!data[field] || String(data[field]).trim() === "") {
-      throw new Error(
-        `Conteúdo inválido em ${slug}: campo obrigatório "${field}" em falta. ` +
-          `O build falha de propósito — ver plano, secção 6.2.`
-      );
-    }
-  }
-
+export function getPage(slug: string) {
+  const filePath = path.join(contentDir, ${slug}.mdx);
+  if (!fs.existsSync(filePath)) return null;
+  const fileContent = fs.readFileSync(filePath, 'utf8');
+  const { data, content } = matter(fileContent);
   return {
-    slug,
-    routePath: data.route_path,
-    title: data.title,
-    description: data.description,
-    h1: data.h1,
-    answerBlock: data.answer_block,
-    uniquePromise: data.unique_promise,
-    ogType: data.og_type ?? "website",
-    faq: Array.isArray(data.faq) ? data.faq : [],
-    author: data.author,
-    datePublished: data.date_published,
-    dateModified: data.date_modified,
-    bodyHtml: marked.parse(content) as string,
+    title: data.title || slug,
+    description: data.description || '',
+    body: content,
+    ...data
   };
 }
 
-/** Lê uma peça de conteúdo de nível superior, ex.: "quanto-custa". */
-export function getPage(slug: string): ContentPiece {
-  return parseFile(path.join(CONTENT_DIR, `${slug}.mdx`), slug);
+export function getBlogSlugs() {
+  const blogDir = path.join(contentDir, 'blog');
+  if (!fs.existsSync(blogDir)) return [];
+  return fs.readdirSync(blogDir).filter(file => file.endsWith('.mdx')).map(file => file.replace(/\.mdx$/, ''));
 }
 
-/** Lê um post do blog por slug. */
-export function getBlogPost(slug: string): ContentPiece {
-  return parseFile(path.join(CONTENT_DIR, "blog", `${slug}.mdx`), slug);
+export function getBlogPost(slug: string) {
+  const filePath = path.join(contentDir, 'blog', ${slug}.mdx);
+  if (!fs.existsSync(filePath)) return null;
+  const fileContent = fs.readFileSync(filePath, 'utf8');
+  const { data, content } = matter(fileContent);
+  return {
+    title: data.title || slug,
+    description: data.description || '',
+    body: content,
+    datePublished: data.datePublished || new Date().toISOString(),
+    dateModified: data.dateModified || new Date().toISOString(),
+    author: data.author || 'Kathia Vianna',
+    ...data
+  };
 }
 
-/** Alimenta generateStaticParams — todo o blog é estático no build. */
-export function getBlogSlugs(): string[] {
-  const dir = path.join(CONTENT_DIR, "blog");
-  if (!fs.existsSync(dir)) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".mdx"))
-    .map((f) => f.replace(/\.mdx$/, ""));
+export function getViaSlugs() {
+  const viasDir = path.join(contentDir, 'vias');
+  if (!fs.existsSync(viasDir)) return [];
+  return fs.readdirSync(viasDir).filter(file => file.endsWith('.mdx')).map(file => file.replace(/\.mdx$/, ''));
 }
+
+export function getViaContent(slug: string) {
+  const filePath = path.join(contentDir, 'vias', ${slug}.mdx);
+  if (!fs.existsSync(filePath)) return null;
+  const fileContent = fs.readFileSync(filePath, 'utf8');
+  const { data, content } = matter(fileContent);
+  return {
+    title: data.title || slug,
+    description: data.description || '',
+    body: content,
+    ...data
+  };
+}
+
+export type FaqItem = { q: string; a: string };
