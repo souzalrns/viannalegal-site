@@ -17,6 +17,7 @@ const site = [
   { href: "/cidadania-portuguesa", label: "Cidadania portuguesa" },
   { href: "/quanto-custa", label: "Quanto custa" },
   { href: "/documentos", label: "Documentos" },
+  { href: "/confirmacao-de-sentenca-estrangeira", label: "Confirmação de sentença estrangeira" },
   { href: "/prazos-e-acompanhamento", label: "Prazos e acompanhamento" },
   { href: "/lei-da-nacionalidade-2026", label: "Lei da Nacionalidade 2026" },
   { href: "/quiz-elegibilidade", label: "Quiz de elegibilidade" },
