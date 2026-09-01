@@ -474,7 +474,7 @@ const NODES: Record<string, QuizNode> = {
     kind: 'result',
     type: 'green', icon: '🆕', tag: 'Via disponível — Lei 1/2026',
     title: 'Bisneto com 5 a 6 anos em Portugal — Art. 6.º n.º 8',
-    desc: 'A Lei Orgânica 1/2026 criou uma via específica para bisnetos de portugueses que residam legalmente em Portugal há pelo menos 5 anos. Você cumpre esse requisito. Prazo estimado de análise: 28 a 36 meses. Nota: a regulamentação detalhada desta via tem prazo até agosto de 2026 — a assessoria acompanha as actualizações.',
+    desc: 'A Lei Orgânica 1/2026 criou uma via específica para bisnetos de portugueses que residam legalmente em Portugal há pelo menos 5 anos. Você cumpre esse requisito. Prazo estimado de análise: 28 a 36 meses. Nota: a regulamentação detalhada desta via é aguardada em breve — a assessoria acompanha as actualizações.',
     docs: [
       'Certidão de nascimento do bisavô/bisavó em Portugal (em inteiro teor)',
       'Certidão de nascimento do avô/avó e do pai/mãe',
