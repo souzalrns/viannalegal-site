@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 import { organizationSchema, faqSchema, jsonLd } from "@/lib/schema";
+import { Hero } from "@/components/home/hero";
+import { ViasGrid } from "@/components/home/vias-grid";
+import { Kathia } from "@/components/home/kathia";
+import { Processo } from "@/components/home/processo";
+import { Depoimentos } from "@/components/home/depoimentos";
+import { Faq } from "@/components/home/faq";
 
 const content = getPage("home");
 
@@ -14,14 +20,18 @@ export const metadata: Metadata = buildMetadata({
 
 export default function HomePage() {
   return (
-    <main className="container-width py-10 sm:py-14">
+    <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(organizationSchema())} />
       {content.faq.length > 0 && (
         <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(faqSchema(content.faq))} />
       )}
-      <h1 className="mb-5 text-3xl leading-tight text-primary sm:text-4xl">{content.h1}</h1>
-      <div className="answer-block">{content.answerBlock}</div>
-      <article className="article-body" dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
+
+      <Hero h1={content.h1} answer={content.answerBlock} />
+      <ViasGrid />
+      <Kathia />
+      <Processo />
+      <Depoimentos />
+      <Faq />
     </main>
   );
 }
