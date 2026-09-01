@@ -1,269 +1,395 @@
-/* M1 — estilo mínimo e propositadamente sóbrio.
-   O design completo (DESIGN.md) entra numa milestone posterior. */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
-:root {
-  color-scheme: light;
-  --verde: #163c2c;
-  --dourado: #b8954f;
-  --creme: #f6f3ea;
-  --texto: #1a1a1a;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design system portado de src/index.css do site Vite (viannalegal.com.br).
+   Mesmos tokens, mesmas cores, mesmas fontes — para o lab ficar visualmente
+   igual ao original em vez do estilo mínimo do M1. */
+
+@layer base {
+  :root {
+    /* Core Brand Colors - Portuguese inspired */
+    --background: 40 20% 98%;
+    --foreground: 160 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 160 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 160 30% 15%;
+
+    /* Primary: Deep Forest Green - Trust & Growth */
+    --primary: 160 48% 20%;
+    --primary-foreground: 40 20% 98%;
+
+    /* Secondary: Warm Gold - Prestige & Success */
+    --secondary: 42 50% 58%;
+    --secondary-foreground: 160 30% 15%;
+
+    /* Accent: Italian Green for contrast */
+    --accent: 145 63% 32%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Muted tones */
+    --muted: 40 15% 94%;
+    --muted-foreground: 160 20% 35%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 160 48% 20%;
+
+    --radius: 0.75rem;
+
+    /* Custom Design Tokens */
+    --gold: 42 50% 58%;
+    --gold-light: 42 60% 75%;
+    --gold-dark: 42 45% 38%;
+    
+    --portugal-green: 160 48% 20%;
+    --portugal-red: 0 72% 45%;
+    
+    --italy-green: 145 63% 32%;
+    --italy-red: 0 80% 48%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(160 48% 20%) 0%, hsl(160 40% 28%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(42 50% 58%) 0%, hsl(42 60% 68%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(40 20% 98%) 0%, hsl(40 15% 94%) 100%);
+    --gradient-overlay: linear-gradient(180deg, rgba(27, 77, 62, 0.85) 0%, rgba(27, 77, 62, 0.95) 100%);
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 8px -2px hsl(160 30% 15% / 0.08);
+    --shadow-md: 0 8px 24px -8px hsl(160 30% 15% / 0.12);
+    --shadow-lg: 0 16px 48px -12px hsl(160 30% 15% / 0.16);
+    --shadow-gold: 0 8px 32px -8px hsl(42 50% 58% / 0.3);
+    
+    /* Typography */
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 160 30% 8%;
+    --foreground: 40 20% 95%;
+
+    --card: 160 25% 12%;
+    --card-foreground: 40 20% 95%;
+
+    --popover: 160 25% 12%;
+    --popover-foreground: 40 20% 95%;
+
+    --primary: 42 50% 58%;
+    --primary-foreground: 160 30% 10%;
+
+    --secondary: 160 40% 25%;
+    --secondary-foreground: 40 20% 95%;
+
+    --accent: 145 50% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 160 20% 18%;
+    --muted-foreground: 40 15% 65%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 160 20% 20%;
+    --input: 160 20% 20%;
+    --ring: 42 50% 58%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
 }
 
-* { box-sizing: border-box; }
+@layer base {
+  * {
+    @apply border-border;
+  }
 
-body {
-  margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
-  color: var(--texto);
-  line-height: 1.65;
-  background: #fff;
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
 }
 
-.site-header { background: var(--verde); color: #fff; padding: 1rem 1.5rem; }
-.site-header .brand { font-weight: 700; font-size: 1.2rem; }
-.site-header .brand span { color: var(--dourado); }
-.site-header .nav-links { margin-top: 0.5rem; }
-.site-header .nav-links a { color: #fff; margin-right: 1.25rem; text-decoration: none; font-size: 0.95rem; }
-.site-header .nav-links a:hover { text-decoration: underline; }
+@layer components {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(42 60% 65%) 0%, hsl(42 70% 75%) 100%);
+  }
 
-main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+  .hero-overlay {
+    background: var(--gradient-overlay);
+  }
 
-h1 { font-size: 2.1rem; line-height: 1.25; margin-bottom: 0.75rem; }
-h2 { font-size: 1.5rem; margin-top: 2.2rem; }
-h3 { font-size: 1.15rem; }
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
 
-/* Answer-first: a resposta directa fica na primeira dobra, em texto plano,
-   extraível por motores de busca e por sistemas de resposta. */
-.answer-block {
-  background: var(--creme);
-  border-left: 4px solid var(--dourado);
-  padding: 1rem 1.25rem;
-  margin: 1.25rem 0 2rem;
-  font-size: 1.02rem;
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .btn-glow {
+    @apply transition-all duration-300;
+  }
+
+  .btn-glow:hover {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .section-padding {
+    @apply py-8 md:py-12 lg:py-16;
+  }
+
+  .container-width {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
 }
 
-.meta-line { color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; }
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
 
-a { color: var(--verde); }
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
 
-table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
-th, td { border: 1px solid #ddd; padding: 0.5rem 0.75rem; text-align: left; font-size: 0.92rem; }
-th { background: var(--creme); }
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
-blockquote {
-  border-left: 3px solid var(--dourado);
-  margin: 1.25rem 0;
-  padding: 0.25rem 1rem;
-  color: #444;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
+  .stagger-5 { animation-delay: 0.5s; }
 }
 
-.faq-item { margin-bottom: 1.25rem; }
-
-.site-footer {
-  background: var(--verde);
-  color: #cfd8d2;
-  padding: 2rem 1.5rem;
-  font-size: 0.85rem;
-  text-align: center;
-  margin-top: 3rem;
+/* Respeita a preferência de movimento reduzido do utilizador (acessibilidade
+   e enjoo de movimento) — sem isto, todas as animações e transições do site
+   corriam sempre, ignorando por completo essa preferência do sistema. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
-.site-footer .footer-note { opacity: 0.75; max-width: 640px; margin: 0.5rem auto 0; }
-
-/* M2 — quiz, formulário de contacto */
-.quiz-card {
-  background: #f6f3ea;
-  border: 1px solid #e5e0d0;
-  border-radius: 1rem;
-  padding: 1.5rem;
-}
-.quiz-category {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #163c2c;
-  letter-spacing: 0.05em;
-}
-.quiz-option-button {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  text-align: left;
-  padding: 0.9rem 1.1rem;
-  border-radius: 0.75rem;
-  border: 1px solid #ddd;
-  background: #fff;
-  cursor: pointer;
-  font-size: 1rem;
-  font-family: inherit;
-}
-.quiz-option-button:hover { border-color: #163c2c; background: #fafaf5; }
-.quiz-comparison-button {
-  text-align: left;
-  width: 100%;
-  background: #fff;
-  border: 2px solid #ddd;
-  border-radius: 1rem;
-  padding: 1.25rem;
-  cursor: pointer;
-  font-family: inherit;
-}
-.quiz-comparison-button:hover { border-color: #163c2c; }
-.quiz-nav-button {
-  background: transparent;
-  border: 1px solid #ddd;
-  padding: 0.5rem 1rem;
-  border-radius: 0.6rem;
-  cursor: pointer;
-  font-family: inherit;
-}
-.quiz-nav-button:disabled { opacity: 0.4; cursor: default; }
-
-form label { font-size: 0.9rem; font-weight: 600; }
-form input, form textarea {
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
-  font-family: inherit;
-  font-size: 1rem;
-}
-form button[type="submit"] {
-  background: #163c2c;
-  color: #fff;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.6rem;
-  font-weight: 700;
-  cursor: pointer;
-  font-family: inherit;
-}
-form button[type="submit"]:disabled { opacity: 0.6; cursor: default; }
 
 /* ---------------------------------------------------------------------------
-   Responsividade — mobile-first a partir daqui.
-   O CSS do M1 assumia desktop: largura fixa de 760px, nav em linha e tabelas
-   a 100% sem tratamento de excesso. Com os quadros do IRN (6 colunas, 22 linhas)
-   isso rebenta em ecrã de telemóvel.
+   Corpo dos artigos — o MDX é convertido em HTML por `marked` e injectado num
+   <article>. Sem estilos, sai texto cru. Isto dá-lhe a tipografia do original.
    --------------------------------------------------------------------------- */
 
-/* Tabelas largas: rolam na horizontal em vez de esmagar ou transbordar.
-   O wrapper é aplicado por JS progressivo; o fallback é a própria tabela rolar. */
-.table-scroll,
-main table {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-main table {
-  border-collapse: collapse;
-  margin: 1rem 0;
-  font-size: 0.95rem;
-}
-
-main table th,
-main table td {
-  white-space: nowrap;
-  padding: 0.5rem 0.7rem;
-}
-
-/* A primeira coluna costuma ser o rótulo e é a que precisa de quebrar. */
-main table td:first-child,
-main table th:first-child {
-  white-space: normal;
-  min-width: 12rem;
-}
-
-/* Imagens e blocos de código nunca forçam scroll da página inteira. */
-main img,
-main pre {
-  max-width: 100%;
-  height: auto;
-  overflow-x: auto;
-}
-
-/* Quebrar URLs longos em vez de estourar a coluna. */
-main a {
-  overflow-wrap: anywhere;
-}
-
-@media (max-width: 900px) {
+@layer components {
   main {
-    padding: 1.5rem 1.1rem 3rem;
-  }
-}
-
-@media (max-width: 640px) {
-  body {
-    line-height: 1.6;
+    @apply container-width py-8 md:py-12 max-w-4xl;
   }
 
-  main {
-    padding: 1.25rem 1rem 2.5rem;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  h2 {
-    font-size: 1.28rem;
-    margin-top: 1.8rem;
-  }
-
-  h3 {
-    font-size: 1.08rem;
-  }
-
-  /* Navegação: uma coluna tocável em vez de links colados em linha. */
-  .site-header {
-    padding: 0.9rem 1rem;
-  }
-
-  .site-header .nav-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.35rem 1rem;
-  }
-
-  .site-header .nav-links a {
-    margin-right: 0;
-    padding: 0.35rem 0;
-    font-size: 0.92rem;
+  main > h1 {
+    @apply font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-primary leading-tight mb-6;
   }
 
   .answer-block {
-    padding: 0.85rem 1rem;
+    @apply bg-muted border-l-4 border-gold rounded-r-lg p-5 md:p-6 mb-8 text-base md:text-lg text-muted-foreground;
   }
 
-  main table {
-    font-size: 0.88rem;
+  .meta-line {
+    @apply text-sm text-muted-foreground mb-6;
   }
 
-  main table td:first-child,
-  main table th:first-child {
-    min-width: 9rem;
+  .meta-line a {
+    @apply text-primary hover:text-gold underline underline-offset-2 transition-colors;
   }
 
-  /* Footer em coluna única. */
-  .site-footer nav ul {
-    padding-left: 1.1rem;
+  main article {
+    @apply text-base md:text-lg leading-relaxed text-foreground;
+  }
+
+  main article h2 {
+    @apply font-display text-2xl md:text-3xl font-semibold text-primary mt-12 mb-4 pb-2 border-b border-border;
+  }
+
+  main article h3 {
+    @apply font-display text-xl md:text-2xl font-semibold text-primary mt-8 mb-3;
+  }
+
+  main article h4 {
+    @apply font-semibold text-lg text-foreground mt-6 mb-2;
+  }
+
+  main article p {
+    @apply mb-5;
+  }
+
+  main article a {
+    @apply text-primary font-medium underline underline-offset-2 hover:text-gold transition-colors;
+  }
+
+  main article strong {
+    @apply font-semibold text-foreground;
+  }
+
+  main article ul {
+    @apply list-disc pl-6 mb-5 space-y-2;
+  }
+
+  main article ol {
+    @apply list-decimal pl-6 mb-5 space-y-2;
+  }
+
+  /* Tabelas: o Vite não as renderizava de todo. Aqui rolam em vez de rebentar. */
+  main article table {
+    @apply w-full my-6 text-sm border-collapse;
+  }
+
+  main article thead {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  main article th {
+    @apply text-left font-semibold px-4 py-3;
+  }
+
+  main article td {
+    @apply px-4 py-3 border-b border-border align-top;
+  }
+
+  main article tbody tr:nth-child(even) {
+    @apply bg-muted/50;
+  }
+
+  main article blockquote {
+    @apply border-l-4 border-gold bg-muted/60 rounded-r-lg px-5 py-4 my-6 text-muted-foreground;
+  }
+
+  main article blockquote p:last-child {
+    @apply mb-0;
+  }
+
+  main article pre {
+    @apply bg-primary text-primary-foreground rounded-lg p-4 my-6 overflow-x-auto text-sm leading-relaxed;
+  }
+
+  main article code {
+    @apply font-mono text-[0.9em];
+  }
+
+  main article :not(pre) > code {
+    @apply bg-muted px-1.5 py-0.5 rounded text-foreground;
+  }
+
+  main article hr {
+    @apply my-10 border-border;
+  }
+
+  main article img {
+    @apply rounded-lg my-6 max-w-full h-auto;
+  }
+
+  .author-bio {
+    @apply mt-12 rounded-lg border border-border bg-muted/60 p-6;
+  }
+
+  .author-bio h2 {
+    @apply font-display text-xl font-semibold text-primary mb-1;
+  }
+
+  .author-bio .author-credential {
+    @apply text-sm text-gold-dark font-medium mb-3;
+  }
+
+  .author-bio p {
+    @apply text-sm text-muted-foreground mb-2;
+  }
+
+  .author-bio a {
+    @apply text-primary font-medium hover:text-gold transition-colors;
+  }
+
+  .blog-index {
+    @apply list-none p-0 space-y-8;
+  }
+
+  .blog-index li {
+    @apply border-b border-border pb-8;
+  }
+
+  .blog-index h2 {
+    @apply font-display text-xl md:text-2xl font-semibold mb-2;
+  }
+
+  .blog-index h2 a {
+    @apply text-primary hover:text-gold transition-colors no-underline;
   }
 }
 
-/* Alvos de toque com pelo menos 44px em qualquer ecrã táctil. */
-@media (pointer: coarse) {
-  .site-header .nav-links a,
-  .site-footer a {
-    display: inline-block;
-    min-height: 44px;
-    line-height: 44px;
+/* Tabelas largas rolam horizontalmente em ecrãs pequenos. */
+@media (max-width: 768px) {
+  main article table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
   }
-}
 
-/* Respeitar quem desactivou animações no sistema. */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
+  main article table td:first-child,
+  main article table th:first-child {
+    white-space: normal;
+    min-width: 10rem;
   }
 }
