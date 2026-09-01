@@ -36,6 +36,7 @@ export function organizationSchema() {
           "https://wa.me/351913134260",
           "https://instagram.com/kathiavianna.adv",
           "https://facebook.com/kathiavianna.advogada",
+          "https://pt.linkedin.com/in/kathiavianna",
         ],
       },
       {
@@ -73,6 +74,7 @@ export function personSchema() {
       "https://wa.me/351913134260",
       "https://instagram.com/kathiavianna.adv",
       "https://facebook.com/kathiavianna.advogada",
+      "https://pt.linkedin.com/in/kathiavianna",
     ],
   };
 }

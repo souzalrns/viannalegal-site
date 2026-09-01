@@ -84,6 +84,11 @@ export function SiteFooter() {
               Facebook
             </a>
           </li>
+          <li>
+            <a href="https://pt.linkedin.com/in/kathiavianna" target="_blank" rel="noopener noreferrer">
+              LinkedIn de Kathia Vianna
+            </a>
+          </li>
         </ul>
       </nav>
 

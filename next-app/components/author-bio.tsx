@@ -19,6 +19,14 @@ export function AuthorBio({ authorName }: { authorName?: string }) {
       </p>
       <p>
         <a href="/quem-somos">Conhecer a Kathia →</a>
+        {" · "}
+        <a
+          href="https://pt.linkedin.com/in/kathiavianna"
+          target="_blank"
+          rel="noopener noreferrer me"
+        >
+          LinkedIn
+        </a>
       </p>
     </aside>
   );

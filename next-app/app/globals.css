@@ -136,3 +136,134 @@ form button[type="submit"] {
   font-family: inherit;
 }
 form button[type="submit"]:disabled { opacity: 0.6; cursor: default; }
+
+/* ---------------------------------------------------------------------------
+   Responsividade — mobile-first a partir daqui.
+   O CSS do M1 assumia desktop: largura fixa de 760px, nav em linha e tabelas
+   a 100% sem tratamento de excesso. Com os quadros do IRN (6 colunas, 22 linhas)
+   isso rebenta em ecrã de telemóvel.
+   --------------------------------------------------------------------------- */
+
+/* Tabelas largas: rolam na horizontal em vez de esmagar ou transbordar.
+   O wrapper é aplicado por JS progressivo; o fallback é a própria tabela rolar. */
+.table-scroll,
+main table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+main table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+main table th,
+main table td {
+  white-space: nowrap;
+  padding: 0.5rem 0.7rem;
+}
+
+/* A primeira coluna costuma ser o rótulo e é a que precisa de quebrar. */
+main table td:first-child,
+main table th:first-child {
+  white-space: normal;
+  min-width: 12rem;
+}
+
+/* Imagens e blocos de código nunca forçam scroll da página inteira. */
+main img,
+main pre {
+  max-width: 100%;
+  height: auto;
+  overflow-x: auto;
+}
+
+/* Quebrar URLs longos em vez de estourar a coluna. */
+main a {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 1.5rem 1.1rem 3rem;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    line-height: 1.6;
+  }
+
+  main {
+    padding: 1.25rem 1rem 2.5rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.28rem;
+    margin-top: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.08rem;
+  }
+
+  /* Navegação: uma coluna tocável em vez de links colados em linha. */
+  .site-header {
+    padding: 0.9rem 1rem;
+  }
+
+  .site-header .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+  }
+
+  .site-header .nav-links a {
+    margin-right: 0;
+    padding: 0.35rem 0;
+    font-size: 0.92rem;
+  }
+
+  .answer-block {
+    padding: 0.85rem 1rem;
+  }
+
+  main table {
+    font-size: 0.88rem;
+  }
+
+  main table td:first-child,
+  main table th:first-child {
+    min-width: 9rem;
+  }
+
+  /* Footer em coluna única. */
+  .site-footer nav ul {
+    padding-left: 1.1rem;
+  }
+}
+
+/* Alvos de toque com pelo menos 44px em qualquer ecrã táctil. */
+@media (pointer: coarse) {
+  .site-header .nav-links a,
+  .site-footer a {
+    display: inline-block;
+    min-height: 44px;
+    line-height: 44px;
+  }
+}
+
+/* Respeitar quem desactivou animações no sistema. */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
