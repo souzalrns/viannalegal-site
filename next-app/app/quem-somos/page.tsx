@@ -14,11 +14,11 @@ export const metadata: Metadata = buildMetadata({
 
 export default function QuemSomosPage() {
   return (
-    <main>
+    <main className="container-width py-10 sm:py-14">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(personSchema())} />
-      <h1>{content.h1}</h1>
+      <h1 className="mb-5 text-3xl leading-tight text-primary sm:text-4xl">{content.h1}</h1>
       <div className="answer-block">{content.answerBlock}</div>
-      <article dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
+      <article className="article-body" dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
     </main>
   );
 }

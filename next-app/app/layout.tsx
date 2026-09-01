@@ -4,6 +4,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { SITE_URL } from "@/lib/seo";
 import "./globals.css";
 
+
 // Sem isto o telemóvel renderiza a 980px e encolhe tudo — as media queries
 // nunca chegam a disparar.
 export const viewport: Viewport = {
@@ -19,9 +20,18 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body>
+      <head>
+        {/* Mesmas fontes do site original. */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className="flex min-h-screen flex-col">
         <SiteHeader />
-        {children}
+        <div className="flex-1">{children}</div>
         <SiteFooter />
       </body>
     </html>

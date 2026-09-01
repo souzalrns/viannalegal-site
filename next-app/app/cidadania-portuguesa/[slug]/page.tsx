@@ -67,7 +67,7 @@ export default async function ViaPage({ params }: Props) {
   const answerBlock = `${content.whoQualifiesIntro} Prazo estimado: ${content.heroDuration}.`;
 
   return (
-    <main>
+    <main className="container-width py-10 sm:py-14">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(breadcrumbSchema)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(serviceSchema)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(faqSchema(content.faqs.map((f) => ({ q: f.question, a: f.answer }))))} />

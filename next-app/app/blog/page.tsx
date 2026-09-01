@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function BlogIndexPage() {
   return (
-    <main>
+    <main className="container-width py-10 sm:py-14">
       <h1>Blog — Cidadania Portuguesa</h1>
       <div className="answer-block">
         Artigos sobre cidadania portuguesa para brasileiros, escritos pela advogada Kathia

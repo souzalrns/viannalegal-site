@@ -53,7 +53,7 @@ export default async function BlogPostPage({ params }: Props) {
   });
 
   return (
-    <main>
+    <main className="container-width py-10 sm:py-14">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(postingSchema)} />
       {content.faq.length > 0 && (
         <script
@@ -77,14 +77,14 @@ export default async function BlogPostPage({ params }: Props) {
         <a href="/">Início</a> / <a href="/blog">Blog</a>
       </p>
 
-      <h1>{content.h1}</h1>
+      <h1 className="mb-5 text-3xl leading-tight text-primary sm:text-4xl">{content.h1}</h1>
       <p className="meta-line">
         Por {content.author ?? "ViannaLegal"} · Actualizado em{" "}
         {content.dateModified ?? content.datePublished}
       </p>
       <div className="answer-block">{content.answerBlock}</div>
 
-      <article dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
+      <article className="article-body" dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
 
       {content.faq.length > 0 && (
         <section aria-label="Perguntas frequentes">

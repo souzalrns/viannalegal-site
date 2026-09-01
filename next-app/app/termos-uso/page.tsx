@@ -13,10 +13,10 @@ export const metadata: Metadata = buildMetadata({
 
 export default function TermosUsoPage() {
   return (
-    <main>
-      <h1>{content.h1}</h1>
+    <main className="container-width py-10 sm:py-14">
+      <h1 className="mb-5 text-3xl leading-tight text-primary sm:text-4xl">{content.h1}</h1>
       <div className="answer-block">{content.answerBlock}</div>
-      <article dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
+      <article className="article-body" dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
     </main>
   );
 }

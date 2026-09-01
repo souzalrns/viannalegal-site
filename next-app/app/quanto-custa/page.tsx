@@ -14,16 +14,16 @@ export const metadata: Metadata = buildMetadata({
 
 export default function QuantoCustaPage() {
   return (
-    <main>
+    <main className="container-width py-10 sm:py-14">
       {content.faq.length > 0 && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={jsonLd(faqSchema(content.faq))}
         />
       )}
-      <h1>{content.h1}</h1>
+      <h1 className="mb-5 text-3xl leading-tight text-primary sm:text-4xl">{content.h1}</h1>
       <div className="answer-block">{content.answerBlock}</div>
-      <article dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
+      <article className="article-body" dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
 
       {content.faq.length > 0 && (
         <section aria-label="Perguntas frequentes">

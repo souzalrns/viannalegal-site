@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function ContatoPage() {
   return (
-    <main>
+    <main className="container-width py-10 sm:py-14">
       <h1>Entre em contacto</h1>
       <div className="answer-block">
         Como posso falar com a ViannaLegal? Preencha o formulário abaixo com o seu caso — a Kathia
