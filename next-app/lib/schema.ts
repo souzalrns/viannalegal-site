@@ -7,12 +7,36 @@ export function organizationSchema() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
+        "@type": "LegalService",
         "@id": `${SITE_URL}/#organization`,
         name: "ViannaLegal",
+        alternateName: "Kathia Vianna — Cidadania Portuguesa",
         url: SITE_URL,
+        logo: `${SITE_URL}/og-image.jpg`,
+        image: `${SITE_URL}/og-image.jpg`,
         description:
           "Assessoria jurídica especializada em cidadania portuguesa para brasileiros, conduzida pela advogada Kathia Vianna (OA n.º 56666p), com actuação presencial em Portugal.",
+        telephone: "+351-913-134-260",
+        email: "contato@viannalegal.com.br",
+        priceRange: "$$",
+        areaServed: [
+          { "@type": "Country", name: "Brazil" },
+          { "@type": "Country", name: "Portugal" },
+        ],
+        availableLanguage: "Portuguese",
+        knowsAbout: [
+          "Cidadania Portuguesa",
+          "Nacionalidade Portuguesa",
+          "Lei Orgânica 1/2026",
+          "Dupla Cidadania Brasil Portugal",
+          "Passaporte Europeu",
+        ],
+        founder: { "@id": `${SITE_URL}/#kathia` },
+        sameAs: [
+          "https://wa.me/351913134260",
+          "https://instagram.com/kathiavianna.adv",
+          "https://facebook.com/kathiavianna.advogada",
+        ],
       },
       {
         "@type": "WebSite",
@@ -31,6 +55,7 @@ export function personSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": `${SITE_URL}/#kathia`,
     name: "Kathia Vianna",
     jobTitle: "Advogada",
     worksFor: { "@type": "Organization", name: "ViannaLegal" },
@@ -40,8 +65,15 @@ export function personSchema() {
       { "@type": "CollegeOrUniversity", name: "Universidade de Lisboa" },
       { "@type": "CollegeOrUniversity", name: "Universidade Portucalense" },
     ],
-    knowsAbout: "Direito da Nacionalidade Portuguesa",
+    knowsAbout: ["Direito da Nacionalidade Portuguesa", "Cidadania Portuguesa", "Registos e Notariado"],
     url: `${SITE_URL}/quem-somos`,
+    telephone: "+351-913-134-260",
+    email: "contato@viannalegal.com.br",
+    sameAs: [
+      "https://wa.me/351913134260",
+      "https://instagram.com/kathiavianna.adv",
+      "https://facebook.com/kathiavianna.advogada",
+    ],
   };
 }
 
@@ -91,8 +123,10 @@ export function blogPostingSchema(opts: {
     headline: opts.headline,
     description: opts.description,
     url: `${SITE_URL}${opts.path}`,
-    author: { "@type": "Person", name: opts.author },
-    publisher: { "@type": "Organization", name: "ViannaLegal" },
+    author: { "@type": "Person", "@id": `${SITE_URL}/#kathia`, name: opts.author },
+    publisher: { "@id": `${SITE_URL}/#organization` },
+    image: `${SITE_URL}/og-image.jpg`,
+    isPartOf: { "@id": `${SITE_URL}/#website` },
     datePublished: opts.datePublished,
     dateModified: opts.dateModified,
     inLanguage: "pt-BR",
@@ -102,4 +136,18 @@ export function blogPostingSchema(opts: {
 /** Utilitário: injecta JSON-LD no HTML inicial. */
 export function jsonLd(schema: object) {
   return { __html: JSON.stringify(schema) };
+}
+
+/** BreadcrumbList — usado no blog e nas vias. */
+export function breadcrumbSchema(trail: { name: string; path: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: trail.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      item: `${SITE_URL}${item.path}`,
+    })),
+  };
 }

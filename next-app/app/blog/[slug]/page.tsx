@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getBlogPost, getBlogSlugs } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 import { AuthorBio } from "@/components/author-bio";
-import { blogPostingSchema, faqSchema, jsonLd } from "@/lib/schema";
+import { blogPostingSchema, breadcrumbSchema, faqSchema, jsonLd } from "@/lib/schema";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -61,6 +61,21 @@ export default async function BlogPostPage({ params }: Props) {
           dangerouslySetInnerHTML={jsonLd(faqSchema(content.faq))}
         />
       )}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={jsonLd(
+          breadcrumbSchema([
+            { name: "Início", path: "/" },
+            { name: "Blog", path: "/blog" },
+            { name: content.title, path: content.routePath },
+          ])
+        )}
+      />
+
+      <p className="meta-line">
+        <a href="/">Início</a> / <a href="/blog">Blog</a>
+      </p>
 
       <h1>{content.h1}</h1>
       <p className="meta-line">

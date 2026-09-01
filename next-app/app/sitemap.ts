@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { serviceSlugs } from "@/content/vias-data";
-import { getBlogSlugs } from "@/lib/content";
+import { listBlogPosts } from "@/lib/content";
 
 const SITE_URL = "https://viannalegal.com.br";
 
@@ -27,8 +27,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  const blogRoutes: MetadataRoute.Sitemap = getBlogSlugs().map((slug) => ({
-    url: `${SITE_URL}/blog/${slug}`,
+  const blogRoutes: MetadataRoute.Sitemap = listBlogPosts().map((post) => ({
+    url: `${SITE_URL}${post.routePath}`,
+    lastModified: post.dateModified ?? post.datePublished,
     changeFrequency: "monthly",
     priority: 0.6,
   }));

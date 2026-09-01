@@ -27,11 +27,13 @@ export function buildMetadata({ path, title, description, ogType = "website" }: 
       siteName: "ViannaLegal",
       locale: "pt_BR",
       type: ogType,
+      images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: "ViannaLegal — Cidadania Portuguesa" }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [`${SITE_URL}/og-image.jpg`],
     },
   };
 }
