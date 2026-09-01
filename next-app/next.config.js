@@ -46,6 +46,11 @@ const nextConfig = {
       { source: "/blog/cidadania-portuguesa-para-brasileiros-no-nordeste", destination: "/cidadania-portuguesa/quem-mora-no-brasil", permanent: true },
       { source: "/blog/cidadania-portuguesa-para-brasileiros-em-brasilia-e-centro-oeste", destination: "/cidadania-portuguesa/quem-mora-no-brasil", permanent: true },
 
+
+      // Rotas legadas do Vite -> canónicas do lab (duplicados de rota)
+      { source: "/quiz", destination: "/quiz-elegibilidade", permanent: true },
+      { source: "/busca-documentos", destination: "/documentos", permanent: true },
+
       // BLOQUEADO — NÃO adicionar sem revisão jurídica da Kathia:
       // { source: "/blog/bisnetos-via1-vs-via2-cidadania-portuguesa", destination: "/cidadania-portuguesa/bisnetos", permanent: true },
     ];

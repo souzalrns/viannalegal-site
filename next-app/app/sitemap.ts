@@ -16,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/prazos-e-acompanhamento`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/cidadania-portuguesa/quem-mora-no-brasil`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/blog`, changeFrequency: "weekly", priority: 0.6 },
+    { url: `${SITE_URL}/politica-privacidade`, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${SITE_URL}/termos-uso`, changeFrequency: "yearly", priority: 0.3 },
   ];
 
   const viaRoutes: MetadataRoute.Sitemap = serviceSlugs.map((slug) => ({
