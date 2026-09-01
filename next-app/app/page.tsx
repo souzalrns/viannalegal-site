@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
-import { organizationSchema, jsonLd } from "@/lib/schema";
+import { organizationSchema, faqSchema, jsonLd } from "@/lib/schema";
 
 const content = getPage("home");
 
@@ -16,6 +16,9 @@ export default function HomePage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(organizationSchema())} />
+      {content.faq.length > 0 && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(faqSchema(content.faq))} />
+      )}
       <h1>{content.h1}</h1>
       <div className="answer-block">{content.answerBlock}</div>
       <article dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
