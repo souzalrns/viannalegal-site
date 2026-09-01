@@ -2,8 +2,38 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import {
+  formatPrazo,
+  formatTaxa,
+  tabelaPrazosMarkdown,
+  metaPrazosMarkdown,
+} from "@/content/prazos-data";
 
 marked.setOptions({ gfm: true, breaks: false });
+
+/**
+ * Resolve tokens de dados centralizados no markdown, em tempo de build.
+ * Nenhum prazo ou taxa deve ser escrito à mão numa página ou artigo:
+ *   {{prazo:netos-maiores}}  -> "42 a 48 meses"
+ *   {{taxa:conjuges}}        -> "€250"
+ *   {{prazos:tabela}}        -> tabela markdown completa
+ *   {{prazos:meta}}          -> rodapé de fonte e data
+ * Uma chave desconhecida faz o build falhar, em vez de publicar um vazio.
+ */
+export function resolveTokens(md: string, origem: string): string {
+  return md
+    .replace(/\{\{prazos:tabela\}\}/g, () => tabelaPrazosMarkdown())
+    .replace(/\{\{prazos:meta\}\}/g, () => metaPrazosMarkdown())
+    .replace(/\{\{(prazo|taxa):([a-z0-9-]+)\}\}/g, (_m, tipo, chave) => {
+      try {
+        return tipo === "prazo" ? formatPrazo(chave) : formatTaxa(chave);
+      } catch {
+        throw new Error(
+          `[content] token {{${tipo}:${chave}}} em "${origem}" não existe em prazos-data.ts`
+        );
+      }
+    });
+}
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
@@ -47,20 +77,30 @@ function parseFile(fullPath: string, slug: string): ContentPiece {
     }
   }
 
+  // Os tokens são resolvidos também no frontmatter: description, answer_block e
+  // as FAQ alimentam metadados e JSON-LD, e não podem publicar "{{prazo:...}}".
+  const tk = (v: unknown) =>
+    typeof v === "string" ? resolveTokens(v, slug) : v;
+
   return {
     slug,
     routePath: data.route_path,
-    title: data.title,
-    description: data.description,
-    h1: data.h1,
-    answerBlock: data.answer_block,
-    uniquePromise: data.unique_promise,
+    title: tk(data.title) as string,
+    description: tk(data.description) as string,
+    h1: tk(data.h1) as string,
+    answerBlock: tk(data.answer_block) as string,
+    uniquePromise: tk(data.unique_promise) as string,
     ogType: data.og_type ?? "website",
-    faq: Array.isArray(data.faq) ? data.faq : [],
+    faq: Array.isArray(data.faq)
+      ? data.faq.map((f: { q: string; a: string }) => ({
+          q: tk(f.q) as string,
+          a: tk(f.a) as string,
+        }))
+      : [],
     author: data.author,
     datePublished: data.date_published,
     dateModified: data.date_modified,
-    bodyHtml: marked.parse(content) as string,
+    bodyHtml: marked.parse(resolveTokens(content, slug)) as string,
   };
 }
 
