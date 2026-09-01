@@ -9,6 +9,7 @@ export function SiteHeader() {
           <a href="/">Início</a>
           <a href="/cidadania-portuguesa">Cidadania Portuguesa</a>
           <a href="/quanto-custa">Quanto Custa</a>
+          <a href="/lei-da-nacionalidade-2026">Lei 2026</a>
           <a href="/blog">Blog</a>
           <a href="/quem-somos">Quem Somos</a>
           <a href="/documentos">Documentos</a>

@@ -18,6 +18,7 @@ const site = [
   { href: "/quanto-custa", label: "Quanto custa" },
   { href: "/documentos", label: "Documentos" },
   { href: "/prazos-e-acompanhamento", label: "Prazos e acompanhamento" },
+  { href: "/lei-da-nacionalidade-2026", label: "Lei da Nacionalidade 2026" },
   { href: "/quiz-elegibilidade", label: "Quiz de elegibilidade" },
   { href: "/blog", label: "Blog" },
   { href: "/quem-somos", label: "Quem somos" },
