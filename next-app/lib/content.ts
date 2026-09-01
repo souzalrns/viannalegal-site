@@ -7,6 +7,8 @@ import {
   formatTaxa,
   tabelaPrazosMarkdown,
   metaPrazosMarkdown,
+  tabelaFilasMarkdown,
+  amplitudeFila,
 } from "@/content/prazos-data";
 
 marked.setOptions({ gfm: true, breaks: false });
@@ -24,6 +26,8 @@ export function resolveTokens(md: string, origem: string): string {
   return md
     .replace(/\{\{prazos:tabela\}\}/g, () => tabelaPrazosMarkdown())
     .replace(/\{\{prazos:meta\}\}/g, () => metaPrazosMarkdown())
+    .replace(/\{\{filas:tabela\}\}/g, () => tabelaFilasMarkdown())
+    .replace(/\{\{fila:([a-zç()\s-]+?)\}\}/g, (_m, via) => amplitudeFila(via.trim()))
     .replace(/\{\{(prazo|taxa):([a-z0-9-]+)\}\}/g, (_m, tipo, chave) => {
       try {
         return tipo === "prazo" ? formatPrazo(chave) : formatTaxa(chave);
