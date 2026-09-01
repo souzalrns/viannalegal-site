@@ -7,7 +7,7 @@ export const metadata: Metadata = buildMetadata({
   path: "/quiz-elegibilidade",
   title: "Quiz — Tenho Direito à Cidadania Portuguesa? | ViannaLegal",
   description:
-    "Responda 5 perguntas e saiba em 2 minutos se tem direito à cidadania portuguesa e qual é o caminho mais adequado para o seu perfil. Actualizado com a Lei Orgânica 1/2026.",
+    "Cinco perguntas, dois minutos: saiba se tem direito à cidadania portuguesa e qual das sete vias se aplica ao seu caso, segundo a Lei Orgânica 1/2026.",
   ogType: "website",
 });
 
