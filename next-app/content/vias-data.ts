@@ -350,10 +350,10 @@ export const servicesContent: Record<string, ServiceContent> = {
     breadcrumbLabel: 'Cidadania para Bisnetos',
     heroTitle: 'Cidadania Portuguesa para Bisnetos',
     heroSubtitle:
-      'Até maio de 2026, bisnetos de portugueses só conseguiam a cidadania de forma sequencial. A Lei Orgânica 1/2026 abriu uma via direta de atribuição — veja o que isso muda na prática.',
+      'Até maio de 2026, bisnetos de portugueses só conseguiam a cidadania de forma sequencial. A Lei Orgânica 1/2026 abriu uma via própria de naturalização — veja o que isso muda na prática.',
     heroDuration: 'A confirmar conforme regulamentação',
     intro: [
-      'Esta é uma das mudanças mais relevantes — e menos divulgadas — da <a href="https://dre.pt" target="_blank" rel="noopener noreferrer">Lei Orgânica n.º 1/2026</a>, em vigor desde 18 de maio de 2026: bisnetos de portugueses passaram a ter via própria de atribuição da nacionalidade, mediante prova de vínculo efetivo com a comunidade portuguesa. Antes dessa lei, o caminho era sequencial — o bisneto só conseguia a cidadania depois que o próprio neto (pai ou mãe do bisneto) já tivesse formalizado a nacionalidade portuguesa.',
+      'Esta é uma das mudanças mais relevantes — e menos divulgadas — da <a href="https://dre.pt" target="_blank" rel="noopener noreferrer">Lei Orgânica n.º 1/2026</a>, em vigor desde 18 de maio de 2026: bisnetos de portugueses passaram a ter previsão legal expressa no artigo 6.º n.º 8: o Governo pode conceder a nacionalidade, com dispensa do prazo geral de residência, aos descendentes em 3.º grau na linha recta de portugueses originários que tenham residência legal em território nacional há pelo menos cinco anos. É naturalização, não atribuição — e é discricionária. Antes dessa lei, o caminho era sequencial — o bisneto só conseguia a cidadania depois que o próprio neto (pai ou mãe do bisneto) já tivesse formalizado a nacionalidade portuguesa.',
       'Como a regulamentação prática dessa via ainda está em fase inicial de aplicação pelas conservatórias, os prazos e o nível exato de exigência documental para bisnetos podem ser ajustados nos próximos meses. Recomendamos uma análise atualizada do seu caso específico antes de presumir qualquer prazo.',
       'Na prática, isso abre uma porta para milhares de famílias brasileiras que, até então, ficavam de fora por não terem um neto com processo já concluído.',
     ],

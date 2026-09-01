@@ -130,16 +130,16 @@ export const PRAZOS_IRN: PrazoIRN[] = [
   },
   {
     key: "bisnetos",
-    via: "Bisneto(a) — via directa (art. 6.º n.º 8)",
+    via: "Bisneto(a) — naturalização (art. 6.º n.º 8)",
     slug: "bisnetos",
     prazo: "30 meses",
     prazoMin: 30,
     prazoMax: 30,
-    taxa: "€175",
-    verba: "18.º/2.1.1",
+    taxa: "€250",
+    verba: "18.º/2.2.1",
     complexidade: "alta",
     nota:
-      "Fila da Conservatória dos Registos Centrais. Regulamentação da Lei 1/2026 aguardada em breve. Exige 5 anos de residência em Portugal.",
+      "Naturalização discricionária (o Governo PODE conceder), não atribuição. Exige 5 anos de residência legal em Portugal. Fila da Conservatória dos Registos Centrais.",
   },
   {
     key: "conjuges",
