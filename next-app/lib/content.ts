@@ -83,3 +83,12 @@ export function getBlogSlugs(): string[] {
     .filter((f) => f.endsWith(".mdx"))
     .map((f) => f.replace(/\.mdx$/, ""));
 }
+
+/** Metadados de todos os posts, para a listagem /blog. Ordenado por data desc. */
+export function listBlogPosts(): ContentPiece[] {
+  return getBlogSlugs()
+    .map((slug) => getBlogPost(slug))
+    .sort((a, b) =>
+      String(b.datePublished ?? "").localeCompare(String(a.datePublished ?? ""))
+    );
+}

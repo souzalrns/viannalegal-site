@@ -9,6 +9,7 @@ export function SiteHeader() {
           <a href="/">Início</a>
           <a href="/cidadania-portuguesa">Cidadania Portuguesa</a>
           <a href="/quanto-custa">Quanto Custa</a>
+          <a href="/blog">Blog</a>
           <a href="/quem-somos">Quem Somos</a>
           <a href="/documentos">Documentos</a>
           <a href="/quiz-elegibilidade">Quiz</a>

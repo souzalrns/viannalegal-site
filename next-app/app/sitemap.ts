@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/blog`, changeFrequency: "weekly", priority: 0.6 },
     { url: `${SITE_URL}/politica-privacidade`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE_URL}/termos-uso`, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${SITE_URL}/informacoes-legais`, changeFrequency: "yearly", priority: 0.3 },
   ];
 
   const viaRoutes: MetadataRoute.Sitemap = serviceSlugs.map((slug) => ({

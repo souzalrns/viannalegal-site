@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getBlogPost, getBlogSlugs } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
+import { AuthorBio } from "@/components/author-bio";
 import { blogPostingSchema, faqSchema, jsonLd } from "@/lib/schema";
 
 interface Props {
@@ -81,6 +82,8 @@ export default async function BlogPostPage({ params }: Props) {
           ))}
         </section>
       )}
+
+      <AuthorBio authorName={content.author} />
     </main>
   );
 }
