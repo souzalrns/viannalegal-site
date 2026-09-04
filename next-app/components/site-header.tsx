@@ -24,15 +24,15 @@ export function SiteHeader() {
       <div className="container-width">
         <nav
           aria-label="Navegação principal"
-          className="flex flex-wrap items-center justify-between gap-x-5 gap-y-3 py-3.5"
+          className="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 py-3.5 lg:flex-nowrap"
         >
           <a href="/" className="shrink-0 font-display text-[19px] font-bold tracking-tight">
             Vianna<span className="text-gold">Legal</span>
           </a>
 
-          <div className="order-3 flex w-full flex-wrap items-center gap-x-4 gap-y-2 text-[13.5px] lg:order-2 lg:w-auto">
+          <div className="order-3 flex w-full flex-wrap items-center gap-x-3 gap-y-2 text-[13px] lg:order-2 lg:w-auto lg:flex-nowrap xl:gap-x-4 xl:text-[13.5px]">
             {NAV.map((item, i) => (
-              <span key={item.href} className="flex items-center gap-x-4">
+              <span key={item.href} className="flex items-center gap-x-3 whitespace-nowrap xl:gap-x-4">
                 {i > 0 && (
                   <span aria-hidden="true" className="hidden h-3.5 w-px bg-primary-foreground/25 lg:block" />
                 )}
