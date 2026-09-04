@@ -9,6 +9,7 @@ export function Kathia() {
       <div className="container-width">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-start">
           <div>
+            <p className="eyebrow">Quem conduz</p>
             <h2 className="font-display text-3xl text-primary sm:text-4xl">
               Quem trata do seu processo
             </h2>

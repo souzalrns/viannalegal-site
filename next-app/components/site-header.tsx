@@ -7,13 +7,15 @@ const WHATSAPP =
   );
 
 const NAV = [
+  { href: "/quem-somos", label: "Quem Somos" },
   { href: "/cidadania-portuguesa", label: "Cidadania" },
   { href: "/quanto-custa", label: "Quanto Custa" },
   { href: "/prazos-e-acompanhamento", label: "Prazos" },
   { href: "/documentos", label: "Documentos" },
   { href: "/lei-da-nacionalidade-2026", label: "Lei 2026" },
   { href: "/blog", label: "Artigos" },
-  { href: "/quem-somos", label: "Quem Somos" },
+  { href: "/quiz-elegibilidade", label: "Quiz — Descubra o seu direito", destaque: true },
+  { href: "/contato", label: "Contacto" },
 ];
 
 export function SiteHeader() {
@@ -28,15 +30,23 @@ export function SiteHeader() {
             Vianna<span className="text-gold">Legal</span>
           </a>
 
-          <div className="order-3 flex w-full flex-wrap items-center gap-x-5 gap-y-2 text-sm lg:order-2 lg:w-auto">
-            {NAV.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="py-1 text-primary-foreground/90 transition-colors hover:text-gold"
-              >
-                {item.label}
-              </a>
+          <div className="order-3 flex w-full flex-wrap items-center gap-x-4 gap-y-2 text-[13.5px] lg:order-2 lg:w-auto">
+            {NAV.map((item, i) => (
+              <span key={item.href} className="flex items-center gap-x-4">
+                {i > 0 && (
+                  <span aria-hidden="true" className="hidden h-3.5 w-px bg-primary-foreground/25 lg:block" />
+                )}
+                <a
+                  href={item.href}
+                  className={
+                    item.destaque
+                      ? "py-1 font-semibold text-gold transition-colors hover:text-gold-light"
+                      : "py-1 text-primary-foreground/90 transition-colors hover:text-gold"
+                  }
+                >
+                  {item.label}
+                </a>
+              </span>
             ))}
           </div>
 

@@ -7,6 +7,7 @@ const ICONS = { Baby, Users, GitBranch, Heart, Home, Search, FileText } as const
 export function ViasGrid() {
   return (
     <section className="container-width py-16 sm:py-20">
+      <p className="eyebrow text-center">Caminhos disponíveis</p>
       <h2 className="text-center font-display text-3xl text-primary sm:text-4xl">
         Qual é o seu vínculo com Portugal?
       </h2>

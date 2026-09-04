@@ -9,27 +9,27 @@
 
 @layer base {
   :root {
-    --background: 40 20% 98%;
-    --foreground: 160 30% 15%;
+    --background: 42 33% 96%;    /* #f7f4ee */
+    --foreground: 158 48% 15%;   /* #143a2c */
     --card: 0 0% 100%;
-    --card-foreground: 160 30% 15%;
-    --primary: 160 48% 20%;
-    --primary-foreground: 40 20% 98%;
-    --secondary: 42 50% 58%;
+    --card-foreground: 158 48% 15%;
+    --primary: 160 48% 20%;      /* #1a4b3b */
+    --primary-foreground: 44 33% 91%; /* #e9e4d8 */
+    --secondary: 42 47% 57%;     /* #c9a95e */
     --secondary-foreground: 160 30% 15%;
     --accent: 145 63% 32%;
     --accent-foreground: 0 0% 100%;
-    --muted: 40 15% 94%;
-    --muted-foreground: 160 20% 35%;
+    --muted: 42 33% 93%;         /* #f2eee7 */
+    --muted-foreground: 45 8% 33%;   /* #5c584c */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 40 20% 88%;
+    --border: 45 30% 86%;        /* #e6e1d2 */
     --input: 40 20% 88%;
     --ring: 160 48% 20%;
     --radius: 0.75rem;
-    --gold: 42 50% 58%;
+    --gold: 42 47% 57%;          /* #c9a95e */
     --gold-light: 42 60% 75%;
-    --gold-dark: 42 45% 38%;
+    --gold-dark: 42 38% 46%;     /* #a3874a */
     --portugal-green: 160 48% 20%;
     --portugal-red: 0 72% 45%;
     --gradient-hero: linear-gradient(135deg, hsl(160 48% 20%) 0%, hsl(160 40% 28%) 100%);
@@ -55,6 +55,11 @@
   }
 
   .meta-line { @apply text-sm text-muted-foreground; }
+
+  /* Rótulo em maiúsculas por cima dos títulos de secção — padrão do protótipo. */
+  .eyebrow {
+    @apply mb-2.5 text-xs font-bold uppercase tracking-[0.08em] text-gold-dark;
+  }
   .meta-line a { @apply text-primary underline underline-offset-2 hover:text-gold; }
 
   /* Corpo dos artigos: o HTML vem de `marked` com GFM, por isso tabelas e

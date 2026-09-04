@@ -5,6 +5,7 @@ export function Depoimentos() {
   return (
     <section className="bg-muted/60 py-16 sm:py-20">
       <div className="container-width">
+        <p className="eyebrow">Casos reais</p>
         <h2 className="text-center font-display text-3xl text-primary sm:text-4xl">
           Quem já passou por isto
         </h2>

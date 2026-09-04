@@ -6,6 +6,7 @@ import { FAQ_HOME } from "@/content/home-data";
 export function Faq() {
   return (
     <section className="container-width py-16 sm:py-20">
+      <p className="eyebrow">Dúvidas frequentes</p>
       <h2 className="font-display text-3xl text-primary sm:text-4xl">Perguntas frequentes</h2>
 
       <div className="mt-12 space-y-10">

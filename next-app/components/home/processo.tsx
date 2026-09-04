@@ -3,6 +3,7 @@ import { PASSOS } from "@/content/home-data";
 export function Processo() {
   return (
     <section className="container-width py-16 sm:py-20">
+      <p className="eyebrow">Como trabalhamos</p>
       <h2 className="font-display text-3xl text-primary sm:text-4xl">
         Como funciona, do primeiro contacto à aprovação
       </h2>
