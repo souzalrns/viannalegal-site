@@ -4,6 +4,8 @@
 export const MODALIDADES = [
   {
     icon: "Baby",
+    emoji: "\u{1F468}\u200D\u{1F469}\u200D\u{1F467}",
+    tagColor: "#10b981",
     title: "Filho(a) de português(a)",
     tag: "Mais rápido",
     desc: "O caminho mais directo e rápido. Não precisa comprovar vínculo com Portugal. Pode ser feito 100% do Brasil.",
@@ -14,6 +16,8 @@ export const MODALIDADES = [
   },
   {
     icon: "Users",
+    emoji: "\u{1F474}\u{1F475}",
+    tagColor: "#3b82f6",
     title: "Neto(a) de português(a)",
     tag: "Estratégia recomendada",
     desc: "Se o teu pai ou mãe ainda é vivo, existe uma via muito mais rápida — apenas 8 a 12 meses no total, em vez de 42 a 48.",
@@ -24,6 +28,8 @@ export const MODALIDADES = [
   },
   {
     icon: "GitBranch",
+    emoji: "\u{1F9D3}",
+    tagColor: "#f59e0b",
     title: "Bisneto(a) de português(a)",
     tag: "Lei 1/2026",
     desc: "Nova via criada pela Lei Orgânica 1/2026. Requer residência em Portugal ou cadeia de ascendentes vivos.",
@@ -34,6 +40,8 @@ export const MODALIDADES = [
   },
   {
     icon: "Heart",
+    emoji: "\u{1F48D}",
+    tagColor: "#ec4899",
     title: "Cônjuge de português(a)",
     tag: "Por casamento",
     desc: "Para casados ou em união de facto com cidadão(ã) português(a) há 3 ou mais anos.",
@@ -44,6 +52,8 @@ export const MODALIDADES = [
   },
   {
     icon: "Home",
+    emoji: "\u{1F3E1}",
+    tagColor: "#8b5cf6",
     title: "Naturalização por residência",
     tag: "Por residência",
     desc: "Para quem vive legalmente em Portugal há 7 anos (brasileiros/CPLP) ou 10 anos (outros países).",
@@ -54,6 +64,8 @@ export const MODALIDADES = [
   },
   {
     icon: "Search",
+    emoji: "\u{1F50D}",
+    tagColor: "#64748b",
     title: "Pesquisa genealógica",
     tag: "Especializado",
     desc: "Localização de certidões antigas em arquivos paroquiais e distritais portugueses. Essencial para netos sem documentação.",

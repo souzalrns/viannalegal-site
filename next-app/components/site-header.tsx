@@ -24,9 +24,9 @@ export function SiteHeader() {
       <div className="container-width">
         <nav
           aria-label="Navegação principal"
-          className="flex flex-wrap items-center justify-between gap-3 py-4"
+          className="flex flex-wrap items-center justify-between gap-x-5 gap-y-3 py-3.5"
         >
-          <a href="/" className="shrink-0 font-display text-xl font-bold tracking-tight">
+          <a href="/" className="shrink-0 font-display text-[19px] font-bold tracking-tight">
             Vianna<span className="text-gold">Legal</span>
           </a>
 
@@ -50,16 +50,24 @@ export function SiteHeader() {
             ))}
           </div>
 
-          <a
-            href={WHATSAPP}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="order-2 inline-flex min-h-[44px] shrink-0 items-center gap-2 rounded-lg bg-gradient-gold px-4 py-2
-                       text-sm font-semibold text-primary shadow-gold transition-transform hover:scale-[1.03] lg:order-3"
-          >
-            <Phone className="h-4 w-4" aria-hidden="true" />
-            Avaliar o meu caso
-          </a>
+          <div className="order-2 flex shrink-0 items-center gap-4 lg:order-3">
+            <a
+              href="/contato"
+              className="hidden text-[13px] text-primary-foreground/70 transition-colors hover:text-gold sm:inline"
+            >
+              Já sou cliente
+            </a>
+            <a
+              href={WHATSAPP}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex min-h-[42px] items-center gap-2 rounded-lg bg-gold px-4 text-[13.5px]
+                         font-bold text-primary transition-all hover:-translate-y-0.5 hover:shadow-gold"
+            >
+              <Phone className="h-3.5 w-3.5" aria-hidden="true" />
+              Avaliar o meu caso
+            </a>
+          </div>
         </nav>
       </div>
     </header>

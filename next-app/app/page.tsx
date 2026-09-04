@@ -26,7 +26,15 @@ export default function HomePage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(faqSchema(content.faq))} />
       )}
 
-      <Hero h1={content.h1} answer={content.answerBlock} />
+      <Hero h1={content.h1} />
+
+      <section className="border-b border-border bg-muted/50">
+        <div className="container-width py-7">
+          <p className="mx-auto max-w-4xl text-[15px] leading-relaxed text-muted-foreground">
+            {content.answerBlock}
+          </p>
+        </div>
+      </section>
       <ViasGrid />
       <Kathia />
       <Processo />
