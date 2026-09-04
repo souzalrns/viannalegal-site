@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { WhatsAppFloat } from "@/components/whatsapp-float";
 import { SITE_URL } from "@/lib/seo";
 import "./globals.css";
 
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <div className="flex-1">{children}</div>
         <SiteFooter />
+        <WhatsAppFloat />
       </body>
     </html>
   );
