@@ -83,7 +83,7 @@ export default function QuemSomosPage() {
       </section>
 
       {/* Retrato + credenciais */}
-      <section className="container-width grid gap-10 py-16 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+      <section className="container-width grid gap-10 py-16 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
         <figure className="relative overflow-hidden rounded-xl shadow-lg">
           <Image
             src="/consultant.webp"
@@ -132,7 +132,7 @@ export default function QuemSomosPage() {
             Formação e actuação
           </h2>
 
-          <div className="mt-10 grid gap-5 md:grid-cols-2">
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {FORMACAO.map((f) => {
               const Icon = ICONS[f.icon as keyof typeof ICONS] ?? Scale;
               return (
