@@ -140,6 +140,21 @@ export function SiteFooter() {
         <Col title="Site" links={SITE} />
         <div>
           <Col title="Legal" links={LEGAL} />
+          <div className="mt-6 rounded-lg border border-gold/35 bg-gold/10 p-4">
+            <p className="font-display text-[13px] font-bold uppercase tracking-wide text-gold">
+              Não sabe se tem direito?
+            </p>
+            <p className="mt-1.5 text-[13px] text-primary-foreground/75">
+              Responda a 5 perguntas e descubra o seu caminho.
+            </p>
+            <a
+              href="/quiz-elegibilidade"
+              className="mt-3 inline-flex items-center gap-1.5 text-[13px] font-semibold text-gold hover:underline"
+            >
+              Fazer o quiz
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
           <p className="mt-3 text-sm">
             <a
               href="https://www.livroreclamacoes.pt"

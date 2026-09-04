@@ -8,6 +8,7 @@ import { Kathia } from "@/components/home/kathia";
 import { Processo } from "@/components/home/processo";
 import { Depoimentos } from "@/components/home/depoimentos";
 import { Faq } from "@/components/home/faq";
+import { Contacto } from "@/components/home/contacto";
 
 const content = getPage("home");
 
@@ -40,6 +41,7 @@ export default function HomePage() {
       <Processo />
       <Depoimentos />
       <Faq />
+      <Contacto />
     </main>
   );
 }
