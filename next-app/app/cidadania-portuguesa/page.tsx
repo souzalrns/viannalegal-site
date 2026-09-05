@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Check, Clock, ArrowRight, Search, HelpCircle } from "lucide-react";
+import { Check, Clock, Euro, ArrowRight, Search, HelpCircle } from "lucide-react";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 import { serviceSchema, breadcrumbSchema, jsonLd } from "@/lib/schema";
@@ -118,34 +118,52 @@ export default function CidadaniaPortuguesaPage() {
         </p>
       </section>
 
-      {/* Cartões alternados, um por via */}
+      {/* Uma via por cartão, largura toda. O painel lateral repetido saiu:
+          eram 7 caixas com o mesmo texto e deixavam vazios grandes quando o
+          cartão ao lado era curto. O botão passou para dentro do cartão. */}
       <section className="bg-muted/40 py-16">
-        <div className="container-width space-y-6">
-          {VIAS_RESUMO.map((v, i) => (
+        <div className="container-width space-y-5">
+          {VIAS_RESUMO.map((v) => (
             <article
               key={v.slug}
-              className={`grid gap-6 lg:grid-cols-[1.6fr_0.9fr] lg:items-stretch ${
-                i % 2 ? "lg:[&>*:first-child]:order-2" : ""
-              }`}
+              className="rounded-xl border border-border bg-card p-7 transition-shadow hover:shadow-md"
             >
-              <div className="rounded-xl border border-border bg-card p-7">
-                <p className="mb-3 flex flex-wrap items-center gap-3 text-[13px]">
-                  <span className="inline-flex items-center gap-1.5 text-muted-foreground">
-                    <Clock className="h-3.5 w-3.5 text-gold" aria-hidden="true" />
-                    Prazo do IRN: <strong className="text-foreground">{v.prazo}</strong>
+              <div className="flex flex-wrap items-start justify-between gap-4">
+                <div>
+                  <h2 className="font-display text-2xl text-primary">{v.titulo}</h2>
+                  <p className="mt-1 text-[14px] text-gold-dark">{v.subtitulo}</p>
+                </div>
+                {v.destaque && (
+                  <span className="rounded-md bg-gold/15 px-3 py-1.5 text-[11.5px] font-bold uppercase tracking-wide text-gold-dark">
+                    {v.destaque}
                   </span>
-                  {v.destaque && (
-                    <span className="rounded-md bg-gold/15 px-2.5 py-1 text-[11.5px] font-bold uppercase tracking-wide text-gold-dark">
-                      {v.destaque}
-                    </span>
+                )}
+              </div>
+
+              <dl className="mt-5 flex flex-wrap gap-x-10 gap-y-2 border-y border-border py-3.5 text-[14px]">
+                <div className="flex items-center gap-2">
+                  <Clock className="h-4 w-4 text-gold" aria-hidden="true" />
+                  <dt className="text-muted-foreground">Prazo do IRN:</dt>
+                  <dd className="font-semibold text-foreground">{v.prazo}</dd>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Euro className="h-4 w-4 text-gold" aria-hidden="true" />
+                  <dt className="text-muted-foreground">Emolumento:</dt>
+                  <dd className="font-semibold text-foreground">{v.taxa}</dd>
+                </div>
+              </dl>
+
+              <div className="mt-5 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+                <div>
+                  <p className="leading-relaxed text-muted-foreground">{v.descricao}</p>
+                  {v.nota && (
+                    <p className="mt-4 border-l-[3px] border-gold/60 pl-4 text-[13.5px] leading-relaxed text-muted-foreground">
+                      {v.nota}
+                    </p>
                   )}
-                </p>
+                </div>
 
-                <h2 className="font-display text-2xl text-primary">{v.titulo}</h2>
-                <p className="mt-1 text-[14px] text-gold-dark">{v.subtitulo}</p>
-                <p className="mt-4 leading-relaxed text-muted-foreground">{v.descricao}</p>
-
-                <div className="mt-6 rounded-lg border border-border bg-muted/60 p-5">
+                <div>
                   <p className="mb-3 font-display text-[15px] text-primary">
                     Requisitos principais
                   </p>
@@ -158,40 +176,25 @@ export default function CidadaniaPortuguesaPage() {
                     ))}
                   </ul>
                 </div>
-
-                {v.nota && (
-                  <p className="mt-4 border-l-[3px] border-gold/60 pl-4 text-[13.5px] leading-relaxed text-muted-foreground">
-                    {v.nota}
-                  </p>
-                )}
-
-                <a
-                  href={`/cidadania-portuguesa/${v.slug}`}
-                  className="mt-5 inline-flex items-center gap-1.5 text-[14px] font-semibold text-primary underline underline-offset-4 hover:text-gold"
-                >
-                  Ver guia completo, documentos e perguntas frequentes
-                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
-                </a>
               </div>
 
-              <aside className="flex flex-col items-center justify-center rounded-xl border border-border bg-muted/70 p-7 text-center">
-                <p className="font-display text-lg text-primary">Interessado nesta via?</p>
-                <p className="mt-2 text-[14px] text-muted-foreground">
-                  Avalie o seu caso, sem compromisso.
-                </p>
+              <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-border pt-5">
                 <a
                   href={WHATSAPP}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-5 inline-flex min-h-[46px] items-center gap-2 rounded-lg bg-gold px-6 font-bold text-primary transition-all hover:-translate-y-0.5 hover:shadow-gold"
+                  className="inline-flex min-h-[46px] items-center gap-2 rounded-lg bg-gold px-6 font-bold text-primary transition-all hover:-translate-y-0.5 hover:shadow-gold"
                 >
                   Solicitar análise
                   <ArrowRight className="h-4 w-4" aria-hidden="true" />
                 </a>
-                <p className="mt-4 text-[12.5px] text-muted-foreground">
-                  Emolumento do IRN: <strong className="text-foreground">{v.taxa}</strong>
-                </p>
-              </aside>
+                <a
+                  href={`/cidadania-portuguesa/${v.slug}`}
+                  className="text-[14px] font-semibold text-primary underline underline-offset-4 hover:text-gold"
+                >
+                  Ver guia completo, documentos e perguntas frequentes
+                </a>
+              </div>
             </article>
           ))}
         </div>
