@@ -62,6 +62,7 @@ export interface ContentPiece {
   ogType: "website" | "article" | "profile";
   faq: FaqItem[];
   author?: string;
+  category?: string;
   datePublished?: string;
   dateModified?: string;
   bodyHtml: string;
@@ -102,6 +103,7 @@ function parseFile(fullPath: string, slug: string): ContentPiece {
         }))
       : [],
     author: data.author,
+    category: data.category,
     datePublished: data.date_published,
     dateModified: data.date_modified,
     bodyHtml: marked.parse(resolveTokens(content, slug)) as string,
