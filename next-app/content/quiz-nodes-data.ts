@@ -98,7 +98,7 @@ const NODES: Record<string, QuizNode> = {
     options: [
       { icon: '😊', label: 'Sim, está vivo(a)',    next: 'q_neto_opcoes' },
       { icon: '🕊️', label: 'Não, já faleceu',     next: 'q_neto_avo_vivo' },
-      { icon: '🤷', label: 'Não tenho certeza',   next: 'q_neto_opcoes' },
+      { icon: '🤷', label: 'Não tenho certeza', next: 'result_ascendente_incerto' },
     ],
   },
 
@@ -152,7 +152,7 @@ const NODES: Record<string, QuizNode> = {
     options: [
       { icon: '😊', label: 'Sim, está vivo(a)',  next: 'q_neto_doc_avo' },
       { icon: '🕊️', label: 'Não, já faleceu',   next: 'q_neto_obito' },
-      { icon: '🤷', label: 'Não tenho certeza', next: 'q_neto_doc_avo' },
+      { icon: '🤷', label: 'Não tenho certeza', next: 'result_ascendente_incerto' },
     ],
   },
 
@@ -199,7 +199,7 @@ const NODES: Record<string, QuizNode> = {
     options: [
       { icon: '😊', label: 'Sim, está vivo(a)',  next: 'result_bisneto_avo_vivo' },
       { icon: '🕊️', label: 'Não, já faleceu',   next: 'q_bisneto_pai_vivo' },
-      { icon: '🤷', label: 'Não tenho certeza', next: 'result_bisneto_avo_vivo' },
+      { icon: '🤷', label: 'Não tenho certeza', next: 'result_ascendente_incerto' },
     ],
   },
 
@@ -211,7 +211,7 @@ const NODES: Record<string, QuizNode> = {
     options: [
       { icon: '😊', label: 'Sim, está vivo(a)',  next: 'result_bisneto_pai_vivo' },
       { icon: '🕊️', label: 'Não, já faleceu',   next: 'q_bisneto_sem_ascendentes' },
-      { icon: '🤷', label: 'Não tenho certeza', next: 'result_bisneto_pai_vivo' },
+      { icon: '🤷', label: 'Não tenho certeza', next: 'result_ascendente_incerto' },
     ],
   },
 
@@ -248,7 +248,7 @@ const NODES: Record<string, QuizNode> = {
     options: [
       { icon: '😊', label: 'Sim, está vivo(a)',  next: 'result_trisavo_bisavo_vivo' },
       { icon: '🕊️', label: 'Não, já faleceu',   next: 'q_trisavo_avo_vivo' },
-      { icon: '🤷', label: 'Não tenho certeza', next: 'result_trisavo_bisavo_vivo' },
+      { icon: '🤷', label: 'Não tenho certeza', next: 'result_ascendente_incerto' },
     ],
   },
 
@@ -260,7 +260,7 @@ const NODES: Record<string, QuizNode> = {
     options: [
       { icon: '😊', label: 'Sim, está vivo(a)',  next: 'result_trisavo_avo_vivo' },
       { icon: '🕊️', label: 'Não, já faleceu',   next: 'result_trisavo_sem_saida' },
-      { icon: '🤷', label: 'Não tenho certeza', next: 'result_trisavo_avo_vivo' },
+      { icon: '🤷', label: 'Não tenho certeza', next: 'result_ascendente_incerto' },
     ],
   },
 
@@ -344,11 +344,30 @@ const NODES: Record<string, QuizNode> = {
     ],
   },
 
+
+  // Incerteza sobre quem está vivo na linha: a estratégia depende disso,
+  // por isso não se pode assumir a resposta afirmativa.
+  result_ascendente_incerto: {
+    kind: 'result',
+    type: 'yellow', icon: '🔎', tag: 'Análise necessária',
+    title: 'A estratégia depende de quem está vivo na linha',
+    desc: `Saber se o ascendente intermédio ainda é vivo muda tudo. Se estiver, existe quase sempre um caminho mais rápido e que não exige comprovar vínculo com Portugal — o ascendente pede primeiro, e só depois o requerente. Se não estiver, o caminho é outro, com requisitos diferentes. Vale confirmar em família antes de decidir: é uma pergunta com resposta fácil e consequências grandes. A Kathia ajuda a mapear a linha e diz qual das estratégias se aplica ao seu caso.`,
+    docs: [
+      'Nome completo do ascendente português',
+      'Certidões ou documentos que a família tenha guardado',
+      'Datas e locais aproximados de nascimento na linha',
+    ],
+    relatedArticles: [
+      { slug: 'cidadania-portuguesa-para-quem-tem-pai-falecido', title: 'E se o ascendente já faleceu? Ainda tenho direito?' },
+      { slug: 'filho-vs-neto-diferencas-no-processo-de-cidadania-portuguesa', title: 'Filho ou neto: porque é que a diferença pesa tanto' },
+    ],
+  },
+
   result_neto_via_pai: {
     kind: 'result',
     type: 'green', icon: '🛡️', tag: 'Estratégia recomendada',
     title: 'Via ascendente — dois processos de filho, sem vínculo',
-    desc: `Esta é a estratégia mais inteligente quando o pai/mãe está vivo. Em vez de você pedir como neto (42–48 meses + comprovar vínculo), o pai/mãe pede primeiro como filho(a) do avô/avó português — leva ${formatPrazo("filhos-maiores")}. Depois você pede como filho(a) — mais ${formatPrazo("filhos-maiores")}. Total: 8 a 12 meses. Nenhum dos dois precisa comprovar vínculo com Portugal. O investimento é um pouco maior por serem dois processos, mas o tempo e a segurança jurídica compensam amplamente.`,
+    desc: `Esta é a estratégia mais inteligente quando o pai/mãe está vivo. Em vez de pedir directamente como neto — processo mais demorado e que exige comprovar vínculo com Portugal, o pai/mãe pede primeiro como filho(a) do avô/avó português — leva ${formatPrazo("filhos-maiores")}. Depois você pede como filho(a) — mais ${formatPrazo("filhos-maiores")}. Somados, os dois processos de filho costumam ser bem mais rápidos e previsíveis do que a via directa de neto. Nenhum dos dois precisa comprovar vínculo com Portugal. O investimento é um pouco maior por serem dois processos, mas o tempo e a segurança jurídica compensam amplamente.`,
     docs: [
       'Certidão de nascimento do avô/avó em Portugal (em inteiro teor)',
       'Certidão de nascimento do pai/mãe (apostilada)',
@@ -421,7 +440,7 @@ const NODES: Record<string, QuizNode> = {
     kind: 'result',
     type: 'green', icon: '✨', tag: 'Excelente — caminho claro',
     title: 'Bisavô português e avô vivo — cadeia de filhos',
-    desc: `Esta é a situação mais favorável. O avô/avó é filho(a) direto do bisavô português — pode pedir como filho(a) em ${formatPrazo("filhos-maiores")}. Depois o pai/mãe pede como filho(a) — mais ${formatPrazo("filhos-maiores")}. Por fim você pede como filho(a) — mais ${formatPrazo("filhos-maiores")}. Total: 12 a 18 meses para três processos. Nenhum precisa comprovar vínculo com Portugal.`,
+    desc: `Esta é a situação mais favorável. O avô/avó é filho(a) direto do bisavô português — pode pedir como filho(a) em ${formatPrazo("filhos-maiores")}. Depois o pai/mãe pede como filho(a) — mais ${formatPrazo("filhos-maiores")}. Por fim você pede como filho(a) — mais ${formatPrazo("filhos-maiores")}. Os três correm em cadeia, mas nenhum exige comprovação de vínculo com Portugal — é o que torna esta a via mais segura, mesmo sendo a mais longa em número de passos.`,
     docs: [
       'Certidão de nascimento do bisavô/bisavó em Portugal (em inteiro teor)',
       'Certidão de nascimento do avô/avó (apostilada)',
@@ -439,7 +458,7 @@ const NODES: Record<string, QuizNode> = {
     kind: 'result',
     type: 'green', icon: '🇵🇹', tag: 'Caminho disponível',
     title: 'Bisavô português, avô falecido, pai/mãe vivo — via de neto',
-    desc: `O avô já faleceu, mas o pai/mãe ainda está vivo e pode pedir como neto(a) do bisavô português — prazo de ${formatPrazo("netos-maiores")} com comprovação de vínculo. Depois você pede como filho(a) — apenas ${formatPrazo("filhos-maiores")}. Total: ~46 a 54 meses. Apenas o pai/mãe precisa comprovar vínculo com Portugal.`,
+    desc: `O avô já faleceu, mas o pai/mãe ainda está vivo e pode pedir como neto(a) do bisavô português — prazo de ${formatPrazo("netos-maiores")} com comprovação de vínculo. Depois você pede como filho(a) — apenas ${formatPrazo("filhos-maiores")}. Apenas o pai/mãe precisa comprovar vínculo com Portugal; o seu processo, como filho(a), não exige essa prova.`,
     docs: [
       'Certidão de nascimento do bisavô/bisavó em Portugal (em inteiro teor)',
       'Certidão de nascimento e óbito do avô/avó (apostiladas)',
