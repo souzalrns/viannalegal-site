@@ -41,7 +41,7 @@ export interface ServiceContent {
 export const servicesContent: Record<string, ServiceContent> = {
   netos: {
     slug: 'netos',
-    metaTitle: 'Cidadania Portuguesa para Netos 2026 | ViannaLegal',
+    metaTitle: 'Cidadania Portuguesa para Netos | Nacionalidade 2026',
     metaDescription:
       'Neto de português: requisitos de vínculo efetivo, lista de documentos, prazos reais por conservatória e os erros que mais fazem indeferir o pedido.',
     breadcrumbLabel: 'Cidadania para Netos',
@@ -106,7 +106,7 @@ export const servicesContent: Record<string, ServiceContent> = {
 
   'filhos-menores': {
     slug: 'filhos-menores',
-    metaTitle: 'Cidadania Portuguesa para Filhos Menores | ViannaLegal',
+    metaTitle: 'Cidadania Portuguesa para Filhos Menores | Nacionalidade',
     metaDescription:
       'Filho menor de cidadão português tem o processo mais rápido e isento de taxa no IRN. Veja documentos, prazos reais e como dar entrada a partir do Brasil.',
     breadcrumbLabel: 'Cidadania para Filhos Menores',
@@ -165,7 +165,7 @@ export const servicesContent: Record<string, ServiceContent> = {
 
   'filhos-maiores': {
     slug: 'filhos-maiores',
-    metaTitle: 'Cidadania Portuguesa para Filhos Maiores | ViannaLegal',
+    metaTitle: 'Cidadania Portuguesa para Filhos Maiores | Nacionalidade',
     metaDescription:
       'Filho maior de idade de português tem direito próprio à cidadania, sem provar vínculo efetivo. Prazos por inscrição e por transcrição, documentos e custos.',
     breadcrumbLabel: 'Cidadania para Filhos Maiores',
@@ -224,7 +224,7 @@ export const servicesContent: Record<string, ServiceContent> = {
 
   conjuges: {
     slug: 'conjuges',
-    metaTitle: 'Cidadania Portuguesa por Casamento 2026 | ViannaLegal',
+    metaTitle: 'Cidadania Portuguesa por Casamento | Nacionalidade 2026',
     metaDescription:
       'Casado ou em união de facto com português? Requisitos, prova de vínculo efetivo, prazo do IRN e o papel da transcrição de casamento no processo.',
     breadcrumbLabel: 'Cidadania por Casamento',
@@ -284,7 +284,7 @@ export const servicesContent: Record<string, ServiceContent> = {
 
   residencia: {
     slug: 'residencia',
-    metaTitle: 'Nacionalidade Portuguesa por Residência | ViannaLegal',
+    metaTitle: 'Nacionalidade Portuguesa por Residência | Naturalização',
     metaDescription:
       'Naturalização por residência legal: 7 anos para cidadãos da CPLP, 10 para os restantes. Documentos, prazo de análise e como se conta o tempo.',
     breadcrumbLabel: 'Nacionalidade por Residência',
@@ -344,7 +344,7 @@ export const servicesContent: Record<string, ServiceContent> = {
 
   bisnetos: {
     slug: 'bisnetos',
-    metaTitle: 'Cidadania Portuguesa para Bisnetos 2026 | ViannaLegal',
+    metaTitle: 'Cidadania Portuguesa para Bisnetos | Nacionalidade 2026',
     metaDescription:
       'A Lei Orgânica 1/2026 criou via própria para bisnetos de português. Veja quem se enquadra, o que muda face à via pelo neto e o que aguarda regulamentação.',
     breadcrumbLabel: 'Cidadania para Bisnetos',
@@ -404,7 +404,7 @@ export const servicesContent: Record<string, ServiceContent> = {
 
   'transcricao-casamento': {
     slug: 'transcricao-casamento',
-    metaTitle: 'Transcrição de Casamento em Portugal | ViannaLegal',
+    metaTitle: 'Transcrição de Casamento em Portugal | Registo Civil',
     metaDescription:
       'Transcrever o casamento no registo português é passo obrigatório em vários processos. Veja documentos, prazo, taxa e quando é mesmo necessário.',
     breadcrumbLabel: 'Transcrição de Casamento',

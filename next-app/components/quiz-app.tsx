@@ -264,8 +264,10 @@ export function QuizApp() {
               </div>
 
               <p style={{ fontSize: "0.8rem", color: "#666", textAlign: "center", marginTop: "1rem" }}>
-                Este resultado é indicativo e não substitui análise jurídica. Cada caso tem
-                especificidades que podem alterar o diagnóstico.
+                Resultado indicativo, elaborado com base na Lei Orgânica n.º 1/2026 e nos
+                quadros de prazos publicados pelo IRN. A análise definitiva é feita por
+                Kathia Vianna, advogada inscrita na Ordem dos Advogados de Portugal, cédula
+                n.º 56666p. Cada caso tem especificidades que podem alterar o diagnóstico.
               </p>
             </div>
           );

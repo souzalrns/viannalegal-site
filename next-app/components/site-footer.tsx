@@ -21,6 +21,7 @@ const SITE = [
   { href: "/prazos-e-acompanhamento", label: "Prazos e acompanhamento" },
   { href: "/lei-da-nacionalidade-2026", label: "Lei da Nacionalidade 2026" },
   { href: "/confirmacao-de-sentenca-estrangeira", label: "Confirmação de sentença estrangeira" },
+  { href: "/perguntas-frequentes", label: "Perguntas frequentes" },
   { href: "/quiz-elegibilidade", label: "Quiz de elegibilidade" },
   { href: "/blog", label: "Artigos" },
   { href: "/quem-somos", label: "Quem somos" },

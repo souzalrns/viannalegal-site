@@ -195,6 +195,10 @@ export default function CidadaniaPortuguesaPage() {
                 >
                   Ver guia completo, documentos e perguntas frequentes
                 </a>
+                <p className="w-full text-[12.5px] text-muted-foreground">
+                  Prazo: quadros do IRN, referência de julho de 2026 · Emolumento: artigo
+                  18.º do Regulamento Emolumentar · Actualizado com a Lei Orgânica 1/2026
+                </p>
               </div>
             </article>
           ))}

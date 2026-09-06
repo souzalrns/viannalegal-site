@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/quiz-elegibilidade`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/prazos-e-acompanhamento`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/cidadania-portuguesa/quem-mora-no-brasil`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE_URL}/perguntas-frequentes`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/blog`, changeFrequency: "weekly", priority: 0.6 },
     { url: `${SITE_URL}/confirmacao-de-sentenca-estrangeira`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/lei-da-nacionalidade-2026`, changeFrequency: "weekly", priority: 0.9 },

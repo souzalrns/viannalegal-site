@@ -136,6 +136,11 @@ export default function DocumentosPage() {
             localizamos. Com formação em paleografia e acesso directo aos arquivos
             portugueses.
           </p>
+          <p className="mt-5 max-w-2xl border-l-[3px] border-gold/60 pl-4 text-[14px] leading-relaxed text-primary-foreground/70">
+            Serviço conduzido sob responsabilidade da advogada Kathia Vianna, inscrita na
+            Ordem dos Advogados de Portugal com a cédula n.º 56666p, com formação em
+            paleografia e acesso directo a arquivos paroquiais e distritais portugueses.
+          </p>
           <a
             href={WHATSAPP}
             target="_blank"

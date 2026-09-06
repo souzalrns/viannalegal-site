@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
+import { RevisaoJuridica } from "@/components/revisao-juridica";
 import { personSchema, breadcrumbSchema, jsonLd } from "@/lib/schema";
 import { METRICAS, FORMACAO, DIFERENCA } from "@/content/quem-somos-data";
 
@@ -186,6 +187,10 @@ export default function QuemSomosPage() {
           </a>
         </div>
       </section>
+      <div className="container-width pb-16">
+        <RevisaoJuridica />
+      </div>
+
     </main>
   );
 }

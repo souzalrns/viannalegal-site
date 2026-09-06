@@ -42,13 +42,13 @@ export function Faq() {
       </div>
 
       <div className="space-y-9">
-        {FAQ_HOME.map((grupo) => (
+        {FAQ_HOME.filter((g) => g.perguntas.some((p) => p.home)).map((grupo) => (
           <div key={grupo.categoria}>
             <h3 className="mb-4 font-display text-sm font-semibold uppercase tracking-wider text-gold-dark">
               {grupo.categoria}
             </h3>
             <div className="space-y-3">
-              {grupo.perguntas.map((p) => (
+              {grupo.perguntas.filter((p) => p.home).map((p) => (
                 <details
                   key={p.q}
                   className="group rounded-xl border border-border bg-card px-6 py-4 shadow-sm open:shadow-md"
@@ -69,6 +69,15 @@ export function Faq() {
             </div>
           </div>
         ))}
+        <p className="pt-2 text-[15px] text-muted-foreground">
+          Estas são as perguntas mais frequentes.{" "}
+          <a
+            href="/perguntas-frequentes"
+            className="font-semibold text-primary underline underline-offset-4 hover:text-gold"
+          >
+            Ver todas as perguntas, por tema →
+          </a>
+        </p>
       </div>
     </section>
   );

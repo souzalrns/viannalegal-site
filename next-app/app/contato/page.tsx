@@ -34,6 +34,32 @@ export default function ContatoPage() {
     <main>
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={jsonLd({
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          name: "Contacto — ViannaLegal",
+          url: "https://viannalegal.com.br/contato",
+          mainEntity: {
+            "@type": "LegalService",
+            "@id": "https://viannalegal.com.br/#organization",
+            telephone: "+351-913-134-260",
+            email: "contato@viannalegal.com.br",
+            availableLanguage: "Portuguese",
+            areaServed: [
+              { "@type": "Country", name: "Portugal" },
+              { "@type": "Country", name: "Brazil" },
+            ],
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              opens: "09:00",
+              closes: "18:00",
+            },
+          },
+        })}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={jsonLd(
           breadcrumbSchema([
             { name: "Início", path: "/" },
