@@ -14,8 +14,17 @@ export const viewport: Viewport = {
   viewportFit: "cover",
 };
 
+// Enquanto o lab vive em *.vercel.app com canonical a apontar para
+// viannalegal.com.br, o preview não pode ser indexável: seria conteúdo
+// duplicado a competir com o domínio. Em produção no domínio próprio
+// (VERCEL_ENV=production) o noindex desliga-se sozinho.
+const isPreview = process.env.VERCEL_ENV !== "production";
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  ...(isPreview && {
+    robots: { index: false, follow: false, googleBot: { index: false, follow: false } },
+  }),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

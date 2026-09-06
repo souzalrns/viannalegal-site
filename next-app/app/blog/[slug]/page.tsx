@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getBlogPost, getBlogSlugs } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
+import { RevisaoJuridica } from "@/components/revisao-juridica";
 import { AuthorBio } from "@/components/author-bio";
 import { blogPostingSchema, breadcrumbSchema, faqSchema, jsonLd } from "@/lib/schema";
 
@@ -99,6 +100,10 @@ export default async function BlogPostPage({ params }: Props) {
       )}
 
       <AuthorBio authorName={content.author} />
+      <div className="container-width">
+        <RevisaoJuridica />
+      </div>
+
     </main>
   );
 }

@@ -34,6 +34,15 @@ export default function QuemSomosPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(personSchema())} />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={jsonLd({
+          "@context": "https://schema.org",
+          "@type": "ProfilePage",
+          mainEntity: { "@id": "https://viannalegal.com.br/#kathia" },
+          dateModified: "2026-09-05",
+        })}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={jsonLd(
           breadcrumbSchema([
             { name: "Início", path: "/" },

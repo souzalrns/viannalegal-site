@@ -226,7 +226,7 @@ export const servicesContent: Record<string, ServiceContent> = {
     slug: 'conjuges',
     metaTitle: 'Cidadania Portuguesa por Casamento 2026 | ViannaLegal',
     metaDescription:
-      'A Lei Orgânica 1/2026 criou via própria para bisnetos de português. Veja quem se enquadra, o que muda face à via pelo neto e o que aguarda regulamentação.',
+      'Casado ou em união de facto com português? Requisitos, prova de vínculo efetivo, prazo do IRN e o papel da transcrição de casamento no processo.',
     breadcrumbLabel: 'Cidadania por Casamento',
     heroTitle: 'Cidadania Portuguesa por Casamento ou União Estável',
     heroSubtitle:
@@ -286,7 +286,7 @@ export const servicesContent: Record<string, ServiceContent> = {
     slug: 'residencia',
     metaTitle: 'Nacionalidade Portuguesa por Residência | ViannaLegal',
     metaDescription:
-      'Casado ou em união de facto com português? Requisitos, prova de vínculo efetivo, prazo do IRN e o papel da transcrição de casamento no processo.',
+      'Naturalização por residência legal: 7 anos para cidadãos da CPLP, 10 para os restantes. Documentos, prazo de análise e como se conta o tempo.',
     breadcrumbLabel: 'Nacionalidade por Residência',
     heroTitle: 'Nacionalidade Portuguesa por Residência (Naturalização)',
     heroSubtitle:
@@ -346,7 +346,7 @@ export const servicesContent: Record<string, ServiceContent> = {
     slug: 'bisnetos',
     metaTitle: 'Cidadania Portuguesa para Bisnetos 2026 | ViannaLegal',
     metaDescription:
-      'Naturalização por residência legal: 7 anos para cidadãos da CPLP, 10 para os restantes. Documentos, prazo de análise e como se conta o tempo.',
+      'A Lei Orgânica 1/2026 criou via própria para bisnetos de português. Veja quem se enquadra, o que muda face à via pelo neto e o que aguarda regulamentação.',
     breadcrumbLabel: 'Cidadania para Bisnetos',
     heroTitle: 'Cidadania Portuguesa para Bisnetos',
     heroSubtitle:

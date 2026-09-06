@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
+import { RevisaoJuridica } from "@/components/revisao-juridica";
 import { breadcrumbSchema, faqSchema, jsonLd } from "@/lib/schema";
 
 const content = getPage("lei-2026/index");
@@ -35,6 +36,10 @@ export default function LeiHubPage() {
       <h1 className="mb-5 text-3xl leading-tight text-primary sm:text-4xl">{content.h1}</h1>
       <div className="answer-block">{content.answerBlock}</div>
       <article className="article-body" dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
+      <div className="container-width">
+        <RevisaoJuridica />
+      </div>
+
     </main>
   );
 }

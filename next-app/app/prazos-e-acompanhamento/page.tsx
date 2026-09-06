@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
+import { RevisaoJuridica } from "@/components/revisao-juridica";
 import { blogPostingSchema, faqSchema, jsonLd } from "@/lib/schema";
 
 const content = getPage("prazos-e-acompanhamento");
@@ -47,6 +48,10 @@ export default function PrazosEAcompanhamentoPage() {
           ))}
         </section>
       )}
+      <div className="container-width">
+        <RevisaoJuridica />
+      </div>
+
     </main>
   );
 }

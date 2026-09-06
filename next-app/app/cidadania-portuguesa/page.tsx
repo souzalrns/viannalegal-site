@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Check, Clock, Euro, ArrowRight, Search, HelpCircle } from "lucide-react";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
+import { RevisaoJuridica } from "@/components/revisao-juridica";
 import { serviceSchema, breadcrumbSchema, jsonLd } from "@/lib/schema";
 import { VIAS_RESUMO } from "@/content/vias-resumo";
 
@@ -233,6 +234,10 @@ export default function CidadaniaPortuguesaPage() {
           </span>
         </a>
       </section>
+      <div className="container-width">
+        <RevisaoJuridica />
+      </div>
+
     </main>
   );
 }

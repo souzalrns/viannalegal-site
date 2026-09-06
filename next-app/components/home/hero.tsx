@@ -25,14 +25,21 @@ export function Hero({ h1 }: { h1: string }) {
             Vianna<span className="text-gold">Legal</span>
           </p>
           <p className="mb-4 font-display text-[15px] italic text-gold/85">
-            Cidadania Portuguesa — A herança que nenhum inventário divide.
+            Assessoria jurídica em nacionalidade portuguesa, com actuação presencial em
+            Portugal
           </p>
 
           <h1 className="max-w-xl font-display text-[38px] font-bold leading-[1.13] sm:text-[46px]">
             {h1}
           </h1>
 
-          <p className="mt-4 max-w-lg text-[16px] leading-relaxed text-primary-foreground/80">
+          {/* A frase de marca fica logo abaixo do H1: mantém o impacto emocional
+              sem ocupar o principal sinal semântico da página. */}
+          <p className="mt-4 max-w-xl font-display text-[19px] italic leading-snug text-gold">
+            A herança que nenhum inventário divide.
+          </p>
+
+          <p className="mt-3 max-w-lg text-[16px] leading-relaxed text-primary-foreground/80">
             A dupla cidadania é o presente que se deixa para os filhos, passando de geração
             em geração — e nunca perde o valor.
           </p>

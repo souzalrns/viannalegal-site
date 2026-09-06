@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
+import { RevisaoJuridica } from "@/components/revisao-juridica";
 import { breadcrumbSchema, faqSchema, jsonLd } from "@/lib/schema";
 import { AuthorBio } from "@/components/author-bio";
 
@@ -73,6 +74,10 @@ export default async function LeiSubPage({
       <article className="article-body" dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
 
       <AuthorBio authorName={content.author} />
+      <div className="container-width">
+        <RevisaoJuridica />
+      </div>
+
     </main>
   );
 }

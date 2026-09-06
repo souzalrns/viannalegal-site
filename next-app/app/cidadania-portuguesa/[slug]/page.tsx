@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
+import { RevisaoJuridica } from "@/components/revisao-juridica";
 import { faqSchema, jsonLd } from "@/lib/schema";
 import { servicesContent, serviceSlugs } from "@/content/vias-data";
 
@@ -169,6 +170,10 @@ export default async function ViaPage({ params }: Props) {
       <p>
         <a href="/quiz-elegibilidade">Não sabe qual via se aplica ao seu caso? Faça o quiz de elegibilidade →</a>
       </p>
+      <div className="container-width">
+        <RevisaoJuridica />
+      </div>
+
     </main>
   );
 }

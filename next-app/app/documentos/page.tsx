@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
+import { RevisaoJuridica } from "@/components/revisao-juridica";
 import { breadcrumbSchema, faqSchema, jsonLd } from "@/lib/schema";
 
 const WHATSAPP =
@@ -330,6 +331,10 @@ export default function DocumentosPage() {
           </a>
         </div>
       </section>
+      <div className="container-width">
+        <RevisaoJuridica />
+      </div>
+
     </main>
   );
 }
