@@ -242,6 +242,8 @@ export type Idade = "maiores" | "menores" | "todos";
 
 export interface FilaIRN {
   via: string;
+  /** Slug em /cidadania-portuguesa/[slug], quando existe página dedicada à via */
+  slug?: string;
   /** Só existe onde a lei/prática distingue a forma do acto (filho: transcrição vs inscrição) */
   modalidade?: "transcrição" | "inscrição";
   artigo: string;
@@ -253,25 +255,25 @@ export interface FilaIRN {
 }
 
 export const FILAS_IRN: FilaIRN[] = [
-  { via: "Filho(a) de português(a)", modalidade: "transcrição", artigo: "1.º/1 c)", orgao: "Arquivo Central do Porto", idade: "maiores", dataAnalise: "1.ª quinzena de maio de 2025", esperaMeses: 14 },
-  { via: "Filho(a) de português(a)", modalidade: "transcrição", artigo: "1.º/1 c)", orgao: "Arquivo Central do Porto", idade: "menores", dataAnalise: "2.ª quinzena de novembro de 2025", esperaMeses: 8 },
-  { via: "Filho(a) de português(a)", modalidade: "transcrição", artigo: "1.º/1 c)", orgao: "Conservatória dos Registos Centrais", idade: "maiores", dataAnalise: "1.ª quinzena de março de 2022", esperaMeses: 52 },
-  { via: "Filho(a) de português(a)", modalidade: "transcrição", artigo: "1.º/1 c)", orgao: "Conservatória dos Registos Centrais", idade: "menores", dataAnalise: "2.ª quinzena de setembro de 2025", esperaMeses: 10 },
-  { via: "Filho(a) de português(a)", modalidade: "inscrição", artigo: "1.º/1 c)", orgao: "Arquivo Central do Porto", idade: "maiores", dataAnalise: "2.ª quinzena de fevereiro de 2026", esperaMeses: 5 },
-  { via: "Filho(a) de português(a)", modalidade: "inscrição", artigo: "1.º/1 c)", orgao: "Arquivo Central do Porto", idade: "menores", dataAnalise: "1.ª quinzena de maio de 2026", esperaMeses: 2 },
-  { via: "Filho(a) de português(a)", modalidade: "inscrição", artigo: "1.º/1 c)", orgao: "Conservatória dos Registos Centrais", idade: "maiores", dataAnalise: "1.ª quinzena de novembro de 2023", esperaMeses: 32 },
-  { via: "Filho(a) de português(a)", modalidade: "inscrição", artigo: "1.º/1 c)", orgao: "Conservatória dos Registos Centrais", idade: "menores", dataAnalise: "2.ª quinzena de março de 2026", esperaMeses: 3 },
-  { via: "Neto(a) de português(a)", artigo: "1.º/1 d)", orgao: "Arquivo Central do Porto", idade: "maiores", dataAnalise: "1.ª quinzena de setembro de 2023", esperaMeses: 34 },
-  { via: "Neto(a) de português(a)", artigo: "1.º/1 d)", orgao: "Arquivo Central do Porto", idade: "menores", dataAnalise: "1.ª quinzena de abril de 2026", esperaMeses: 3 },
-  { via: "Neto(a) de português(a)", artigo: "1.º/1 d)", orgao: "Conservatória dos Registos Centrais", idade: "maiores", dataAnalise: "1.ª quinzena de fevereiro de 2022", esperaMeses: 53 },
-  { via: "Neto(a) de português(a)", artigo: "1.º/1 d)", orgao: "Conservatória dos Registos Centrais", idade: "menores", dataAnalise: "1.ª quinzena de março de 2026", esperaMeses: 4 },
-  { via: "Casamento com português(a)", artigo: "3.º/1", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "1.ª quinzena de novembro de 2021", esperaMeses: 56 },
-  { via: "União estável com português(a)", artigo: "3.º/3", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "2.ª quinzena de maio de 2026", esperaMeses: 2 },
-  { via: "Residência em Portugal", artigo: "6.º/1", orgao: "Arquivo Central do Porto", idade: "todos", dataAnalise: "1.ª quinzena de outubro de 2023", esperaMeses: 33 },
-  { via: "Residência em Portugal", artigo: "6.º/1", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "1.ª quinzena de abril de 2024", esperaMeses: 27 },
+  { via: "Filho(a) de português(a)", slug: "filhos-maiores", modalidade: "transcrição", artigo: "1.º/1 c)", orgao: "Arquivo Central do Porto", idade: "maiores", dataAnalise: "1.ª quinzena de maio de 2025", esperaMeses: 14 },
+  { via: "Filho(a) de português(a)", slug: "filhos-menores", modalidade: "transcrição", artigo: "1.º/1 c)", orgao: "Arquivo Central do Porto", idade: "menores", dataAnalise: "2.ª quinzena de novembro de 2025", esperaMeses: 8 },
+  { via: "Filho(a) de português(a)", slug: "filhos-maiores", modalidade: "transcrição", artigo: "1.º/1 c)", orgao: "Conservatória dos Registos Centrais", idade: "maiores", dataAnalise: "1.ª quinzena de março de 2022", esperaMeses: 52 },
+  { via: "Filho(a) de português(a)", slug: "filhos-menores", modalidade: "transcrição", artigo: "1.º/1 c)", orgao: "Conservatória dos Registos Centrais", idade: "menores", dataAnalise: "2.ª quinzena de setembro de 2025", esperaMeses: 10 },
+  { via: "Filho(a) de português(a)", slug: "filhos-maiores", modalidade: "inscrição", artigo: "1.º/1 c)", orgao: "Arquivo Central do Porto", idade: "maiores", dataAnalise: "2.ª quinzena de fevereiro de 2026", esperaMeses: 5 },
+  { via: "Filho(a) de português(a)", slug: "filhos-menores", modalidade: "inscrição", artigo: "1.º/1 c)", orgao: "Arquivo Central do Porto", idade: "menores", dataAnalise: "1.ª quinzena de maio de 2026", esperaMeses: 2 },
+  { via: "Filho(a) de português(a)", slug: "filhos-maiores", modalidade: "inscrição", artigo: "1.º/1 c)", orgao: "Conservatória dos Registos Centrais", idade: "maiores", dataAnalise: "1.ª quinzena de novembro de 2023", esperaMeses: 32 },
+  { via: "Filho(a) de português(a)", slug: "filhos-menores", modalidade: "inscrição", artigo: "1.º/1 c)", orgao: "Conservatória dos Registos Centrais", idade: "menores", dataAnalise: "2.ª quinzena de março de 2026", esperaMeses: 3 },
+  { via: "Neto(a) de português(a)", slug: "netos", artigo: "1.º/1 d)", orgao: "Arquivo Central do Porto", idade: "maiores", dataAnalise: "1.ª quinzena de setembro de 2023", esperaMeses: 34 },
+  { via: "Neto(a) de português(a)", slug: "netos", artigo: "1.º/1 d)", orgao: "Arquivo Central do Porto", idade: "menores", dataAnalise: "1.ª quinzena de abril de 2026", esperaMeses: 3 },
+  { via: "Neto(a) de português(a)", slug: "netos", artigo: "1.º/1 d)", orgao: "Conservatória dos Registos Centrais", idade: "maiores", dataAnalise: "1.ª quinzena de fevereiro de 2022", esperaMeses: 53 },
+  { via: "Neto(a) de português(a)", slug: "netos", artigo: "1.º/1 d)", orgao: "Conservatória dos Registos Centrais", idade: "menores", dataAnalise: "1.ª quinzena de março de 2026", esperaMeses: 4 },
+  { via: "Casamento com português(a)", slug: "conjuges", artigo: "3.º/1", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "1.ª quinzena de novembro de 2021", esperaMeses: 56 },
+  { via: "União estável com português(a)", slug: "conjuges", artigo: "3.º/3", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "2.ª quinzena de maio de 2026", esperaMeses: 2 },
+  { via: "Residência em Portugal", slug: "residencia", artigo: "6.º/1", orgao: "Arquivo Central do Porto", idade: "todos", dataAnalise: "1.ª quinzena de outubro de 2023", esperaMeses: 33 },
+  { via: "Residência em Portugal", slug: "residencia", artigo: "6.º/1", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "1.ª quinzena de abril de 2024", esperaMeses: 27 },
   { via: "Menor nascido em Portugal", artigo: "6.º/2 e 3", orgao: "Arquivo Central do Porto", idade: "todos", dataAnalise: "1.ª quinzena de fevereiro de 2026", esperaMeses: 5 },
   { via: "Menor nascido em Portugal", artigo: "6.º/2 e 3", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "2.ª quinzena de abril de 2026", esperaMeses: 3 },
-  { via: "Bisneto(a) de português(a)", artigo: "6.º/8", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "1.ª quinzena de janeiro de 2024", esperaMeses: 30 },
+  { via: "Bisneto(a) de português(a)", slug: "bisnetos", artigo: "6.º/8", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "1.ª quinzena de janeiro de 2024", esperaMeses: 30 },
   { via: "Filho(a) menor de quem se naturalizou", artigo: "2.º", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "2.ª quinzena de outubro de 2022", esperaMeses: 45 },
   { via: "Descendente de judeus sefarditas", artigo: "6.º/7", orgao: "Arquivo Central do Porto", idade: "todos", dataAnalise: "2.ª quinzena de maio de 2022", esperaMeses: 50 },
   { via: "Descendente de judeus sefarditas", artigo: "6.º/7", orgao: "Conservatória dos Registos Centrais", idade: "todos", dataAnalise: "1.ª quinzena de junho de 2021", esperaMeses: 61 },
@@ -283,6 +285,16 @@ export const FILAS_META = {
     "Arquivo Central do Porto",
     "Conservatória dos Registos Centrais",
   ] as Orgao[],
+  /**
+   * Data do quadro publicado por cada órgão e n.º de relatórios guardados no
+   * histórico interno. TODO(Luiz/Kathia): preencher com os valores reais — não
+   * inventados — assim que houver um processo de arquivo destes e-mails
+   * automáticos. Até lá o componente do seletor usa só `referenciaQuadro`
+   * acima e omite estes dois campos.
+   */
+  porOrgao: undefined as
+    | undefined
+    | Record<Orgao, { quadroLabel: string; relatoriosGuardados: number }>,
 };
 
 /** Quadro completo das filas, em markdown. Token: {{filas:tabela}} */

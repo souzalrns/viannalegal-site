@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getPage } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 import { RevisaoJuridica } from "@/components/revisao-juridica";
+import { SeletorFilas } from "@/components/seletor-filas";
 import { blogPostingSchema, faqSchema, jsonLd } from "@/lib/schema";
 
 const content = getPage("prazos-e-acompanhamento");
@@ -35,6 +36,9 @@ export default function PrazosEAcompanhamentoPage() {
         Por {content.author ?? "ViannaLegal"} · Actualizado em {content.dateModified ?? content.datePublished}
       </p>
       <div className="answer-block">{content.answerBlock}</div>
+
+      <SeletorFilas />
+
       <article className="article-body" dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
 
       {content.faq.length > 0 && (
