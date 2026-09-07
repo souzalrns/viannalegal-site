@@ -40,6 +40,14 @@ export async function generateMetadata({
   });
 }
 
+const LEI_SLUGS_COM_FILA = [
+  "netos",
+  "filhos",
+  "bisnetos",
+  "residencia",
+  "casamento-e-uniao-de-facto",
+] as const;
+
 export default async function LeiSubPage({
   params,
 }: {
@@ -47,6 +55,7 @@ export default async function LeiSubPage({
 }) {
   const { slug } = await params;
   const content = load(slug);
+  const temFila = (LEI_SLUGS_COM_FILA as readonly string[]).includes(slug);
 
   return (
     <main className="container-width py-10 sm:py-14">
@@ -71,6 +80,13 @@ export default async function LeiSubPage({
 
       <h1 className="mb-5 text-3xl leading-tight text-primary sm:text-4xl">{content.h1}</h1>
       <div className="answer-block">{content.answerBlock}</div>
+      {temFila && (
+        <p className="meta-line">
+          <a href="/prazos-e-acompanhamento#seletor-filas-titulo">
+            Ver o prazo actual desta fila no simulador do IRN →
+          </a>
+        </p>
+      )}
       <article className="article-body" dangerouslySetInnerHTML={{ __html: content.bodyHtml }} />
 
       <AuthorBio authorName={content.author} />

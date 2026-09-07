@@ -87,6 +87,11 @@ export default async function ViaPage({ params }: Props) {
       </div>
 
       <p style={{ fontWeight: 600 }}>Prazo estimado: {content.heroDuration}</p>
+      <p className="meta-line">
+        <a href="/prazos-e-acompanhamento#seletor-filas-titulo">
+          Ver o prazo actual desta fila no simulador do IRN →
+        </a>
+      </p>
 
       {content.intro.map((p, i) => (
         <p key={i}>{p}</p>
