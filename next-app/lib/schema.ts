@@ -100,6 +100,12 @@ export function blogPostingSchema(opts: {
 }
 
 /** Utilitário: injecta JSON-LD no HTML inicial. */
+// Escapa "<" (e os separadores de linha U+2028/U+2029): um texto com
+// "</script>" vindo do conteúdo não pode fechar a tag do JSON-LD.
 export function jsonLd(schema: object) {
-  return { __html: JSON.stringify(schema) };
+  const json = JSON.stringify(schema)
+    .replace(/</g, "\\u003c")
+    .replace(/\u2028/g, "\\u2028")
+    .replace(/\u2029/g, "\\u2029");
+  return { __html: json };
 }

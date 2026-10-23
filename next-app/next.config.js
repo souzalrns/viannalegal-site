@@ -1,6 +1,37 @@
 /** @type {import('next').NextConfig} */
+// Cabeçalhos de segurança: os mesmos do site actual (vercel.json da raiz), mais
+// o que esta versão precisa. Sem Google Analytics nem Google Fonts aqui; o
+// formulário de contacto fala com a API do Web3Forms (connect-src). O Next
+// injecta scripts inline para a hidratação, daí o 'unsafe-inline' em script-src.
+const CSP = [
+  "default-src 'self'",
+  "script-src 'self' 'unsafe-inline'",
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: https:",
+  "font-src 'self'",
+  "connect-src 'self' https://api.web3forms.com",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "frame-ancestors 'none'",
+].join("; ");
+
+const SECURITY_HEADERS = [
+  { key: "Content-Security-Policy", value: CSP },
+  { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
+  { key: "X-Frame-Options", value: "DENY" },
+  { key: "X-Content-Type-Options", value: "nosniff" },
+  { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+  { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+];
+
 const nextConfig = {
   reactStrictMode: true,
+  poweredByHeader: false,
+
+  async headers() {
+    return [{ source: "/(.*)", headers: SECURITY_HEADERS }];
+  },
 
   // 301s aprovados no M0/M4 — ver redirects.json para o histórico completo.
   // NOTA: bisnetos-via1-vs-via2-cidadania-portuguesa foi deixado FORA de
