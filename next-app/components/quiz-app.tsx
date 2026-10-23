@@ -20,6 +20,7 @@ export function QuizApp() {
   const [leadData, setLeadData] = useState({ name: "", email: "", whatsapp: "" });
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState(false);
 
   const currentKey = history[history.length - 1];
   const currentNode = NODES[currentKey];
@@ -40,15 +41,17 @@ export function QuizApp() {
     setHistory(["q1"]);
     setShowLead(false);
     setSent(false);
+    setSendError(false);
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   async function handleLead(e: React.FormEvent) {
     e.preventDefault();
     setSending(true);
+    setSendError(false);
     try {
       // Mesma access_key Web3Forms já confirmada em produção.
-      await fetch("https://api.web3forms.com/submit", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
@@ -61,12 +64,15 @@ export function QuizApp() {
           resultado: currentKey,
         }),
       });
+      const data = await res.json();
+      if (!data.success) throw new Error(data.message || "Falha no envio");
+      setSent(true);
     } catch {
-      // silencioso — mostramos sucesso na mesma para não bloquear o utilizador;
-      // o WhatsApp continua disponível como alternativa sempre visível.
+      // Nunca mostrar "recebemos" quando o envio falhou: o contacto perdia-se sem
+      // ninguém saber. O WhatsApp continua disponível como alternativa.
+      setSendError(true);
     }
     setSending(false);
-    setSent(true);
   }
 
   const totalSteps = 5;
@@ -250,6 +256,17 @@ export function QuizApp() {
                         >
                           {sending ? "A enviar…" : "Enviar e receber análise"}
                         </button>
+                        {sendError && (
+                          <p role="alert" style={{ fontSize: "0.85rem", margin: 0 }}>
+                            Não foi possível enviar agora. Tente de novo ou fale por WhatsApp.
+                          </p>
+                        )}
+                        <p style={{ fontSize: "0.75rem", opacity: 0.8, margin: 0 }}>
+                          Os dados servem só para responder ao seu pedido.{" "}
+                          <a href="/politica-privacidade" style={{ color: "#fff" }}>
+                            Política de Privacidade
+                          </a>
+                        </p>
                       </form>
                     )}
                   </>
