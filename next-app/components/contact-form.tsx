@@ -130,6 +130,11 @@ export function ContactForm() {
         {errors.message && <p style={{ color: "#b91c1c", fontSize: "0.85rem" }}>{errors.message}</p>}
       </div>
 
+      <p style={{ fontSize: "0.8rem", color: "#555", marginBottom: "0.75rem" }}>
+        Os dados que enviar servem só para responder ao seu pedido. Saiba como os tratamos na{" "}
+        <a href="/politica-privacidade">Política de Privacidade</a>.
+      </p>
+
       <button type="submit" disabled={formState === "submitting"}>
         {formState === "submitting" ? "A enviar…" : "Enviar mensagem"}
       </button>
