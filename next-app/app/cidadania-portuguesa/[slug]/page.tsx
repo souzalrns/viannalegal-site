@@ -9,6 +9,9 @@ interface Props {
 }
 
 /** SSG — todas as 7 vias geradas no build. */
+// Só os slugs gerados no build: qualquer outro dá 404 sem chegar a ler ficheiros.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return serviceSlugs.map((slug) => ({ slug }));
 }

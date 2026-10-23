@@ -13,6 +13,9 @@ interface Props {
  * content/blog/, mas a rota já está pronta para os restantes 82 posts
  * (M3) sem alterar nenhuma linha aqui — basta acrescentar .mdx.
  */
+// Só os slugs gerados no build: qualquer outro dá 404 sem chegar a ler ficheiros.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getBlogSlugs().map((slug) => ({ slug }));
 }
