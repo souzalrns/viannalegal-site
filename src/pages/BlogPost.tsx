@@ -1,4 +1,4 @@
-import { PRAZOS_IRN, PRAZOS_META } from '@/config/prazos';
+import { PRAZOS_META, resolvePrazos } from '@/config/prazos';
 import { TAXAS_IRN, TAXAS_APOSTILA, TAXAS_META } from '@/config/taxas';
 import { useEffect, useState, useMemo } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
@@ -89,7 +89,7 @@ export default function BlogPost() {
       "@id": `https://viannalegal.com.br/blog/${post.slug}`
     },
     "url": `https://viannalegal.com.br/blog/${post.slug}`,
-    "articleBody": post.content,
+    "articleBody": post.content ? resolvePrazos(post.content) : post.content,
     "wordCount": post.content?.split(/\s+/).length || 0,
     "inLanguage": "pt-BR"
   };
@@ -124,21 +124,7 @@ export default function BlogPost() {
 
   // Convert markdown-like content to HTML (com sanitização XSS)
   // Resolver placeholders de prazos a partir da tabela central
-  const resolvePlaceholders = (text: string): string => {
-    const get = (slug: string, max?: number) => {
-      const p = max
-        ? PRAZOS_IRN.find(p => p.slug === slug && p.prazoMax === max)
-        : PRAZOS_IRN.find(p => p.slug === slug);
-      return p?.prazo || '';
-    };
-    return text
-      .replace(/{{prazo_filhos_menores}}/g, get('filhos-menores') || '4 meses no Porto e 3 em Lisboa')
-      .replace(/{{prazo_filhos_maiores}}/g, get('filhos-maiores') || '7 meses no Porto e 34 em Lisboa')
-      .replace(/{{prazo_netos_maiores}}/g,  get('netos', 55)     || '36 meses no Porto e 55 em Lisboa')
-      .replace(/{{prazo_casamento}}/g,      get('conjuges')      || '58 meses em Lisboa')
-      .replace(/{{prazo_naturalizacao}}/g,  get('residencia')    || '33 meses no Porto e 27 em Lisboa')
-      .replace(/{{prazo_transcricao}}/g,    get('transcricao-casamento') || '2 a 3 meses');
-  };
+  const resolvePlaceholders = (text: string): string => resolvePrazos(text);
 
   const formatContent = (content: string) => {
     content = resolvePlaceholders(content);
@@ -339,7 +325,7 @@ export default function BlogPost() {
       />
       {/* FAQPage schema — extrai perguntas frequentes do conteúdo do artigo */}
       {post.content && (() => {
-        const faqSection = post.content.split('Perguntas frequentes')[1] || '';
+        const faqSection = resolvePrazos(post.content).split('Perguntas frequentes')[1] || ''; // resolver antes de cortar: um marcador cortado ao meio ficava por trocar
         const pairs = [...faqSection.matchAll(/\*\*([^*\n]{10,}\?)\*\*\s+([^\n*>]{30,})/g)]
           .map(m => ({ question: m[1].trim(), answer: m[2].trim().slice(0, 400) }))
           .filter(p => p.answer.length > 20)

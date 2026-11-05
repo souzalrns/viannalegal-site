@@ -27,6 +27,8 @@ const SECURITY_HEADERS = [
 
 const nextConfig = {
   reactStrictMode: true,
+  // Os prazos do IRN vêm da fonte única partilhada com o site Vite (../src/config/prazos-core.ts).
+  experimental: { externalDir: true },
   poweredByHeader: false,
 
   async headers() {

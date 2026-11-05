@@ -1,9 +1,9 @@
 ---
 route_path: "/prazos-e-acompanhamento"
 title: "Prazos Reais do IRN e Como Acompanhar o Seu Processo | ViannaLegal"
-description: "Prazos actualizados por via (junho de 2026), o backlog de 700 mil processos no IRN, e o guia completo para consultar o estado do seu pedido no portal irn.mj.pt."
+description: "Prazos actualizados por via, Porto e Lisboa ({{prazo_quadros}}), o backlog de 700 mil processos no IRN, e o guia completo para consultar o estado do seu pedido no portal irn.mj.pt."
 h1: "Prazos Reais do IRN e Como Acompanhar o Seu Processo"
-answer_block: "Quanto tempo demora e como acompanho o meu processo de cidadania portuguesa? Depois da corrida às submissões antes da Lei Orgânica 1/2026, o IRN tem mais de 700.000 processos pendentes — 35% acima dos 516.000 anteriores. Os prazos actuais por via vão de 3-5 meses (filhos menores) a 36 meses no Porto e 55 em Lisboa (netos maiores) ou 58 meses em Lisboa (casamento). Para acompanhar o seu processo, use o portal irn.mj.pt com o número do processo e a senha de acesso enviada no protocolo."
+answer_block: "Quanto tempo demora e como acompanho o meu processo de cidadania portuguesa? Depois da corrida às submissões antes da Lei Orgânica 1/2026, o IRN tem mais de 700.000 processos pendentes — 35% acima dos 516.000 anteriores. Os prazos actuais por via vão de {{prazo_filhos_menores}} (filhos menores) a {{prazo_netos_maiores}} (netos maiores) ou {{prazo_casamento}} (casamento). Para acompanhar o seu processo, use o portal irn.mj.pt com o número do processo e a senha de acesso enviada no protocolo."
 unique_promise: "É a única página que junta os prazos reais actualizados por via com o guia prático de como consultar o processo no portal do IRN — fundindo 3 posts que se sobrepunham no site anterior."
 og_type: "article"
 author: "Kathia Vianna"
@@ -11,7 +11,7 @@ date_published: "2026-06-23"
 date_modified: "2026-06-23"
 faq:
   - q: "Quanto tempo demora, em média, um processo de cidadania portuguesa em 2026?"
-    a: "Depende da via: filhos menores 4 meses no Porto e 3 em Lisboa, filhos maiores 7 meses no Porto e 34 em Lisboa, netos menores 6 meses no Porto e 5 em Lisboa, netos maiores 36 meses no Porto e 55 em Lisboa, casamento 58 meses em Lisboa, união de facto 4 meses, naturalização por residência 33 meses no Porto e 27 em Lisboa. Bisnetos ainda aguardam regulamentação completa."
+    a: "Depende da via: filhos menores {{prazo_filhos_menores}}, filhos maiores {{prazo_filhos_maiores}}, netos menores {{prazo_netos_menores}}, netos maiores {{prazo_netos_maiores}}, casamento {{prazo_casamento}}, união de facto {{prazo_uniao_facto_lisboa}}, naturalização por residência {{prazo_naturalizacao}}. Bisnetos ainda aguardam regulamentação completa."
   - q: "Por que o backlog do IRN aumentou tanto em 2026?"
     a: "A Lei Orgânica 1/2026 entrou em vigor a 19 de maio de 2026 com regras mais exigentes (ex.: 7 anos de residência em vez de 5). Quem submeteu antes dessa data ficou protegido pelo regime anterior, gerando uma corrida às plataformas do IRN que fez o backlog subir de ~516.000 para mais de 700.000 processos em poucas semanas."
   - q: "Onde consulto o estado do meu processo?"
@@ -26,26 +26,26 @@ Antes da Lei Orgânica 1/2026, o IRN já tinha cerca de 516.000 pedidos pendente
 
 A lógica da corrida foi simples: quem submetesse antes de 19 de maio de 2026 ficava protegido pelas regras anteriores — incluindo o prazo de 5 anos de residência para brasileiros, em vez dos 7 agora exigidos. O IRN confirmou publicamente que a **data de submissão online** determina o regime jurídico aplicável, mesmo com as plataformas congestionadas nesse período.
 
-## Prazos estimados por via (quadros do IRN de setembro/outubro de 2026)
+## Prazos estimados por via (quadros do IRN de {{prazo_quadros}})
 
 Estes prazos referem-se ao tempo de análise **após o protocolo do pedido**, não ao tempo de preparação documental. São o tempo de espera desde a data dos processos que cada conservatória está a analisar, segundo os quadros publicados pela Conservatória dos Registos Centrais (Lisboa) e pelo Arquivo Central do Porto.
 
 | Via | Porto (Arquivo Central) | Lisboa (Registos Centrais) |
 |---|---|---|
-| Filhos menores (inscrição) | 4 meses | 3 meses |
-| Filhos menores (transcrição) | 11 meses | 11 meses |
-| Filhos maiores (inscrição) | 7 meses | 34 meses |
-| Filhos maiores (transcrição) | 15 meses | 53 meses |
-| Netos menores | 6 meses | 5 meses |
-| Netos maiores | 36 meses | 55 meses |
-| Casamento | sem fila publicada | 58 meses |
-| União de facto | sem fila publicada | 4 meses |
-| Naturalização por residência | 33 meses | 27 meses |
-| Naturalização de menor nascido em Portugal | 7 meses | 4 meses |
-| Transcrição de casamento | 2 a 3 meses | 2 a 3 meses |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação | |
+| Filhos menores (inscrição) | {{prazo_filhos_menores_porto}} | {{prazo_filhos_menores_lisboa}} |
+| Filhos menores (transcrição) | {{prazo_filhos_menores_transcricao_porto}} | {{prazo_filhos_menores_transcricao_lisboa}} |
+| Filhos maiores (inscrição) | {{prazo_filhos_maiores_porto}} | {{prazo_filhos_maiores_lisboa}} |
+| Filhos maiores (transcrição) | {{prazo_filhos_maiores_transcricao_porto}} | {{prazo_filhos_maiores_transcricao_lisboa}} |
+| Netos menores | {{prazo_netos_menores_porto}} | {{prazo_netos_menores_lisboa}} |
+| Netos maiores | {{prazo_netos_maiores_porto}} | {{prazo_netos_maiores_lisboa}} |
+| Casamento | {{prazo_casamento_porto}} | {{prazo_casamento_lisboa}} |
+| União de facto | {{prazo_uniao_facto_porto}} | {{prazo_uniao_facto_lisboa}} |
+| Naturalização por residência | {{prazo_naturalizacao_porto}} | {{prazo_naturalizacao_lisboa}} |
+| Naturalização de menor nascido em Portugal | {{prazo_menor_nascido_pt_porto}} | {{prazo_menor_nascido_pt_lisboa}} |
+| Transcrição de casamento | {{prazo_transcricao}} | {{prazo_transcricao}} |
+| Bisnetos (Art. 6.º n.º 8) | {{prazo_bisnetos_porto}} | {{prazo_bisnetos_lisboa}} |
 
-O mesmo tipo de processo pode demorar muito mais numa conservatória do que noutra: para filhos maiores, a diferença entre o Porto e Lisboa chega a mais de dois anos.
+O mesmo tipo de processo pode demorar muito mais numa conservatória do que noutra: para filhos maiores, são {{prazo_filhos_maiores}}.
 
 ### Como ler estes prazos
 
@@ -54,7 +54,7 @@ O mesmo tipo de processo pode demorar muito mais numa conservatória do que nout
 - **O número é a espera até à análise.** Mostra há quanto tempo estão os processos que a conservatória está a analisar agora. Depois da análise pode faltar a decisão do conservador e o registo.
 - **Passou a data e o processo não anda?** O motivo mais frequente é o pedido estar à espera de resposta de outra entidade (por exemplo, AIMA ou registo criminal), não a fila.
 
-Actualizado em novembro de 2026, com os quadros de setembro e outubro de 2026.
+Actualizado em {{prazo_atualizacao}}, com os quadros de {{prazo_quadros}}.
 
 ## O que influencia o tempo do seu processo
 
