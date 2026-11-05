@@ -35,11 +35,11 @@ Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
 └── NÃO ↓
 
 É casado(a) ou tem união de facto com português(a) há 3+ anos?
-├── SIM → Via de Casamento/UF (prazo: cerca de 58 meses)
+├── SIM → Via de Casamento/UF (prazo: 58 meses em Lisboa)
 └── NÃO ↓
 
 Reside legalmente em Portugal há 7+ anos (brasileiro/CPLP)?
-├── SIM → Via de Naturalização (prazo: 27 a 33 meses)
+├── SIM → Via de Naturalização (prazo: 33 meses no Porto e 27 em Lisboa)
 └── NÃO → Consulte outras hipóteses previstas na Lei da Nacionalidade
 \`\`\`
 
@@ -2880,7 +2880,7 @@ A forma de avaliação desses novos critérios ainda depende da regulamentação
 | Análise e organização | 1-6 meses |
 | Análise pelo IRN | {{prazo_netos_maiores}} (maiores) / {{prazo_filhos_menores}} (menores) |
 | Registro e documentos | 2-4 meses |
-| **Total** | **24 a 42 meses** |
+| **Total** | **cerca de 3,5 anos no Porto e 5 anos em Lisboa** (maiores) |
 
 ## Erros mais comuns
 

@@ -131,11 +131,11 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores | **3 a 4 meses** |
-| Filhos maiores (inscrição) | **7 a 34 meses** |
+| Filhos menores | **4 meses no Porto e 3 em Lisboa** |
+| Filhos maiores (inscrição) | **7 meses no Porto e 34 em Lisboa** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **5 a 6 meses** |
-| Netos maiores | **36 a 55 meses** |
+| Netos menores | **6 meses no Porto e 5 em Lisboa** |
+| Netos maiores | **36 meses no Porto e 55 em Lisboa** |
 | Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
@@ -434,25 +434,25 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores | **3 a 4 meses** |
-| Filhos maiores (inscrição) | **7 a 34 meses** |
+| Filhos menores | **4 meses no Porto e 3 em Lisboa** |
+| Filhos maiores (inscrição) | **7 meses no Porto e 34 em Lisboa** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **5 a 6 meses** |
-| Netos maiores | **36 a 55 meses** |
+| Netos menores | **6 meses no Porto e 5 em Lisboa** |
+| Netos maiores | **36 meses no Porto e 55 em Lisboa** |
 | Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
 
 ### Cidadania por Casamento / União de Facto
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Casamento / União de facto | **cerca de 58 meses** (união de facto: cerca de 4 meses) |
+| Casamento / União de facto | **58 meses em Lisboa** (união de facto: 4 meses) |
 
 ### Naturalização por Residência
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Naturalização CPLP/UE (7 anos) | **27 a 33 meses** |
-| Naturalização outros países (10 anos) | **27 a 33 meses** |
+| Naturalização CPLP/UE (7 anos) | **33 meses no Porto e 27 em Lisboa** |
+| Naturalização outros países (10 anos) | **33 meses no Porto e 27 em Lisboa** |
 
 **Nota:** Para quem busca naturalização, o prazo de 7 anos de residência ainda exige o protocolo e a análise. O tempo total desde o início da residência até ao passaporte pode superar 8-9 anos.
 
@@ -995,7 +995,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (junho 2026) |
 |---|---|
-| Casamento / União de facto | **cerca de 58 meses** (união de facto: cerca de 4 meses) |
+| Casamento / União de facto | **58 meses em Lisboa** (união de facto: 4 meses) |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -1151,7 +1151,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (2026) |
 |---|---|
-| Naturalização (CPLP — 7 anos) | **27 a 33 meses** |
+| Naturalização (CPLP — 7 anos) | **33 meses no Porto e 27 em Lisboa** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -1572,8 +1572,8 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (junho 2026) |
 |---|---|
-| Netos menores | **5 a 6 meses** |
-| Netos maiores | **36 a 55 meses** |
+| Netos menores | **6 meses no Porto e 5 em Lisboa** |
+| Netos maiores | **36 meses no Porto e 55 em Lisboa** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -1903,13 +1903,13 @@ Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 
 | Tipo de processo | Prazo actual (quadros do IRN de set/out 2026) |
 |---|---|
-| Filhos menores | **3 a 4 meses** |
-| Filhos maiores (inscrição) | **7 a 34 meses** |
+| Filhos menores | **4 meses no Porto e 3 em Lisboa** |
+| Filhos maiores (inscrição) | **7 meses no Porto e 34 em Lisboa** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **5 a 6 meses** |
-| Netos maiores | **36 a 55 meses** |
-| Casamento / União de facto | **cerca de 58 meses** (união de facto: cerca de 4 meses) |
-| Naturalização CPLP (7 anos) | **27 a 33 meses** |
+| Netos menores | **6 meses no Porto e 5 em Lisboa** |
+| Netos maiores | **36 meses no Porto e 55 em Lisboa** |
+| Casamento / União de facto | **58 meses em Lisboa** (união de facto: 4 meses) |
+| Naturalização CPLP (7 anos) | **33 meses no Porto e 27 em Lisboa** |
 | Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
@@ -2063,7 +2063,7 @@ A forma de avaliação desses novos critérios ainda depende da regulamentação
 
 **Fase 3 — Montagem do processo e petição (30-60 dias):** Elaborar petição, organizar dossiê de vínculo efetivo, traduzir documentos quando necessário.
 
-**Fase 4 — Análise pelo IRN (36 a 55 meses (maiores) / 5 a 6 meses (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
+**Fase 4 — Análise pelo IRN (36 meses no Porto e 55 em Lisboa (maiores) / 6 meses no Porto e 5 em Lisboa (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
 
 **Fase 5 — Registro e emissão do Cartão de Cidadão (2-4 meses)**
 
@@ -2083,9 +2083,9 @@ A forma de avaliação desses novos critérios ainda depende da regulamentação
 | Etapa | Prazo |
 |-------|-------|
 | Análise e organização | 1-6 meses |
-| Análise pelo IRN | 36 a 55 meses (maiores) / 5 a 6 meses (menores) |
+| Análise pelo IRN | 36 meses no Porto e 55 em Lisboa (maiores) / 6 meses no Porto e 5 em Lisboa (menores) |
 | Registro e documentos | 2-4 meses |
-| **Total** | **24 a 42 meses** |
+| **Total** | **cerca de 3,5 anos no Porto e 5 anos em Lisboa** (maiores) |
 
 ## Erros mais comuns
 
@@ -2436,7 +2436,7 @@ Para quem tem avô ou avó português e também reside em Portugal, a via de net
 | Critério | Naturalização | Netos |
 |---|---|---|
 | Exige morar em Portugal | Sim — 7 anos | Não |
-| Prazo total estimado | 7 anos + 27 a 33 meses | 36 a 55 meses |
+| Prazo total estimado | 7 anos + 33 meses no Porto e 27 em Lisboa | 36 meses no Porto e 55 em Lisboa |
 
 ## Regra de transição
 
@@ -2473,7 +2473,7 @@ Há diferença entre orientação (dizer o que fazer) e representação jurídic
 O contrato deve especificar o que está incluído: análise inicial, montagem, representação, monitoramento de diligências, comunicação sobre andamento. Honorários muito baixos frequentemente indicam escopo muito limitado.
 
 **4. Clareza sobre prazos reais**
-Desconfie de quem promete prazos menores do que os praticados pelo IRN (36 a 55 meses para netos maiores). Esses prazos são determinados pela fila do IRN, não pela assessoria.
+Desconfie de quem promete prazos menores do que os praticados pelo IRN (36 meses no Porto e 55 em Lisboa para netos maiores). Esses prazos são determinados pela fila do IRN, não pela assessoria.
 
 **5. Actualização legislativa**
 A [Lei 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) mudou pontos significativos. Um escritório que ainda orienta com base nas regras de 2024 está desactualizado.
@@ -2579,7 +2579,7 @@ O prazo conta da **data do casamento civil** — não da transcrição em Portug
 
 O processo por casamento tem duas etapas obrigatórias nessa ordem:
 1. **Transcrição do casamento no IRN** — prazo estimado de 2 a 3 meses (quadros do IRN de set/out 2026)
-2. **Pedido de cidadania** — prazo estimado de cerca de 58 meses de análise
+2. **Pedido de cidadania** — prazo estimado de 58 meses em Lisboa de análise
 
 O prazo de 3 anos precisa estar cumprido na data do **protocolo do pedido de cidadania** — não na data da transcrição.
 
