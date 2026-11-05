@@ -37,13 +37,13 @@ export const servicesContent: Record<string, ServiceContent> = {
     slug: 'netos',
     metaTitle: 'Cidadania Portuguesa para Netos | Requisitos e Prazos 2026 | ViannaLegal',
     metaDescription:
-      'Guia completo sobre cidadania portuguesa para netos de português: requisitos de vínculo efetivo, documentos, prazos actualizados (42 a 48 meses para maiores) e como evitar os erros mais comuns.',
+      'Guia completo sobre cidadania portuguesa para netos de português: requisitos de vínculo efetivo, documentos, prazos actualizados (36 a 55 meses para maiores) e como evitar os erros mais comuns.',
     breadcrumbLabel: 'Cidadania para Netos',
     heroTitle: 'Cidadania Portuguesa para Netos',
     heroSubtitle:
       'Você é neto de um português ou portuguesa e quer entender se tem direito à cidadania europeia? Veja os requisitos reais, o que muda com a Lei Orgânica 1/2026 e quanto tempo leva.',
-    heroDuration: `${PRAZOS_IRN.find(p=>p.slug==='netos'&&p.prazoMax===48)?.prazo || '42 a 48 meses'}*`,
-    heroDurationNote: '* Estimativa baseada em dados das conservatórias (abr/mai 2026), ±5%. Pode variar.',
+    heroDuration: `${PRAZOS_IRN.find(p=>p.slug==='netos'&&p.prazoMax===55)?.prazo || '36 a 55 meses'}*`,
+    heroDurationNote: '* Estimativa baseada em dados das conservatórias (set/out 2026). Varia entre Lisboa e o Porto.',
     intro: [
       'Ter um avô ou avó nascido em Portugal é, hoje, um dos caminhos mais buscados por brasileiros para conquistar a cidadania europeia. A boa notícia é que esse direito existe e é amplamente reconhecido pela lei portuguesa. A má notícia é que, diferente do processo para filhos, o caminho dos netos não é automático: a lei exige a comprovação de um "vínculo efetivo com a comunidade nacional portuguesa" — um critério que gera dúvida em quase todo processo que chega até nós.',
       'Esse requisito existe desde a reforma da Lei da Nacionalidade de 2020 e continua valendo com a Lei Orgânica n.º 1/2026 (em vigor desde 18 de maio de 2026), que reforçou o rigor na análise documental sem eliminar a via de netos. Na prática, isso significa que ser neto de português, por si só, não basta: é preciso reunir provas concretas de que você mantém uma ligação real com Portugal e a cultura portuguesa.',
@@ -69,7 +69,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { stage: 'Análise inicial e montagem da estratégia de vínculo efetivo', duration: '15-30 dias' },
       { stage: 'Localização e regularização de certidões', duration: '1-4 meses (varia conforme arquivo)' },
       { stage: 'Montagem e distribuição do processo na conservatória', duration: '30-60 dias' },
-      { stage: 'Análise pelo IRN (Instituto dos Registos e do Notariado)', duration: '42 a 48 meses (maiores) / 3 a 5 meses (menores)' },
+      { stage: 'Análise pelo IRN (Instituto dos Registos e do Notariado)', duration: '36 a 55 meses (maiores) / 5 a 6 meses (menores)' },
       { stage: 'Registro da nacionalidade e emissão do cartão de cidadão/passaporte', duration: '2-4 meses' },
     ],
     commonMistakes: [
@@ -102,12 +102,12 @@ export const servicesContent: Record<string, ServiceContent> = {
     slug: 'filhos-menores',
     metaTitle: 'Cidadania Portuguesa para Filhos Menores | Processo Simplificado | ViannaLegal',
     metaDescription:
-      'Filhos menores de cidadãos portugueses têm direito automático à cidadania. Veja documentos, prazos (3 a 5 meses) e como dar entrada no processo simplificado.',
+      'Filhos menores de cidadãos portugueses têm direito automático à cidadania. Veja documentos, prazos (3 a 4 meses) e como dar entrada no processo simplificado.',
     breadcrumbLabel: 'Cidadania para Filhos Menores',
     heroTitle: 'Cidadania Portuguesa para Filhos Menores',
     heroSubtitle:
       'Se um dos pais é cidadão português, o filho menor de idade tem direito automático à nacionalidade — sem exigência de vínculo efetivo. É o processo mais rápido entre todos os caminhos de descendência.',
-    heroDuration: '3 a 5 meses',
+    heroDuration: '3 a 4 meses',
     intro: [
       'Entre todos os processos de cidadania por descendência, o de filhos menores é o mais célere. A lei portuguesa reconhece que quem nasce filho de português é português desde o nascimento — não é necessário provar vínculo cultural ou afetivo com Portugal, como ocorre no caso dos netos.',
       'Isso significa que, sendo confirmada a filiação com as certidões corretas, o processo costuma seguir um trâmite relativamente previsível, com foco em garantir que toda a documentação esteja completa e correta desde a primeira submissão.',
@@ -130,7 +130,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { stage: 'Análise inicial e checklist de documentos', duration: '7-15 dias' },
       { stage: 'Regularização e apostilamento de certidões', duration: '30-60 dias' },
       { stage: 'Distribuição do processo na conservatória competente', duration: '15-30 dias' },
-      { stage: 'Análise e registo pelo IRN', duration: '3 a 5 meses' },
+      { stage: 'Análise e registo pelo IRN', duration: '3 a 4 meses' },
     ],
     commonMistakes: [
       'Submeter certidão de nascimento sem o nome do pai/mãe português atualizado corretamente (erros de grafia geram diligência).',
@@ -161,12 +161,12 @@ export const servicesContent: Record<string, ServiceContent> = {
     slug: 'filhos-maiores',
     metaTitle: 'Cidadania Portuguesa para Filhos Maiores de Idade | Prazos e Requisitos | ViannaLegal',
     metaDescription:
-      'Filhos maiores de cidadãos portugueses também têm direito à cidadania, com processo próprio. Veja prazos (4 a 6 meses por inscrição / 2 a 3 meses por transcrição), documentos e diferenças em relação ao processo de menores.',
+      'Filhos maiores de cidadãos portugueses também têm direito à cidadania, com processo próprio. Veja prazos (7 a 34 meses por inscrição / 2 a 3 meses por transcrição), documentos e diferenças em relação ao processo de menores.',
     breadcrumbLabel: 'Cidadania para Filhos Maiores',
     heroTitle: 'Cidadania Portuguesa para Filhos Maiores de Idade',
     heroSubtitle:
       'Já é adulto e um dos seus pais é português? O direito à cidadania continua válido — o processo apenas segue um trâmite próprio, um pouco mais longo que o de menores de idade.',
-    heroDuration: '4 a 6 meses',
+    heroDuration: '7 a 34 meses',
     intro: [
       'Muita gente acredita, erroneamente, que o direito à cidadania portuguesa por filiação só vale enquanto o filho é menor de idade. Não é verdade: filhos maiores de cidadãos portugueses mantêm o mesmo direito à nacionalidade, sem exigência de vínculo efetivo (esse critério é exclusivo para netos).',
       'A diferença prática está no trâmite: o processo de filhos maiores corre fora do regime simplificado de menores e, por isso, tende a levar um pouco mais de tempo na fila de análise da conservatória ou consulado.',
@@ -189,7 +189,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { stage: 'Análise inicial e checklist de documentos', duration: '7-15 dias' },
       { stage: 'Regularização e apostilamento de certidões', duration: '30-60 dias' },
       { stage: 'Distribuição do processo na conservatória ou consulado', duration: '15-30 dias' },
-      { stage: 'Análise e registo pelo IRN', duration: '4 a 6 meses' },
+      { stage: 'Análise e registo pelo IRN', duration: '7 a 34 meses' },
     ],
     commonMistakes: [
       'Assumir que, por ser maior de idade, o filho perdeu o direito — gerando anos de atraso em iniciar um processo que já era válido.',
@@ -220,12 +220,12 @@ export const servicesContent: Record<string, ServiceContent> = {
     slug: 'conjuges',
     metaTitle: 'Cidadania Portuguesa por Casamento | Requisitos e Prazos 2026 | ViannaLegal',
     metaDescription:
-      'Casado ou em união estável com um(a) português(a)? Veja os requisitos para cidadania portuguesa por casamento, prazos (50 a 54 meses) e o papel da transcrição de casamento.',
+      'Casado ou em união estável com um(a) português(a)? Veja os requisitos para cidadania portuguesa por casamento, prazos (cerca de 58 meses) e o papel da transcrição de casamento.',
     breadcrumbLabel: 'Cidadania por Casamento',
     heroTitle: 'Cidadania Portuguesa por Casamento ou União Estável',
     heroSubtitle:
       'Estar casado(a) com um cidadão português ou portuguesa há mais de 3 anos abre caminho para a nacionalidade. Entenda os requisitos e os documentos que realmente fazem diferença na análise.',
-    heroDuration: '50 a 54 meses',
+    heroDuration: 'cerca de 58 meses',
     intro: [
       'A cidadania por casamento ou união estável é um dos caminhos previstos na Lei da Nacionalidade para quem construiu vida conjugal com um cidadão português. Diferente do processo por descendência, aqui o vínculo que precisa ser comprovado é a relação em si — sua duração, estabilidade e o fato de o casamento ser civilmente reconhecido tanto no Brasil quanto, depois da transcrição, em Portugal.',
       'É comum que esse processo seja confundido com a transcrição de casamento, mas são etapas diferentes: a transcrição registra o casamento brasileiro nos livros civis portugueses e costuma ser pré-requisito; a cidadania por casamento, em si, é o pedido de nacionalidade baseado nesse vínculo já formalizado.',
@@ -249,7 +249,7 @@ export const servicesContent: Record<string, ServiceContent> = {
       { stage: 'Análise inicial e verificação do tempo de casamento', duration: '15-30 dias' },
       { stage: 'Transcrição do casamento (se ainda não feita)', duration: '1-4 meses' },
       { stage: 'Montagem e distribuição do processo de cidadania', duration: '30-60 dias' },
-      { stage: 'Análise pelo IRN', duration: '50 a 54 meses' },
+      { stage: 'Análise pelo IRN', duration: 'cerca de 58 meses' },
     ],
     commonMistakes: [
       'Dar entrada no pedido de cidadania antes de concluir a transcrição do casamento, gerando indeferimento ou suspensão.',
@@ -280,12 +280,12 @@ export const servicesContent: Record<string, ServiceContent> = {
     slug: 'residencia',
     metaTitle: 'Nacionalidade Portuguesa por Residência | Naturalização 2026 | ViannaLegal',
     metaDescription:
-      'Quem reside legalmente em Portugal há 7 anos (CPLP) ou 10 anos pode solicitar a naturalização. Veja documentos, prazos de análise (27 a 30 meses) e como funciona o processo.',
+      'Quem reside legalmente em Portugal há 7 anos (CPLP) ou 10 anos pode solicitar a naturalização. Veja documentos, prazos de análise (27 a 33 meses) e como funciona o processo.',
     breadcrumbLabel: 'Nacionalidade por Residência',
     heroTitle: 'Nacionalidade Portuguesa por Residência (Naturalização)',
     heroSubtitle:
       'Reside legalmente em Portugal e quer formalizar a nacionalidade portuguesa? Entenda o caminho da naturalização, que segue regras diferentes dos processos por descendência.',
-    heroDuration: '27 a 30 meses',
+    heroDuration: '27 a 33 meses',
     intro: [
       'A naturalização é o caminho para quem construiu vida em Portugal através de residência legal, sem vínculo de descendência ou casamento com cidadão português. É um dos pontos que mais mudou com a Lei Orgânica n.º 1/2026 (em vigor desde 18 de maio de 2026): o prazo mínimo de residência legal exigido para brasileiros e demais cidadãos da CPLP subiu de 5 para 7 anos. Para nacionais de outros países, o prazo exigido é ainda maior.',
       'Antes da aprovação final, uma versão anterior do projeto havia sido parcialmente invalidada pelo Tribunal Constitucional (Acórdão n.º 1133/2025, dez/2025) — mas a decisão atingiu principalmente uma norma específica de proteção contra demora da administração pública, não o aumento do prazo de residência em si. O texto final, já em vigor, manteve o aumento para 7 anos.',

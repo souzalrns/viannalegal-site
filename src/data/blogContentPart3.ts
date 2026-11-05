@@ -338,12 +338,12 @@ Para processos de netos, o IRN exige a comprovação de vínculo efetivo com a c
 
 Valem: fotos em acervos familiares que mostrem o avô em contexto português, cartas e correspondências, relatos de membros mais velhos da família, visitas ao cemitério onde o avô está sepultado, viagens à localidade de origem em Portugal, participação em associações lusófilas. O que o IRN quer ver é que a ligação com Portugal não é apenas jurídica, mas genuinamente sentida. Saiba mais sobre esse tema em nosso artigo sobre [documentos para netos de portugueses](/blog/checklist-completa-de-documentos-para-netos-de-portugueses).
 
-## Prazos actuais (dados IRN abr/mai 2026)
+## Prazos actuais (quadros do IRN de set/out 2026)
 
 Com o processo protocolado na Conservatória dos Registos Centrais em Lisboa, os prazos estimados de análise são:
 
-- Filhos maiores de português: **4 a 6 meses** (±5%)
-- Netos maiores de português: **42 a 48 meses** (±5%)
+- Filhos maiores de português: **7 a 34 meses**
+- Netos maiores de português: **36 a 55 meses**
 
 O prazo conta a partir da distribuição formal do processo — não da data em que você começou a reunir documentos. Por isso, iniciar o processo o quanto antes tem impacto direto no tempo de espera. Pode acompanhar o andamento do seu processo no [portal de cidadania do Ministério da Justiça](https://nacionalidade.justica.gov.pt).
 
@@ -597,7 +597,7 @@ A emigração para o Nordeste foi concentrada nos séculos XVIII e XIX, com pred
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: 42 a 48 meses; para filhos maiores: 4 a 6 meses (dados abr/mai 2026, ±5%). Veja [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: 36 a 55 meses; para filhos maiores: 7 a 34 meses (quadros do IRN de set/out 2026). Veja [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
 
 ## Perguntas frequentes
 
@@ -617,19 +617,19 @@ Existem múltiplas formas de obter a cidadania portuguesa — e a mais adequada 
 
 ## Via 1: Filiação directa (filhos de portugueses)
 
-Filhos de pai ou mãe português(a), nascidos em qualquer lugar. Atribuição — o direito existe desde o nascimento, não prescreve. Pode ser feito do Brasil. Prazo no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa): 3 a 5 meses (menores) / 4 a 6 meses (maiores).
+Filhos de pai ou mãe português(a), nascidos em qualquer lugar. Atribuição — o direito existe desde o nascimento, não prescreve. Pode ser feito do Brasil. Prazo no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa): 3 a 4 meses (menores) / 7 a 34 meses (maiores).
 
 ## Via 2: Descendência (netos de portugueses) [Processo legalmente aberto — Submissão temporariamente condicionada à regulamentação do teste de história/cultura]
 
-Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a comunidade portuguesa — critérios exatos de comprovação aguardando a publicação da regulamentação (aprovada a 29 de outubro de 2026). Atribuição sem prazo de caducidade. Pode ser feito do Brasil. Prazo: 3 a 5 meses (menores) / 42 a 48 meses (maiores).
+Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a comunidade portuguesa — critérios exatos de comprovação aguardando a publicação da regulamentação (aprovada a 29 de outubro de 2026). Atribuição sem prazo de caducidade. Pode ser feito do Brasil. Prazo: 5 a 6 meses (menores) / 36 a 55 meses (maiores).
 
 ## Via 3: Aquisição por casamento ou união de facto
 
-Cônjuge de cidadão português, após 3 anos de casamento civil ou união de facto judicialmente reconhecida (sujeito a verificação de vínculo efetivo, salvo casamento/UF com mais de 6 anos, filhos comuns portugueses ou residência legal em Portugal). Pode ser feito do Brasil. Prazo: 50 a 54 meses (mais 2 a 3 meses de transcrição prévia).
+Cônjuge de cidadão português, após 3 anos de casamento civil ou união de facto judicialmente reconhecida (sujeito a verificação de vínculo efetivo, salvo casamento/UF com mais de 6 anos, filhos comuns portugueses ou residência legal em Portugal). Pode ser feito do Brasil. Prazo: cerca de 58 meses (mais 2 a 3 meses de transcrição prévia).
 
 ## Via 4: Naturalização por residência em Portugal
 
-Estrangeiros com residência legal continuada. Para brasileiros e CPLP: **7 anos** (desde a Lei 1/2026). Não pode ser feito do Brasil. Prazo de análise: 27 a 30 meses.
+Estrangeiros com residência legal continuada. Para brasileiros e CPLP: **7 anos** (desde a Lei 1/2026). Não pode ser feito do Brasil. Prazo de análise: 27 a 33 meses.
 
 ## Via 5: Nova via de bisnetos [Via jurídica aprovada — Aguarda regulamentação do IRN para início de pedidos] (Art. 6.º n.º 8, Lei 1/2026)
 
@@ -637,7 +637,7 @@ Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisiçã
 
 ## Via 6: Filhos nascidos em Portugal de pais estrangeiros
 
-Pais estrangeiros com 5 anos de residência legal em Portugal (novo requisito — antes era 1 ano). Prazo: 3 a 5 meses.
+Pais estrangeiros com 5 anos de residência legal em Portugal (novo requisito — antes era 1 ano). Prazo: 4 a 7 meses.
 
 ## Via 7: Adoptados por portugueses
 
@@ -803,32 +803,32 @@ Uma das primeiras perguntas de quem considera iniciar o processo: quanto tempo v
 
 ## Os prazos actuais por tipo de processo
 
-Estimativas baseadas nas informações das conservatórias aos advogados (estado do serviço abr/mai 2026), com margem de ±5%:
+Estimativas baseadas nas informações das conservatórias aos advogados (estado do serviço set/out 2026):
 
 | Tipo de processo | Prazo estimado de análise |
 |---|---|
-| Filhos menores de português | 3 a 5 meses |
-| Netos menores de português | 3 a 5 meses |
+| Filhos menores de português | 3 a 4 meses |
+| Netos menores de português | 5 a 6 meses |
 | Transcrição de casamento | 2 a 3 meses |
-| Filhos maiores de português | 4 a 6 meses |
-| Netos maiores de português | 42 a 48 meses |
-| Casamento / União de facto | 50 a 54 meses |
-| Naturalização CPLP (7 anos) | 27 a 30 meses |
+| Filhos maiores de português | 7 a 34 meses |
+| Netos maiores de português | 36 a 55 meses |
+| Casamento / União de facto | cerca de 58 meses (união de facto: cerca de 4 meses) |
+| Naturalização CPLP (7 anos) | 27 a 33 meses |
 | Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
 O prazo contabilizado é a partir da **data de distribuição formal do processo** no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) — não de quando você começou a reunir documentos.
 
 ## Por que menores são muito mais rápidos
 
-Processos de menores de 18 anos têm tramitação prioritária — 3 a 5 meses vs. 40 a 56 meses para adultos. Se você tem filhos com direito à cidadania que ainda são menores, o processo deles é dramaticamente mais rápido. A partir dos 18 anos, passam para a fila geral. Vale protocolar antes da maioridade.
+Processos de menores de 18 anos têm tramitação prioritária — 3 a 6 meses vs. 7 a 55 meses para adultos. Se você tem filhos com direito à cidadania que ainda são menores, o processo deles é dramaticamente mais rápido. A partir dos 18 anos, passam para a fila geral. Vale protocolar antes da maioridade.
 
 ## Por que netos são mais rápidos do que filhos (adultos)
 
-O prazo de netos maiores (42 a 48 meses) é menor do que o de filhos maiores (4 a 6 meses). A razão é o volume — há muito mais processos de filhos na fila.
+O prazo de netos maiores (36 a 55 meses) é maior do que o de filhos maiores (7 a 34 meses), e ambos variam muito entre Lisboa e o Porto.
 
 ## Naturalização: mais rápida em análise, mais longa no total
 
-O prazo de análise para naturalização (27 a 30 meses) é menor do que para netos — mas o processo total é muito mais longo: 7 anos de residência + 27 a 30 meses de análise = cerca de 9 anos desde a chegada a Portugal.
+O prazo de análise para naturalização (27 a 33 meses) é menor do que para netos — mas o processo total é muito mais longo: 7 anos de residência + 27 a 33 meses de análise = cerca de 9 anos desde a chegada a Portugal.
 
 ## Perguntas frequentes
 
@@ -836,7 +836,7 @@ O prazo de análise para naturalização (27 a 30 meses) é menor do que para ne
 
 **O prazo começa da entrega ou da distribuição formal?** Da distribuição formal — quando o processo recebe número de protocolo. Pode haver diferença de dias a semanas entre entrega e distribuição.
 
-**Meu processo tem 48 meses. Está além do prazo?** Para netos maiores, o estimado é 42 a 48 meses. Com 48 meses, está além da estimativa mas dentro de variação plausível. Verifique se não há diligência pendente no [portal oficial](https://nacionalidade.justica.gov.pt).
+**Meu processo tem 48 meses. Está além do prazo?** Para netos maiores, o estimado é 36 a 55 meses. Com 48 meses, está além da estimativa mas dentro de variação plausível. Verifique se não há diligência pendente no [portal oficial](https://nacionalidade.justica.gov.pt).
 
 > ⚠️ **Aviso jurídico:** Este conteúdo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
 
@@ -864,7 +864,7 @@ A imigração para Minas foi ligada ao ciclo do ouro (séculos XVII-XVIII). Para
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: 42 a 48 meses; para filhos maiores: 4 a 6 meses (dados abr/mai 2026, ±5%). Para processos com documentação do período colonial, a pesquisa genealógica pode ser mais complexa. Veja mais sobre documentos difíceis em [cidadania para quem não tem documentos do avô](/blog/cidadania-portuguesa-para-quem-tem-documentos-perdidos).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: 36 a 55 meses; para filhos maiores: 7 a 34 meses (quadros do IRN de set/out 2026). Para processos com documentação do período colonial, a pesquisa genealógica pode ser mais complexa. Veja mais sobre documentos difíceis em [cidadania para quem não tem documentos do avô](/blog/cidadania-portuguesa-para-quem-tem-documentos-perdidos).
 
 ## Perguntas frequentes
 
@@ -896,7 +896,7 @@ O **Centro Português de Curitiba** é um dos espaços de referência — com po
 
 ## Prazos e processo
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: 42 a 48 meses; para filhos maiores: 4 a 6 meses (dados abr/mai 2026, ±5%). Consulte o [checklist de documentos para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses) para saber o que reunir.
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: 36 a 55 meses; para filhos maiores: 7 a 34 meses (quadros do IRN de set/out 2026). Consulte o [checklist de documentos para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses) para saber o que reunir.
 
 ## Perguntas frequentes
 
@@ -1096,7 +1096,7 @@ Com tanta informação circulando sobre cidadania portuguesa — em grupos de Wh
 
 ## Mito 8: "O processo é igual para filhos e netos"
 
-**Verdade:** Há diferenças significativas. Filhos não precisam comprovar vínculo efetivo; netos sim. O prazo de análise para netos maiores (42 a 48 meses) é diferente do de filhos maiores (4 a 6 meses). A cadeia documental é mais longa para netos. Veja mais em [filho vs. neto: diferenças no processo](/blog/filho-vs-neto-diferencas-no-processo-de-cidadania-portuguesa).
+**Verdade:** Há diferenças significativas. Filhos não precisam comprovar vínculo efetivo; netos sim. O prazo de análise para netos maiores (36 a 55 meses) é diferente do de filhos maiores (7 a 34 meses). A cadeia documental é mais longa para netos. Veja mais em [filho vs. neto: diferenças no processo](/blog/filho-vs-neto-diferencas-no-processo-de-cidadania-portuguesa).
 
 ## Mito 9: "Se meu pai nunca teve cidadania portuguesa, eu também não tenho direito"
 
@@ -1433,7 +1433,7 @@ A renovação é feita no consulado de Portugal da sua área de residência no B
 
 ### Motivo 1: O processo está na fila normal do IRN
 
-Esta é a causa mais comum — e a mais benigna. O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) tem mais de 700 mil processos pendentes. O prazo estimado para netos maiores é de 42 a 48 meses; para filhos maiores, 4 a 6 meses (dados abr/mai 2026, ±5%). Um processo de 2021 que ainda não tem decisão em 2025 pode estar exatamente onde deveria estar: na fila, aguardando a vez.
+Esta é a causa mais comum — e a mais benigna. O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) tem mais de 700 mil processos pendentes. O prazo estimado para netos maiores é de 36 a 55 meses; para filhos maiores, 7 a 34 meses (quadros do IRN de set/out 2026). Um processo de 2021 que ainda não tem decisão em 2025 pode estar exatamente onde deveria estar: na fila, aguardando a vez.
 
 O silêncio do IRN, nesse contexto, não é um mau sinal — é o funcionamento normal de um sistema sobrecarregado.
 
@@ -1491,7 +1491,7 @@ Se a reativação não for possível, o caminho é iniciar novo processo — o q
 ## Perguntas frequentes
 
 **Meu processo de 2021 ainda pode estar na fila normal?**
-Sim — dependendo do tipo de processo. Processos de netos maiores têm prazo estimado de 42 a 48 meses. Um processo de 2021 que ainda não foi decidido em 2025–2026 pode estar na margem normal da fila.
+Sim — dependendo do tipo de processo. Processos de netos maiores têm prazo estimado de 36 a 55 meses. Um processo de 2021 que ainda não foi decidido em 2025–2026 pode estar na margem normal da fila.
 
 **Posso reclamar do atraso junto ao IRN?**
 Existe um mecanismo formal de reclamação, mas os prazos do IRN são longos por razões estruturais — a reclamação raramente acelera o processo. O que pode ser feito é verificar se não há diligências pendentes e garantir que os dados de contacto estejam atualizados.
@@ -1526,12 +1526,12 @@ Para os processos mais comuns (filhos e netos, casamento), **não** — o proces
 
 ## "Quanto tempo vai demorar?"
 
-Dados [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) abr/mai 2026 (±5%):
-- Filhos ou netos menores: 3 a 5 meses
-- Netos maiores: 42 a 48 meses
-- Filhos maiores: 4 a 6 meses
-- Casamento: 50 a 54 meses (mais 2 a 3 meses de transcrição prévia)
-- Naturalização (brasileiros): 27 a 30 meses de análise, após 7 anos de residência em Portugal
+Dados [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) set/out 2026:
+- Filhos menores: 3 a 4 meses; netos menores: 5 a 6 meses
+- Netos maiores: 36 a 55 meses
+- Filhos maiores: 7 a 34 meses
+- Casamento: cerca de 58 meses (mais 2 a 3 meses de transcrição prévia)
+- Naturalização (brasileiros): 27 a 33 meses de análise, após 7 anos de residência em Portugal
 
 O prazo conta a partir da data de distribuição formal. Quanto antes protocolizar, mais cedo sai.
 
@@ -1549,8 +1549,8 @@ Existe recurso. O sucesso depende do motivo. Veja [por que processos são indefe
 
 ## "E meus filhos? E meu cônjuge?"
 
-**Filhos menores:** 3 a 5 meses de análise. Vale a pena protocolar urgentemente antes dos 18 anos.
-**Filhos maiores:** Processo individual, 4 a 6 meses.
+**Filhos menores:** 3 a 4 meses de análise. Vale a pena protocolar urgentemente antes dos 18 anos.
+**Filhos maiores:** Processo individual, 7 a 34 meses.
 **Cônjuge:** Pode pedir cidadania por casamento após 3 anos de casamento com você (após você ser cidadão português). O pedido está sujeito a verificação de vínculo efetivo, salvo casamento com mais de 6 anos, filhos comuns portugueses ou residência legal em Portugal.
 
 ## "Por onde começo?"

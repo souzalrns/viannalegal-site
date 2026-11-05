@@ -131,16 +131,16 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores | **3 a 5 meses** |
-| Filhos maiores (inscrição) | **4 a 6 meses** |
+| Filhos menores | **3 a 4 meses** |
+| Filhos maiores (inscrição) | **7 a 34 meses** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **3 a 5 meses** |
-| Netos maiores | **42 a 48 meses** |
+| Netos menores | **5 a 6 meses** |
+| Netos maiores | **36 a 55 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -434,25 +434,25 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores | **3 a 5 meses** |
-| Filhos maiores (inscrição) | **4 a 6 meses** |
+| Filhos menores | **3 a 4 meses** |
+| Filhos maiores (inscrição) | **7 a 34 meses** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **3 a 5 meses** |
-| Netos maiores | **42 a 48 meses** |
+| Netos menores | **5 a 6 meses** |
+| Netos maiores | **36 a 55 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
 
 ### Cidadania por Casamento / União de Facto
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Casamento / União de facto | **50 a 54 meses** |
+| Casamento / União de facto | **cerca de 58 meses** (união de facto: cerca de 4 meses) |
 
 ### Naturalização por Residência
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Naturalização CPLP/UE (7 anos) | **27 a 30 meses** |
-| Naturalização outros países (10 anos) | **27 a 30 meses** |
+| Naturalização CPLP/UE (7 anos) | **27 a 33 meses** |
+| Naturalização outros países (10 anos) | **27 a 33 meses** |
 
 **Nota:** Para quem busca naturalização, o prazo de 7 anos de residência ainda exige o protocolo e a análise. O tempo total desde o início da residência até ao passaporte pode superar 8-9 anos.
 
@@ -995,11 +995,11 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (junho 2026) |
 |---|---|
-| Casamento / União de facto | **50 a 54 meses** |
+| Casamento / União de facto | **cerca de 58 meses** (união de facto: cerca de 4 meses) |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -1151,11 +1151,11 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (2026) |
 |---|---|
-| Naturalização (CPLP — 7 anos) | **27 a 30 meses** |
+| Naturalização (CPLP — 7 anos) | **27 a 33 meses** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -1572,12 +1572,12 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (junho 2026) |
 |---|---|
-| Netos menores | **3 a 5 meses** |
-| Netos maiores | **42 a 48 meses** |
+| Netos menores | **5 a 6 meses** |
+| Netos maiores | **36 a 55 meses** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -1901,20 +1901,20 @@ Não houve anúncio de contratação massiva de técnicos ou de medidas estrutur
 
 Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 
-| Tipo de processo | Prazo actual (dados IRN abr/mai 2026) |
+| Tipo de processo | Prazo actual (quadros do IRN de set/out 2026) |
 |---|---|
-| Filhos menores | **3 a 5 meses** |
-| Filhos maiores (inscrição) | **4 a 6 meses** |
+| Filhos menores | **3 a 4 meses** |
+| Filhos maiores (inscrição) | **7 a 34 meses** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **3 a 5 meses** |
-| Netos maiores | **42 a 48 meses** |
-| Casamento / União de facto | **50 a 54 meses** |
-| Naturalização CPLP (7 anos) | **27 a 30 meses** |
+| Netos menores | **5 a 6 meses** |
+| Netos maiores | **36 a 55 meses** |
+| Casamento / União de facto | **cerca de 58 meses** (união de facto: cerca de 4 meses) |
+| Naturalização CPLP (7 anos) | **27 a 33 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -2063,7 +2063,7 @@ A forma de avaliação desses novos critérios ainda depende da regulamentação
 
 **Fase 3 — Montagem do processo e petição (30-60 dias):** Elaborar petição, organizar dossiê de vínculo efetivo, traduzir documentos quando necessário.
 
-**Fase 4 — Análise pelo IRN (42 a 48 meses (maiores) / 3 a 5 meses (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
+**Fase 4 — Análise pelo IRN (36 a 55 meses (maiores) / 5 a 6 meses (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
 
 **Fase 5 — Registro e emissão do Cartão de Cidadão (2-4 meses)**
 
@@ -2083,7 +2083,7 @@ A forma de avaliação desses novos critérios ainda depende da regulamentação
 | Etapa | Prazo |
 |-------|-------|
 | Análise e organização | 1-6 meses |
-| Análise pelo IRN | 42 a 48 meses (maiores) / 3 a 5 meses (menores) |
+| Análise pelo IRN | 36 a 55 meses (maiores) / 5 a 6 meses (menores) |
 | Registro e documentos | 2-4 meses |
 | **Total** | **24 a 42 meses** |
 
@@ -2436,7 +2436,7 @@ Para quem tem avô ou avó português e também reside em Portugal, a via de net
 | Critério | Naturalização | Netos |
 |---|---|---|
 | Exige morar em Portugal | Sim — 7 anos | Não |
-| Prazo total estimado | 7 anos + 27 a 30 meses | 42 a 48 meses |
+| Prazo total estimado | 7 anos + 27 a 33 meses | 36 a 55 meses |
 
 ## Regra de transição
 
@@ -2473,7 +2473,7 @@ Há diferença entre orientação (dizer o que fazer) e representação jurídic
 O contrato deve especificar o que está incluído: análise inicial, montagem, representação, monitoramento de diligências, comunicação sobre andamento. Honorários muito baixos frequentemente indicam escopo muito limitado.
 
 **4. Clareza sobre prazos reais**
-Desconfie de quem promete prazos menores do que os praticados pelo IRN (42 a 48 meses para netos maiores). Esses prazos são determinados pela fila do IRN, não pela assessoria.
+Desconfie de quem promete prazos menores do que os praticados pelo IRN (36 a 55 meses para netos maiores). Esses prazos são determinados pela fila do IRN, não pela assessoria.
 
 **5. Actualização legislativa**
 A [Lei 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) mudou pontos significativos. Um escritório que ainda orienta com base nas regras de 2024 está desactualizado.
@@ -2578,8 +2578,8 @@ O artigo 3.º da Lei da Nacionalidade Portuguesa prevê que o cônjuge de cidad�
 O prazo conta da **data do casamento civil** — não da transcrição em Portugal.
 
 O processo por casamento tem duas etapas obrigatórias nessa ordem:
-1. **Transcrição do casamento no IRN** — prazo estimado de 2 a 3 meses (dados abr/mai 2026, ±5%)
-2. **Pedido de cidadania** — prazo estimado de 50 a 54 meses de análise
+1. **Transcrição do casamento no IRN** — prazo estimado de 2 a 3 meses (quadros do IRN de set/out 2026)
+2. **Pedido de cidadania** — prazo estimado de cerca de 58 meses de análise
 
 O prazo de 3 anos precisa estar cumprido na data do **protocolo do pedido de cidadania** — não na data da transcrição.
 
