@@ -70,7 +70,7 @@ A certidão criminal tem prazo de apenas 3 meses — e é o documento mais caro 
 
 ## Documentos vencidos durante a análise do IRN
 
-O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) leva 42 a 48 meses para analisar processos de netos maiores. Nesse período, os documentos originais estarão com prazo vencido — isso não é problema. A validade é exigida na **data do protocolo**, não durante a análise.
+O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) leva 36 meses no Porto e 55 em Lisboa para analisar processos de netos maiores. Nesse período, os documentos originais estarão com prazo vencido — isso não é problema. A validade é exigida na **data do protocolo**, não durante a análise.
 
 O problema surge se o IRN emitir diligência pedindo um documento: pode exigir versão nova, gerando custo adicional e atraso.
 
@@ -100,7 +100,7 @@ Para crianças e adolescentes com direito à cidadania portuguesa, o processo te
 
 ## Por que o processo de menores é muito mais rápido
 
-O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) trata processos de menores com prioridade. O prazo estimado é de **3 a 5 meses** — contra 4 a 6 meses para filhos maiores e 42 a 48 meses para netos maiores (dados abr/mai 2026, ±5%).
+O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) trata processos de menores com prioridade. O prazo estimado é de **4 meses no Porto e 3 em Lisboa** — contra 7 meses no Porto e 34 em Lisboa para filhos maiores e 36 meses no Porto e 55 em Lisboa para netos maiores (quadros do IRN de set/out 2026).
 
 Isso tem implicação prática urgente: se a criança tem 16 ou 17 anos e o processo ainda não foi protocolado, há urgência real. Após os 18 anos, passa para a fila geral e o prazo multiplica por mais de dez.
 
@@ -120,7 +120,7 @@ Se o processo foi protocolado antes dos 18 anos, **mantém o tratamento priorit�
 
 ## Perguntas frequentes
 
-**Meu filho tem 17 anos. Vale a pena correr para protocolar antes dos 18?** Definitivamente. A diferença entre 3 a 5 meses (menor) e 4 a 6 meses (filho maior) justifica qualquer esforço.
+**Meu filho tem 17 anos. Vale a pena correr para protocolar antes dos 18?** Definitivamente. A diferença entre 4 meses no Porto e 3 em Lisboa (menor) e 7 meses no Porto e 34 em Lisboa (filho maior) justifica qualquer esforço.
 
 **O menor precisa comparecer pessoalmente no processo?** No processo de cidadania em si, não. Para o Cartão de Cidadão e passaporte após a aprovação, o comparecimento no consulado é obrigatório.
 
@@ -346,7 +346,7 @@ Esse tipo de ação tem sido acolhido por juízes brasileiros, especialmente qua
 
 **Opção 2 — Aguardar a maioridade:** Quando o filho completar 18 anos, ele pode dar entrada no próprio processo sem precisar de autorização de nenhum dos pais. A procuração passa a ser assinada por ele mesmo.
 
-A ressalva é que o processo muda: o processo de filho menor é mais simples e rápido. O processo de filho maior (18+ anos) tem prazos de análise de [4 a 6 meses](https://irn.justica.gov.pt/nacionalidade-portuguesa) segundo dados do IRN de abr/mai 2026 (±5%). Em alguns casos, aguardar pode não ser a melhor estratégia.
+A ressalva é que o processo muda: o processo de filho menor é mais simples e rápido. O processo de filho maior (18+ anos) tem prazos de análise de [7 meses no Porto e 34 em Lisboa](https://irn.justica.gov.pt/nacionalidade-portuguesa) segundo dados do IRN de set/out 2026. Em alguns casos, aguardar pode não ser a melhor estratégia.
 
 ## O processo quando o progenitor português mora no exterior
 
@@ -460,7 +460,7 @@ Quem pode adquirir cidadania portuguesa:
 - **Residentes legais em Portugal** — após 7 anos de residência legal para brasileiros e demais cidadãos da CPLP, ou 10 anos para outras nationalidades, conforme a Lei Orgânica n.º 1/2026
 - **Bisnetos de portugueses** — com 5 anos de residência legal em Portugal, nova via criada pelo Art. 6.º n.º 8 da Lei 1/2026
 
-A característica central da aquisição é que **os requisitos precisam ser mantidos durante o processo**. Se um casal se divorcia durante os 50 a 54 meses de análise do IRN, o direito de aquisição por casamento pode ser afetado. Se o residente perde seu título de residência, o mesmo pode ocorrer.
+A característica central da aquisição é que **os requisitos precisam ser mantidos durante o processo**. Se um casal se divorcia durante os 58 meses em Lisboa de análise do IRN, o direito de aquisição por casamento pode ser afetado. Se o residente perde seu título de residência, o mesmo pode ocorrer.
 
 ## A tabela que organiza tudo
 
@@ -485,20 +485,20 @@ A característica central da aquisição é que **os requisitos precisam ser man
 
 ## A nova via de bisnetos: aquisição com residência [Via jurídica aprovada — Aguarda regulamentação do IRN para início de pedidos]
 
-Uma inovação da Lei Orgânica 1/2026 é a criação de um caminho para bisnetos de portugueses — pela primeira vez, a lei reconhece explicitamente os bisnetos como potenciais cidadãos. Mas coloca essa via sob aquisição (não atribuição), exigindo 5 anos de residência legal em Portugal como condição para o pedido. O decreto regulamentador que definirá os critérios exatos para novos pedidos ainda não foi publicado (prazo: até 16 de agosto de 2026).
+Uma inovação da Lei Orgânica 1/2026 é a criação de um caminho para bisnetos de portugueses — pela primeira vez, a lei reconhece explicitamente os bisnetos como potenciais cidadãos. Mas coloca essa via sob aquisição (não atribuição), exigindo 5 anos de residência legal em Portugal como condição para o pedido. O decreto regulamentador que definirá os critérios exatos para novos pedidos ainda não foi publicado (foi aprovado em Conselho de Ministros a 29 de outubro de 2026).
 
 Isso significa que bisnetos residentes em Portugal com pelo menos 5 anos de título de residência têm uma nova porta aberta — mas é uma porta que exige presença física no país.
 
-## Prazos actuais no IRN (dados abr/mai 2026, ±5%)
+## Prazos actuais no IRN (quadros do IRN de set/out 2026)
 
 Para referência, os prazos estimados de análise por tipo de processo:
 
-- Filhos menores: 3 a 5 meses
-- Filhos maiores: 4 a 6 meses
-- Netos menores: 3 a 5 meses
-- Netos maiores: 42 a 48 meses
-- Casamento/UF: 50 a 54 meses
-- Naturalização CPLP: 27 a 30 meses
+- Filhos menores: 4 meses no Porto e 3 em Lisboa
+- Filhos maiores: 7 meses no Porto e 34 em Lisboa
+- Netos menores: 6 meses no Porto e 5 em Lisboa
+- Netos maiores: 36 meses no Porto e 55 em Lisboa
+- Casamento: 58 meses em Lisboa; união de facto: 4 meses
+- Naturalização CPLP: 33 meses no Porto e 27 em Lisboa
 
 Pode acompanhar o andamento do processo no [Portal de Cidadania do Ministério da Justiça](https://nacionalidade.justica.gov.pt).
 
@@ -618,7 +618,7 @@ SP tem uma das comunidades portuguesas mais activas fora de Portugal. Associaç�
 
 ## Prazos e processo
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: 42 a 48 meses; para filhos maiores: 4 a 6 meses (dados abr/mai 2026, ±5%). Veja o processo completo em nosso [guia completo de cidadania portuguesa](/blog/guia-completo-cidadania-portuguesa-2025).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: 36 meses no Porto e 55 em Lisboa; para filhos maiores: 7 meses no Porto e 34 em Lisboa (quadros do IRN de set/out 2026). Veja o processo completo em nosso [guia completo de cidadania portuguesa](/blog/guia-completo-cidadania-portuguesa-2025).
 
 ## Perguntas frequentes
 
@@ -656,7 +656,7 @@ Associações como a **Câmara Portuguesa de Comércio** e o **Centro Português
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: 42 a 48 meses; para filhos maiores: 4 a 6 meses (dados abr/mai 2026, ±5%). Veja mais em [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: 36 meses no Porto e 55 em Lisboa; para filhos maiores: 7 meses no Porto e 34 em Lisboa (quadros do IRN de set/out 2026). Veja mais em [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
 
 ## Perguntas frequentes
 
@@ -696,7 +696,7 @@ O **Centro Português de Curitiba** e a **Câmara Portuguesa de Comércio no RS*
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil — 42 a 48 meses para netos maiores; 4 a 6 meses para filhos maiores (dados abr/mai 2026, ±5%).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil — 36 meses no Porto e 55 em Lisboa para netos maiores; 7 meses no Porto e 34 em Lisboa para filhos maiores (quadros do IRN de set/out 2026).
 
 ## Perguntas frequentes
 
@@ -723,7 +723,7 @@ Para brasileiros que já residem em Portugal, o processo de cidadania tem alguma
 
 ## O que NÃO muda por morar em Portugal
 
-**Os prazos do IRN:** A posição na fila é a mesma. Para netos maiores: 42 a 48 meses; para filhos maiores: 4 a 6 meses (dados abr/mai 2026, ±5%).
+**Os prazos do IRN:** A posição na fila é a mesma. Para netos maiores: 36 meses no Porto e 55 em Lisboa; para filhos maiores: 7 meses no Porto e 34 em Lisboa (quadros do IRN de set/out 2026).
 
 **Os requisitos documentais:** Idênticos aos de quem faz do Brasil.
 
@@ -874,16 +874,16 @@ Famílias luso-brasileiras com bens nos dois países precisam conduzir o invent�
 
 Cada elo adicional é um ponto onde podem surgir divergências de nome ou documentos difíceis de localizar.
 
-## Prazos de análise (dados abr/mai 2026, ±5%)
+## Prazos de análise (quadros do IRN de set/out 2026)
 
 | Tipo | Prazo estimado |
 |---|---|
-| Filho menor | 3 a 5 meses |
-| Filho maior | 4 a 6 meses |
-| Neto menor | 3 a 5 meses |
-| Neto maior | 42 a 48 meses |
+| Filho menor | 4 meses no Porto e 3 em Lisboa |
+| Filho maior | 7 meses no Porto e 34 em Lisboa |
+| Neto menor | 6 meses no Porto e 5 em Lisboa |
+| Neto maior | 36 meses no Porto e 55 em Lisboa |
 
-O prazo de netos maiores (42 a 48 meses) é menor do que o de filhos maiores (4 a 6 meses) — reflexo do volume de cada tipo na fila.
+O prazo de netos maiores (36 meses no Porto e 55 em Lisboa) é maior do que o de filhos maiores (7 meses no Porto e 34 em Lisboa), e ambos variam muito entre Lisboa e o Porto.
 
 ## E se o pai não formalizou a cidadania?
 
@@ -927,7 +927,7 @@ A naturalização por residência exige presença em Portugal — 7 anos para br
 
 **Se eu me mudar para Portugal durante o processo de neto, o processo accelera?** Não — a posição na fila do IRN não muda. O processo segue no seu lugar.
 
-**Moro em Portugal e sou neto de português. Qual processo é mais vantajoso?** Via de neto: 42 a 48 meses, sem exigência de residência. Naturalização (se já tem 7 anos de residência): 27 a 30 meses de análise, mas pressupõe 7 anos já cumpridos. A assessoria avalia qual é mais eficiente para cada situação.
+**Moro em Portugal e sou neto de português. Qual processo é mais vantajoso?** Via de neto: 36 meses no Porto e 55 em Lisboa, sem exigência de residência. Naturalização (se já tem 7 anos de residência): 33 meses no Porto e 27 em Lisboa de análise, mas pressupõe 7 anos já cumpridos. A assessoria avalia qual é mais eficiente para cada situação.
 
 > ⚠️ **Aviso jurídico:** Este conteúdo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
 
@@ -1040,17 +1040,17 @@ A diligência é o momento mais crítico do processo: **uma notificação não r
 
 Ao detectar "em diligência" no portal, contacte a assessoria imediatamente. O tempo é curto.
 
-## Prazos de análise (dados IRN abr/mai 2026, ±5%)
+## Prazos de análise (quadros do IRN de set/out 2026)
 
 | Tipo de processo | Prazo estimado |
 |---|---|
-| Filhos menores | 3 a 5 meses |
-| Filhos maiores | 4 a 6 meses |
-| Netos menores | 3 a 5 meses |
-| Netos maiores | 42 a 48 meses |
-| Casamento / União de facto | 50 a 54 meses |
-| Naturalização CPLP | 27 a 30 meses |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação pendente até agosto de 2026 |
+| Filhos menores | 4 meses no Porto e 3 em Lisboa |
+| Filhos maiores | 7 meses no Porto e 34 em Lisboa |
+| Netos menores | 6 meses no Porto e 5 em Lisboa |
+| Netos maiores | 36 meses no Porto e 55 em Lisboa |
+| Casamento / União de facto | 58 meses em Lisboa (união de facto: 4 meses) |
+| Naturalização CPLP | 33 meses no Porto e 27 em Lisboa |
+| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
 ## O que NÃO agiliza o processo
 
@@ -1058,7 +1058,7 @@ Enviar e-mails ao [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) per
 
 ## Perguntas frequentes
 
-**Meu processo está "em análise" há 2 anos. É normal?** Para netos maiores, o prazo estimado é 42 a 48 meses. Dois anos em análise está dentro da normalidade.
+**Meu processo está "em análise" há 2 anos. É normal?** Para netos maiores, o prazo estimado é 36 meses no Porto e 55 em Lisboa. Dois anos em análise está dentro da normalidade.
 
 **O portal não mostra meu processo.** Pode significar que não foi formalmente distribuído, ou que o número está errado. Confirme com a conservatória.
 

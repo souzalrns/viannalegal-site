@@ -20,7 +20,7 @@ Antes de ler o contexto histórico abaixo, é importante perceber o que vigora h
 | Filhos nascidos em PT | Progenitor precisa de 5 anos de residência legal |
 | Processos já protocolados | Regime anterior (5 anos) mantido |
 
-O decreto regulamentador da Lei 1/2026 deve ser publicado até 16 de agosto de 2026.
+O decreto-lei que regulamenta a Lei 1/2026 foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação no Diário da República.
 
 ---
 
@@ -85,7 +85,7 @@ Netos de cidadãos portugueses têm direito à cidadania desde 2015, mas com a L
 - **Novo:** ausência de condenação por crimes graves (pena ≥ 3 anos em crimes de terrorismo, criminalidade violenta organizada ou crimes contra o Estado)
 - Documentação completa da linhagem (avô/avó → pai/mãe → requerente)
 
-> ⚠️ **Regulamentação pendente:** O decreto regulamentador da Lei 1/2026 deve ser publicado até 16 de agosto de 2026 (prazo de 90 dias após a lei). Os critérios exactos de avaliação do vínculo efetivo e do teste de conhecimentos ainda não estão formalmente definidos.
+> ⚠️ **Regulamentação pendente:** O decreto-lei que regulamenta a Lei 1/2026 foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação no Diário da República (o prazo legal de 90 dias terminou a 16 de agosto de 2026). Os critérios exactos de avaliação do vínculo efetivo e do teste de conhecimentos ainda não estão formalmente definidos.
 
 - Prazo estimado: 36-54 meses (com o backlog actual de 700k processos)
 
@@ -99,7 +99,7 @@ Importante: a via para bisnetos tem duas naturezas jurídicas distintas com cons
 
 **Para quem está no Brasil:** a via directa não está disponível. O único caminho é o processo sequencial — pai/mãe obtém primeiro a cidadania como neto(a), e o bisneto requer depois como filho(a) de português.
 
-> ⚠️ A via de bisnetos ainda aguarda regulamentação específica (prazo: até 16 de agosto de 2026).
+> ⚠️ A via de bisnetos ainda aguarda regulamentação específica (decreto-lei aprovado a 29 de outubro de 2026, ainda por publicar).
 
 ## Documentos Necessários por Categoria
 
@@ -131,16 +131,16 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores | **3 a 5 meses** |
-| Filhos maiores (inscrição) | **4 a 6 meses** |
+| Filhos menores | **4 meses no Porto e 3 em Lisboa** |
+| Filhos maiores (inscrição) | **7 meses no Porto e 34 em Lisboa** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **3 a 5 meses** |
-| Netos maiores | **42 a 48 meses** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação pendente até agosto de 2026** |
+| Netos menores | **6 meses no Porto e 5 em Lisboa** |
+| Netos maiores | **36 meses no Porto e 55 em Lisboa** |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -164,7 +164,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 ## O Que é Vínculo Efetivo com a Comunidade Portuguesa?
 
-> ⚠️ **Aviso importante (junho de 2026):** A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo, mas o decreto regulamentador **ainda não foi publicado** (prazo oficial: até 16 de agosto de 2026). Adicionalmente, a Lei 1/2026 introduziu um **teste de conhecimentos de história e cultura portuguesas** que é exigido a netos, bisnetos e cônjuges — separado e adicional ao vínculo efetivo. O formato deste teste também ainda não está regulamentado. As informações sobre formas de comprovação descritas neste artigo baseiam-se na prática administrativa do IRN vigente até 2025, podendo ser alteradas quando a regulamentação for publicada.
+> ⚠️ **Aviso importante (novembro de 2026):** A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo, mas o decreto-lei regulamentador **ainda não foi publicado**: foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação no Diário da República. Adicionalmente, a Lei 1/2026 introduziu um **teste de conhecimentos de história e cultura portuguesas** que é exigido a netos, bisnetos e cônjuges — separado e adicional ao vínculo efetivo. O formato deste teste também ainda não está regulamentado. As informações sobre formas de comprovação descritas neste artigo baseiam-se na prática administrativa do IRN vigente até 2025, podendo ser alteradas quando a regulamentação for publicada.
 
 O vínculo efetivo é um requisito legal introduzido em 2022 para [netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025) que desejam obter a cidadania portuguesa. Trata-se da demonstração de uma **ligação real e contínua** com Portugal, sua cultura, língua e comunidade.
 
@@ -187,7 +187,7 @@ O vínculo efetivo surgiu como um meio-termo: permite que netos obtenham a cidad
 
 ## ⚠️ Atenção: A Regulamentação Ainda Não Foi Publicada
 
-A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo para netos, mas **a regulamentação específica que define formalmente os critérios de comprovação ainda não foi publicada** (situação em junho de 2026). O que existe até agora é a prática administrativa do IRN desenvolvida desde 2022, que orientou a análise dos processos durante esse período.
+A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo para netos, mas **a regulamentação específica que define formalmente os critérios de comprovação ainda não foi publicada**: o decreto-lei foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação (situação em novembro de 2026). O que existe até agora é a prática administrativa do IRN desenvolvida desde 2022, que orientou a análise dos processos durante esse período.
 
 Recomendamos acompanhar o [Diário da República](https://dre.pt) e o [portal do IRN](https://irn.justica.gov.pt) para a publicação do decreto regulamentador.
 
@@ -434,25 +434,25 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores | **3 a 5 meses** |
-| Filhos maiores (inscrição) | **4 a 6 meses** |
+| Filhos menores | **4 meses no Porto e 3 em Lisboa** |
+| Filhos maiores (inscrição) | **7 meses no Porto e 34 em Lisboa** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **3 a 5 meses** |
-| Netos maiores | **42 a 48 meses** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação pendente até agosto de 2026** |
+| Netos menores | **6 meses no Porto e 5 em Lisboa** |
+| Netos maiores | **36 meses no Porto e 55 em Lisboa** |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
 
 ### Cidadania por Casamento / União de Facto
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Casamento / União de facto | **50 a 54 meses** |
+| Casamento / União de facto | **58 meses em Lisboa** (união de facto: 4 meses) |
 
 ### Naturalização por Residência
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Naturalização CPLP/UE (7 anos) | **27 a 30 meses** |
-| Naturalização outros países (10 anos) | **27 a 30 meses** |
+| Naturalização CPLP/UE (7 anos) | **33 meses no Porto e 27 em Lisboa** |
+| Naturalização outros países (10 anos) | **33 meses no Porto e 27 em Lisboa** |
 
 **Nota:** Para quem busca naturalização, o prazo de 7 anos de residência ainda exige o protocolo e a análise. O tempo total desde o início da residência até ao passaporte pode superar 8-9 anos.
 
@@ -782,7 +782,7 @@ Seja para aproveitar a mobilidade global, acessar oportunidades profissionais na
   'documentos-cidadania-portuguesa-lista-completa': `
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
-> ⚠️ **Aviso jurídico:** Este artigo é informativo. Os documentos exactos variam por caso. Consulte sempre um advogado especializado. O decreto regulamentador da Lei 1/2026 (prazo: até 16 de agosto de 2026) pode introduzir novos requisitos documentais.
+> ⚠️ **Aviso jurídico:** Este artigo é informativo. Os documentos exactos variam por caso. Consulte sempre um advogado especializado. O decreto-lei que regulamenta a Lei 1/2026 (aprovado a 29 de outubro de 2026, ainda por publicar) pode introduzir novos requisitos documentais.
 
 Este guia apresenta os [documentos necessários](/blog/como-buscar-certidoes-portuguesas-portugal) para os principais tipos de processo de cidadania portuguesa, actualizados com os novos requisitos da Lei 1/2026.
 
@@ -802,7 +802,7 @@ Independentemente da via, estes documentos são sempre necessários:
 A Lei 1/2026 introduziu requisitos documentais adicionais aplicáveis a **netos, bisnetos, casamento, união de facto e naturalização**:
 
 - **Prova de conhecimento da língua portuguesa** — diploma de escolaridade (brasileiros geralmente isentos por diploma) ou certificado CAPLE nível A2
-- **Prova de conhecimentos de história e cultura portuguesas** — o formato exacto aguarda o decreto regulamentador (prazo: até 16 de agosto de 2026)
+- **Prova de conhecimentos de história e cultura portuguesas** — o formato exacto aguarda a publicação do decreto-lei regulamentador (aprovado a 29 de outubro de 2026)
 - **Declaração de adesão aos princípios do Estado de direito democrático** — documento a assinar no acto do pedido
 
 ## Documentos por Tipo de Processo
@@ -951,7 +951,7 @@ Tal como para netos e naturalização, o casamento passou a exigir:
 - **Prova de conhecimentos de história e cultura portuguesas** (formato a regulamentar)
 - **Declaração de adesão aos princípios do Estado de direito democrático**
 
-> ⚠️ **Regulamentação pendente:** Os critérios exactos de avaliação dos conhecimentos de história e cultura ainda aguardam o decreto regulamentador (prazo: até 16 de agosto de 2026).
+> ⚠️ **Regulamentação pendente:** Os critérios exactos de avaliação dos conhecimentos de história e cultura ainda aguardam a publicação do decreto-lei regulamentador, aprovado a 29 de outubro de 2026.
 
 ### 5. Idoneidade Civil
 
@@ -995,11 +995,11 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (junho 2026) |
 |---|---|
-| Casamento / União de facto | **50 a 54 meses** |
+| Casamento / União de facto | **58 meses em Lisboa** (união de facto: 4 meses) |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -1151,11 +1151,11 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (2026) |
 |---|---|
-| Naturalização (CPLP — 7 anos) | **27 a 30 meses** |
+| Naturalização (CPLP — 7 anos) | **33 meses no Porto e 27 em Lisboa** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -1496,7 +1496,7 @@ Até maio de 2026, os netos precisavam essencialmente de comprovar o vínculo ef
 - **Declaração de adesão aos princípios do Estado de direito democrático**
 - **Regime de registo criminal mais exigente** — condenação por crime com pena ≥ 3 anos por terrorismo, criminalidade violenta organizada, crimes contra o Estado ou auxílio à imigração ilegal impede a atribuição
 
-> ⚠️ **Regulamentação pendente:** O decreto regulamentador da Lei 1/2026 deve ser publicado até 16 de agosto de 2026. O formato do teste de conhecimentos e os critérios exactos de avaliação do vínculo efetivo ainda não estão definidos. Acompanhe o [Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996).
+> ⚠️ **Regulamentação pendente:** O decreto-lei que regulamenta a Lei 1/2026 foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação no Diário da República. O formato do teste de conhecimentos e os critérios exactos de avaliação do vínculo efetivo ainda não estão definidos. Acompanhe o [Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996).
 
 ## Quem Tem Direito
 
@@ -1572,12 +1572,12 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (junho 2026) |
 |---|---|
-| Netos menores | **3 a 5 meses** |
-| Netos maiores | **42 a 48 meses** |
+| Netos menores | **6 meses no Porto e 5 em Lisboa** |
+| Netos maiores | **36 meses no Porto e 55 em Lisboa** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -1901,20 +1901,20 @@ Não houve anúncio de contratação massiva de técnicos ou de medidas estrutur
 
 Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 
-| Tipo de processo | Prazo actual (dados IRN abr/mai 2026) |
+| Tipo de processo | Prazo actual (quadros do IRN de set/out 2026) |
 |---|---|
-| Filhos menores | **3 a 5 meses** |
-| Filhos maiores (inscrição) | **4 a 6 meses** |
+| Filhos menores | **4 meses no Porto e 3 em Lisboa** |
+| Filhos maiores (inscrição) | **7 meses no Porto e 34 em Lisboa** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **3 a 5 meses** |
-| Netos maiores | **42 a 48 meses** |
-| Casamento / União de facto | **50 a 54 meses** |
-| Naturalização CPLP (7 anos) | **27 a 30 meses** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação pendente até agosto de 2026** |
+| Netos menores | **6 meses no Porto e 5 em Lisboa** |
+| Netos maiores | **36 meses no Porto e 55 em Lisboa** |
+| Casamento / União de facto | **58 meses em Lisboa** (união de facto: 4 meses) |
+| Naturalização CPLP (7 anos) | **33 meses no Porto e 27 em Lisboa** |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -2053,7 +2053,7 @@ A Lei Orgânica n.º 1/2026 (em vigor desde 19 de maio de 2026) adicionou requis
 - Conhecimento da organização política do Estado e dos direitos e deveres fundamentais
 - Declaração solene de adesão aos princípios do Estado de Direito democrático
 
-A forma de avaliação desses novos critérios ainda depende de regulamentação esperada até agosto de 2026. A via de netos **continua existindo** — com rigor adicional, mas não foi extinta.
+A forma de avaliação desses novos critérios ainda depende da regulamentação aprovada pelo Governo a 29 de outubro de 2026, que aguarda publicação. A via de netos **continua existindo** — com rigor adicional, mas não foi extinta.
 
 ## Passo a passo do processo
 
@@ -2063,7 +2063,7 @@ A forma de avaliação desses novos critérios ainda depende de regulamentação
 
 **Fase 3 — Montagem do processo e petição (30-60 dias):** Elaborar petição, organizar dossiê de vínculo efetivo, traduzir documentos quando necessário.
 
-**Fase 4 — Análise pelo IRN (42 a 48 meses (maiores) / 3 a 5 meses (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
+**Fase 4 — Análise pelo IRN (36 meses no Porto e 55 em Lisboa (maiores) / 6 meses no Porto e 5 em Lisboa (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
 
 **Fase 5 — Registro e emissão do Cartão de Cidadão (2-4 meses)**
 
@@ -2083,9 +2083,9 @@ A forma de avaliação desses novos critérios ainda depende de regulamentação
 | Etapa | Prazo |
 |-------|-------|
 | Análise e organização | 1-6 meses |
-| Análise pelo IRN | 42 a 48 meses (maiores) / 3 a 5 meses (menores) |
+| Análise pelo IRN | 36 meses no Porto e 55 em Lisboa (maiores) / 6 meses no Porto e 5 em Lisboa (menores) |
 | Registro e documentos | 2-4 meses |
-| **Total** | **24 a 42 meses** |
+| **Total** | **cerca de 3,5 anos no Porto e 5 anos em Lisboa** (maiores) |
 
 ## Erros mais comuns
 
@@ -2421,7 +2421,7 @@ A lei anterior permitia contar o período de espera pelo título de residência 
 
 *Exemplo:* Uma brasileira que chegou em janeiro de 2021, pediu autorização em março de 2021, mas só recebeu o título em agosto de 2022. Pela regra antiga, contava desde março de 2021. Pela nova, conta desde agosto de 2022 — precisando esperar até agosto de 2029 para protocolar.
 
-**Novos requisitos de conhecimento cultural e cívico:** Conhecimento de cultura e história portuguesas, organização política do Estado, e declaração de adesão ao Estado de Direito. A forma exacta de avaliação está em regulamentação — prazo governamental até agosto de 2026.
+**Novos requisitos de conhecimento cultural e cívico:** Conhecimento de cultura e história portuguesas, organização política do Estado, e declaração de adesão ao Estado de Direito. A forma exacta de avaliação depende da regulamentação aprovada pelo Governo a 29 de outubro de 2026, que aguarda publicação.
 
 ## O que conta para o prazo
 
@@ -2436,7 +2436,7 @@ Para quem tem avô ou avó português e também reside em Portugal, a via de net
 | Critério | Naturalização | Netos |
 |---|---|---|
 | Exige morar em Portugal | Sim — 7 anos | Não |
-| Prazo total estimado | 7 anos + 27 a 30 meses | 42 a 48 meses |
+| Prazo total estimado | 7 anos + 33 meses no Porto e 27 em Lisboa | 36 meses no Porto e 55 em Lisboa |
 
 ## Regra de transição
 
@@ -2448,7 +2448,7 @@ Pedidos formalmente protocolados antes de 19 de maio de 2026 seguem as regras an
 
 **O tempo de espera pelo título na AIMA conta?** Não, desde maio de 2026.
 
-**A regulamentação dos novos requisitos culturais já saiu?** Não — em junho de 2026, ainda em regulamentação com prazo até agosto de 2026. Acompanhe em [irn.justica.gov.pt](https://irn.justica.gov.pt).
+**A regulamentação dos novos requisitos culturais já saiu?** Ainda não está em vigor: o Governo aprovou o decreto-lei a 29 de outubro de 2026, que aguarda promulgação e publicação no Diário da República. Acompanhe em [irn.justica.gov.pt](https://irn.justica.gov.pt).
 
 > ⚠️ **Aviso jurídico:** Este conteúdo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
 
@@ -2473,7 +2473,7 @@ Há diferença entre orientação (dizer o que fazer) e representação jurídic
 O contrato deve especificar o que está incluído: análise inicial, montagem, representação, monitoramento de diligências, comunicação sobre andamento. Honorários muito baixos frequentemente indicam escopo muito limitado.
 
 **4. Clareza sobre prazos reais**
-Desconfie de quem promete prazos menores do que os praticados pelo IRN (42 a 48 meses para netos maiores). Esses prazos são determinados pela fila do IRN, não pela assessoria.
+Desconfie de quem promete prazos menores do que os praticados pelo IRN (36 meses no Porto e 55 em Lisboa para netos maiores). Esses prazos são determinados pela fila do IRN, não pela assessoria.
 
 **5. Actualização legislativa**
 A [Lei 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) mudou pontos significativos. Um escritório que ainda orienta com base nas regras de 2024 está desactualizado.
@@ -2578,14 +2578,14 @@ O artigo 3.º da Lei da Nacionalidade Portuguesa prevê que o cônjuge de cidad�
 O prazo conta da **data do casamento civil** — não da transcrição em Portugal.
 
 O processo por casamento tem duas etapas obrigatórias nessa ordem:
-1. **Transcrição do casamento no IRN** — prazo estimado de 2 a 3 meses (dados abr/mai 2026, ±5%)
-2. **Pedido de cidadania** — prazo estimado de 50 a 54 meses de análise
+1. **Transcrição do casamento no IRN** — prazo estimado de 2 a 3 meses (quadros do IRN de set/out 2026)
+2. **Pedido de cidadania** — prazo estimado de 58 meses em Lisboa de análise
 
 O prazo de 3 anos precisa estar cumprido na data do **protocolo do pedido de cidadania** — não na data da transcrição.
 
 ## O que mudou com a Lei 1/2026 para cônjuges
 
-O prazo de 3 anos foi mantido. Foram adicionados novos requisitos de conhecimento cultural e cívico — cuja forma de avaliação ainda está em regulamentação (prazo até agosto de 2026). Acompanhe em [irn.justica.gov.pt](https://irn.justica.gov.pt).
+O prazo de 3 anos foi mantido. Foram adicionados novos requisitos de conhecimento cultural e cívico — cuja forma de avaliação depende da regulamentação aprovada pelo Governo a 29 de outubro de 2026, que aguarda publicação. Acompanhe em [irn.justica.gov.pt](https://irn.justica.gov.pt).
 
 ## Perguntas frequentes
 

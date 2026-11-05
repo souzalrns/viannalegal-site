@@ -35,11 +35,11 @@ Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
 └── NÃO ↓
 
 É casado(a) ou tem união de facto com português(a) há 3+ anos?
-├── SIM → Via de Casamento/UF (prazo: 50-54 meses)
+├── SIM → Via de Casamento/UF (prazo: 58 meses em Lisboa)
 └── NÃO ↓
 
 Reside legalmente em Portugal há 7+ anos (brasileiro/CPLP)?
-├── SIM → Via de Naturalização (prazo: 27-30 meses)
+├── SIM → Via de Naturalização (prazo: 33 meses no Porto e 27 em Lisboa)
 └── NÃO → Consulte outras hipóteses previstas na Lei da Nacionalidade
 \`\`\`
 
@@ -106,7 +106,7 @@ A Lei Orgânica 1/2026 alterou substancialmente a Lei da Nacionalidade portugues
 | Filhos nascidos em PT | 2 anos residência dos pais | **5 anos** residência dos pais |
 | Vínculo efetivo | Critérios gerais | Requisitos reforçados |
 
-> **Importante:** Processos já protocolados antes de 19/05/2026 mantêm o regime anterior. A regulamentação complementar da Lei 1/2026 deve ser publicada até agosto de 2026.
+> **Importante:** Processos já protocolados antes de 19/05/2026 mantêm o regime anterior. A regulamentação complementar da Lei 1/2026 foi aprovada pelo Governo a 29 de outubro de 2026 e aguarda publicação.
 
 ---
 
@@ -488,7 +488,7 @@ Este checklist evita grande parte das exigências mais comuns.
 [17] Solicitação do Passaporte Português
 \`\`\`
 
-> **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados abr/mai 2026) contam a partir do protocolo correcto e completo.
+> **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados set/out 2026) contam a partir do protocolo correcto e completo.
 
 ---
 
@@ -572,7 +572,7 @@ Antes de ler o contexto histórico abaixo, é importante perceber o que vigora h
 | Filhos nascidos em PT | Progenitor precisa de 5 anos de residência legal |
 | Processos já protocolados | Regime anterior (5 anos) mantido |
 
-O decreto regulamentador da Lei 1/2026 deve ser publicado até 16 de agosto de 2026.
+O decreto-lei que regulamenta a Lei 1/2026 foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação no Diário da República.
 
 ---
 
@@ -640,7 +640,7 @@ Filhos de cidadãos portugueses têm direito **automático** à cidadania, indep
 
 - Pode ser solicitado em qualquer idade
 - Não exige residência em Portugal
-- Prazo estimado: {{prazo_filhos_menores}} (filhos menores) / {{prazo_filhos_maiores}} (filhos maiores) — dados IRN abr/mai 2026
+- Prazo estimado: {{prazo_filhos_menores}} (filhos menores) / {{prazo_filhos_maiores}} (filhos maiores) — quadros do IRN de set/out 2026
 
 ### 2. Netos de Portugueses — Atribuição com Vínculo Efetivo
 
@@ -653,7 +653,7 @@ Netos de cidadãos portugueses têm direito à cidadania desde 2015, mas com a L
 - **Novo:** ausência de condenação por crimes graves (pena ≥ 3 anos em crimes de terrorismo, criminalidade violenta organizada ou crimes contra o Estado)
 - Documentação completa da linhagem (avô/avó → pai/mãe → requerente)
 
-> ⚠️ **Regulamentação pendente:** O decreto regulamentador da Lei 1/2026 deve ser publicado até 16 de agosto de 2026 (prazo de 90 dias após a lei). Os critérios exactos de avaliação do vínculo efetivo e do teste de conhecimentos ainda não estão formalmente definidos.
+> ⚠️ **Regulamentação pendente:** O decreto-lei que regulamenta a Lei 1/2026 foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação no Diário da República (o prazo legal de 90 dias terminou a 16 de agosto de 2026). Os critérios exactos de avaliação do vínculo efetivo e do teste de conhecimentos ainda não estão formalmente definidos.
 
 - Prazo estimado: 36-54 meses (com o backlog actual de 700k processos)
 
@@ -667,7 +667,7 @@ Importante: a via para bisnetos tem duas naturezas jurídicas distintas com cons
 
 **Para quem está no Brasil:** a via directa não está disponível. O único caminho é o processo sequencial — pai/mãe obtém primeiro a cidadania como neto(a), e o bisneto requer depois como filho(a) de português.
 
-> ⚠️ A via de bisnetos ainda aguarda regulamentação específica (prazo: até 16 de agosto de 2026).
+> ⚠️ A via de bisnetos ainda aguarda regulamentação específica (decreto-lei aprovado a 29 de outubro de 2026, ainda por publicar).
 
 ## Documentos Necessários por Categoria
 
@@ -708,11 +708,11 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 | Transcrição de casamento (registo em PT) | **{{prazo_transcricao}}** |
 | Netos menores | **{{prazo_filhos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação pendente até agosto de 2026 |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -750,7 +750,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 ## O Que é Vínculo Efetivo com a Comunidade Portuguesa?
 
-> ⚠️ **Aviso importante (junho de 2026):** A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo, mas o decreto regulamentador **ainda não foi publicado** (prazo oficial: até 16 de agosto de 2026). Adicionalmente, a Lei 1/2026 introduziu um **teste de conhecimentos de história e cultura portuguesas** que é exigido a netos, bisnetos e cônjuges — separado e adicional ao vínculo efetivo. O formato deste teste também ainda não está regulamentado. As informações sobre formas de comprovação descritas neste artigo baseiam-se na prática administrativa do IRN vigente até 2025, podendo ser alteradas quando a regulamentação for publicada.
+> ⚠️ **Aviso importante (novembro de 2026):** A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo, mas o decreto-lei regulamentador **ainda não foi publicado**: foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação no Diário da República. Adicionalmente, a Lei 1/2026 introduziu um **teste de conhecimentos de história e cultura portuguesas** que é exigido a netos, bisnetos e cônjuges — separado e adicional ao vínculo efetivo. O formato deste teste também ainda não está regulamentado. As informações sobre formas de comprovação descritas neste artigo baseiam-se na prática administrativa do IRN vigente até 2025, podendo ser alteradas quando a regulamentação for publicada.
 
 O vínculo efetivo é um requisito legal introduzido em 2022 para [netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025) que desejam obter a cidadania portuguesa. Trata-se da demonstração de uma **ligação real e contínua** com Portugal, sua cultura, língua e comunidade.
 
@@ -773,7 +773,7 @@ O vínculo efetivo surgiu como um meio-termo: permite que netos obtenham a cidad
 
 ## ⚠️ Atenção: A Regulamentação Ainda Não Foi Publicada
 
-A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo para netos, mas **a regulamentação específica que define formalmente os critérios de comprovação ainda não foi publicada** (situação em junho de 2026). O que existe até agora é a prática administrativa do IRN desenvolvida desde 2022, que orientou a análise dos processos durante esse período.
+A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo para netos, mas **a regulamentação específica que define formalmente os critérios de comprovação ainda não foi publicada**: o decreto-lei foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação (situação em novembro de 2026). O que existe até agora é a prática administrativa do IRN desenvolvida desde 2022, que orientou a análise dos processos durante esse período.
 
 Recomendamos acompanhar o [Diário da República](https://dre.pt) e o [portal do IRN](https://irn.justica.gov.pt) para a publicação do decreto regulamentador.
 
@@ -1041,7 +1041,7 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 | Transcrição de casamento (registo em PT) | **{{prazo_transcricao}}** |
 | Netos menores | **{{prazo_filhos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação pendente até agosto de 2026 |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
 ### Cidadania por Casamento / União de Facto
 
@@ -1414,7 +1414,7 @@ Seja para aproveitar a mobilidade global, acessar oportunidades profissionais na
 
 **Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
-> ⚠️ **Aviso jurídico:** Este artigo é informativo. Os documentos exactos variam por caso. Consulte sempre um advogado especializado. O decreto regulamentador da Lei 1/2026 (prazo: até 16 de agosto de 2026) pode introduzir novos requisitos documentais.
+> ⚠️ **Aviso jurídico:** Este artigo é informativo. Os documentos exactos variam por caso. Consulte sempre um advogado especializado. O decreto-lei que regulamenta a Lei 1/2026 (aprovado a 29 de outubro de 2026, ainda por publicar) pode introduzir novos requisitos documentais.
 
 Este guia apresenta os [documentos necessários](/blog/como-buscar-certidoes-portuguesas-portugal) para os principais tipos de processo de cidadania portuguesa, actualizados com os novos requisitos da Lei 1/2026.
 
@@ -1437,7 +1437,7 @@ Independentemente da via, estes documentos são sempre necessários:
 A Lei 1/2026 introduziu requisitos documentais adicionais aplicáveis a **netos, bisnetos, casamento, união de facto e naturalização**:
 
 - **Prova de conhecimento da língua portuguesa** — diploma de escolaridade (brasileiros geralmente isentos por diploma) ou certificado CAPLE nível A2
-- **Prova de conhecimentos de história e cultura portuguesas** — o formato exacto aguarda o decreto regulamentador (prazo: até 16 de agosto de 2026)
+- **Prova de conhecimentos de história e cultura portuguesas** — o formato exacto aguarda a publicação do decreto-lei regulamentador (aprovado a 29 de outubro de 2026)
 - **Declaração de adesão aos princípios do Estado de direito democrático** — documento a assinar no acto do pedido
 
 ## Documentos por Tipo de Processo
@@ -1604,7 +1604,7 @@ Tal como para netos e naturalização, o casamento passou a exigir:
 - **Prova de conhecimentos de história e cultura portuguesas** (formato a regulamentar)
 - **Declaração de adesão aos princípios do Estado de direito democrático**
 
-> ⚠️ **Regulamentação pendente:** Os critérios exactos de avaliação dos conhecimentos de história e cultura ainda aguardam o decreto regulamentador (prazo: até 16 de agosto de 2026).
+> ⚠️ **Regulamentação pendente:** Os critérios exactos de avaliação dos conhecimentos de história e cultura ainda aguardam a publicação do decreto-lei regulamentador, aprovado a 29 de outubro de 2026.
 
 ### 5. Idoneidade Civil
 
@@ -1652,7 +1652,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -1824,7 +1824,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -2195,7 +2195,7 @@ Até maio de 2026, os netos precisavam essencialmente de comprovar o vínculo ef
 - **Declaração de adesão aos princípios do Estado de direito democrático**
 - **Regime de registo criminal mais exigente** — condenação por crime com pena ≥ 3 anos por terrorismo, criminalidade violenta organizada, crimes contra o Estado ou auxílio à imigração ilegal impede a atribuição
 
-> ⚠️ **Regulamentação pendente:** O decreto regulamentador da Lei 1/2026 deve ser publicado até 16 de agosto de 2026. O formato do teste de conhecimentos e os critérios exactos de avaliação do vínculo efetivo ainda não estão definidos. Acompanhe o [Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996).
+> ⚠️ **Regulamentação pendente:** O decreto-lei que regulamenta a Lei 1/2026 foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação no Diário da República. O formato do teste de conhecimentos e os critérios exactos de avaliação do vínculo efetivo ainda não estão definidos. Acompanhe o [Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996).
 
 ## Quem Tem Direito
 
@@ -2276,7 +2276,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -2665,7 +2665,7 @@ Não houve anúncio de contratação massiva de técnicos ou de medidas estrutur
 
 Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 
-| Tipo de processo | Prazo actual (dados IRN abr/mai 2026) |
+| Tipo de processo | Prazo actual (quadros do IRN de set/out 2026) |
 |---|---|
 | Filhos menores | **{{prazo_filhos_menores}}** |
 | Filhos maiores (inscrição) | **{{prazo_filhos_maiores}}** |
@@ -2674,11 +2674,11 @@ Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 | Netos maiores | **{{prazo_netos_maiores}}** |
 | Casamento / União de facto | **{{prazo_casamento}}** |
 | Naturalização CPLP (7 anos) | **{{prazo_naturalizacao}}** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação pendente até agosto de 2026 |
+| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
-> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026). Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
 >
 > Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
 >
@@ -2848,7 +2848,7 @@ A Lei Orgânica n.º 1/2026 (em vigor desde 19 de maio de 2026) adicionou requis
 - Conhecimento da organização política do Estado e dos direitos e deveres fundamentais
 - Declaração solene de adesão aos princípios do Estado de Direito democrático
 
-A forma de avaliação desses novos critérios ainda depende de regulamentação esperada até agosto de 2026. A via de netos **continua existindo** — com rigor adicional, mas não foi extinta.
+A forma de avaliação desses novos critérios ainda depende da regulamentação aprovada pelo Governo a 29 de outubro de 2026, que aguarda publicação. A via de netos **continua existindo** — com rigor adicional, mas não foi extinta.
 
 ## Passo a passo do processo
 
@@ -2880,7 +2880,7 @@ A forma de avaliação desses novos critérios ainda depende de regulamentação
 | Análise e organização | 1-6 meses |
 | Análise pelo IRN | {{prazo_netos_maiores}} (maiores) / {{prazo_filhos_menores}} (menores) |
 | Registro e documentos | 2-4 meses |
-| **Total** | **24 a 42 meses** |
+| **Total** | **cerca de 3,5 anos no Porto e 5 anos em Lisboa** (maiores) |
 
 ## Erros mais comuns
 
@@ -3288,7 +3288,7 @@ A lei anterior permitia contar o período de espera pelo título de residência 
 
 *Exemplo:* Uma brasileira que chegou em janeiro de 2021, pediu autorização em março de 2021, mas só recebeu o título em agosto de 2022. Pela regra antiga, contava desde março de 2021. Pela nova, conta desde agosto de 2022 — precisando esperar até agosto de 2029 para protocolar.
 
-**Novos requisitos de conhecimento cultural e cívico:** Conhecimento de cultura e história portuguesas, organização política do Estado, e declaração de adesão ao Estado de Direito. A forma exacta de avaliação está em regulamentação — prazo governamental até agosto de 2026.
+**Novos requisitos de conhecimento cultural e cívico:** Conhecimento de cultura e história portuguesas, organização política do Estado, e declaração de adesão ao Estado de Direito. A forma exacta de avaliação depende da regulamentação aprovada pelo Governo a 29 de outubro de 2026, que aguarda publicação.
 
 ## O que conta para o prazo
 
@@ -3315,7 +3315,7 @@ Pedidos formalmente protocolados antes de 19 de maio de 2026 seguem as regras an
 
 **O tempo de espera pelo título na AIMA conta?** Não, desde maio de 2026.
 
-**A regulamentação dos novos requisitos culturais já saiu?** Não — em junho de 2026, ainda em regulamentação com prazo até agosto de 2026. Acompanhe em [irn.justica.gov.pt](https://irn.justica.gov.pt).
+**A regulamentação dos novos requisitos culturais já saiu?** Ainda não está em vigor: o Governo aprovou o decreto-lei a 29 de outubro de 2026, que aguarda promulgação e publicação no Diário da República. Acompanhe em [irn.justica.gov.pt](https://irn.justica.gov.pt).
 
 > ⚠️ **Aviso jurídico:** Este conteúdo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado.
 
@@ -3493,14 +3493,14 @@ O artigo 3.º da Lei da Nacionalidade Portuguesa prevê que o cônjuge de cidad�
 O prazo conta da **data do casamento civil** — não da transcrição em Portugal.
 
 O processo por casamento tem duas etapas obrigatórias nessa ordem:
-1. **Transcrição do casamento no IRN** — prazo estimado de {{prazo_transcricao}} (dados abr/mai 2026, ±5%)
+1. **Transcrição do casamento no IRN** — prazo estimado de {{prazo_transcricao}} (quadros do IRN de set/out 2026)
 2. **Pedido de cidadania** — prazo estimado de {{prazo_casamento}} de análise
 
 O prazo de 3 anos precisa estar cumprido na data do **protocolo do pedido de cidadania** — não na data da transcrição.
 
 ## O que mudou com a Lei 1/2026 para cônjuges
 
-O prazo de 3 anos foi mantido. Foram adicionados novos requisitos de conhecimento cultural e cívico — cuja forma de avaliação ainda está em regulamentação (prazo até agosto de 2026). Acompanhe em [irn.justica.gov.pt](https://irn.justica.gov.pt).
+O prazo de 3 anos foi mantido. Foram adicionados novos requisitos de conhecimento cultural e cívico — cuja forma de avaliação depende da regulamentação aprovada pelo Governo a 29 de outubro de 2026, que aguarda publicação. Acompanhe em [irn.justica.gov.pt](https://irn.justica.gov.pt).
 
 ## Perguntas frequentes
 
@@ -3741,7 +3741,7 @@ Para crianças e adolescentes com direito à cidadania portuguesa, o processo te
 
 ## Por que o processo de menores é muito mais rápido
 
-O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) trata processos de menores com prioridade. O prazo estimado é de **{{prazo_filhos_menores}}** — contra {{prazo_filhos_maiores}} para filhos maiores e {{prazo_netos_maiores}} para netos maiores (dados abr/mai 2026, ±5%).
+O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) trata processos de menores com prioridade. O prazo estimado é de **{{prazo_filhos_menores}}** — contra {{prazo_filhos_maiores}} para filhos maiores e {{prazo_netos_maiores}} para netos maiores (quadros do IRN de set/out 2026).
 
 Isso tem implicação prática urgente: se a criança tem 16 ou 17 anos e o processo ainda não foi protocolado, há urgência real. Após os 18 anos, passa para a fila geral e o prazo multiplica por mais de dez.
 
@@ -4067,7 +4067,7 @@ Esse tipo de ação tem sido acolhido por juízes brasileiros, especialmente qua
 
 **Opção 2 — Aguardar a maioridade:** Quando o filho completar 18 anos, ele pode dar entrada no próprio processo sem precisar de autorização de nenhum dos pais. A procuração passa a ser assinada por ele mesmo.
 
-A ressalva é que o processo muda: o processo de filho menor é mais simples e rápido. O processo de filho maior (18+ anos) tem prazos de análise de [{{prazo_filhos_maiores}}](https://irn.justica.gov.pt/nacionalidade-portuguesa) segundo dados do IRN de abr/mai 2026 (±5%). Em alguns casos, aguardar pode não ser a melhor estratégia.
+A ressalva é que o processo muda: o processo de filho menor é mais simples e rápido. O processo de filho maior (18+ anos) tem prazos de análise de [{{prazo_filhos_maiores}}](https://irn.justica.gov.pt/nacionalidade-portuguesa) segundo dados do IRN de set/out 2026. Em alguns casos, aguardar pode não ser a melhor estratégia.
 
 ## O processo quando o progenitor português mora no exterior
 
@@ -4242,7 +4242,7 @@ Uma inovação da Lei Orgânica 1/2026 é a criação de um caminho direto para 
 
 Isso significa que bisnetos residentes em Portugal com pelo menos 5 anos de título de residência têm uma nova porta aberta — mas é uma porta que exige presença física no país.
 
-## Prazos actuais no IRN (dados abr/mai 2026, ±5%)
+## Prazos actuais no IRN (quadros do IRN de set/out 2026)
 
 Para referência, os prazos estimados de análise por tipo de processo:
 
@@ -4403,7 +4403,7 @@ SP tem uma das comunidades portuguesas mais activas fora de Portugal. Associaç�
 
 ## Prazos e processo
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (dados abr/mai 2026, ±5%). Veja o processo completo em nosso [guia completo de cidadania portuguesa](/blog/guia-completo-cidadania-portuguesa-2025).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Veja o processo completo em nosso [guia completo de cidadania portuguesa](/blog/guia-completo-cidadania-portuguesa-2025).
 
 ## Perguntas frequentes
 
@@ -4457,7 +4457,7 @@ Associações como a **Câmara Portuguesa de Comércio** e o **Centro Português
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (dados abr/mai 2026, ±5%). Veja mais em [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Veja mais em [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
 
 ## Perguntas frequentes
 
@@ -4513,7 +4513,7 @@ O **Centro Português de Curitiba** e a **Câmara Portuguesa de Comércio no RS*
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil — {{prazo_netos_maiores}} para netos maiores; {{prazo_filhos_maiores}} para filhos maiores (dados abr/mai 2026, ±5%).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil — {{prazo_netos_maiores}} para netos maiores; {{prazo_filhos_maiores}} para filhos maiores (quadros do IRN de set/out 2026).
 
 ## Perguntas frequentes
 
@@ -4556,7 +4556,7 @@ Para brasileiros que já residem em Portugal, o processo de cidadania tem alguma
 
 ## O que NÃO muda por morar em Portugal
 
-**Os prazos do IRN:** A posição na fila é a mesma. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (dados abr/mai 2026, ±5%).
+**Os prazos do IRN:** A posição na fila é a mesma. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026).
 
 **Os requisitos documentais:** Idênticos aos de quem faz do Brasil.
 
@@ -4755,7 +4755,7 @@ Famílias luso-brasileiras com bens nos dois países precisam conduzir o invent�
 
 Cada elo adicional é um ponto onde podem surgir divergências de nome ou documentos difíceis de localizar.
 
-## Prazos de análise (dados abr/mai 2026, ±5%)
+## Prazos de análise (quadros do IRN de set/out 2026)
 
 | Tipo | Prazo estimado |
 |---|---|
@@ -4764,7 +4764,7 @@ Cada elo adicional é um ponto onde podem surgir divergências de nome ou docume
 | Neto menor | {{prazo_filhos_menores}} |
 | Neto maior | {{prazo_netos_maiores}} |
 
-O prazo de netos maiores ({{prazo_netos_maiores}}) é menor do que o de filhos maiores ({{prazo_filhos_maiores}}) — reflexo do volume de cada tipo na fila.
+O prazo de netos maiores ({{prazo_netos_maiores}}) é maior do que o de filhos maiores ({{prazo_filhos_maiores}}), e ambos variam muito entre Lisboa e o Porto.
 
 ## E se o pai não formalizou a cidadania?
 
@@ -4985,7 +4985,7 @@ A diligência é o momento mais crítico do processo: **uma notificação não r
 
 Ao detectar "em diligência" no portal, contacte a assessoria imediatamente. O tempo é curto.
 
-## Prazos de análise (dados IRN abr/mai 2026, ±5%)
+## Prazos de análise (quadros do IRN de set/out 2026)
 
 | Tipo de processo | Prazo estimado |
 |---|---|
@@ -4995,7 +4995,7 @@ Ao detectar "em diligência" no portal, contacte a assessoria imediatamente. O t
 | Netos maiores | {{prazo_netos_maiores}} |
 | Casamento / União de facto | {{prazo_casamento}} |
 | Naturalização CPLP | {{prazo_naturalizacao}} |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação pendente até agosto de 2026 |
+| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
 ## O que NÃO agiliza o processo
 
@@ -5272,7 +5272,7 @@ Revogada a possibilidade de contar o período de espera pelo título de residên
 Primeira via específica para bisnetos de portugueses — exigindo **5 anos de residência legal em Portugal**. É uma via de aquisição (não atribuição), com dois sub-tipos: Via 1 (atribuição originária) e Via 2 (aquisição derivada). Especificidades ainda em regulamentação.
 
 **4. Novos requisitos de conhecimento cultural e cívico:**
-Para processos de aquisição: conhecimento de cultura e história portuguesas, organização política do Estado, declaração de adesão ao Estado de Direito. Forma de avaliação em regulamentação (prazo: agosto de 2026).
+Para processos de aquisição: conhecimento de cultura e história portuguesas, organização política do Estado, declaração de adesão ao Estado de Direito. Forma de avaliação: regulamentação aprovada a 29 de outubro de 2026, que aguarda publicação.
 
 **5. Filhos nascidos em Portugal: nova exigência:**
 Pais estrangeiros passam a precisar de **5 anos de residência legal** em Portugal (antes era 1 ano).
@@ -5635,12 +5635,12 @@ Para processos de netos, o IRN exige a comprovação de vínculo efetivo com a c
 
 Valem: fotos em acervos familiares que mostrem o avô em contexto português, cartas e correspondências, relatos de membros mais velhos da família, visitas ao cemitério onde o avô está sepultado, viagens à localidade de origem em Portugal, participação em associações lusófilas. O que o IRN quer ver é que a ligação com Portugal não é apenas jurídica, mas genuinamente sentida. Saiba mais sobre esse tema em nosso artigo sobre [documentos para netos de portugueses](/blog/checklist-completa-de-documentos-para-netos-de-portugueses).
 
-## Prazos actuais (dados IRN abr/mai 2026)
+## Prazos actuais (quadros do IRN de set/out 2026)
 
 Com o processo protocolado na Conservatória dos Registos Centrais em Lisboa, os prazos estimados de análise são:
 
-- Filhos maiores de português: **{{prazo_filhos_maiores}}** (±5%)
-- Netos maiores de português: **{{prazo_netos_maiores}}** (±5%)
+- Filhos maiores de português: **{{prazo_filhos_maiores}}**
+- Netos maiores de português: **{{prazo_netos_maiores}}**
 
 O prazo conta a partir da distribuição formal do processo — não da data em que você começou a reunir documentos. Por isso, iniciar o processo o quanto antes tem impacto direto no tempo de espera. Pode acompanhar o andamento do seu processo no [portal de cidadania do Ministério da Justiça](https://nacionalidade.justica.gov.pt).
 
@@ -5958,7 +5958,7 @@ A emigração para o Nordeste foi concentrada nos séculos XVIII e XIX, com pred
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (dados abr/mai 2026, ±5%). Veja [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Veja [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
 
 ## Perguntas frequentes
 
@@ -6010,7 +6010,7 @@ Estrangeiros com residência legal continuada. Para brasileiros e CPLP: **7 anos
 
 ## Via 5: Nova via de bisnetos (Art. 6.º n.º 8, Lei 1/2026)
 
-Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: A confirmar — regulamentação pendente até agosto de 2026.
+Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação.
 
 ## Via 6: Filhos nascidos em Portugal de pais estrangeiros
 
@@ -6244,7 +6244,7 @@ Uma das primeiras perguntas de quem considera iniciar o processo: quanto tempo v
 
 ## Os prazos actuais por tipo de processo
 
-Estimativas baseadas nas informações das conservatórias aos advogados (estado do serviço abr/mai 2026), com margem de ±5%:
+Estimativas baseadas nas informações das conservatórias aos advogados (estado do serviço set/out 2026):
 
 | Tipo de processo | Prazo estimado de análise |
 |---|---|
@@ -6255,7 +6255,7 @@ Estimativas baseadas nas informações das conservatórias aos advogados (estado
 | Netos maiores de português | {{prazo_netos_maiores}} |
 | Casamento / União de facto | {{prazo_casamento}} |
 | Naturalização CPLP (7 anos) | {{prazo_naturalizacao}} |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação pendente até agosto de 2026 |
+| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
 O prazo contabilizado é a partir da **data de distribuição formal do processo** no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) — não de quando você começou a reunir documentos.
 
@@ -6265,7 +6265,7 @@ Processos de menores de 18 anos têm tramitação prioritária — {{prazo_filho
 
 ## Por que netos são mais rápidos do que filhos (adultos)
 
-O prazo de netos maiores ({{prazo_netos_maiores}}) é menor do que o de filhos maiores ({{prazo_filhos_maiores}}). A razão é o volume — há muito mais processos de filhos na fila.
+O prazo de netos maiores ({{prazo_netos_maiores}}) é maior do que o de filhos maiores ({{prazo_filhos_maiores}}), e ambos variam muito entre Lisboa e o Porto.
 
 ## Naturalização: mais rápida em análise, mais longa no total
 
@@ -6321,7 +6321,7 @@ A imigração para Minas foi ligada ao ciclo do ouro (séculos XVII-XVIII). Para
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (dados abr/mai 2026, ±5%). Para processos com documentação do período colonial, a pesquisa genealógica pode ser mais complexa. Veja mais sobre documentos difíceis em [cidadania para quem não tem documentos do avô](/blog/cidadania-portuguesa-para-quem-tem-documentos-perdidos).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Para processos com documentação do período colonial, a pesquisa genealógica pode ser mais complexa. Veja mais sobre documentos difíceis em [cidadania para quem não tem documentos do avô](/blog/cidadania-portuguesa-para-quem-tem-documentos-perdidos).
 
 ## Perguntas frequentes
 
@@ -6369,7 +6369,7 @@ O **Centro Português de Curitiba** é um dos espaços de referência — com po
 
 ## Prazos e processo
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (dados abr/mai 2026, ±5%). Consulte o [checklist de documentos para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses) para saber o que reunir.
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Consulte o [checklist de documentos para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses) para saber o que reunir.
 
 ## Perguntas frequentes
 
@@ -6834,7 +6834,7 @@ O processo de cidadania por descendência (filhos, netos), por casamento e por n
 
 ## Quando pode haver avaliação adicional
 
-A [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) introduziu novos requisitos de conhecimento cultural e cívico — especialmente para processos de naturalização. A forma exacta de avaliação (exame, entrevista, certificado) está em regulamentação com prazo até agosto de 2026.
+A [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) introduziu novos requisitos de conhecimento cultural e cívico — especialmente para processos de naturalização. A forma exacta de avaliação (exame, entrevista, certificado) depende da regulamentação aprovada pelo Governo a 29 de outubro de 2026, que aguarda publicação.
 
 Para processos de descendência (filhos, netos) e por casamento, não existe previsão de entrevista nos requisitos vigentes.
 
@@ -7114,7 +7114,7 @@ A renovação é feita no consulado de Portugal da sua área de residência no B
 
 ### Motivo 1: O processo está na fila normal do IRN
 
-Esta é a causa mais comum — e a mais benigna. O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) tem mais de 700 mil processos pendentes. O prazo estimado para netos maiores é de {{prazo_netos_maiores}}; para filhos maiores, {{prazo_filhos_maiores}} (dados abr/mai 2026, ±5%). Um processo de 2021 que ainda não tem decisão em 2025 pode estar exatamente onde deveria estar: na fila, aguardando a vez.
+Esta é a causa mais comum — e a mais benigna. O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) tem mais de 700 mil processos pendentes. O prazo estimado para netos maiores é de {{prazo_netos_maiores}}; para filhos maiores, {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Um processo de 2021 que ainda não tem decisão em 2025 pode estar exatamente onde deveria estar: na fila, aguardando a vez.
 
 O silêncio do IRN, nesse contexto, não é um mau sinal — é o funcionamento normal de um sistema sobrecarregado.
 
@@ -7223,7 +7223,7 @@ Para os processos mais comuns (filhos e netos, casamento), **não** — o proces
 
 ## "Quanto tempo vai demorar?"
 
-Dados [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) abr/mai 2026 (±5%):
+Dados [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) set/out 2026:
 - Filhos ou netos menores: {{prazo_filhos_menores}}
 - Netos maiores: {{prazo_netos_maiores}}
 - Filhos maiores: {{prazo_filhos_maiores}}
