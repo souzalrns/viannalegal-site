@@ -60,7 +60,7 @@ export const PRAZOS_IRN: PrazoIRN[] = [
     prazoMax: 0,
     taxa: '€175',
     complexidade: 'alta',
-    nota: 'Regulamentação pendente até agosto de 2026. Exige 5 anos residência em Portugal.',
+    nota: 'Regulamentação aprovada a 29/10/2026, aguarda publicação. Exige 5 anos residência em Portugal.',
   },
   {
     via: 'Casamento / União de facto',

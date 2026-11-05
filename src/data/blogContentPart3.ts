@@ -55,7 +55,7 @@ Revogada a possibilidade de contar o período de espera pelo título de residên
 Primeira via específica para bisnetos de portugueses — exigindo **5 anos de residência legal em Portugal**. É uma via de aquisição (não atribuição), com dois sub-tipos: Via 1 (atribuição originária) e Via 2 (aquisição derivada). Especificidades ainda em regulamentação.
 
 **4. Novos requisitos de conhecimento cultural e cívico:**
-Para processos de aquisição: conhecimento de cultura e história portuguesas, organização política do Estado, declaração de adesão ao Estado de Direito. Forma de avaliação em regulamentação (prazo: agosto de 2026).
+Para processos de aquisição: conhecimento de cultura e história portuguesas, organização política do Estado, declaração de adesão ao Estado de Direito. Forma de avaliação: regulamentação aprovada a 29 de outubro de 2026, que aguarda publicação.
 
 **5. Filhos nascidos em Portugal: nova exigência:**
 Pais estrangeiros passam a precisar de **5 anos de residência legal** em Portugal (antes era 1 ano).
@@ -621,7 +621,7 @@ Filhos de pai ou mãe português(a), nascidos em qualquer lugar. Atribuição �
 
 ## Via 2: Descendência (netos de portugueses) [Processo legalmente aberto — Submissão temporariamente condicionada à regulamentação do teste de história/cultura]
 
-Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a comunidade portuguesa — critérios exatos de comprovação aguardando regulamentação (prazo: até 16 de agosto de 2026). Atribuição sem prazo de caducidade. Pode ser feito do Brasil. Prazo: 3 a 5 meses (menores) / 42 a 48 meses (maiores).
+Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a comunidade portuguesa — critérios exatos de comprovação aguardando a publicação da regulamentação (aprovada a 29 de outubro de 2026). Atribuição sem prazo de caducidade. Pode ser feito do Brasil. Prazo: 3 a 5 meses (menores) / 42 a 48 meses (maiores).
 
 ## Via 3: Aquisição por casamento ou união de facto
 
@@ -633,7 +633,7 @@ Estrangeiros com residência legal continuada. Para brasileiros e CPLP: **7 anos
 
 ## Via 5: Nova via de bisnetos [Via jurídica aprovada — Aguarda regulamentação do IRN para início de pedidos] (Art. 6.º n.º 8, Lei 1/2026)
 
-Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: A confirmar — regulamentação pendente até agosto de 2026.
+Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação.
 
 ## Via 6: Filhos nascidos em Portugal de pais estrangeiros
 
@@ -814,7 +814,7 @@ Estimativas baseadas nas informações das conservatórias aos advogados (estado
 | Netos maiores de português | 42 a 48 meses |
 | Casamento / União de facto | 50 a 54 meses |
 | Naturalização CPLP (7 anos) | 27 a 30 meses |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação pendente até agosto de 2026 |
+| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
 O prazo contabilizado é a partir da **data de distribuição formal do processo** no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) — não de quando você começou a reunir documentos.
 
@@ -1233,7 +1233,7 @@ O processo de cidadania por descendência (filhos, netos), por casamento e por n
 
 ## Quando pode haver avaliação adicional
 
-A [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) introduziu novos requisitos de conhecimento cultural e cívico — especialmente para processos de naturalização. A forma exacta de avaliação (exame, entrevista, certificado) está em regulamentação com prazo até agosto de 2026.
+A [Lei Orgânica 1/2026](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996) introduziu novos requisitos de conhecimento cultural e cívico — especialmente para processos de naturalização. A forma exacta de avaliação (exame, entrevista, certificado) depende da regulamentação aprovada pelo Governo a 29 de outubro de 2026, que aguarda publicação.
 
 Para processos de descendência (filhos, netos) e por casamento, não existe previsão de entrevista nos requisitos vigentes.
 

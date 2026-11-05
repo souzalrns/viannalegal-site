@@ -485,7 +485,7 @@ A característica central da aquisição é que **os requisitos precisam ser man
 
 ## A nova via de bisnetos: aquisição com residência [Via jurídica aprovada — Aguarda regulamentação do IRN para início de pedidos]
 
-Uma inovação da Lei Orgânica 1/2026 é a criação de um caminho para bisnetos de portugueses — pela primeira vez, a lei reconhece explicitamente os bisnetos como potenciais cidadãos. Mas coloca essa via sob aquisição (não atribuição), exigindo 5 anos de residência legal em Portugal como condição para o pedido. O decreto regulamentador que definirá os critérios exatos para novos pedidos ainda não foi publicado (prazo: até 16 de agosto de 2026).
+Uma inovação da Lei Orgânica 1/2026 é a criação de um caminho para bisnetos de portugueses — pela primeira vez, a lei reconhece explicitamente os bisnetos como potenciais cidadãos. Mas coloca essa via sob aquisição (não atribuição), exigindo 5 anos de residência legal em Portugal como condição para o pedido. O decreto regulamentador que definirá os critérios exatos para novos pedidos ainda não foi publicado (foi aprovado em Conselho de Ministros a 29 de outubro de 2026).
 
 Isso significa que bisnetos residentes em Portugal com pelo menos 5 anos de título de residência têm uma nova porta aberta — mas é uma porta que exige presença física no país.
 
@@ -1050,7 +1050,7 @@ Ao detectar "em diligência" no portal, contacte a assessoria imediatamente. O t
 | Netos maiores | 42 a 48 meses |
 | Casamento / União de facto | 50 a 54 meses |
 | Naturalização CPLP | 27 a 30 meses |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação pendente até agosto de 2026 |
+| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
 ## O que NÃO agiliza o processo
 
