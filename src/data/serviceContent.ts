@@ -1,3 +1,5 @@
+import { PRAZOS_IRN } from "@/config/prazos";
+
 export interface ServiceFaq {
   question: string;
   answer: string;
