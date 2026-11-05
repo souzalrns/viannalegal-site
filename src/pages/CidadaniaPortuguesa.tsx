@@ -1,4 +1,4 @@
-import { PRAZOS_IRN } from '@/config/prazos';
+import { formatPrazo, prazoDe } from '@/config/prazos';
 import { TAXAS_IRN } from '@/config/taxas';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { Helmet } from 'react-helmet-async';
@@ -14,42 +14,42 @@ const services = [
   {
     id: 'filhos-maiores', pageSlug: 'filhos-maiores',
     title: 'Cidadania para Filhos Maiores', subtitle: 'Filhos maiores de idade de cidadãos portugueses',
-    duration: PRAZOS_IRN.find(p=>p.slug==='filhos-maiores')?.prazo || '7 meses no Porto e 34 em Lisboa', icon: Heart,
+    duration: formatPrazo('filhos-maiores'), icon: Heart,
     description: 'Processo destinado a filhos maiores de idade de cidadãos portugueses. A nacionalidade é atribuída por filiação, sendo necessário comprovar o vínculo parental com o ascendente português.',
     requirements: ['Certidão de nascimento do requerente', 'Certidão de nascimento do pai/mãe português', 'Documentos de identificação válidos', 'Procuração para a advogada'],
   },
   {
     id: 'filhos-menores', pageSlug: 'filhos-menores',
     title: 'Cidadania para Filhos Menores', subtitle: 'Processo célere para menores de 18 anos',
-    duration: PRAZOS_IRN.find(p=>p.slug==='filhos-menores')?.prazo || '4 meses no Porto e 3 em Lisboa', icon: Heart,
+    duration: formatPrazo('filhos-menores'), icon: Heart,
     description: 'Processo mais célere para filhos menores de idade de cidadãos portugueses. Trâmite próprio para menores, sem exigência de vínculo efetivo.',
     requirements: ['Certidão de nascimento do menor', 'Certidão de nascimento do pai/mãe português', 'Documentos de identificação dos pais', 'Autorização de ambos os genitores'],
   },
   {
     id: 'netos', pageSlug: 'netos',
     title: 'Cidadania para Netos', subtitle: 'Descendentes de avós portugueses',
-    duration: PRAZOS_IRN.find(p=>p.slug==='netos'&&p.prazoMax===55)?.prazo || '36 meses no Porto e 55 em Lisboa', icon: Users,
+    duration: prazoDe('netos_maiores'), icon: Users,
     description: 'Para netos de cidadãos portugueses, é necessário demonstrar vínculo efetivo com a comunidade portuguesa. A Lei Orgânica 1/2026 adicionou requisitos de conhecimento cultural e cívico.',
     requirements: ['Certidão de nascimento do requerente', 'Certidão de nascimento do pai/mãe', 'Certidão de nascimento do avô/avó português', 'Comprovante de vínculo efetivo com Portugal'],
   },
   {
     id: 'bisnetos', pageSlug: 'bisnetos',
     title: 'Cidadania para Bisnetos', subtitle: 'Novidade da Lei Orgânica 1/2026: via de naturalização',
-    duration: PRAZOS_IRN.find(p=>p.slug==='bisnetos')?.prazo || 'A confirmar', icon: Users,
+    duration: formatPrazo('bisnetos'), icon: Users,
     description: 'Desde a Lei Orgânica n.º 1/2026 (em vigor desde maio de 2026), bisnetos têm via de naturalização específica — mas exige residência legal em Portugal por 5 anos. Não funciona morando no Brasil.',
     requirements: ['Cadeia completa de filiação documentada (4 gerações)', 'Residência legal em Portugal por 5+ anos', 'Requisitos culturais e cívicos da Lei 1/2026', 'Declaração de adesão ao Estado de Direito'],
   },
   {
     id: 'conjuges', pageSlug: 'conjuges',
     title: 'Cidadania para Cônjuges', subtitle: 'Casados ou em união estável com portugueses',
-    duration: PRAZOS_IRN.find(p=>p.slug==='conjuges')?.prazo || '58 meses em Lisboa', icon: Heart,
+    duration: formatPrazo('conjuges'), icon: Heart,
     description: 'Cônjuges com mínimo de 3 anos de casamento civil ou união de facto reconhecida com cidadãos portugueses podem requerer a nacionalidade. A transcrição do casamento é pré-requisito.',
     requirements: ['Certidão de casamento (transcrita em Portugal)', 'Mínimo de 3 anos de casamento/união', 'Documentos de identificação de ambos', 'Declaração de não separação de facto'],
   },
   {
     id: 'residencia', pageSlug: 'residencia',
     title: 'Nacionalidade por Residência', subtitle: 'Para residentes legais em Portugal',
-    duration: `${PRAZOS_IRN.find(p=>p.slug==='residencia')?.prazo || '33 meses no Porto e 27 em Lisboa'} (após 7 anos de residência)`, icon: Building,
+    duration: `${formatPrazo('residencia')} (após 7 anos de residência)`, icon: Building,
     description: 'Para quem reside legalmente em Portugal. Desde a <a href="https://dre.pt" target="_blank" rel="noopener noreferrer">Lei Orgânica 1/2026</a>, o prazo mínimo subiu de 5 para 7 anos para brasileiros/CPLP, e o tempo de espera pelo título não conta mais.',
     requirements: ['Residência legal em Portugal há 7+ anos (CPLP/brasileiros)', 'Conhecimento da língua portuguesa', 'Requisitos culturais e cívicos (Lei 1/2026)', 'Ausência de condenação criminal grave'],
   },

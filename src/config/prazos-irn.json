@@ -1,0 +1,61 @@
+{
+  "_leia": "Fonte única dos prazos do IRN para os dois sites (Vite e next-app). Mude só este ficheiro: as frases são geradas por src/config/prazos-core.ts. Espera = meses desde a data dos processos em análise em cada conservatória.",
+  "atualizacao": "2026-11",
+  "atualizacaoTexto": "novembro de 2026",
+  "quadrosTexto": "setembro/outubro de 2026",
+  "fonte": "Quadros publicados pelo IRN (Conservatória dos Registos Centrais, em Lisboa, e Arquivo Central do Porto)",
+  "filas": {
+    "filhos_menores": {
+      "porto": 4,
+      "lisboa": 3
+    },
+    "filhos_menores_transcricao": {
+      "porto": 11,
+      "lisboa": 11
+    },
+    "filhos_maiores": {
+      "porto": 7,
+      "lisboa": 34
+    },
+    "filhos_maiores_transcricao": {
+      "porto": 15,
+      "lisboa": 53
+    },
+    "netos_menores": {
+      "porto": 6,
+      "lisboa": 5
+    },
+    "netos_maiores": {
+      "porto": 36,
+      "lisboa": 55
+    },
+    "casamento": {
+      "lisboa": 58
+    },
+    "uniao_facto": {
+      "lisboa": 4
+    },
+    "naturalizacao": {
+      "porto": 33,
+      "lisboa": 27
+    },
+    "menor_nascido_pt": {
+      "porto": 7,
+      "lisboa": 4
+    }
+  },
+  "outros": {
+    "transcricao_casamento": {
+      "min": 2,
+      "max": 3
+    },
+    "bisnetos": "28 a 36 meses"
+  },
+  "etapasProcessoNetos": {
+    "organizacaoMin": 1,
+    "organizacaoMax": 6,
+    "registoMin": 2,
+    "registoMax": 4
+  },
+  "_bisnetos": "Estimativa interna do site, por validar pela Kathia: o quadro do IRN mostra uma fila 'Atribuição a bisnetos (Art. 6.º, n.º 8)' com 31 meses em Lisboa."
+}

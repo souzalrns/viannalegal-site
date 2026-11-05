@@ -13,7 +13,7 @@ faq:
   - q: "Posso fazer o processo de cidadania portuguesa estando no Brasil?"
     a: "Sim. A maior parte do processo pode ser conduzida remotamente, com protocolo por advogado inscrito na OA portuguesa."
   - q: "Quanto tempo demora a cidadania portuguesa para netos em 2026?"
-    a: "Para netos maiores, o prazo médio é de 36 meses no Porto e 55 em Lisboa segundo dados do IRN de abril/maio 2026. Divergências documentais suspendem este prazo."
+    a: "Para netos maiores, o prazo médio é de {{prazo_netos_maiores}} segundo dados do IRN de abril/maio 2026. Divergências documentais suspendem este prazo."
   - q: "O que é vínculo efetivo e como comprovar?"
     a: "É a demonstração de ligação real com Portugal. Pode ser comprovado por: domínio do idioma (certificados CAPLE/CIPLE), visitas documentadas (carimbos de passaporte), participação em associações lusófonas, laços familiares mantidos, conhecimento da história e cultura portuguesas. A análise é feita caso a caso."
   - q: "Filho adoptivo pode ter direito à cidadania portuguesa?"
@@ -48,11 +48,11 @@ Se prefere descobrir rapidamente o seu caso específico, utilize o [Quiz de Eleg
 
 \`\`\`
 Tem pai ou mãe português(a)?
-├── SIM → Via de Filhos (prazo: 3-6 meses)
+├── SIM → Via de Filhos (prazo: {{prazo_filhos_menores}} para menores, {{prazo_filhos_maiores}} para maiores)
 └── NÃO ↓
 
 Tem avô ou avó português(a) originário?
-├── SIM → Via de Netos (prazo: 3-48 meses conforme idade)
+├── SIM → Via de Netos (prazo: {{prazo_netos_menores}} para menores, {{prazo_netos_maiores}} para maiores)
 └── NÃO ↓
 
 Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
@@ -60,11 +60,11 @@ Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
 └── NÃO ↓
 
 É casado(a) ou tem união de facto com português(a) há 3+ anos?
-├── SIM → Via de Casamento/UF (prazo: 58 meses em Lisboa)
+├── SIM → Via de Casamento/UF (prazo: {{prazo_casamento}})
 └── NÃO ↓
 
 Reside legalmente em Portugal há 7+ anos (brasileiro/CPLP)?
-├── SIM → Via de Naturalização (prazo: 33 meses no Porto e 27 em Lisboa)
+├── SIM → Via de Naturalização (prazo: {{prazo_naturalizacao}})
 └── NÃO → Consulte outras hipóteses previstas na Lei da Nacionalidade
 \`\`\`
 
@@ -141,13 +141,13 @@ Ninguém "tem direito" automaticamente — é necessário protocolo, verificaç�
 
 | Via | Requisito Principal | Prazo Médio IRN |
 |-----|--------------------|-----------------| 
-| Filhos menores | Filiação com português | 4 meses no Porto e 3 em Lisboa |
-| Filhos maiores | Filiação com português | 7 meses no Porto e 34 em Lisboa |
-| Netos menores | Cadeia genealógica + vínculo | 6 meses no Porto e 5 em Lisboa |
-| Netos maiores | Cadeia genealógica + vínculo | 36 meses no Porto e 55 em Lisboa |
+| Filhos menores | Filiação com português | {{prazo_filhos_menores}} |
+| Filhos maiores | Filiação com português | {{prazo_filhos_maiores}} |
+| Netos menores | Cadeia genealógica + vínculo | {{prazo_netos_menores}} |
+| Netos maiores | Cadeia genealógica + vínculo | {{prazo_netos_maiores}} |
 | Bisnetos (via directa) | 5 anos residência legal em PT | Em consolidação |
-| Casamento/União de facto | 3 anos + vínculo | 58 meses em Lisboa |
-| Naturalização | 7 anos residência (CPLP) | 33 meses no Porto e 27 em Lisboa |
+| Casamento/União de facto | 3 anos + vínculo | {{prazo_casamento}} |
+| Naturalização | 7 anos residência (CPLP) | {{prazo_naturalizacao}} |
 
 ### Via de Filhos
 
@@ -155,7 +155,7 @@ A via mais directa. O direito à transmissão existe desde que o progenitor port
 
 ### Via de Netos
 
-Os netos precisam comprovar vínculo efetivo com a comunidade portuguesa (idioma, visitas, laços familiares, associações lusófonas). O prazo para netos maiores (36 meses no Porto e 55 em Lisboa) reflecte o volume de auditoria documental interna do IRN. É a via que mais exige acompanhamento profissional.
+Os netos precisam comprovar vínculo efetivo com a comunidade portuguesa (idioma, visitas, laços familiares, associações lusófonas). O prazo para netos maiores ({{prazo_netos_maiores}}) reflecte o volume de auditoria documental interna do IRN. É a via que mais exige acompanhamento profissional.
 
 ### Via de Bisnetos
 
@@ -392,7 +392,7 @@ Quando o processo está bem instruído, não se teme a decisão. Mesmo uma decis
 Sim. A maior parte do processo pode ser conduzida remotamente, com protocolo por advogado inscrito na OA portuguesa.
 
 **Quanto tempo demora a cidadania portuguesa para netos em 2026?**
-Para netos maiores, o prazo médio é de 36 meses no Porto e 55 em Lisboa segundo dados do IRN de abril/maio 2026. Divergências documentais suspendem este prazo.
+Para netos maiores, o prazo médio é de {{prazo_netos_maiores}} segundo dados do IRN de abril/maio 2026. Divergências documentais suspendem este prazo.
 
 **O que é vínculo efetivo e como comprovar?**
 É a demonstração de ligação real com Portugal. Pode ser comprovado por: domínio do idioma (certificados CAPLE/CIPLE), visitas documentadas (carimbos de passaporte), participação em associações lusófonas, laços familiares mantidos, conhecimento da história e cultura portuguesas. A análise é feita caso a caso.
@@ -513,7 +513,7 @@ Este checklist evita grande parte das exigências mais comuns.
 [17] Solicitação do Passaporte Português
 \`\`\`
 
-> **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados set/out 2026) contam a partir do protocolo correcto e completo.
+> **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados {{prazo_quadros}}) contam a partir do protocolo correcto e completo.
 
 ---
 

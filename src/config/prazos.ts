@@ -1,10 +1,14 @@
 // ViannaLegal — Tabela Central de Prazos IRN
-// FONTE ÚNICA DE VERDADE — alterar aqui actualiza todo o site
-// Última actualização: novembro de 2026 (quadros IRN de setembro/outubro de 2026: Conservatória dos Registos Centrais e Arquivo Central do Porto)
+// Os números vêm de prazos-irn.json (FONTE ÚNICA); as frases, de prazos-core.ts.
+// Para actualizar os prazos, mude só o prazos-irn.json. Nada aqui tem números escritos à mão.
+import { PRAZOS_DADOS, PRAZO_TEXTO, textoFila } from './prazos-core';
+
+export { PRAZO_TEXTO, resolvePrazos, resolvePrazosDeep } from './prazos-core';
 
 export interface PrazoIRN {
   via: string;
   slug: string;
+  chave?: string; // chave em prazos-irn.json (filas)
   prazo: string;
   prazoMin: number; // meses
   prazoMax: number; // meses
@@ -15,54 +19,22 @@ export interface PrazoIRN {
   nota?: string;
 }
 
+const F = PRAZOS_DADOS.filas as Record<string, { porto?: number; lisboa?: number }>;
+
+function fila(chave: string, extra: Omit<PrazoIRN, 'prazo' | 'prazoMin' | 'prazoMax' | 'porto' | 'lisboa' | 'chave'>, sufixo = ''): PrazoIRN {
+  const f = F[chave];
+  const vals = [f.porto, f.lisboa].filter((v): v is number => v !== undefined);
+  return { ...extra, chave, prazo: textoFila(f) + sufixo, prazoMin: Math.min(...vals), prazoMax: Math.max(...vals), porto: f.porto, lisboa: f.lisboa };
+}
+
 export const PRAZOS_IRN: PrazoIRN[] = [
-  {
-    via: 'Filho(a) menor de português',
-    slug: 'filhos-menores',
-    prazo: '4 meses no Porto e 3 em Lisboa (inscrição)',
-    porto: 4,
-    lisboa: 3,
-    prazoMin: 3,
-    prazoMax: 11,
-    taxa: 'Isento',
-    complexidade: 'baixa',
-    nota: 'Por transcrição: 11 meses no Porto e em Lisboa.',
-  },
-  {
-    via: 'Filho(a) maior de português',
-    slug: 'filhos-maiores',
-    prazo: '7 meses no Porto e 34 em Lisboa (inscrição)',
-    porto: 7,
-    lisboa: 34,
-    prazoMin: 7,
-    prazoMax: 53,
-    taxa: '€175',
-    complexidade: 'baixa',
-    nota: 'Por transcrição: 15 meses no Porto e 53 em Lisboa.',
-  },
-  {
-    via: 'Neto(a) menor de português',
-    slug: 'netos',
-    prazo: '6 meses no Porto e 5 em Lisboa',
-    porto: 6,
-    lisboa: 5,
-    prazoMin: 5,
-    prazoMax: 6,
-    taxa: '€175',
-    complexidade: 'media',
-  },
-  {
-    via: 'Neto(a) maior de português',
-    slug: 'netos',
-    prazo: '36 meses no Porto e 55 em Lisboa',
-    porto: 36,
-    lisboa: 55,
-    prazoMin: 36,
-    prazoMax: 55,
-    taxa: '€175',
-    complexidade: 'alta',
-    nota: 'Requer comprovação de vínculo efetivo.',
-  },
+  fila('filhos_menores', { via: 'Filho(a) menor de português', slug: 'filhos-menores', taxa: 'Isento', complexidade: 'baixa',
+    nota: `Por transcrição: ${PRAZO_TEXTO.filhos_menores_transcricao}.` }, ' (inscrição)'),
+  fila('filhos_maiores', { via: 'Filho(a) maior de português', slug: 'filhos-maiores', taxa: '€175', complexidade: 'baixa',
+    nota: `Por transcrição: ${PRAZO_TEXTO.filhos_maiores_transcricao}.` }, ' (inscrição)'),
+  fila('netos_menores', { via: 'Neto(a) menor de português', slug: 'netos', taxa: '€175', complexidade: 'media' }),
+  fila('netos_maiores', { via: 'Neto(a) maior de português', slug: 'netos', taxa: '€175', complexidade: 'alta',
+    nota: 'Requer comprovação de vínculo efetivo.' }),
   {
     via: 'Bisneto(a) — via directa (Art. 6.º n.º 8)',
     slug: 'bisnetos',
@@ -73,47 +45,31 @@ export const PRAZOS_IRN: PrazoIRN[] = [
     complexidade: 'alta',
     nota: 'Regulamentação aprovada a 29/10/2026, aguarda publicação. Exige 5 anos residência em Portugal.',
   },
-  {
-    via: 'Casamento / União de facto',
-    slug: 'conjuges',
-    prazo: '58 meses (casamento, Lisboa)',
-    lisboa: 58,
-    prazoMin: 4,
-    prazoMax: 58,
-    taxa: '€250',
-    complexidade: 'alta',
-    nota: 'Só a Conservatória dos Registos Centrais publica esta fila. União de facto tem fila própria: 4 meses. Sujeito a verificação de vínculo efetivo.',
-  },
+  fila('casamento', { via: 'Casamento / União de facto', slug: 'conjuges', taxa: '€250', complexidade: 'alta',
+    nota: `Só a Conservatória dos Registos Centrais publica esta fila. União de facto tem fila própria: ${PRAZO_TEXTO.uniao_facto_lisboa}. Sujeito a verificação de vínculo efetivo.` }, ' (casamento)'),
   {
     via: 'Transcrição de casamento',
     slug: 'transcricao-casamento',
-    prazo: '2 a 3 meses',
+    prazo: PRAZO_TEXTO.transcricao,
     prazoMin: 2,
     prazoMax: 3,
     taxa: '€120',
     complexidade: 'baixa',
   },
-  {
-    via: 'Naturalização por residência (CPLP/Brasil)',
-    slug: 'residencia',
-    prazo: '33 meses no Porto e 27 em Lisboa',
-    porto: 33,
-    lisboa: 27,
-    prazoMin: 27,
-    prazoMax: 33,
-    taxa: '€175',
-    complexidade: 'alta',
-    nota: 'Após 7 anos de residência legal. Prazo conta a partir da emissão do cartão de residência válido.',
-  },
+  fila('naturalizacao', { via: 'Naturalização por residência (CPLP/Brasil)', slug: 'residencia', taxa: '€175', complexidade: 'alta',
+    nota: 'Após 7 anos de residência legal. Prazo conta a partir da emissão do cartão de residência válido.' }),
 ];
 
 // Metadata da fonte
 export const PRAZOS_META = {
   fonte: 'IRN — Instituto dos Registos e do Notariado',
-  referencia: 'Quadros publicados pelo IRN (Conservatória dos Registos Centrais e Arquivo Central do Porto), setembro/outubro de 2026. Espera = tempo desde a data dos processos em análise.',
+  referencia: `${PRAZOS_DADOS.fonte}, ${PRAZOS_DADOS.quadrosTexto}. Espera = tempo desde a data dos processos em análise.`,
   aviso: 'Prazos médios. Divergências documentais suspendem a contagem.',
-  ultimaActualizacao: '2026-11',
+  ultimaActualizacao: PRAZOS_DADOS.atualizacao,
 };
+
+/** Prazo de uma fila pela chave de prazos-irn.json (ex.: 'netos_maiores'). */
+export const prazoDe = (chave: string): string => PRAZO_TEXTO[chave] ?? 'A confirmar';
 
 // Helper — buscar prazo por slug
 export const getPrazo = (slug: string): PrazoIRN | undefined =>

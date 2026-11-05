@@ -23,11 +23,11 @@ Se prefere descobrir rapidamente o seu caso específico, utilize o [Quiz de Eleg
 
 \`\`\`
 Tem pai ou mãe português(a)?
-├── SIM → Via de Filhos (prazo: 3-6 meses)
+├── SIM → Via de Filhos (prazo: {{prazo_filhos_menores}} para menores, {{prazo_filhos_maiores}} para maiores)
 └── NÃO ↓
 
 Tem avô ou avó português(a) originário?
-├── SIM → Via de Netos (prazo: 3-48 meses conforme idade)
+├── SIM → Via de Netos (prazo: {{prazo_netos_menores}} para menores, {{prazo_netos_maiores}} para maiores)
 └── NÃO ↓
 
 Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
@@ -35,11 +35,11 @@ Tem bisavô/bisavó português(a) e reside em Portugal há 5+ anos?
 └── NÃO ↓
 
 É casado(a) ou tem união de facto com português(a) há 3+ anos?
-├── SIM → Via de Casamento/UF (prazo: 58 meses em Lisboa)
+├── SIM → Via de Casamento/UF (prazo: {{prazo_casamento}})
 └── NÃO ↓
 
 Reside legalmente em Portugal há 7+ anos (brasileiro/CPLP)?
-├── SIM → Via de Naturalização (prazo: 33 meses no Porto e 27 em Lisboa)
+├── SIM → Via de Naturalização (prazo: {{prazo_naturalizacao}})
 └── NÃO → Consulte outras hipóteses previstas na Lei da Nacionalidade
 \`\`\`
 
@@ -118,7 +118,7 @@ Ninguém "tem direito" automaticamente — é necessário protocolo, verificaç�
 |-----|--------------------|-----------------| 
 | Filhos menores | Filiação com português | {{prazo_filhos_menores}} |
 | Filhos maiores | Filiação com português | {{prazo_filhos_maiores}} |
-| Netos menores | Cadeia genealógica + vínculo | {{prazo_filhos_menores}} |
+| Netos menores | Cadeia genealógica + vínculo | {{prazo_netos_menores}} |
 | Netos maiores | Cadeia genealógica + vínculo | {{prazo_netos_maiores}} |
 | Bisnetos (via directa) | 5 anos residência legal em PT | Em consolidação |
 | Casamento/União de facto | 3 anos + vínculo | {{prazo_casamento}} |
@@ -488,7 +488,7 @@ Este checklist evita grande parte das exigências mais comuns.
 [17] Solicitação do Passaporte Português
 \`\`\`
 
-> **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados set/out 2026) contam a partir do protocolo correcto e completo.
+> **Nota:** As fases 9 a 15 correspondem ao processamento interno do IRN. Os prazos médios (dados {{prazo_quadros}}) contam a partir do protocolo correcto e completo.
 
 ---
 
@@ -640,7 +640,7 @@ Filhos de cidadãos portugueses têm direito **automático** à cidadania, indep
 
 - Pode ser solicitado em qualquer idade
 - Não exige residência em Portugal
-- Prazo estimado: {{prazo_filhos_menores}} (filhos menores) / {{prazo_filhos_maiores}} (filhos maiores) — quadros do IRN de set/out 2026
+- Prazo estimado: {{prazo_filhos_menores}} para filhos menores / {{prazo_filhos_maiores}} para filhos maiores — quadros do IRN de {{prazo_quadros}}
 
 ### 2. Netos de Portugueses — Atribuição com Vínculo Efetivo
 
@@ -655,7 +655,7 @@ Netos de cidadãos portugueses têm direito à cidadania desde 2015, mas com a L
 
 > ⚠️ **Regulamentação pendente:** O decreto-lei que regulamenta a Lei 1/2026 foi aprovado em Conselho de Ministros a 29 de outubro de 2026 e aguarda promulgação e publicação no Diário da República (o prazo legal de 90 dias terminou a 16 de agosto de 2026). Os critérios exactos de avaliação do vínculo efetivo e do teste de conhecimentos ainda não estão formalmente definidos.
 
-- Prazo estimado: 36-54 meses (com o backlog actual de 700k processos)
+- Prazo estimado: {{prazo_netos_maiores}} (com o backlog actual de 700k processos)
 
 ### 3. Bisnetos de Portugueses — Nova Via da Lei 1/2026
 
@@ -697,16 +697,16 @@ Importante: a via para bisnetos tem duas naturezas jurídicas distintas com cons
 - Documentação de vínculo efetivo com a comunidade nacional
 - Certidões de óbito dos elos já falecidos
 
-## Prazos Actualizados (junho de 2026)
+## Prazos Actualizados (quadros do IRN de {{prazo_quadros}})
 
 Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa-para-voce) após a corrida de maio de 2026:
 
 | Via | Prazo estimado |
 |-----|---------------|
 | Filhos menores | **{{prazo_filhos_menores}}** |
-| Filhos maiores (inscrição) | **{{prazo_filhos_maiores}}** |
+| Filhos maiores | **{{prazo_filhos_maiores}}** |
 | Transcrição de casamento (registo em PT) | **{{prazo_transcricao}}** |
-| Netos menores | **{{prazo_filhos_menores}}** |
+| Netos menores | **{{prazo_netos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
 | Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
@@ -1028,7 +1028,7 @@ Antes da Lei 1/2026 (maio de 2026), o IRN já tinha cerca de 516.000 pedidos pen
 
 O Presidente da República, ao promulgar a Lei 1/2026, sublinhou explicitamente a importância de garantir que os processos pendentes não sejam prejudicados pela morosidade do Estado. Contudo, não houve anúncio de medidas estruturais imediatas para reduzir o backlog.
 
-## Prazos Estimados (junho de 2026)
+## Prazos Estimados (quadros do IRN de {{prazo_quadros}})
 
 Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** — não incluem o tempo de preparação documental.
 
@@ -1037,9 +1037,9 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 | Via | Prazo estimado |
 |-----|---------------|
 | Filhos menores | **{{prazo_filhos_menores}}** |
-| Filhos maiores (inscrição) | **{{prazo_filhos_maiores}}** |
+| Filhos maiores | **{{prazo_filhos_maiores}}** |
 | Transcrição de casamento (registo em PT) | **{{prazo_transcricao}}** |
-| Netos menores | **{{prazo_filhos_menores}}** |
+| Netos menores | **{{prazo_netos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
 | Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação aprovada a 29/10/2026, aguarda publicação |
 
@@ -1646,7 +1646,7 @@ Casamentos realizados no Brasil ou noutro país:
 
 Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa-para-voce):
 
-| | Prazo estimado (junho 2026) |
+| | Prazo estimado (quadros do IRN de {{prazo_quadros}}) |
 |---|---|
 | Casamento / União de facto | **{{prazo_casamento}}** |
 
@@ -2269,9 +2269,9 @@ Sem condenação com pena de prisão ≥ 3 anos por crimes de terrorismo, crimin
 
 Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa-para-voce):
 
-| | Prazo estimado (junho 2026) |
+| | Prazo estimado (quadros do IRN de {{prazo_quadros}}) |
 |---|---|
-| Netos menores | **{{prazo_filhos_menores}}** |
+| Netos menores | **{{prazo_netos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
@@ -2665,12 +2665,12 @@ Não houve anúncio de contratação massiva de técnicos ou de medidas estrutur
 
 Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 
-| Tipo de processo | Prazo actual (quadros do IRN de set/out 2026) |
+| Tipo de processo | Prazo actual (quadros do IRN de {{prazo_quadros}}) |
 |---|---|
 | Filhos menores | **{{prazo_filhos_menores}}** |
-| Filhos maiores (inscrição) | **{{prazo_filhos_maiores}}** |
+| Filhos maiores | **{{prazo_filhos_maiores}}** |
 | Transcrição de casamento (registo em PT) | **{{prazo_transcricao}}** |
-| Netos menores | **{{prazo_filhos_menores}}** |
+| Netos menores | **{{prazo_netos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
 | Casamento / União de facto | **{{prazo_casamento}}** |
 | Naturalização CPLP (7 anos) | **{{prazo_naturalizacao}}** |
@@ -2858,7 +2858,7 @@ A forma de avaliação desses novos critérios ainda depende da regulamentação
 
 **Fase 3 — Montagem do processo e petição (30-60 dias):** Elaborar petição, organizar dossiê de vínculo efetivo, traduzir documentos quando necessário.
 
-**Fase 4 — Análise pelo IRN ({{prazo_netos_maiores}} (maiores) / {{prazo_filhos_menores}} (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
+**Fase 4 — Análise pelo IRN ({{prazo_netos_maiores}} para maiores / {{prazo_netos_menores}} para menores):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
 
 **Fase 5 — Registro e emissão do Cartão de Cidadão (2-4 meses)**
 
@@ -2878,9 +2878,9 @@ A forma de avaliação desses novos critérios ainda depende da regulamentação
 | Etapa | Prazo |
 |-------|-------|
 | Análise e organização | 1-6 meses |
-| Análise pelo IRN | {{prazo_netos_maiores}} (maiores) / {{prazo_filhos_menores}} (menores) |
+| Análise pelo IRN | {{prazo_netos_maiores}} para maiores / {{prazo_netos_menores}} para menores |
 | Registro e documentos | 2-4 meses |
-| **Total** | **cerca de 3,5 anos no Porto e 5 anos em Lisboa** (maiores) |
+| **Total** | **{{prazo_total_processo_netos}}** (maiores) |
 
 ## Erros mais comuns
 
@@ -2956,7 +2956,7 @@ Confirmar que o pai/mãe tem cidadania regularizada (certidão de nascimento por
 **Etapa 2 — Reunião de documentos (30-60 dias)**
 Certidão de nascimento do filho, certidão do progenitor português, certidão de casamento dos pais, documentos de identidade e procuração.
 
-**Etapa 3 — Distribuição e análise (4-8 meses para menores, 8-18 meses para maiores)**
+**Etapa 3 — Distribuição e análise ({{prazo_filhos_menores}} para menores, {{prazo_filhos_maiores}} para maiores)**
 
 **Etapa 4 — Cartão de Cidadão (2-3 meses)**
 
@@ -3037,9 +3037,9 @@ Este é o erro mais frequente — tentar pedir a cidadania antes de concluir a t
 
 **1. Transcrição do casamento (1-4 meses):** Registar o casamento brasileiro nos livros civis portugueses. Sem isso, o pedido de cidadania é recusado imediatamente.
 
-**2. Pedido de cidadania (24-40 meses após distribuição):** Só pode ser protocolado com a transcrição concluída e o prazo de 3 anos cumprido.
+**2. Pedido de cidadania ({{prazo_casamento}} de espera na fila):** Só pode ser protocolado com a transcrição concluída e o prazo de 3 anos cumprido.
 
-**Total estimado (com casamento já com 3+ anos):** 26 a 44 meses.
+**Total estimado (com casamento já com 3+ anos):** {{prazo_total_casamento}}.
 
 ## O prazo é 3 ou 6 anos?
 
@@ -3493,7 +3493,7 @@ O artigo 3.º da Lei da Nacionalidade Portuguesa prevê que o cônjuge de cidad�
 O prazo conta da **data do casamento civil** — não da transcrição em Portugal.
 
 O processo por casamento tem duas etapas obrigatórias nessa ordem:
-1. **Transcrição do casamento no IRN** — prazo estimado de {{prazo_transcricao}} (quadros do IRN de set/out 2026)
+1. **Transcrição do casamento no IRN** — prazo estimado de {{prazo_transcricao}} (quadros do IRN de {{prazo_quadros}})
 2. **Pedido de cidadania** — prazo estimado de {{prazo_casamento}} de análise
 
 O prazo de 3 anos precisa estar cumprido na data do **protocolo do pedido de cidadania** — não na data da transcrição.
@@ -3741,7 +3741,7 @@ Para crianças e adolescentes com direito à cidadania portuguesa, o processo te
 
 ## Por que o processo de menores é muito mais rápido
 
-O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) trata processos de menores com prioridade. O prazo estimado é de **{{prazo_filhos_menores}}** — contra {{prazo_filhos_maiores}} para filhos maiores e {{prazo_netos_maiores}} para netos maiores (quadros do IRN de set/out 2026).
+O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) trata processos de menores com prioridade. O prazo estimado é de **{{prazo_filhos_menores}}** — contra {{prazo_filhos_maiores}} para filhos maiores e {{prazo_netos_maiores}} para netos maiores (quadros do IRN de {{prazo_quadros}}).
 
 Isso tem implicação prática urgente: se a criança tem 16 ou 17 anos e o processo ainda não foi protocolado, há urgência real. Após os 18 anos, passa para a fila geral e o prazo multiplica por mais de dez.
 
@@ -3761,7 +3761,7 @@ Se o processo foi protocolado antes dos 18 anos, **mantém o tratamento priorit�
 
 ## Perguntas frequentes
 
-**Meu filho tem 17 anos. Vale a pena correr para protocolar antes dos 18?** Definitivamente. A diferença entre {{prazo_filhos_menores}} (menor) e {{prazo_filhos_maiores}} (filho maior) justifica qualquer esforço.
+**Meu filho tem 17 anos. Vale a pena correr para protocolar antes dos 18?** Definitivamente. A diferença entre {{prazo_filhos_menores}} para o menor e {{prazo_filhos_maiores}} para o filho maior justifica qualquer esforço.
 
 **O menor precisa comparecer pessoalmente no processo?** No processo de cidadania em si, não. Para o Cartão de Cidadão e passaporte após a aprovação, o comparecimento no consulado é obrigatório.
 
@@ -4067,7 +4067,7 @@ Esse tipo de ação tem sido acolhido por juízes brasileiros, especialmente qua
 
 **Opção 2 — Aguardar a maioridade:** Quando o filho completar 18 anos, ele pode dar entrada no próprio processo sem precisar de autorização de nenhum dos pais. A procuração passa a ser assinada por ele mesmo.
 
-A ressalva é que o processo muda: o processo de filho menor é mais simples e rápido. O processo de filho maior (18+ anos) tem prazos de análise de [{{prazo_filhos_maiores}}](https://irn.justica.gov.pt/nacionalidade-portuguesa) segundo dados do IRN de set/out 2026. Em alguns casos, aguardar pode não ser a melhor estratégia.
+A ressalva é que o processo muda: o processo de filho menor é mais simples e rápido. O processo de filho maior (18+ anos) tem prazos de análise de [{{prazo_filhos_maiores}}](https://irn.justica.gov.pt/nacionalidade-portuguesa) segundo dados do IRN de {{prazo_quadros}}. Em alguns casos, aguardar pode não ser a melhor estratégia.
 
 ## O processo quando o progenitor português mora no exterior
 
@@ -4224,7 +4224,7 @@ A característica central da aquisição é que **os requisitos precisam ser man
 | Afetado por divórcio | Não | Sim (via casamento) |
 | Exige morar em Portugal | Não (filhos/netos) | Sim (naturalização e bisnetos) |
 | Pode ser feito do Brasil | Sim | Não (para naturalização) |
-| Prazo estimado no IRN | 41–56 meses | 27–54 meses |
+| Prazo estimado no IRN | filhos maiores: {{prazo_filhos_maiores}}; netos maiores: {{prazo_netos_maiores}} | casamento: {{prazo_casamento}}; residência: {{prazo_naturalizacao}} |
 
 ## Por que isso importa na prática
 
@@ -4242,13 +4242,13 @@ Uma inovação da Lei Orgânica 1/2026 é a criação de um caminho direto para 
 
 Isso significa que bisnetos residentes em Portugal com pelo menos 5 anos de título de residência têm uma nova porta aberta — mas é uma porta que exige presença física no país.
 
-## Prazos actuais no IRN (quadros do IRN de set/out 2026)
+## Prazos actuais no IRN (quadros do IRN de {{prazo_quadros}})
 
 Para referência, os prazos estimados de análise por tipo de processo:
 
 - Filhos menores: {{prazo_filhos_menores}}
 - Filhos maiores: {{prazo_filhos_maiores}}
-- Netos menores: {{prazo_filhos_menores}}
+- Netos menores: {{prazo_netos_menores}}
 - Netos maiores: {{prazo_netos_maiores}}
 - Casamento/UF: {{prazo_casamento}}
 - Naturalização CPLP: {{prazo_naturalizacao}}
@@ -4403,7 +4403,7 @@ SP tem uma das comunidades portuguesas mais activas fora de Portugal. Associaç�
 
 ## Prazos e processo
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Veja o processo completo em nosso [guia completo de cidadania portuguesa](/blog/guia-completo-cidadania-portuguesa-2025).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}}, segundo os quadros do IRN de {{prazo_quadros}}. Veja o processo completo em nosso [guia completo de cidadania portuguesa](/blog/guia-completo-cidadania-portuguesa-2025).
 
 ## Perguntas frequentes
 
@@ -4457,7 +4457,7 @@ Associações como a **Câmara Portuguesa de Comércio** e o **Centro Português
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Veja mais em [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}}, segundo os quadros do IRN de {{prazo_quadros}}. Veja mais em [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
 
 ## Perguntas frequentes
 
@@ -4513,7 +4513,7 @@ O **Centro Português de Curitiba** e a **Câmara Portuguesa de Comércio no RS*
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil — {{prazo_netos_maiores}} para netos maiores; {{prazo_filhos_maiores}} para filhos maiores (quadros do IRN de set/out 2026).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil — {{prazo_netos_maiores}} para netos maiores; {{prazo_filhos_maiores}} para filhos maiores (quadros do IRN de {{prazo_quadros}}).
 
 ## Perguntas frequentes
 
@@ -4556,7 +4556,7 @@ Para brasileiros que já residem em Portugal, o processo de cidadania tem alguma
 
 ## O que NÃO muda por morar em Portugal
 
-**Os prazos do IRN:** A posição na fila é a mesma. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026).
+**Os prazos do IRN:** A posição na fila é a mesma. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}}, segundo os quadros do IRN de {{prazo_quadros}}.
 
 **Os requisitos documentais:** Idênticos aos de quem faz do Brasil.
 
@@ -4755,13 +4755,13 @@ Famílias luso-brasileiras com bens nos dois países precisam conduzir o invent�
 
 Cada elo adicional é um ponto onde podem surgir divergências de nome ou documentos difíceis de localizar.
 
-## Prazos de análise (quadros do IRN de set/out 2026)
+## Prazos de análise (quadros do IRN de {{prazo_quadros}})
 
 | Tipo | Prazo estimado |
 |---|---|
 | Filho menor | {{prazo_filhos_menores}} |
 | Filho maior | {{prazo_filhos_maiores}} |
-| Neto menor | {{prazo_filhos_menores}} |
+| Neto menor | {{prazo_netos_menores}} |
 | Neto maior | {{prazo_netos_maiores}} |
 
 O prazo de netos maiores ({{prazo_netos_maiores}}) é maior do que o de filhos maiores ({{prazo_filhos_maiores}}), e ambos variam muito entre Lisboa e o Porto.
@@ -4985,13 +4985,13 @@ A diligência é o momento mais crítico do processo: **uma notificação não r
 
 Ao detectar "em diligência" no portal, contacte a assessoria imediatamente. O tempo é curto.
 
-## Prazos de análise (quadros do IRN de set/out 2026)
+## Prazos de análise (quadros do IRN de {{prazo_quadros}})
 
 | Tipo de processo | Prazo estimado |
 |---|---|
 | Filhos menores | {{prazo_filhos_menores}} |
 | Filhos maiores | {{prazo_filhos_maiores}} |
-| Netos menores | {{prazo_filhos_menores}} |
+| Netos menores | {{prazo_netos_menores}} |
 | Netos maiores | {{prazo_netos_maiores}} |
 | Casamento / União de facto | {{prazo_casamento}} |
 | Naturalização CPLP | {{prazo_naturalizacao}} |
@@ -5635,7 +5635,7 @@ Para processos de netos, o IRN exige a comprovação de vínculo efetivo com a c
 
 Valem: fotos em acervos familiares que mostrem o avô em contexto português, cartas e correspondências, relatos de membros mais velhos da família, visitas ao cemitério onde o avô está sepultado, viagens à localidade de origem em Portugal, participação em associações lusófilas. O que o IRN quer ver é que a ligação com Portugal não é apenas jurídica, mas genuinamente sentida. Saiba mais sobre esse tema em nosso artigo sobre [documentos para netos de portugueses](/blog/checklist-completa-de-documentos-para-netos-de-portugueses).
 
-## Prazos actuais (quadros do IRN de set/out 2026)
+## Prazos actuais (quadros do IRN de {{prazo_quadros}})
 
 Com o processo protocolado na Conservatória dos Registos Centrais em Lisboa, os prazos estimados de análise são:
 
@@ -5958,7 +5958,7 @@ A emigração para o Nordeste foi concentrada nos séculos XVIII e XIX, com pred
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Veja [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}}, segundo os quadros do IRN de {{prazo_quadros}}. Veja [todas as formas de obter cidadania portuguesa](/blog/guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026).
 
 ## Perguntas frequentes
 
@@ -5994,11 +5994,11 @@ Existem múltiplas formas de obter a cidadania portuguesa — e a mais adequada 
 
 ## Via 1: Filiação directa (filhos de portugueses)
 
-Filhos de pai ou mãe português(a), nascidos em qualquer lugar. Atribuição — o direito existe desde o nascimento, não prescreve. Pode ser feito do Brasil. Prazo no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa): {{prazo_filhos_menores}} (menores) / {{prazo_filhos_maiores}} (maiores).
+Filhos de pai ou mãe português(a), nascidos em qualquer lugar. Atribuição — o direito existe desde o nascimento, não prescreve. Pode ser feito do Brasil. Prazo no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa): {{prazo_filhos_menores}} para menores / {{prazo_filhos_maiores}} para maiores.
 
 ## Via 2: Descendência (netos de portugueses)
 
-Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a comunidade portuguesa. Atribuição sem prazo de caducidade. Pode ser feito do Brasil. Prazo: {{prazo_filhos_menores}} (menores) / {{prazo_netos_maiores}} (maiores).
+Netos de avô ou avó português(a), com comprovação de vínculo efetivo com a comunidade portuguesa. Atribuição sem prazo de caducidade. Pode ser feito do Brasil. Prazo: {{prazo_filhos_menores}} para menores / {{prazo_netos_maiores}} (maiores).
 
 ## Via 3: Aquisição por casamento ou união de facto
 
@@ -6244,12 +6244,12 @@ Uma das primeiras perguntas de quem considera iniciar o processo: quanto tempo v
 
 ## Os prazos actuais por tipo de processo
 
-Estimativas baseadas nas informações das conservatórias aos advogados (estado do serviço set/out 2026):
+Estimativas baseadas nas informações das conservatórias aos advogados (estado do serviço {{prazo_quadros}}):
 
 | Tipo de processo | Prazo estimado de análise |
 |---|---|
 | Filhos menores de português | {{prazo_filhos_menores}} |
-| Netos menores de português | {{prazo_filhos_menores}} |
+| Netos menores de português | {{prazo_netos_menores}} |
 | Transcrição de casamento | {{prazo_transcricao}} |
 | Filhos maiores de português | {{prazo_filhos_maiores}} |
 | Netos maiores de português | {{prazo_netos_maiores}} |
@@ -6261,7 +6261,7 @@ O prazo contabilizado é a partir da **data de distribuição formal do processo
 
 ## Por que menores são muito mais rápidos
 
-Processos de menores de 18 anos têm tramitação prioritária — {{prazo_filhos_menores}} vs. 40 a 56 meses para adultos. Se você tem filhos com direito à cidadania que ainda são menores, o processo deles é dramaticamente mais rápido. A partir dos 18 anos, passam para a fila geral. Vale protocolar antes da maioridade.
+Processos de menores de 18 anos têm tramitação prioritária — {{prazo_filhos_menores}} para filhos vs. {{prazo_filhos_maiores}} para filhos e {{prazo_netos_maiores}} (netos) para adultos. Se você tem filhos com direito à cidadania que ainda são menores, o processo deles é dramaticamente mais rápido. A partir dos 18 anos, passam para a fila geral. Vale protocolar antes da maioridade.
 
 ## Por que netos são mais rápidos do que filhos (adultos)
 
@@ -6321,7 +6321,7 @@ A imigração para Minas foi ligada ao ciclo do ouro (séculos XVII-XVIII). Para
 
 ## Prazos
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Para processos com documentação do período colonial, a pesquisa genealógica pode ser mais complexa. Veja mais sobre documentos difíceis em [cidadania para quem não tem documentos do avô](/blog/cidadania-portuguesa-para-quem-tem-documentos-perdidos).
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são iguais para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}}, segundo os quadros do IRN de {{prazo_quadros}}. Para processos com documentação do período colonial, a pesquisa genealógica pode ser mais complexa. Veja mais sobre documentos difíceis em [cidadania para quem não tem documentos do avô](/blog/cidadania-portuguesa-para-quem-tem-documentos-perdidos).
 
 ## Perguntas frequentes
 
@@ -6369,7 +6369,7 @@ O **Centro Português de Curitiba** é um dos espaços de referência — com po
 
 ## Prazos e processo
 
-Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Consulte o [checklist de documentos para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses) para saber o que reunir.
+Os prazos do [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) são os mesmos para todo o Brasil. Para netos maiores: {{prazo_netos_maiores}}; para filhos maiores: {{prazo_filhos_maiores}}, segundo os quadros do IRN de {{prazo_quadros}}. Consulte o [checklist de documentos para netos](/blog/checklist-completa-de-documentos-para-netos-de-portugueses) para saber o que reunir.
 
 ## Perguntas frequentes
 
@@ -7114,7 +7114,7 @@ A renovação é feita no consulado de Portugal da sua área de residência no B
 
 ### Motivo 1: O processo está na fila normal do IRN
 
-Esta é a causa mais comum — e a mais benigna. O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) tem mais de 700 mil processos pendentes. O prazo estimado para netos maiores é de {{prazo_netos_maiores}}; para filhos maiores, {{prazo_filhos_maiores}} (quadros do IRN de set/out 2026). Um processo de 2021 que ainda não tem decisão em 2025 pode estar exatamente onde deveria estar: na fila, aguardando a vez.
+Esta é a causa mais comum — e a mais benigna. O [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) tem mais de 700 mil processos pendentes. O prazo estimado para netos maiores é de {{prazo_netos_maiores}}; para filhos maiores, {{prazo_filhos_maiores}}, segundo os quadros do IRN de {{prazo_quadros}}. Um processo de 2021 que ainda não tem decisão em 2025 pode estar exatamente onde deveria estar: na fila, aguardando a vez.
 
 O silêncio do IRN, nesse contexto, não é um mau sinal — é o funcionamento normal de um sistema sobrecarregado.
 
@@ -7223,8 +7223,8 @@ Para os processos mais comuns (filhos e netos, casamento), **não** — o proces
 
 ## "Quanto tempo vai demorar?"
 
-Dados [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) set/out 2026:
-- Filhos ou netos menores: {{prazo_filhos_menores}}
+Dados [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) {{prazo_quadros}}:
+- Filhos menores: {{prazo_filhos_menores}}; netos menores: {{prazo_netos_menores}}
 - Netos maiores: {{prazo_netos_maiores}}
 - Filhos maiores: {{prazo_filhos_maiores}}
 - Casamento: {{prazo_casamento}} (mais {{prazo_transcricao}} de transcrição prévia)

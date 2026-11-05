@@ -11,15 +11,16 @@ import { SchemaHomepage } from '@/components/seo/SchemaMarkup';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Clock, Sparkles } from 'lucide-react';
 import { SITE_CONFIG, waUrl } from '@/config/site';
+import { resolvePrazosDeep } from '@/config/prazos';
 
-const modalidades = [
+const modalidades = resolvePrazosDeep([
   {
     emoji: '👨\u200d👩\u200d👧',
     tag: 'Mais rápido',
     tagColor: '#10b981',
     title: 'Filho(a) de português(a)',
     desc: 'O caminho mais directo e rápido. Não precisa comprovar vínculo com Portugal. Pode ser feito 100% do Brasil.',
-    prazo: '7 meses no Porto e 34 em Lisboa',
+    prazo: '{{prazo_filhos_maiores}}',
     prazoLabel: 'processos novos',
     link: '/cidadania-portuguesa/filhos-maiores',
     destaque: true,
@@ -29,8 +30,8 @@ const modalidades = [
     tag: 'Estratégia recomendada',
     tagColor: '#3b82f6',
     title: 'Neto(a) de português(a)',
-    desc: 'Se o teu pai ou mãe ainda é vivo, existe uma via muito mais rápida — apenas 8 a 12 meses no total, em vez de 42 a 48.',
-    prazo: '36 meses no Porto e 55 em Lisboa',
+    desc: 'Se o teu pai ou mãe ainda é vivo, existe uma via sem comprovação de vínculo: dois processos de filho, {{prazo_total_dois_filhos}} no total, em vez de {{prazo_netos_maiores}} como neto.',
+    prazo: '{{prazo_netos_maiores}}',
     prazoLabel: 'via directa',
     link: '/cidadania-portuguesa/netos',
     destaque: true,
@@ -41,7 +42,7 @@ const modalidades = [
     tagColor: '#f59e0b',
     title: 'Bisneto(a) de português(a)',
     desc: 'Nova via criada pela Lei Orgânica 1/2026. Requer residência em Portugal ou cadeia de ascendentes vivos.',
-    prazo: '28 a 36 meses',
+    prazo: '{{prazo_bisnetos}}',
     prazoLabel: 'via Lei 1/2026',
     link: '/cidadania-portuguesa/bisnetos',
     destaque: false,
@@ -52,7 +53,7 @@ const modalidades = [
     tagColor: '#ec4899',
     title: 'Cônjuge de português(a)',
     desc: 'Para casados ou em união de facto com cidadão(ã) português(a) há 3 ou mais anos.',
-    prazo: '58 meses em Lisboa',
+    prazo: '{{prazo_casamento}}',
     prazoLabel: 'após protocolo',
     link: '/cidadania-portuguesa/conjuges',
     destaque: false,
@@ -63,7 +64,7 @@ const modalidades = [
     tagColor: '#8b5cf6',
     title: 'Naturalização por residência',
     desc: 'Para quem vive legalmente em Portugal há 7 anos (brasileiros/CPLP) ou 10 anos (outros países).',
-    prazo: '33 meses no Porto e 27 em Lisboa',
+    prazo: '{{prazo_naturalizacao}}',
     prazoLabel: 'após protocolo',
     link: '/cidadania-portuguesa/residencia',
     destaque: false,
@@ -79,7 +80,7 @@ const modalidades = [
     link: '/busca-documentos',
     destaque: false,
   },
-];
+]);
 
 
 function ModalidadesSection() {

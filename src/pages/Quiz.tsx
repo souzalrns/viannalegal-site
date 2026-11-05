@@ -1,4 +1,4 @@
-import { PRAZOS_IRN } from '@/config/prazos';
+import { formatPrazo, prazoDe, resolvePrazosDeep } from '@/config/prazos';
 import { TAXAS_IRN } from '@/config/taxas';
 import { useState, useEffect } from 'react';
 import { useAnalytics } from '@/hooks/useAnalytics';
@@ -52,7 +52,7 @@ interface Result {
 type Node = Question | Comparison | Result;
 
 // ── Fluxo ──────────────────────────────────────────────────────
-const NODES: Record<string, Node> = {
+const NODES: Record<string, Node> = resolvePrazosDeep({
 
   // ════════════════════════════════════════════════════════════
   // PERGUNTA DE ENTRADA — duas linhas
@@ -89,7 +89,7 @@ const NODES: Record<string, Node> = {
     kind: 'question',
     category: 'Descendência — Filho(a)',
     text: 'Você tem menos de 18 anos?',
-    hint: `Para menores de idade o processo é muito mais rápido — leva apenas ${PRAZOS_IRN.find(p=>p.slug==='filhos-menores')?.prazo || '4 meses no Porto e 3 em Lisboa'}.`,
+    hint: `Para menores de idade o processo é muito mais rápido — leva apenas ${formatPrazo('filhos-menores')}.`,
     options: [
       { icon: '🧒', label: 'Sim, sou menor de 18 anos',  next: 'result_filho_menor' },
       { icon: '🧑', label: 'Não, já sou maior de idade', next: 'result_filho_maior' },
@@ -121,7 +121,7 @@ const NODES: Record<string, Node> = {
         label: 'Opção 1 — Directa',
         tag: 'Um processo só',
         pros: [
-          `⏱️ Prazo: ${PRAZOS_IRN.find(p=>p.slug==='netos'&&p.prazoMax===55)?.prazo || '36 meses no Porto e 55 em Lisboa'}`,
+          `⏱️ Prazo: ${prazoDe('netos_maiores')}`,
           'Um único processo — você pede directamente como neto(a)',
           'Investimento menor',
         ],
@@ -136,9 +136,9 @@ const NODES: Record<string, Node> = {
         label: 'Opção 2 — Via ascendente (recomendada)',
         tag: 'Sem vínculo; mais rápida no Porto',
         pros: [
-          '⏱️ Prazo total: cerca de 14 meses no Porto e 68 em Lisboa (dois processos de filho por inscrição)',
-          `1.º: pai/mãe pede como filho(a) do avô/avó → ${PRAZOS_IRN.find(p=>p.slug==='filhos-maiores')?.prazo || '7 meses no Porto e 34 em Lisboa'}`,
-          `2.º: você pede como filho(a) do pai/mãe → ${PRAZOS_IRN.find(p=>p.slug==='filhos-maiores')?.prazo || '7 meses no Porto e 34 em Lisboa'}`,
+          '⏱️ Prazo total: {{prazo_total_dois_filhos}} (dois processos de filho por inscrição)',
+          `1.º: pai/mãe pede como filho(a) do avô/avó → ${formatPrazo('filhos-maiores')}`,
+          `2.º: você pede como filho(a) do pai/mãe → ${formatPrazo('filhos-maiores')}`,
           'Nenhum dos dois precisa comprovar vínculo com Portugal',
           'Juridicamente mais sólido — cadeia completa',
         ],
@@ -319,7 +319,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '🌟', tag: 'Via mais rápida de todas!',
     title: 'Ótima notícia — filho(a) menor de português(a)',
-    desc: 'Como filho(a) menor de cidadão(ã) português(a), você tem o processo mais simples e mais rápido. Prazo estimado: 4 meses no Porto e 3 em Lisboa. Pode ser feito 100% do Brasil, por procuração, sem precisar viajar a Portugal.',
+    desc: 'Como filho(a) menor de cidadão(ã) português(a), você tem o processo mais simples e mais rápido. Prazo estimado: {{prazo_filhos_menores}}. Pode ser feito 100% do Brasil, por procuração, sem precisar viajar a Portugal.',
     docs: [
       'Certidão de nascimento do filho (apostilada)',
       'Certidão de nascimento do pai/mãe português(a)',
@@ -336,7 +336,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '✅', tag: 'Alta probabilidade',
     title: 'Filho(a) maior de português(a) — direito directo',
-    desc: 'Como filho(a) maior de cidadão(ã) português(a), você tem direito directo à nationalidade. Prazo estimado para processos novos: 7 meses no Porto e 34 em Lisboa. Pode ser feito 100% do Brasil, sem viagem a Portugal e sem comprovar vínculo.',
+    desc: 'Como filho(a) maior de cidadão(ã) português(a), você tem direito directo à nationalidade. Prazo estimado para processos novos: {{prazo_filhos_maiores}}. Pode ser feito 100% do Brasil, sem viagem a Portugal e sem comprovar vínculo.',
     docs: [
       'Certidão de nascimento do requerente (apostilada)',
       'Certidão de nascimento do pai/mãe português(a)',
@@ -355,7 +355,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '🛡️', tag: 'Estratégia recomendada',
     title: 'Via ascendente — dois processos de filho, sem vínculo',
-    desc: 'Esta é a estratégia mais inteligente quando o pai/mãe está vivo. Em vez de você pedir como neto (42–48 meses + comprovar vínculo), o pai/mãe pede primeiro como filho(a) do avô/avó português — leva 7 meses no Porto e 34 em Lisboa. Depois você pede como filho(a) — mais 7 meses no Porto e 34 em Lisboa. Total: cerca de 14 meses no Porto e 68 em Lisboa. Nenhum dos dois precisa comprovar vínculo com Portugal. O investimento é um pouco maior por serem dois processos, mas o tempo e a segurança jurídica compensam amplamente.',
+    desc: 'Esta é a estratégia mais inteligente quando o pai/mãe está vivo. Em vez de você pedir como neto ({{prazo_netos_maiores}} + comprovar vínculo), o pai/mãe pede primeiro como filho(a) do avô/avó português — leva {{prazo_filhos_maiores}}. Depois você pede como filho(a) — mais {{prazo_filhos_maiores}}. Total: {{prazo_total_dois_filhos}}. Nenhum dos dois precisa comprovar vínculo com Portugal. O investimento é um pouco maior por serem dois processos, mas o tempo e a segurança jurídica compensam amplamente.',
     docs: [
       'Certidão de nascimento do avô/avó em Portugal (em inteiro teor)',
       'Certidão de nascimento do pai/mãe (apostilada)',
@@ -372,7 +372,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '🇵🇹', tag: 'Boa probabilidade',
     title: 'Neto(a) directo — processo viável',
-    desc: 'Com a certidão de nascimento do avô ou avó em mãos, o processo tem base documental sólida. O IRN vai avaliar o vínculo com Portugal (viagens, conhecimento da língua, ligações à comunidade portuguesa). Prazo estimado: 36 meses no Porto e 55 em Lisboa.',
+    desc: 'Com a certidão de nascimento do avô ou avó em mãos, o processo tem base documental sólida. O IRN vai avaliar o vínculo com Portugal (viagens, conhecimento da língua, ligações à comunidade portuguesa). Prazo estimado: {{prazo_netos_maiores}}.',
     docs: [
       'Certidão de nascimento do avô/avó em Portugal (em inteiro teor)',
       'Certidão de casamento do avô/avó',
@@ -428,7 +428,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '✨', tag: 'Excelente — caminho claro',
     title: 'Bisavô português e avô vivo — cadeia de filhos',
-    desc: 'Esta é a situação mais favorável. O avô/avó é filho(a) direto do bisavô português — pode pedir como filho(a) em 7 meses no Porto e 34 em Lisboa. Depois o pai/mãe pede como filho(a) — mais 7 meses no Porto e 34 em Lisboa. Por fim você pede como filho(a) — mais 7 meses no Porto e 34 em Lisboa. Total: cerca de 21 meses no Porto e 102 em Lisboa para três processos. Nenhum precisa comprovar vínculo com Portugal.',
+    desc: 'Esta é a situação mais favorável. O avô/avó é filho(a) direto do bisavô português — pode pedir como filho(a) em {{prazo_filhos_maiores}}. Depois o pai/mãe pede como filho(a) — mais {{prazo_filhos_maiores}}. Por fim você pede como filho(a) — mais {{prazo_filhos_maiores}}. Total: {{prazo_total_tres_filhos}} para três processos. Nenhum precisa comprovar vínculo com Portugal.',
     docs: [
       'Certidão de nascimento do bisavô/bisavó em Portugal (em inteiro teor)',
       'Certidão de nascimento do avô/avó (apostilada)',
@@ -446,7 +446,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '🇵🇹', tag: 'Caminho disponível',
     title: 'Bisavô português, avô falecido, pai/mãe vivo — via de neto',
-    desc: 'O avô já faleceu, mas o pai/mãe ainda está vivo e pode pedir como neto(a) do bisavô português — prazo de 36 meses no Porto e 55 em Lisboa com comprovação de vínculo. Depois você pede como filho(a) — apenas 7 meses no Porto e 34 em Lisboa. Total: cerca de 43 meses no Porto e 89 em Lisboa. Apenas o pai/mãe precisa comprovar vínculo com Portugal.',
+    desc: 'O avô já faleceu, mas o pai/mãe ainda está vivo e pode pedir como neto(a) do bisavô português — prazo de {{prazo_netos_maiores}} com comprovação de vínculo. Depois você pede como filho(a) — apenas {{prazo_filhos_maiores}}. Total: {{prazo_total_neto_e_filho}}. Apenas o pai/mãe precisa comprovar vínculo com Portugal.',
     docs: [
       'Certidão de nascimento do bisavô/bisavó em Portugal (em inteiro teor)',
       'Certidão de nascimento e óbito do avô/avó (apostiladas)',
@@ -464,7 +464,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '🏠', tag: 'Duas vias disponíveis',
     title: 'Bisneto com 7+ anos em Portugal — naturalização ou Art. 6.º n.º 8',
-    desc: 'Com 7 ou mais anos de residência legal em Portugal, você tem duas vias disponíveis: naturalização por residência (prazo de análise: 33 meses no Porto e 27 em Lisboa) e a via de bisneto do Art. 6.º n.º 8 da Lei 1/2026 (prazo estimado: 28 a 36 meses). A assessoria avalia qual é mais vantajosa no seu caso específico.',
+    desc: 'Com 7 ou mais anos de residência legal em Portugal, você tem duas vias disponíveis: naturalização por residência (prazo de análise: {{prazo_naturalizacao}}) e a via de bisneto do Art. 6.º n.º 8 da Lei 1/2026 (prazo estimado: {{prazo_bisnetos}}). A assessoria avalia qual é mais vantajosa no seu caso específico.',
     docs: [
       'Autorização de residência legal em Portugal (histórico de 7 anos)',
       'Certidão de nascimento do bisavô/bisavó em Portugal',
@@ -482,7 +482,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '🆕', tag: 'Via disponível — Lei 1/2026',
     title: 'Bisneto com 5 a 6 anos em Portugal — Art. 6.º n.º 8',
-    desc: 'A Lei Orgânica 1/2026 criou uma via específica para bisnetos de portugueses que residam legalmente em Portugal há pelo menos 5 anos. Você cumpre esse requisito. Prazo estimado de análise: 28 a 36 meses. Nota: a regulamentação detalhada desta via foi aprovada a 29 de outubro de 2026 e aguarda publicação — a assessoria acompanha as actualizações.',
+    desc: 'A Lei Orgânica 1/2026 criou uma via específica para bisnetos de portugueses que residam legalmente em Portugal há pelo menos 5 anos. Você cumpre esse requisito. Prazo estimado de análise: {{prazo_bisnetos}}. Nota: a regulamentação detalhada desta via foi aprovada a 29 de outubro de 2026 e aguarda publicação — a assessoria acompanha as actualizações.',
     docs: [
       'Certidão de nascimento do bisavô/bisavó em Portugal (em inteiro teor)',
       'Certidão de nascimento do avô/avó e do pai/mãe',
@@ -543,7 +543,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '✨', tag: 'Caminho disponível',
     title: 'Trisavô português e bisavô vivo — cadeia de filhos',
-    desc: 'O bisavô/bisavó é filho(a) direto(a) do trisavô português e pode pedir a nationalidade como filho(a) — prazo de 7 meses no Porto e 34 em Lisboa. A partir daí a cadeia segue: avô como filho(a), pai/mãe como filho(a), você como filho(a). Cada processo leva 7 meses no Porto e 34 em Lisboa. Nenhum precisa comprovar vínculo com Portugal.',
+    desc: 'O bisavô/bisavó é filho(a) direto(a) do trisavô português e pode pedir a nationalidade como filho(a) — prazo de {{prazo_filhos_maiores}}. A partir daí a cadeia segue: avô como filho(a), pai/mãe como filho(a), você como filho(a). Cada processo leva {{prazo_filhos_maiores}}. Nenhum precisa comprovar vínculo com Portugal.',
     docs: [
       'Certidão de nascimento do trisavô/trisavó em Portugal (em inteiro teor)',
       'Documentos de cada geração intermédia (apostilados)',
@@ -557,7 +557,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'yellow', icon: '⚠️', tag: 'Possível — com vínculo',
     title: 'Trisavô português, bisavô falecido, avô vivo — via de neto',
-    desc: 'O bisavô já faleceu, mas o avô/avó pode pedir como neto(a) do trisavô português — prazo de 36 meses no Porto e 55 em Lisboa com comprovação de vínculo. A partir daí a cadeia segue como filho(a): pai/mãe (4–6 meses), você (4–6 meses). O avô/avó é o ponto crítico — precisa comprovar o vínculo com Portugal.',
+    desc: 'O bisavô já faleceu, mas o avô/avó pode pedir como neto(a) do trisavô português — prazo de {{prazo_netos_maiores}} com comprovação de vínculo. A partir daí a cadeia segue como filho(a): pai/mãe (4–6 meses), você (4–6 meses). O avô/avó é o ponto crítico — precisa comprovar o vínculo com Portugal.',
     docs: [
       'Certidão de nascimento do trisavô/trisavó em Portugal',
       'Certidão de nascimento e óbito do bisavô/bisavó',
@@ -588,7 +588,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '💍', tag: 'Elegível',
     title: 'Casamento com português(a) — você tem direito',
-    desc: 'Com 3 ou mais anos de casamento ou união de facto com cidadão(ã) português(a), você tem direito à nationalidade portuguesa. Prazo estimado: 58 meses em Lisboa (mais 2 a 3 meses de transcrição prévia do casamento). Pode ser feito 100% do Brasil.',
+    desc: 'Com 3 ou mais anos de casamento ou união de facto com cidadão(ã) português(a), você tem direito à nationalidade portuguesa. Prazo estimado: {{prazo_casamento}} (mais 2 a 3 meses de transcrição prévia do casamento). Pode ser feito 100% do Brasil.',
     docs: [
       'Certidão de casamento (apostilada)',
       'Certidão de nascimento do requerente (apostilada)',
@@ -620,7 +620,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '🏠', tag: 'Elegível',
     title: 'Naturalização — prazo cumprido!',
-    desc: 'Você atingiu o prazo mínimo de residência legal em Portugal exigido pela Lei 1/2026. Prazo de análise após protocolar: 33 meses no Porto e 27 em Lisboa.',
+    desc: 'Você atingiu o prazo mínimo de residência legal em Portugal exigido pela Lei 1/2026. Prazo de análise após protocolar: {{prazo_naturalizacao}}.',
     docs: [
       'Autorização de residência (histórico completo)',
       'Certidão de nascimento (apostilada)',
@@ -671,7 +671,7 @@ const NODES: Record<string, Node> = {
       { slug: 'cidadania-portuguesa-para-descendentes-de-emigrantes', title: 'Como pesquisar origens portuguesas na família' },
     ],
   },
-};
+});
 
 // ── Componente principal ────────────────────────────────────────
 export default function Quiz() {

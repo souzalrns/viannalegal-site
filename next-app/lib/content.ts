@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import { resolvePrazos } from "./prazos";
 
 marked.setOptions({ gfm: true, breaks: false });
 
@@ -34,7 +35,8 @@ export interface ContentPiece {
 }
 
 function parseFile(fullPath: string, slug: string): ContentPiece {
-  const raw = fs.readFileSync(fullPath, "utf-8");
+  // os marcadores {{prazo_*}} são trocados antes de ler o frontmatter: também valem no FAQ e no answer_block
+  const raw = resolvePrazos(fs.readFileSync(fullPath, "utf-8"));
   const { data, content } = matter(raw);
 
   const required = ["title", "description", "h1", "answer_block", "unique_promise", "route_path"];

@@ -1,15 +1,15 @@
 import { ArrowRight, FileText, Search, Users, Heart, Building, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { PRAZOS_IRN, formatPrazo } from '@/config/prazos';
+import { PRAZOS_IRN, formatPrazo, resolvePrazosDeep } from '@/config/prazos';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
-const services = [
+const services = resolvePrazosDeep([
   {
     title: 'Cidadania Portuguesa — Netos',
     description: 'Para descendentes de avós portugueses com vínculo comprovado.',
     icon: Users,
-    duration: '36 meses no Porto e 55 em Lisboa',
+    duration: '{{prazo_netos_maiores}}',
     urgent: true,
     color: 'portugal',
     link: '/cidadania-portuguesa/netos',
@@ -19,7 +19,7 @@ const services = [
     title: 'Cidadania Portuguesa — Filhos Menores',
     description: 'Processo célere para filhos menores de cidadãos portugueses.',
     icon: Heart,
-    duration: '4 meses no Porto e 3 em Lisboa',
+    duration: '{{prazo_filhos_menores}}',
     urgent: false,
     color: 'portugal',
     link: '/cidadania-portuguesa/filhos-menores',
@@ -29,7 +29,7 @@ const services = [
     title: 'Cidadania Portuguesa — Filhos Maiores',
     description: 'Processo para filhos maiores de idade de cidadãos portugueses.',
     icon: Heart,
-    duration: '7 meses no Porto e 34 em Lisboa',
+    duration: '{{prazo_filhos_maiores}}',
     urgent: false,
     color: 'portugal',
     link: '/cidadania-portuguesa/filhos-maiores',
@@ -39,7 +39,7 @@ const services = [
     title: 'Cidadania Portuguesa — Cônjuges',
     description: 'Para cônjuges ou companheiros de cidadãos portugueses.',
     icon: Heart,
-    duration: '58 meses em Lisboa',
+    duration: '{{prazo_casamento}}',
     urgent: true,
     color: 'portugal',
     link: '/cidadania-portuguesa/conjuges',
@@ -49,7 +49,7 @@ const services = [
     title: 'Nacionalidade por Residência',
     description: 'Para quem reside legalmente em Portugal há tempo suficiente.',
     icon: Building,
-    duration: '33 meses no Porto e 27 em Lisboa',
+    duration: '{{prazo_naturalizacao}}',
     urgent: false,
     color: 'portugal',
     link: '/cidadania-portuguesa/residencia',
@@ -85,7 +85,7 @@ const services = [
     link: '/busca-documentos',
     linkLabel: 'Ver como funciona a pesquisa genealógica',
   },
-];
+]);
 
 const containerVariants = {
   hidden: { opacity: 0 },
