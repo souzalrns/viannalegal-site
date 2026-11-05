@@ -136,7 +136,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
 | Netos menores | **{{prazo_netos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
+| Bisnetos (Art. 6.º n.º 8) | **{{prazo_bisnetos}}** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -439,7 +439,7 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
 | Netos menores | **{{prazo_netos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
+| Bisnetos (Art. 6.º n.º 8) | **{{prazo_bisnetos}}** |
 
 ### Cidadania por Casamento / União de Facto
 
@@ -1910,7 +1910,7 @@ Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 | Netos maiores | **{{prazo_netos_maiores}}** |
 | Casamento / União de facto | **{{prazo_casamento}}** (união de facto: {{prazo_uniao_facto_lisboa}}) |
 | Naturalização CPLP (7 anos) | **{{prazo_naturalizacao}}** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação** |
+| Bisnetos (Art. 6.º n.º 8) | **{{prazo_bisnetos}}** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >

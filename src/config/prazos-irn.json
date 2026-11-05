@@ -42,20 +42,21 @@
     "menor_nascido_pt": {
       "porto": 7,
       "lisboa": 4
+    },
+    "bisnetos": {
+      "lisboa": 31
     }
   },
   "outros": {
     "transcricao_casamento": {
       "min": 2,
       "max": 3
-    },
-    "bisnetos": "28 a 36 meses"
+    }
   },
   "etapasProcessoNetos": {
     "organizacaoMin": 1,
     "organizacaoMax": 6,
     "registoMin": 2,
     "registoMax": 4
-  },
-  "_bisnetos": "Estimativa interna do site, por validar pela Kathia: o quadro do IRN mostra uma fila 'Atribuição a bisnetos (Art. 6.º, n.º 8)' com 31 meses em Lisboa."
+  }
 }

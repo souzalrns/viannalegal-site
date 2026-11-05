@@ -56,7 +56,6 @@ export const PRAZO_TEXTO: Record<string, string> = {
   filhos_menores_transcricao: `${textoFila(F.filhos_menores_transcricao)} (transcrição)`,
   filhos_maiores_transcricao: `${textoFila(F.filhos_maiores_transcricao)} (transcrição)`,
   transcricao: `${dados.outros.transcricao_casamento.min} a ${dados.outros.transcricao_casamento.max} meses`,
-  bisnetos: dados.outros.bisnetos,
   total_casamento: `cerca de ${dados.outros.transcricao_casamento.min + F.casamento.lisboa!} a ${dados.outros.transcricao_casamento.max + F.casamento.lisboa!} meses em Lisboa`,
   // totais calculados: nunca escritos à mão
   total_dois_filhos: cerca(soma(F.filhos_maiores, F.filhos_maiores)),

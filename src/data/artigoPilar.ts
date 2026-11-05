@@ -708,7 +708,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 | Transcrição de casamento (registo em PT) | **{{prazo_transcricao}}** |
 | Netos menores | **{{prazo_netos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação aprovada a 29/10/2026, aguarda publicação |
+| Bisnetos (Art. 6.º n.º 8) | {{prazo_bisnetos}} |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -1041,7 +1041,7 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 | Transcrição de casamento (registo em PT) | **{{prazo_transcricao}}** |
 | Netos menores | **{{prazo_netos_menores}}** |
 | Netos maiores | **{{prazo_netos_maiores}}** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação aprovada a 29/10/2026, aguarda publicação |
+| Bisnetos (Art. 6.º n.º 8) | {{prazo_bisnetos}} |
 
 ### Cidadania por Casamento / União de Facto
 
@@ -2674,7 +2674,7 @@ Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 | Netos maiores | **{{prazo_netos_maiores}}** |
 | Casamento / União de facto | **{{prazo_casamento}}** |
 | Naturalização CPLP (7 anos) | **{{prazo_naturalizacao}}** |
-| Bisnetos (Art. 6.º n.º 8) | **A confirmar** — regulamentação aprovada a 29/10/2026, aguarda publicação |
+| Bisnetos (Art. 6.º n.º 8) | {{prazo_bisnetos}} |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -4995,7 +4995,7 @@ Ao detectar "em diligência" no portal, contacte a assessoria imediatamente. O t
 | Netos maiores | {{prazo_netos_maiores}} |
 | Casamento / União de facto | {{prazo_casamento}} |
 | Naturalização CPLP | {{prazo_naturalizacao}} |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
+| Bisnetos (Art. 6.º n.º 8) | {{prazo_bisnetos}} |
 
 ## O que NÃO agiliza o processo
 
@@ -6010,7 +6010,7 @@ Estrangeiros com residência legal continuada. Para brasileiros e CPLP: **7 anos
 
 ## Via 5: Nova via de bisnetos (Art. 6.º n.º 8, Lei 1/2026)
 
-Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação.
+Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: {{prazo_bisnetos}}.
 
 ## Via 6: Filhos nascidos em Portugal de pais estrangeiros
 
@@ -6255,7 +6255,7 @@ Estimativas baseadas nas informações das conservatórias aos advogados (estado
 | Netos maiores de português | {{prazo_netos_maiores}} |
 | Casamento / União de facto | {{prazo_casamento}} |
 | Naturalização CPLP (7 anos) | {{prazo_naturalizacao}} |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
+| Bisnetos (Art. 6.º n.º 8) | {{prazo_bisnetos}} |
 
 O prazo contabilizado é a partir da **data de distribuição formal do processo** no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) — não de quando você começou a reunir documentos.
 

@@ -134,7 +134,7 @@ const NODES: Record<string, Node> = resolvePrazosDeep({
       {
         icon: '🛡️',
         label: 'Opção 2 — Via ascendente (recomendada)',
-        tag: 'Sem vínculo; mais rápida no Porto',
+        tag: 'Sem vínculo',
         pros: [
           '⏱️ Prazo total: {{prazo_total_dois_filhos}} (dois processos de filho por inscrição)',
           `1.º: pai/mãe pede como filho(a) do avô/avó → ${formatPrazo('filhos-maiores')}`,
@@ -557,7 +557,7 @@ const NODES: Record<string, Node> = resolvePrazosDeep({
     kind: 'result',
     type: 'yellow', icon: '⚠️', tag: 'Possível — com vínculo',
     title: 'Trisavô português, bisavô falecido, avô vivo — via de neto',
-    desc: 'O bisavô já faleceu, mas o avô/avó pode pedir como neto(a) do trisavô português — prazo de {{prazo_netos_maiores}} com comprovação de vínculo. A partir daí a cadeia segue como filho(a): pai/mãe (4–6 meses), você (4–6 meses). O avô/avó é o ponto crítico — precisa comprovar o vínculo com Portugal.',
+    desc: 'O bisavô já faleceu, mas o avô/avó pode pedir como neto(a) do trisavô português — prazo de {{prazo_netos_maiores}} com comprovação de vínculo. A partir daí a cadeia segue como filho(a): pai/mãe ({{prazo_filhos_maiores}}), você ({{prazo_filhos_maiores}}). O avô/avó é o ponto crítico — precisa comprovar o vínculo com Portugal.',
     docs: [
       'Certidão de nascimento do trisavô/trisavó em Portugal',
       'Certidão de nascimento e óbito do bisavô/bisavó',

@@ -1050,7 +1050,7 @@ Ao detectar "em diligência" no portal, contacte a assessoria imediatamente. O t
 | Netos maiores | {{prazo_netos_maiores}} |
 | Casamento / União de facto | {{prazo_casamento}} (união de facto: {{prazo_uniao_facto_lisboa}}) |
 | Naturalização CPLP | {{prazo_naturalizacao}} |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
+| Bisnetos (Art. 6.º n.º 8) | {{prazo_bisnetos}} |
 
 ## O que NÃO agiliza o processo
 

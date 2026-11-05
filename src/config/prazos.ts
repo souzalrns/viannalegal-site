@@ -35,16 +35,8 @@ export const PRAZOS_IRN: PrazoIRN[] = [
   fila('netos_menores', { via: 'Neto(a) menor de português', slug: 'netos', taxa: '€175', complexidade: 'media' }),
   fila('netos_maiores', { via: 'Neto(a) maior de português', slug: 'netos', taxa: '€175', complexidade: 'alta',
     nota: 'Requer comprovação de vínculo efetivo.' }),
-  {
-    via: 'Bisneto(a) — via directa (Art. 6.º n.º 8)',
-    slug: 'bisnetos',
-    prazo: 'A confirmar',
-    prazoMin: 0,
-    prazoMax: 0,
-    taxa: '€175',
-    complexidade: 'alta',
-    nota: 'Regulamentação aprovada a 29/10/2026, aguarda publicação. Exige 5 anos residência em Portugal.',
-  },
+  fila('bisnetos', { via: 'Bisneto(a) — via directa (Art. 6.º n.º 8)', slug: 'bisnetos', taxa: '€175', complexidade: 'alta',
+    nota: 'Só a Conservatória dos Registos Centrais publica esta fila. Exige 5 anos de residência legal em Portugal.' }),
   fila('casamento', { via: 'Casamento / União de facto', slug: 'conjuges', taxa: '€250', complexidade: 'alta',
     nota: `Só a Conservatória dos Registos Centrais publica esta fila. União de facto tem fila própria: ${PRAZO_TEXTO.uniao_facto_lisboa}. Sujeito a verificação de vínculo efetivo.` }, ' (casamento)'),
   {

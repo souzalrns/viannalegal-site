@@ -351,7 +351,7 @@ export const servicesContent: Record<string, ServiceContent> = resolvePrazosDeep
     heroTitle: 'Cidadania Portuguesa para Bisnetos',
     heroSubtitle:
       'Até maio de 2026, bisnetos de portugueses só conseguiam a cidadania de forma sequencial. A Lei Orgânica 1/2026 abriu uma via direta de atribuição — veja o que isso muda na prática.',
-    heroDuration: 'A confirmar conforme regulamentação',
+    heroDuration: '{{prazo_bisnetos}}',
     intro: [
       'Esta é uma das mudanças mais relevantes — e menos divulgadas — da <a href="https://dre.pt" target="_blank" rel="noopener noreferrer">Lei Orgânica n.º 1/2026</a>, em vigor desde 18 de maio de 2026: bisnetos de portugueses passaram a ter via própria de atribuição da nacionalidade, mediante prova de vínculo efetivo com a comunidade portuguesa. Antes dessa lei, o caminho era sequencial — o bisneto só conseguia a cidadania depois que o próprio neto (pai ou mãe do bisneto) já tivesse formalizado a nacionalidade portuguesa.',
       'Como a regulamentação prática dessa via ainda está em fase inicial de aplicação pelas conservatórias, os prazos e o nível exato de exigência documental para bisnetos podem ser ajustados nos próximos meses. Recomendamos uma análise atualizada do seu caso específico antes de presumir qualquer prazo.',
@@ -375,7 +375,7 @@ export const servicesContent: Record<string, ServiceContent> = resolvePrazosDeep
       { stage: 'Análise inicial da cadeia de filiação e estratégia de vínculo efetivo', duration: '15-30 dias' },
       { stage: 'Localização de certidões do bisavô/avó (frequentemente pré-1911)', duration: '2-6 meses' },
       { stage: 'Montagem e distribuição do processo', duration: '30-60 dias' },
-      { stage: 'Análise pelo IRN', duration: 'Prazo ainda em consolidação pelas conservatórias' },
+      { stage: 'Análise pelo IRN', duration: '{{prazo_bisnetos}}' },
     ],
     commonMistakes: [
       'Presumir que o prazo e a exigência documental serão idênticos ao processo de netos, sem confirmar a regulamentação mais recente.',

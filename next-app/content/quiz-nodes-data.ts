@@ -82,7 +82,7 @@ const NODES: Record<string, QuizNode> = resolvePrazosDeep({
     kind: 'question',
     category: 'Descendência — Filho(a)',
     text: 'Você tem menos de 18 anos?',
-    hint: 'Para menores de idade o processo é muito mais rápido — leva apenas 3 a 6 meses.',
+    hint: 'Para menores de idade o processo é muito mais rápido — leva apenas {{prazo_filhos_menores}}.',
     options: [
       { icon: '🧒', label: 'Sim, sou menor de 18 anos',  next: 'result_filho_menor' },
       { icon: '🧑', label: 'Não, já sou maior de idade', next: 'result_filho_maior' },
@@ -127,7 +127,7 @@ const NODES: Record<string, QuizNode> = resolvePrazosDeep({
       {
         icon: '🛡️',
         label: 'Opção 2 — Via ascendente (recomendada)',
-        tag: 'Sem vínculo; mais rápida no Porto',
+        tag: 'Sem vínculo',
         pros: [
           '⏱️ Prazo total: {{prazo_total_dois_filhos}} (dois processos de filho por inscrição)',
           '1.º: pai/mãe pede como filho(a) do avô/avó → {{prazo_filhos_maiores}}',
@@ -550,7 +550,7 @@ const NODES: Record<string, QuizNode> = resolvePrazosDeep({
     kind: 'result',
     type: 'yellow', icon: '⚠️', tag: 'Possível — com vínculo',
     title: 'Trisavô português, bisavô falecido, avô vivo — via de neto',
-    desc: 'O bisavô já faleceu, mas o avô/avó pode pedir como neto(a) do trisavô português — prazo de {{prazo_netos_maiores}} com comprovação de vínculo. A partir daí a cadeia segue como filho(a): pai/mãe (4–6 meses), você (4–6 meses). O avô/avó é o ponto crítico — precisa comprovar o vínculo com Portugal.',
+    desc: 'O bisavô já faleceu, mas o avô/avó pode pedir como neto(a) do trisavô português — prazo de {{prazo_netos_maiores}} com comprovação de vínculo. A partir daí a cadeia segue como filho(a): pai/mãe ({{prazo_filhos_maiores}}), você ({{prazo_filhos_maiores}}). O avô/avó é o ponto crítico — precisa comprovar o vínculo com Portugal.',
     docs: [
       'Certidão de nascimento do trisavô/trisavó em Portugal',
       'Certidão de nascimento e óbito do bisavô/bisavó',

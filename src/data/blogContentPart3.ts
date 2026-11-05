@@ -633,7 +633,7 @@ Estrangeiros com residência legal continuada. Para brasileiros e CPLP: **7 anos
 
 ## Via 5: Nova via de bisnetos [Via jurídica aprovada — Aguarda regulamentação do IRN para início de pedidos] (Art. 6.º n.º 8, Lei 1/2026)
 
-Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação.
+Bisnetos de portugueses, com 5 anos de residência legal em Portugal. Aquisição — exige presença física no país. Prazo: {{prazo_bisnetos}}.
 
 ## Via 6: Filhos nascidos em Portugal de pais estrangeiros
 
@@ -814,7 +814,7 @@ Estimativas baseadas nas informações das conservatórias aos advogados (estado
 | Netos maiores de português | {{prazo_netos_maiores}} |
 | Casamento / União de facto | {{prazo_casamento}} (união de facto: {{prazo_uniao_facto_lisboa}}) |
 | Naturalização CPLP (7 anos) | {{prazo_naturalizacao}} |
-| Bisnetos (Art. 6.º n.º 8) | A confirmar — regulamentação aprovada a 29/10/2026, aguarda publicação |
+| Bisnetos (Art. 6.º n.º 8) | {{prazo_bisnetos}} |
 
 O prazo contabilizado é a partir da **data de distribuição formal do processo** no [IRN](https://irn.justica.gov.pt/nacionalidade-portuguesa) — não de quando você começou a reunir documentos.
 

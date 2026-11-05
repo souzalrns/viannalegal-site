@@ -14,7 +14,7 @@ const DADOS = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/config/prazos-irn.
 
 // Chaves válidas: as filas do JSON, a versão por conservatória e as derivadas de prazos-core.ts.
 // Se acrescentar uma chave derivada em prazos-core.ts, acrescente-a também aqui.
-const DERIVADAS = ['transcricao', 'bisnetos', 'total_casamento', 'total_dois_filhos', 'total_tres_filhos',
+const DERIVADAS = ['transcricao', 'total_casamento', 'total_dois_filhos', 'total_tres_filhos',
   'total_neto_e_filho', 'total_processo_netos', 'quadros', 'atualizacao'];
 const CHAVES = new Set([
   ...Object.keys(DADOS.filas),
@@ -38,7 +38,7 @@ const ANTIGOS = [
   /\b4 a 6 meses\b/, /\b42 ?(?:a|–|-) ?48 meses\b/, /\b50 ?(?:a|–|-) ?54 meses\b/, /\b27 ?(?:a|–|-) ?30 meses\b/,
   /\b3 a 5 meses\b/, /\b18 ?(?:a|-) ?36 meses\b/, /\b24 ?(?:a|-) ?36 meses\b/, /\b41–56 meses\b/, /\b27–54 meses\b/,
   /\b36-54 meses\b/, /\b40 a 56 meses\b/, /\b8-14 meses\b/, /\b16-24 meses\b/, /\b24-40 meses\b/, /\b26 a 44 meses\b/,
-  /\babr\/mai 2026\b/,
+  /\babr\/mai 2026\b/, /\b28 a 36 meses\b/, /\b4–6 meses\b/, /\b3-5 meses\b/,
 ];
 
 const erros = [];
